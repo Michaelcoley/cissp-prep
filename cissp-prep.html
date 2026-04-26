@@ -1195,9 +1195,53 @@ function renderReadChapters(root){
   root.appendChild(list);
   rerenderReadList();
 }
+function buildGuideDownloadCard(){
+  // Constructs the Supabase Storage URL for the user's gated guide.pdf.
+  // The path is sha256(passphrase)/guide.pdf — same as the sync_id, so
+  // only the user who set up sync can see this URL.
+  const card = el('div', {class:'card', style:'border-left:3px solid var(--accent);margin:.6rem 0'}, [
+    el('div', {class:'row spread'}, [
+      el('h3', {style:'margin:0'}, '📕 Source guide PDF'),
+      el('span', {class:'muted', style:'font-size:.75rem'}, 'Supabase-gated'),
+    ]),
+  ]);
+  const syncId = localStorage.getItem(LS.syncId);
+  if (!syncId){
+    card.appendChild(el('div', {class:'muted', style:'margin-top:.4rem;font-size:.88rem'},
+      'Enable Cloud sync first (Stats → Cloud sync) — your sync passphrase is what gates the PDF download.'));
+    return card;
+  }
+  const url = SUPABASE_URL + '/storage/v1/object/public/' + 'cissp-resources/' + syncId + '/guide.pdf';
+  card.appendChild(el('div', {class:'muted', style:'margin:.4rem 0;font-size:.88rem'},
+    'The 2,959-page Sybex CISSP Official Study Guide. Click to open or save. (If you get a 404, you have not uploaded it yet — see upload_guide.py in the repo.)'));
+  card.appendChild(el('div', {class:'row', style:'gap:.5rem;margin-top:.4rem'}, [
+    el('a', {href:url, target:'_blank', rel:'noopener', class:'badge guide',
+      style:'padding:.55rem 1rem;display:inline-flex;align-items:center;gap:.4rem;text-decoration:none'},
+      '📥 Open guide.pdf'),
+    el('button', {class:'ghost', onclick:async ()=>{
+      try {
+        const r = await fetch(url, {method:'HEAD'});
+        if (r.ok){
+          toast('Guide is uploaded and reachable (HTTP ' + r.status + ').','success');
+        } else if (r.status === 400 || r.status === 404){
+          toast('Guide not uploaded yet at this path. Run upload_guide.py.','warn');
+        } else {
+          toast('Unexpected status ' + r.status,'warn');
+        }
+      } catch (e) {
+        toast('Reachability check failed: ' + e.message,'danger');
+      }
+    }}, 'Check upload'),
+  ]));
+  return card;
+}
+
 function renderReadReference(root){
   root.appendChild(el('div', {class:'muted', style:'margin-bottom:.7rem;font-size:.88rem'},
     'High-leverage comparison tables, plus per-domain cheat sheets with web sources. Memorise these for the final week.'));
+  // Source guide PDF (Supabase-gated download — only available if you've
+  // uploaded it to your private cissp-resources bucket using upload_guide.py).
+  root.appendChild(buildGuideDownloadCard());
   // Comparison tables
   root.appendChild(el('h3', {style:'color:var(--accent);margin-top:.4rem'}, '📊 Comparison tables'));
   for (const t of TABLES){
