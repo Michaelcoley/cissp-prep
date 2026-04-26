@@ -1,0 +1,4839 @@
+{
+  "pdf_path": "/Users/mike/cissp/guide.pdf",
+  "total_pages": 2959,
+  "chapters": [
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "Security and Risk Management",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "2",
+      "title": "Asset Security",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "Security Architecture and Engineering",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "4",
+      "title": "Communication and Network Security",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "5",
+      "title": "Identity and Access Management (IAM)",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "6",
+      "title": "Security Assessment and Testing",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "Security Operations",
+      "page_start": 42,
+      "page_end": 42,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "Software Development Security",
+      "page_start": 42,
+      "page_end": 59,
+      "domain": 8,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "Security and Risk Management 16%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "2",
+      "title": "Asset Security 10%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "Security Architecture and 13%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "4",
+      "title": "Communication and Network 13%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "5",
+      "title": "Identity and Access Management 13%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "6",
+      "title": "Security Assessment and Testing 12%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "Security Operations 13%",
+      "page_start": 59,
+      "page_end": 59,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "Software Development Security 10%",
+      "page_start": 59,
+      "page_end": 143,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.0",
+          "title": "Security and Risk Management",
+          "page": 60
+        },
+        {
+          "number": "1.1",
+          "title": "Understand, adhere to, and 19",
+          "page": 60
+        },
+        {
+          "number": "1.1.1",
+          "title": "ISC2 Code of Professional Ethics 19",
+          "page": 60
+        },
+        {
+          "number": "1.1.2",
+          "title": "Organizational code of ethics 19",
+          "page": 61
+        },
+        {
+          "number": "1.2",
+          "title": "Understand and apply security 1",
+          "page": 61
+        },
+        {
+          "number": "1.2.1",
+          "title": "Confidentiality, integrity, and 1",
+          "page": 61
+        },
+        {
+          "number": "1.3",
+          "title": "Evaluate and apply security 1",
+          "page": 61
+        },
+        {
+          "number": "1.3.1",
+          "title": "Alignment of the security function 1",
+          "page": 61
+        },
+        {
+          "number": "1.3.2",
+          "title": "Organizational processes (e.g., 1",
+          "page": 61
+        },
+        {
+          "number": "1.3.3",
+          "title": "Organizational roles and 1",
+          "page": 62
+        },
+        {
+          "number": "1.3.4",
+          "title": "Security control frameworks (e.g., 1",
+          "page": 62
+        },
+        {
+          "number": "1.3.5",
+          "title": "Due care/due diligence 1",
+          "page": 62
+        },
+        {
+          "number": "1.4",
+          "title": "Understand legal, regulatory, and 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.1",
+          "title": "Cybercrimes and data breaches 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.2",
+          "title": "Licensing and Intellectual Property 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.3",
+          "title": "Import/export controls 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.4",
+          "title": "Transborder data flow 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.5",
+          "title": "Issues related to privacy (e.g., 4",
+          "page": 63
+        },
+        {
+          "number": "1.4.6",
+          "title": "Contractual, legal, industry 4",
+          "page": 64
+        },
+        {
+          "number": "1.5",
+          "title": "Understand requirements for 19",
+          "page": 64
+        },
+        {
+          "number": "1.6",
+          "title": "Develop, document, and implement 1",
+          "page": 64
+        },
+        {
+          "number": "1.7",
+          "title": "Identify, analyze, assess, prioritize, 3",
+          "page": 64
+        },
+        {
+          "number": "1.7.1",
+          "title": "Business Impact Analysis (BIA) 3",
+          "page": 64
+        },
+        {
+          "number": "1.7.2",
+          "title": "External dependencies 3",
+          "page": 64
+        },
+        {
+          "number": "1.8",
+          "title": "Contribute to and enforce 2",
+          "page": 65
+        },
+        {
+          "number": "1.8.1",
+          "title": "Candidate screening and hiring 2",
+          "page": 65
+        },
+        {
+          "number": "1.8.2",
+          "title": "Employment agreements and policy 2",
+          "page": 65
+        },
+        {
+          "number": "1.8.3",
+          "title": "Onboarding, transfers, and 2",
+          "page": 65
+        },
+        {
+          "number": "1.8.4",
+          "title": "Vendor, consultant, and contractor 2",
+          "page": 65
+        },
+        {
+          "number": "1.9",
+          "title": "Understand and apply risk 2",
+          "page": 65
+        },
+        {
+          "number": "1.9.1",
+          "title": "Threat and vulnerability 2",
+          "page": 65
+        },
+        {
+          "number": "1.9.2",
+          "title": "Risk analysis, assessment, and 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.3",
+          "title": "Risk response and treatment (e.g., 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.4",
+          "title": "Applicable types of controls (e.g., 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.5",
+          "title": "Control assessments (e.g., security 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.6",
+          "title": "Continuous monitoring and 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.7",
+          "title": "Reporting (e.g., internal, external) 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.8",
+          "title": "Continuous improvement (e.g., risk 2",
+          "page": 66
+        },
+        {
+          "number": "1.9.9",
+          "title": "Risk frameworks (e.g., International 2",
+          "page": 67
+        },
+        {
+          "number": "1.10",
+          "title": "Understand and apply threat 1",
+          "page": 67
+        },
+        {
+          "number": "1.11",
+          "title": "Apply supply chain risk 1",
+          "page": 67
+        },
+        {
+          "number": "1.11.1",
+          "title": "Risks associated with the 1",
+          "page": 68
+        },
+        {
+          "number": "1.11.2",
+          "title": "Risk mitigations (e.g., third-party 1",
+          "page": 68
+        },
+        {
+          "number": "1.12",
+          "title": "Establish and maintain a security 2",
+          "page": 68
+        },
+        {
+          "number": "1.12.1",
+          "title": "Methods and techniques to increase 2",
+          "page": 68
+        },
+        {
+          "number": "1.12.2",
+          "title": "Periodic content reviews to include 2",
+          "page": 69
+        },
+        {
+          "number": "1.12.3",
+          "title": "Program effectiveness evaluation 2",
+          "page": 69
+        },
+        {
+          "number": "2.0",
+          "title": "Asset Security",
+          "page": 69
+        },
+        {
+          "number": "2.1",
+          "title": "Identify and classify information 5",
+          "page": 69
+        },
+        {
+          "number": "2.1.1",
+          "title": "Data classification 5",
+          "page": 69
+        },
+        {
+          "number": "2.1.2",
+          "title": "Asset classification 5",
+          "page": 69
+        },
+        {
+          "number": "2.2",
+          "title": "Establish information and asset 5",
+          "page": 69
+        },
+        {
+          "number": "2.3",
+          "title": "Provision information and assets 16",
+          "page": 69
+        },
+        {
+          "number": "2.3.1",
+          "title": "Information and asset ownership 16",
+          "page": 70
+        },
+        {
+          "number": "2.3.2",
+          "title": "Asset inventory (e.g., tangible, 16",
+          "page": 70
+        },
+        {
+          "number": "2.3.3",
+          "title": "Asset management 16",
+          "page": 70
+        },
+        {
+          "number": "2.4",
+          "title": "Manage data lifecycle 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.1",
+          "title": "Data roles (i.e., owners, controllers, 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.2",
+          "title": "Data collection 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.3",
+          "title": "Data location 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.4",
+          "title": "Data maintenance 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.5",
+          "title": "Data retention 5",
+          "page": 70
+        },
+        {
+          "number": "2.4.6",
+          "title": "Data remanence 5",
+          "page": 71
+        },
+        {
+          "number": "2.4.7",
+          "title": "Data destruction 5",
+          "page": 71
+        },
+        {
+          "number": "2.5",
+          "title": "Ensure appropriate asset retention 5",
+          "page": 71
+        },
+        {
+          "number": "2.6",
+          "title": "Determine data security controls 5",
+          "page": 71
+        },
+        {
+          "number": "2.6.1",
+          "title": "Data states (e.g., in use, in transit, at 5",
+          "page": 71
+        },
+        {
+          "number": "2.6.2",
+          "title": "Scoping and tailoring 5",
+          "page": 71
+        },
+        {
+          "number": "2.6.3",
+          "title": "Standards selection 5",
+          "page": 71
+        },
+        {
+          "number": "2.6.4",
+          "title": "Data protection methods (e.g., 5",
+          "page": 72
+        },
+        {
+          "number": "3.0",
+          "title": "Security Architecture and",
+          "page": 72
+        },
+        {
+          "number": "3.1",
+          "title": "Research, implement, and manage 1, 8, 9,",
+          "page": 72
+        },
+        {
+          "number": "3.1.1",
+          "title": "Threat modeling 1",
+          "page": 72
+        },
+        {
+          "number": "3.1.2",
+          "title": "Least privilege 16",
+          "page": 72
+        },
+        {
+          "number": "3.1.3",
+          "title": "Defense in depth 1",
+          "page": 72
+        },
+        {
+          "number": "3.1.4",
+          "title": "Secure defaults 8",
+          "page": 72
+        },
+        {
+          "number": "3.1.5",
+          "title": "Fail securely 8",
+          "page": 72
+        },
+        {
+          "number": "3.1.6",
+          "title": "Segregation of Duties (SoD) 16",
+          "page": 73
+        },
+        {
+          "number": "3.1.7",
+          "title": "Keep it simple and small 8",
+          "page": 73
+        },
+        {
+          "number": "3.1.8",
+          "title": "Zero trust or trust but verify 8",
+          "page": 73
+        },
+        {
+          "number": "3.1.9",
+          "title": "Privacy by design 8",
+          "page": 73
+        },
+        {
+          "number": "3.1.10",
+          "title": "Shared responsibility 9",
+          "page": 73
+        },
+        {
+          "number": "3.1.11",
+          "title": "Secure access service edge 8",
+          "page": 73
+        },
+        {
+          "number": "3.2",
+          "title": "Understand the fundamental 8",
+          "page": 73
+        },
+        {
+          "number": "3.3",
+          "title": "Select controls based upon systems 8",
+          "page": 73
+        },
+        {
+          "number": "3.4",
+          "title": "Understand security capabilities of 8",
+          "page": 74
+        },
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the 6, 7, 9,",
+          "page": 74
+        },
+        {
+          "number": "3.5.1",
+          "title": "Client-based systems 9",
+          "page": 74
+        },
+        {
+          "number": "3.5.2",
+          "title": "Server-based systems 9",
+          "page": 74
+        },
+        {
+          "number": "3.5.3",
+          "title": "Database systems 20",
+          "page": 74
+        },
+        {
+          "number": "3.5.4",
+          "title": "Cryptographic systems 6, 7",
+          "page": 74
+        },
+        {
+          "number": "3.5.5",
+          "title": "Industrial Control Systems (ICS) 9",
+          "page": 74
+        },
+        {
+          "number": "3.5.6",
+          "title": "Cloud-based systems (e.g., Software 16",
+          "page": 75
+        },
+        {
+          "number": "3.5.7",
+          "title": "Distributed systems 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.8",
+          "title": "Internet of Things (IoT) 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.9",
+          "title": "Microservices (e.g., application 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.10",
+          "title": "Containerization 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.11",
+          "title": "Serverless 16",
+          "page": 75
+        },
+        {
+          "number": "3.5.12",
+          "title": "Embedded systems 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.13",
+          "title": "High-Performance Computing 9",
+          "page": 75
+        },
+        {
+          "number": "3.5.14",
+          "title": "Edge computing systems 9",
+          "page": 76
+        },
+        {
+          "number": "3.5.15",
+          "title": "Virtualized systems 9",
+          "page": 76
+        },
+        {
+          "number": "3.6",
+          "title": "Select and determine cryptographic 6, 7",
+          "page": 76
+        },
+        {
+          "number": "3.6.1",
+          "title": "Cryptographic life cycle (e.g., keys, 6, 7",
+          "page": 76
+        },
+        {
+          "number": "3.6.2",
+          "title": "Cryptographic methods (e.g., 6, 7",
+          "page": 76
+        },
+        {
+          "number": "3.6.3",
+          "title": "Public Key Infrastructure (PKI) (e.g., 7",
+          "page": 76
+        },
+        {
+          "number": "3.6.4",
+          "title": "Key management practices (e.g., 7",
+          "page": 76
+        },
+        {
+          "number": "3.6.5",
+          "title": "Digital signatures and digital 7",
+          "page": 77
+        },
+        {
+          "number": "3.7",
+          "title": "Understand methods of 7, 14, 21",
+          "page": 77
+        },
+        {
+          "number": "3.7.1",
+          "title": "Brute force 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.2",
+          "title": "Ciphertext only 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.3",
+          "title": "Known plaintext 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.4",
+          "title": "Frequency analysis 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.5",
+          "title": "Chosen ciphertext 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.6",
+          "title": "Implementation attacks 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.7",
+          "title": "Side-channel 7",
+          "page": 77
+        },
+        {
+          "number": "3.7.8",
+          "title": "Fault injection 7",
+          "page": 78
+        },
+        {
+          "number": "3.7.9",
+          "title": "Timing 7",
+          "page": 78
+        },
+        {
+          "number": "3.7.10",
+          "title": "Man-in-the-Middle (MITM) 7",
+          "page": 78
+        },
+        {
+          "number": "3.7.11",
+          "title": "Pass the hash 14",
+          "page": 78
+        },
+        {
+          "number": "3.7.12",
+          "title": "Kerberos exploitation 14",
+          "page": 78
+        },
+        {
+          "number": "3.7.13",
+          "title": "Ransomware 21",
+          "page": 78
+        },
+        {
+          "number": "3.8",
+          "title": "Apply security principles to site and 10",
+          "page": 78
+        },
+        {
+          "number": "3.9",
+          "title": "Design site and facility security 10",
+          "page": 78
+        },
+        {
+          "number": "3.9.1",
+          "title": "Wiring closets/intermediate 10",
+          "page": 78
+        },
+        {
+          "number": "3.9.2",
+          "title": "Server rooms/data centers 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.3",
+          "title": "Media storage facilities 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.4",
+          "title": "Evidence storage 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.5",
+          "title": "Restricted and work area security 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.6",
+          "title": "Utilities and Heating, Ventilation, 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.7",
+          "title": "Environmental issues (e.g., natural 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.8",
+          "title": "Fire prevention, detection, and 10",
+          "page": 79
+        },
+        {
+          "number": "3.9.9",
+          "title": "Power (e.g., redundant, backup) 10",
+          "page": 79
+        },
+        {
+          "number": "3.10",
+          "title": "Manage the information system 8",
+          "page": 79
+        },
+        {
+          "number": "3.10.1",
+          "title": "Stakeholders needs and 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.2",
+          "title": "Requirements analysis 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.3",
+          "title": "Architectural design 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.4",
+          "title": "Development /implementation 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.5",
+          "title": "Integration 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.6",
+          "title": "Verification and validation 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.7",
+          "title": "Transition/deployment 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.8",
+          "title": "Operations and 8",
+          "page": 80
+        },
+        {
+          "number": "3.10.9",
+          "title": "Retirement/disposal 8",
+          "page": 80
+        },
+        {
+          "number": "4.0",
+          "title": "Communication and Network",
+          "page": 81
+        },
+        {
+          "number": "4.1",
+          "title": "Apply secure design principles in 11, 12",
+          "page": 81
+        },
+        {
+          "number": "4.1.1",
+          "title": "Open System Interconnection (OSI) 11",
+          "page": 81
+        },
+        {
+          "number": "4.1.2",
+          "title": "Internet Protocol (IP) version 4 and 11",
+          "page": 81
+        },
+        {
+          "number": "4.1.3",
+          "title": "Secure protocols (e.g., Internet 11",
+          "page": 81
+        },
+        {
+          "number": "4.1.4",
+          "title": "Implications of multilayer protocols 11",
+          "page": 82
+        },
+        {
+          "number": "4.1.5",
+          "title": "Converged protocols (e.g., Internet 11",
+          "page": 82
+        },
+        {
+          "number": "4.1.6",
+          "title": "Transport architecture (e.g., 11",
+          "page": 82
+        },
+        {
+          "number": "4.1.7",
+          "title": "Performance metrics (e.g., 12",
+          "page": 82
+        },
+        {
+          "number": "4.1.8",
+          "title": "Traffic flows (e.g., north-south, east- 11",
+          "page": 82
+        },
+        {
+          "number": "4.1.9",
+          "title": "Physical segmentation (e.g., in- 11",
+          "page": 83
+        },
+        {
+          "number": "4.1.10",
+          "title": "Logical segmentation (e.g., virtual 11",
+          "page": 83
+        },
+        {
+          "number": "4.1.11",
+          "title": "Micro-segmentation (e.g., network 11",
+          "page": 83
+        },
+        {
+          "number": "4.1.12",
+          "title": "Edge networks (e.g., ingress/egress, 11",
+          "page": 83
+        },
+        {
+          "number": "4.1.13",
+          "title": "Wireless networks (e.g., Bluetooth, 11",
+          "page": 83
+        },
+        {
+          "number": "4.1.14",
+          "title": "Cellular/mobile networks (e.g., 4G, 11",
+          "page": 84
+        },
+        {
+          "number": "4.1.15",
+          "title": "Content distribution networks 11",
+          "page": 84
+        },
+        {
+          "number": "4.1.16",
+          "title": "Software defined networks (SDN), 11",
+          "page": 84
+        },
+        {
+          "number": "4.1.17",
+          "title": "Virtual Private Cloud (VPC) 11",
+          "page": 84
+        },
+        {
+          "number": "4.1.18",
+          "title": "Monitoring and management (e.g., 12",
+          "page": 84
+        },
+        {
+          "number": "4.2",
+          "title": "Secure network components 11",
+          "page": 84
+        },
+        {
+          "number": "4.2.1",
+          "title": "Operation of infrastructure (e.g., 11",
+          "page": 85
+        },
+        {
+          "number": "4.2.2",
+          "title": "Transmission media (e g. physical 11",
+          "page": 85
+        },
+        {
+          "number": "4.2.3",
+          "title": "Network Access Control (NAC) 11",
+          "page": 85
+        },
+        {
+          "number": "4.2.4",
+          "title": "Endpoint security (e.g., host-based) 11",
+          "page": 85
+        },
+        {
+          "number": "4.3",
+          "title": "Implement secure communication 12",
+          "page": 85
+        },
+        {
+          "number": "4.3.1",
+          "title": "Voice, video, and collaboration (e.g., 12",
+          "page": 85
+        },
+        {
+          "number": "4.3.2",
+          "title": "Remote access (e.g., network 12",
+          "page": 86
+        },
+        {
+          "number": "4.3.3",
+          "title": "Data communications (e.g., 12",
+          "page": 86
+        },
+        {
+          "number": "4.3.4",
+          "title": "Third-party connectivity (e.g., 12",
+          "page": 86
+        },
+        {
+          "number": "5.0",
+          "title": "Identity and Access Management",
+          "page": 86
+        },
+        {
+          "number": "5.1",
+          "title": "Control physical and logical access 13",
+          "page": 86
+        },
+        {
+          "number": "5.1.1",
+          "title": "Information 13",
+          "page": 86
+        },
+        {
+          "number": "5.1.2",
+          "title": "Systems 13",
+          "page": 86
+        },
+        {
+          "number": "5.1.3",
+          "title": "Devices 13",
+          "page": 86
+        },
+        {
+          "number": "5.1.4",
+          "title": "Facilities 13",
+          "page": 87
+        },
+        {
+          "number": "5.1.5",
+          "title": "Applications 13",
+          "page": 87
+        },
+        {
+          "number": "5.1.6",
+          "title": "Services 13",
+          "page": 87
+        },
+        {
+          "number": "5.2",
+          "title": "Design identification and 13",
+          "page": 87
+        },
+        {
+          "number": "5.2.1",
+          "title": "Groups and Roles 13",
+          "page": 87
+        },
+        {
+          "number": "5.2.2",
+          "title": "Authentication, Authorization and 13",
+          "page": 87
+        },
+        {
+          "number": "5.2.3",
+          "title": "Session management 13",
+          "page": 87
+        },
+        {
+          "number": "5.2.4",
+          "title": "Registration, proofing, and 13",
+          "page": 87
+        },
+        {
+          "number": "5.2.5",
+          "title": "Federated Identity Management 13",
+          "page": 88
+        },
+        {
+          "number": "5.2.6",
+          "title": "Credential management systems 13",
+          "page": 88
+        },
+        {
+          "number": "5.2.7",
+          "title": "Single sign-on (SSO) 13",
+          "page": 88
+        },
+        {
+          "number": "5.2.8",
+          "title": "Just-ln-Time 13",
+          "page": 88
+        },
+        {
+          "number": "5.3",
+          "title": "Federated identity with a third- 13",
+          "page": 88
+        },
+        {
+          "number": "5.3.1",
+          "title": "On-premise 13",
+          "page": 88
+        },
+        {
+          "number": "5.3.2",
+          "title": "Cloud 13",
+          "page": 88
+        },
+        {
+          "number": "5.3.3",
+          "title": "Hybrid 13",
+          "page": 88
+        },
+        {
+          "number": "5.4",
+          "title": "Implement and manage 14",
+          "page": 88
+        },
+        {
+          "number": "5.4.1",
+          "title": "Role-based access control (RBAC) 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.2",
+          "title": "Rule based access control 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.3",
+          "title": "Mandatory access control (MAC) 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.4",
+          "title": "Discretionary access control (DAC) 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.5",
+          "title": "Attribute-based access control 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.6",
+          "title": "Risk based access control 14",
+          "page": 89
+        },
+        {
+          "number": "5.4.7",
+          "title": "Access policy enforcement (e.g., 14",
+          "page": 89
+        },
+        {
+          "number": "5.5",
+          "title": "Manage the identity and access 13, 14",
+          "page": 89
+        },
+        {
+          "number": "5.5.1",
+          "title": "Account access review (e.g., user, 13",
+          "page": 90
+        },
+        {
+          "number": "5.5.2",
+          "title": "Provisioning and deprovisioning 13",
+          "page": 90
+        },
+        {
+          "number": "5.5.3",
+          "title": "Role definition and transition (e.g., 13",
+          "page": 90
+        },
+        {
+          "number": "5.5.4",
+          "title": "Privilege escalation (e.g., use of 14",
+          "page": 90
+        },
+        {
+          "number": "5.5.5",
+          "title": "Service accounts management 13",
+          "page": 90
+        },
+        {
+          "number": "5.6",
+          "title": "Implement authentication systems 14",
+          "page": 90
+        },
+        {
+          "number": "6.0",
+          "title": "Security Assessment and Testing",
+          "page": 90
+        },
+        {
+          "number": "6.1",
+          "title": "Design and validate assessment, 15",
+          "page": 90
+        },
+        {
+          "number": "6.1.1",
+          "title": "Internal (e.g., within organization 15",
+          "page": 91
+        },
+        {
+          "number": "6.1.2",
+          "title": "External (e.g., outside organization 15",
+          "page": 91
+        },
+        {
+          "number": "6.1.3",
+          "title": "Third-party (e.g., outside of 15",
+          "page": 91
+        },
+        {
+          "number": "6.1.4",
+          "title": "Location (e.g., on-premise, cloud, 15",
+          "page": 91
+        },
+        {
+          "number": "6.2",
+          "title": "Conduct security controls testing 15",
+          "page": 91
+        },
+        {
+          "number": "6.2.1",
+          "title": "Vulnerability assessment 15",
+          "page": 91
+        },
+        {
+          "number": "6.2.2",
+          "title": "Penetration testing (e.g., red, blue, 15",
+          "page": 91
+        },
+        {
+          "number": "6.2.3",
+          "title": "Log reviews 15",
+          "page": 91
+        },
+        {
+          "number": "6.2.4",
+          "title": "Synthetic transactions/benchmarks 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.5",
+          "title": "Code review and testing 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.6",
+          "title": "Misuse case testing 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.7",
+          "title": "Coverage analysis 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.8",
+          "title": "Interface testing (e.g., user 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.9",
+          "title": "Breach attack simulations 15",
+          "page": 92
+        },
+        {
+          "number": "6.2.10",
+          "title": "Compliance checks 15",
+          "page": 92
+        },
+        {
+          "number": "6.3",
+          "title": "Collect security process data (e.g., 15, 18",
+          "page": 92
+        },
+        {
+          "number": "6.3.1",
+          "title": "Account management 15",
+          "page": 92
+        },
+        {
+          "number": "6.3.2",
+          "title": "Management review and approval 15",
+          "page": 93
+        },
+        {
+          "number": "6.3.3",
+          "title": "Key performance and risk 15",
+          "page": 93
+        },
+        {
+          "number": "6.3.4",
+          "title": "Backup verification data 15",
+          "page": 93
+        },
+        {
+          "number": "6.3.5",
+          "title": "Training and awareness 15, 18",
+          "page": 93
+        },
+        {
+          "number": "6.3.6",
+          "title": "Disaster Recovery (DR) and 15, 18",
+          "page": 93
+        },
+        {
+          "number": "6.4",
+          "title": "Analyze test output and generate 15",
+          "page": 93
+        },
+        {
+          "number": "6.4.1",
+          "title": "Remediation 15",
+          "page": 93
+        },
+        {
+          "number": "6.4.2",
+          "title": "Exception handling 15",
+          "page": 93
+        },
+        {
+          "number": "6.4.3",
+          "title": "Ethical disclosure 15",
+          "page": 93
+        },
+        {
+          "number": "6.5",
+          "title": "Conduct or facilitate security audits 15",
+          "page": 94
+        },
+        {
+          "number": "6.5.1",
+          "title": "Internal (e.g., within organization 15",
+          "page": 94
+        },
+        {
+          "number": "6.5.2",
+          "title": "External (e.g., outside organization 15",
+          "page": 94
+        },
+        {
+          "number": "6.5.3",
+          "title": "Third-party (e.g., outside of 15",
+          "page": 94
+        },
+        {
+          "number": "6.5.4",
+          "title": "Location (e.g., on-premise, cloud, 15",
+          "page": 94
+        },
+        {
+          "number": "7.0",
+          "title": "Security Operations",
+          "page": 94
+        },
+        {
+          "number": "7.1",
+          "title": "Understand and comply with 19",
+          "page": 94
+        },
+        {
+          "number": "7.1.1",
+          "title": "Evidence collection and handling 19",
+          "page": 94
+        },
+        {
+          "number": "7.1.2",
+          "title": "Reporting and documentation 19",
+          "page": 95
+        },
+        {
+          "number": "7.1.3",
+          "title": "Investigative techniques 19",
+          "page": 95
+        },
+        {
+          "number": "7.1.4",
+          "title": "Digital forensics tools, tactics, and 19",
+          "page": 95
+        },
+        {
+          "number": "7.1.5",
+          "title": "Artifacts (e.g., data, computer, 19",
+          "page": 95
+        },
+        {
+          "number": "7.2",
+          "title": "Conduct logging and monitoring 17, 21",
+          "page": 95
+        },
+        {
+          "number": "7.2.1",
+          "title": "Intrusion detection and prevention 17",
+          "page": 95
+        },
+        {
+          "number": "7.2.2",
+          "title": "Security information and event 17",
+          "page": 95
+        },
+        {
+          "number": "7.2.3",
+          "title": "Continuous monitoring and tuning 17",
+          "page": 95
+        },
+        {
+          "number": "7.2.4",
+          "title": "Egress monitoring 17",
+          "page": 96
+        },
+        {
+          "number": "7.2.5",
+          "title": "Log management 17",
+          "page": 96
+        },
+        {
+          "number": "7.2.6",
+          "title": "Threat intelligence (e.g., threat 17",
+          "page": 96
+        },
+        {
+          "number": "7.2.7",
+          "title": "User and Entity Behavior Analytics 21",
+          "page": 96
+        },
+        {
+          "number": "7.3",
+          "title": "Perform configuration 16",
+          "page": 96
+        },
+        {
+          "number": "7.4",
+          "title": "Apply foundational security 16",
+          "page": 96
+        },
+        {
+          "number": "7.4.1",
+          "title": "Need-to-know/least privilege 16",
+          "page": 96
+        },
+        {
+          "number": "7.4.2",
+          "title": "Segregation of Duties (SoD) and 16",
+          "page": 97
+        },
+        {
+          "number": "7.4.3",
+          "title": "Privileged account management 16",
+          "page": 97
+        },
+        {
+          "number": "7.4.4",
+          "title": "Job rotation 16",
+          "page": 97
+        },
+        {
+          "number": "7.4.5",
+          "title": "Service-level agreements (SLA) 16",
+          "page": 97
+        },
+        {
+          "number": "7.5",
+          "title": "Apply resource protection 16",
+          "page": 97
+        },
+        {
+          "number": "7.5.1",
+          "title": "Media management 16",
+          "page": 97
+        },
+        {
+          "number": "7.5.2",
+          "title": "Media protection techniques 16",
+          "page": 97
+        },
+        {
+          "number": "7.5.3",
+          "title": "Data at rest/data in transit 16",
+          "page": 97
+        },
+        {
+          "number": "7.6",
+          "title": "Conduct incident management 17",
+          "page": 97
+        },
+        {
+          "number": "7.6.1",
+          "title": "Detection 17",
+          "page": 97
+        },
+        {
+          "number": "7.6.2",
+          "title": "Response 17",
+          "page": 97
+        },
+        {
+          "number": "7.6.3",
+          "title": "Mitigation 17",
+          "page": 98
+        },
+        {
+          "number": "7.6.4",
+          "title": "Reporting 17",
+          "page": 98
+        },
+        {
+          "number": "7.6.5",
+          "title": "Recovery 17",
+          "page": 98
+        },
+        {
+          "number": "7.6.6",
+          "title": "Remediation 17",
+          "page": 98
+        },
+        {
+          "number": "7.6.7",
+          "title": "Lessons learned 17",
+          "page": 98
+        },
+        {
+          "number": "7.7",
+          "title": "Operate and maintain detection 11, 17,",
+          "page": 98
+        },
+        {
+          "number": "7.7.1",
+          "title": "Firewalls (e.g., next generation, 11",
+          "page": 98
+        },
+        {
+          "number": "7.7.2",
+          "title": "Intrusion detection systems (IDS) 17",
+          "page": 98
+        },
+        {
+          "number": "7.7.3",
+          "title": "Whitelisting/blacklisting 17",
+          "page": 98
+        },
+        {
+          "number": "7.7.4",
+          "title": "Third-party provided security 17",
+          "page": 99
+        },
+        {
+          "number": "7.7.5",
+          "title": "Sandboxing 17",
+          "page": 99
+        },
+        {
+          "number": "7.7.6",
+          "title": "Honeypots/honeynets 17",
+          "page": 99
+        },
+        {
+          "number": "7.7.7",
+          "title": "Anti-malware 17, 21",
+          "page": 99
+        },
+        {
+          "number": "7.7.8",
+          "title": "Machine learning and Artificial 17",
+          "page": 99
+        },
+        {
+          "number": "7.8",
+          "title": "Implement and support patch and 16",
+          "page": 99
+        },
+        {
+          "number": "7.9",
+          "title": "Understand and participate in 16",
+          "page": 99
+        },
+        {
+          "number": "7.10",
+          "title": "Implement recovery strategies 18",
+          "page": 99
+        },
+        {
+          "number": "7.10.1",
+          "title": "Backup storage strategies (e.g., 18",
+          "page": 100
+        },
+        {
+          "number": "7.10.2",
+          "title": "Recovery site strategies (e.g., cold 18",
+          "page": 100
+        },
+        {
+          "number": "7.10.3",
+          "title": "Multiple processing sites 18",
+          "page": 100
+        },
+        {
+          "number": "7.10.4",
+          "title": "System resilience, high availability 18",
+          "page": 100
+        },
+        {
+          "number": "7.11",
+          "title": "Implement disaster recovery (DR) 18",
+          "page": 100
+        },
+        {
+          "number": "7.11.1",
+          "title": "Response 18",
+          "page": 100
+        },
+        {
+          "number": "7.11.2",
+          "title": "Personnel 18",
+          "page": 100
+        },
+        {
+          "number": "7.11.3",
+          "title": "Communications (e.g., methods) 18",
+          "page": 100
+        },
+        {
+          "number": "7.11.4",
+          "title": "Assessment 18",
+          "page": 101
+        },
+        {
+          "number": "7.11.5",
+          "title": "Restoration 18",
+          "page": 101
+        },
+        {
+          "number": "7.11.6",
+          "title": "Training and awareness 18",
+          "page": 101
+        },
+        {
+          "number": "7.11.7",
+          "title": "Lessons learned 18",
+          "page": 101
+        },
+        {
+          "number": "7.12",
+          "title": "Test disaster recovery plan (DRP) 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.1",
+          "title": "Read-through/tabletop 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.2",
+          "title": "Walkthrough 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.3",
+          "title": "Simulation 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.4",
+          "title": "Parallel 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.5",
+          "title": "Full interruption 18",
+          "page": 101
+        },
+        {
+          "number": "7.12.6",
+          "title": "Communications (e.g., stakeholders, 18",
+          "page": 101
+        },
+        {
+          "number": "7.13",
+          "title": "Participate in Business Continuity 3",
+          "page": 102
+        },
+        {
+          "number": "7.14",
+          "title": "Implement and manage physical 10",
+          "page": 102
+        },
+        {
+          "number": "7.14.1",
+          "title": "Perimeter security controls 10",
+          "page": 102
+        },
+        {
+          "number": "7.14.2",
+          "title": "Internal security controls 10",
+          "page": 102
+        },
+        {
+          "number": "7.15",
+          "title": "Address personnel safety and 16",
+          "page": 102
+        },
+        {
+          "number": "7.15.1",
+          "title": "Travel 16",
+          "page": 102
+        },
+        {
+          "number": "7.15.2",
+          "title": "Security training and awareness 16",
+          "page": 102
+        },
+        {
+          "number": "7.15.3",
+          "title": "Emergency management 16",
+          "page": 102
+        },
+        {
+          "number": "7.15.4",
+          "title": "Duress 16",
+          "page": 103
+        },
+        {
+          "number": "8.0",
+          "title": "Software Development Security",
+          "page": 103
+        },
+        {
+          "number": "8.1",
+          "title": "Understand and integrate security 20",
+          "page": 103
+        },
+        {
+          "number": "8.1.1",
+          "title": "Development methodologies (e.g., 20",
+          "page": 103
+        },
+        {
+          "number": "8.1.2",
+          "title": "Maturity models (e.g., Capability 20",
+          "page": 103
+        },
+        {
+          "number": "8.1.3",
+          "title": "Operation and maintenance 20",
+          "page": 103
+        },
+        {
+          "number": "8.1.4",
+          "title": "Change management 20",
+          "page": 103
+        },
+        {
+          "number": "8.1.5",
+          "title": "Integrated Product Team 20",
+          "page": 104
+        },
+        {
+          "number": "8.2",
+          "title": "Identify and apply security controls 15, 20,",
+          "page": 104
+        },
+        {
+          "number": "8.2.1",
+          "title": "Programming languages 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.2",
+          "title": "Libraries 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.3",
+          "title": "Tool sets 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.4",
+          "title": "Integrated Development 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.5",
+          "title": "Runtime 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.6",
+          "title": "Continuous Integration and 20",
+          "page": 104
+        },
+        {
+          "number": "8.2.7",
+          "title": "Software Configuration 20",
+          "page": 105
+        },
+        {
+          "number": "8.2.8",
+          "title": "Code repositories 20",
+          "page": 105
+        },
+        {
+          "number": "8.2.9",
+          "title": "Application security testing (e.g., 15",
+          "page": 105
+        },
+        {
+          "number": "8.3",
+          "title": "Assess the effectiveness of software 20, 21",
+          "page": 105
+        },
+        {
+          "number": "8.3.1",
+          "title": "Auditing and logging of changes 20",
+          "page": 105
+        },
+        {
+          "number": "8.3.2",
+          "title": "Risk analysis and mitigation 21",
+          "page": 105
+        },
+        {
+          "number": "8.4",
+          "title": "Assess security impact of acquired 16, 20",
+          "page": 105
+        },
+        {
+          "number": "8.4.1",
+          "title": "Commercial-off-the-shelf (COTS) 20",
+          "page": 106
+        },
+        {
+          "number": "8.4.2",
+          "title": "Open source 20",
+          "page": 106
+        },
+        {
+          "number": "8.4.3",
+          "title": "Third-party 20",
+          "page": 106
+        },
+        {
+          "number": "8.4.4",
+          "title": "Managed services (e.g., enterprise 16",
+          "page": 106
+        },
+        {
+          "number": "8.4.5",
+          "title": "Cloud services (e.g., Software as a 16",
+          "page": 106
+        },
+        {
+          "number": "8.5",
+          "title": "Define and apply secure coding 20, 21",
+          "page": 106
+        },
+        {
+          "number": "8.5.1",
+          "title": "Security weaknesses and 21",
+          "page": 106
+        },
+        {
+          "number": "8.5.2",
+          "title": "Security of application 20",
+          "page": 107
+        },
+        {
+          "number": "8.5.3",
+          "title": "Secure coding practices 20",
+          "page": 107
+        },
+        {
+          "number": "8.5.4",
+          "title": "Software-defined security 20",
+          "page": 107
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "0: Security and Risk Management",
+      "page_start": 143,
+      "page_end": 144,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.2",
+          "title": "Understand and apply security concepts",
+          "page": 143
+        },
+        {
+          "number": "1.2.1",
+          "title": "Confidentiality, integrity, and availability,",
+          "page": 143
+        },
+        {
+          "number": "1.3",
+          "title": "Evaluate and apply security governance principles",
+          "page": 143
+        },
+        {
+          "number": "1.3.1",
+          "title": "Alignment of the security function to business",
+          "page": 143
+        },
+        {
+          "number": "1.3.2",
+          "title": "Organizational processes (e.g., acquisitions,",
+          "page": 143
+        },
+        {
+          "number": "1.3.3",
+          "title": "Organizational roles and responsibilities",
+          "page": 143
+        },
+        {
+          "number": "1.3.4",
+          "title": "Security control frameworks (e.g., International",
+          "page": 143
+        },
+        {
+          "number": "1.3.5",
+          "title": "Due care/due diligence",
+          "page": 143
+        },
+        {
+          "number": "1.6",
+          "title": "Develop, document, and implement security policy,",
+          "page": 143
+        },
+        {
+          "number": "1.10",
+          "title": "Understand and apply threat modeling concepts",
+          "page": 144
+        },
+        {
+          "number": "1.11",
+          "title": "Apply supply chain risk management (SCRM)",
+          "page": 144
+        },
+        {
+          "number": "1.11.1",
+          "title": "Risks associated with the acquisition of",
+          "page": 144
+        },
+        {
+          "number": "1.11.2",
+          "title": "Risk mitigations (e.g., third-party assessment",
+          "page": 144
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0 Security Architecture and Engineering",
+      "page_start": 144,
+      "page_end": 251,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.1",
+          "title": "Research, implement, and manage engineering",
+          "page": 144
+        },
+        {
+          "number": "3.1.1",
+          "title": "Threat modeling",
+          "page": 144
+        },
+        {
+          "number": "3.1.3",
+          "title": "Defense in depth",
+          "page": 144
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "0: Security and Risk Management",
+      "page_start": 251,
+      "page_end": 342,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.8",
+          "title": "Contribute to and enforce personnel security",
+          "page": 251
+        },
+        {
+          "number": "1.8.1",
+          "title": "Candidate screening and hiring",
+          "page": 251
+        },
+        {
+          "number": "1.8.2",
+          "title": "Employment agreements and policy driven",
+          "page": 251
+        },
+        {
+          "number": "1.8.3",
+          "title": "Onboarding, transfers, and termination",
+          "page": 251
+        },
+        {
+          "number": "1.8.4",
+          "title": "Vendor, consultant, and contractor agreements",
+          "page": 251
+        },
+        {
+          "number": "1.9",
+          "title": "Understand and apply risk management concepts",
+          "page": 251
+        },
+        {
+          "number": "1.9.1",
+          "title": "Threat and vulnerability identification",
+          "page": 251
+        },
+        {
+          "number": "1.9.2",
+          "title": "Risk analysis, assessment, and scope",
+          "page": 251
+        },
+        {
+          "number": "1.9.3",
+          "title": "Risk response and treatment (e.g., cybersecurity",
+          "page": 251
+        },
+        {
+          "number": "1.9.4",
+          "title": "Applicable types of controls (e.g., preventive,",
+          "page": 251
+        },
+        {
+          "number": "1.9.5",
+          "title": "Control assessments (e.g., security and privacy)",
+          "page": 251
+        },
+        {
+          "number": "1.9.6",
+          "title": "Continuous monitoring and measurement",
+          "page": 251
+        },
+        {
+          "number": "1.9.7",
+          "title": "Reporting (e.g., internal, external)",
+          "page": 251
+        },
+        {
+          "number": "1.9.8",
+          "title": "Continuous improvement (e.g., risk maturity",
+          "page": 251
+        },
+        {
+          "number": "1.9.9",
+          "title": "Risk frameworks (e.g., International",
+          "page": 252
+        },
+        {
+          "number": "1.12",
+          "title": "Establish and maintain a security awareness,",
+          "page": 252
+        },
+        {
+          "number": "1.12.1",
+          "title": "Methods and techniques to present awareness",
+          "page": 252
+        },
+        {
+          "number": "1.12.2",
+          "title": "Periodic content reviews to include emerging",
+          "page": 252
+        },
+        {
+          "number": "1.12.3",
+          "title": "Program effectiveness evaluation",
+          "page": 252
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "1",
+      "title": "as security control frameworks, but they are also",
+      "page_start": 342,
+      "page_end": 421,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "0: Security and Risk Management",
+      "page_start": 421,
+      "page_end": 421,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.7",
+          "title": "Identify, analyze, assess, prioritize, and implement",
+          "page": 421
+        },
+        {
+          "number": "1.7.1",
+          "title": "Business impact analysis (BIA)",
+          "page": 421
+        },
+        {
+          "number": "1.7.2",
+          "title": "External dependencies",
+          "page": 421
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0: Security Operations",
+      "page_start": 421,
+      "page_end": 465,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "7.13",
+          "title": "Participate in Business Continuity (BC) planning",
+          "page": 421
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "18",
+      "title": "describes a few of the facility types that might be",
+      "page_start": 465,
+      "page_end": 481,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "18",
+      "title": "will take this planning to the next step\u2014developing",
+      "page_start": 481,
+      "page_end": 493,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "0: Security and Risk Management",
+      "page_start": 493,
+      "page_end": 584,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.4",
+          "title": "Understand legal, regulatory, and compliance issues",
+          "page": 493
+        },
+        {
+          "number": "1.4.1",
+          "title": "Cybercrimes and data breaches",
+          "page": 493
+        },
+        {
+          "number": "1.4.2",
+          "title": "Licensing and Intellectual Property",
+          "page": 493
+        },
+        {
+          "number": "1.4.3",
+          "title": "Import/export controls",
+          "page": 493
+        },
+        {
+          "number": "1.4.4",
+          "title": "Transborder data flow",
+          "page": 493
+        },
+        {
+          "number": "1.4.5",
+          "title": "Issues related to privacy (e.g., General Data",
+          "page": 493
+        },
+        {
+          "number": "1.4.6",
+          "title": "Contractual, legal, industry standards, and",
+          "page": 493
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "2",
+      "title": "0: Asset Security",
+      "page_start": 584,
+      "page_end": 636,
+      "domain": 2,
+      "sections": [
+        {
+          "number": "2.1",
+          "title": "Identify and classify information and assets",
+          "page": 584
+        },
+        {
+          "number": "2.1.1",
+          "title": "Data classification",
+          "page": 584
+        },
+        {
+          "number": "2.1.2",
+          "title": "Asset classification",
+          "page": 584
+        },
+        {
+          "number": "2.2",
+          "title": "Establish information and asset handling",
+          "page": 584
+        },
+        {
+          "number": "2.4",
+          "title": "Manage data lifecycle",
+          "page": 584
+        },
+        {
+          "number": "2.4.1",
+          "title": "Data roles (i.e., owners, controllers, custodians,",
+          "page": 584
+        },
+        {
+          "number": "2.4.2",
+          "title": "Data collection",
+          "page": 584
+        },
+        {
+          "number": "2.4.3",
+          "title": "Data location",
+          "page": 584
+        },
+        {
+          "number": "2.4.4",
+          "title": "Data maintenance",
+          "page": 584
+        },
+        {
+          "number": "2.4.5",
+          "title": "Data retention",
+          "page": 584
+        },
+        {
+          "number": "2.4.6",
+          "title": "Data remanence",
+          "page": 584
+        },
+        {
+          "number": "2.4.7",
+          "title": "Data destruction",
+          "page": 584
+        },
+        {
+          "number": "2.5",
+          "title": "Ensure appropriate asset retention (e.g., end of life",
+          "page": 584
+        },
+        {
+          "number": "2.6",
+          "title": "Determine data security controls and compliance",
+          "page": 584
+        },
+        {
+          "number": "2.6.1",
+          "title": "Data states (e.g., in use, in transit, at rest)",
+          "page": 584
+        },
+        {
+          "number": "2.6.2",
+          "title": "Scoping and tailoring",
+          "page": 584
+        },
+        {
+          "number": "2.6.3",
+          "title": "Standards selection",
+          "page": 585
+        },
+        {
+          "number": "2.6.4",
+          "title": "Data protection methods (e.g., Digital Rights",
+          "page": 585
+        },
+        {
+          "number": "5.2",
+          "title": "million guests.",
+          "page": 607
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "4",
+      "title": "covers intellectual property, copyrights, trademarks,",
+      "page_start": 636,
+      "page_end": 674,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 674,
+      "page_end": 734,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the vulnerabilities of security",
+          "page": 674
+        },
+        {
+          "number": "3.5.4",
+          "title": "Cryptographic systems",
+          "page": 674
+        },
+        {
+          "number": "3.6",
+          "title": "Select and determine cryptographic solutions",
+          "page": 674
+        },
+        {
+          "number": "3.6.1",
+          "title": "Cryptographic life cycle (e.g., keys, algorithm",
+          "page": 674
+        },
+        {
+          "number": "3.6.2",
+          "title": "Cryptographic methods (e.g., symmetric)",
+          "page": 674
+        },
+        {
+          "number": "6.3",
+          "title": "later in this chapter.)",
+          "page": 681
+        },
+        {
+          "number": "6.2",
+          "title": "Victor would like to buy the password from Peggy, but he",
+          "page": 695
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "7",
+      "title": "provides technical details on modern",
+      "page_start": 734,
+      "page_end": 734,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "7",
+      "title": "provides details on contemporary hashing algorithms",
+      "page_start": 734,
+      "page_end": 774,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0 Security Architecture and Engineering",
+      "page_start": 774,
+      "page_end": 879,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the vulnerabilities of security",
+          "page": 774
+        },
+        {
+          "number": "3.5.4",
+          "title": "Cryptographic systems",
+          "page": 774
+        },
+        {
+          "number": "3.6",
+          "title": "Select and determine cryptographic solutions",
+          "page": 774
+        },
+        {
+          "number": "3.6.1",
+          "title": "Cryptographic life cycle (e.g., keys, algorithm",
+          "page": 774
+        },
+        {
+          "number": "3.6.2",
+          "title": "Cryptographic methods (e.g., asymmetric)",
+          "page": 774
+        },
+        {
+          "number": "3.6.3",
+          "title": "Public key infrastructure (PKI) (e.g., quantum",
+          "page": 774
+        },
+        {
+          "number": "3.6.4",
+          "title": "Key management practices (e.g., rotation)",
+          "page": 774
+        },
+        {
+          "number": "3.6.5",
+          "title": "Digital signatures and digital certificates (e.g.,",
+          "page": 774
+        },
+        {
+          "number": "3.7",
+          "title": "Understand methods of cryptanalytic attacks",
+          "page": 774
+        },
+        {
+          "number": "3.7.1",
+          "title": "Brute force",
+          "page": 774
+        },
+        {
+          "number": "3.7.2",
+          "title": "Ciphertext only",
+          "page": 774
+        },
+        {
+          "number": "3.7.3",
+          "title": "Known plaintext",
+          "page": 774
+        },
+        {
+          "number": "3.7.4",
+          "title": "Frequency analysis",
+          "page": 774
+        },
+        {
+          "number": "3.7.5",
+          "title": "Chosen ciphertext",
+          "page": 774
+        },
+        {
+          "number": "3.7.6",
+          "title": "Implementation attacks",
+          "page": 774
+        },
+        {
+          "number": "3.7.7",
+          "title": "Side-channel",
+          "page": 774
+        },
+        {
+          "number": "3.7.8",
+          "title": "Fault injection",
+          "page": 775
+        },
+        {
+          "number": "3.7.9",
+          "title": "Timing",
+          "page": 775
+        },
+        {
+          "number": "3.7.10",
+          "title": "Man-in-the-middle (MITM)",
+          "page": 775
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 879,
+      "page_end": 880,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.1",
+          "title": "Research, implement and manage engineering",
+          "page": 879
+        },
+        {
+          "number": "3.1.4",
+          "title": "Secure defaults",
+          "page": 879
+        },
+        {
+          "number": "3.1.5",
+          "title": "Fail securely",
+          "page": 879
+        },
+        {
+          "number": "3.1.7",
+          "title": "Keep it simple and small",
+          "page": 879
+        },
+        {
+          "number": "3.1.8",
+          "title": "Zero trust or trust but verify",
+          "page": 879
+        },
+        {
+          "number": "3.1.9",
+          "title": "Privacy by design",
+          "page": 879
+        },
+        {
+          "number": "3.1.11",
+          "title": "Secure access service edge",
+          "page": 879
+        },
+        {
+          "number": "3.2",
+          "title": "Understand the fundamental concepts of security",
+          "page": 879
+        },
+        {
+          "number": "3.3",
+          "title": "Select controls based upon systems security",
+          "page": 879
+        },
+        {
+          "number": "3.4",
+          "title": "Understand security capabilities of Information",
+          "page": 879
+        },
+        {
+          "number": "3.10",
+          "title": "Manage the information system lifecycle",
+          "page": 879
+        },
+        {
+          "number": "3.10.1",
+          "title": "Stakeholders needs and requirements",
+          "page": 879
+        },
+        {
+          "number": "3.10.2",
+          "title": "Requirements analysis",
+          "page": 879
+        },
+        {
+          "number": "3.10.3",
+          "title": "Architectural design",
+          "page": 879
+        },
+        {
+          "number": "3.10.4",
+          "title": "Development/implementation",
+          "page": 879
+        },
+        {
+          "number": "3.10.5",
+          "title": "Integration",
+          "page": 879
+        },
+        {
+          "number": "3.10.6",
+          "title": "Verification and validation",
+          "page": 880
+        },
+        {
+          "number": "3.10.7",
+          "title": "Transition/deployment",
+          "page": 880
+        },
+        {
+          "number": "3.10.8",
+          "title": "Operations and maintenance/sustainment",
+          "page": 880
+        },
+        {
+          "number": "3.10.9",
+          "title": "Retirement/disposal",
+          "page": 880
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "includes a variety of topics that are discussed in other",
+      "page_start": 880,
+      "page_end": 981,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 981,
+      "page_end": 1080,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.1",
+          "title": "Research, implement and manage engineering",
+          "page": 981
+        },
+        {
+          "number": "3.1.10",
+          "title": "Shared responsibility",
+          "page": 981
+        },
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the vulnerabilities of security",
+          "page": 981
+        },
+        {
+          "number": "3.5.1",
+          "title": "Client-based systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.2",
+          "title": "Server-based systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.5",
+          "title": "Industrial control systems (ICS)",
+          "page": 981
+        },
+        {
+          "number": "3.5.7",
+          "title": "Distributed systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.8",
+          "title": "Internet of Things (IoT)",
+          "page": 981
+        },
+        {
+          "number": "3.5.9",
+          "title": "Microservices (e.g., application programming",
+          "page": 981
+        },
+        {
+          "number": "3.5.10",
+          "title": "Containerization",
+          "page": 981
+        },
+        {
+          "number": "3.5.12",
+          "title": "Embedded systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.13",
+          "title": "High-Performance Computing systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.14",
+          "title": "Edge computing systems",
+          "page": 981
+        },
+        {
+          "number": "3.5.15",
+          "title": "Virtualized systems",
+          "page": 981
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "11",
+      "title": "for details on SDN.",
+      "page_start": 1080,
+      "page_end": 1133,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "for more on SMS-based 2FA.",
+      "page_start": 1133,
+      "page_end": 1188,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 1188,
+      "page_end": 1188,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.8",
+          "title": "Apply security principles to site and facility design",
+          "page": 1188
+        },
+        {
+          "number": "3.9",
+          "title": "Design site and facility security controls",
+          "page": 1188
+        },
+        {
+          "number": "3.9.1",
+          "title": "Wiring closets/intermediate distribution frame",
+          "page": 1188
+        },
+        {
+          "number": "3.9.2",
+          "title": "Server rooms/data centers",
+          "page": 1188
+        },
+        {
+          "number": "3.9.3",
+          "title": "Media storage facilities",
+          "page": 1188
+        },
+        {
+          "number": "3.9.4",
+          "title": "Evidence storage",
+          "page": 1188
+        },
+        {
+          "number": "3.9.5",
+          "title": "Restricted and work area security",
+          "page": 1188
+        },
+        {
+          "number": "3.9.6",
+          "title": "Utilities and Heating, Ventilation, and Air",
+          "page": 1188
+        },
+        {
+          "number": "3.9.7",
+          "title": "Environmental issues (e.g., natural disasters,",
+          "page": 1188
+        },
+        {
+          "number": "3.9.8",
+          "title": "Fire prevention, detection, and suppression",
+          "page": 1188
+        },
+        {
+          "number": "3.9.9",
+          "title": "Power (e.g., redundant, backup)",
+          "page": 1188
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "Security Operations",
+      "page_start": 1188,
+      "page_end": 1302,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "7.14",
+          "title": "Implement and manage physical security",
+          "page": 1188
+        },
+        {
+          "number": "7.14.1",
+          "title": "Perimeter security controls",
+          "page": 1188
+        },
+        {
+          "number": "7.14.2",
+          "title": "Internal security controls",
+          "page": 1188
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "4",
+      "title": "0: Communication and Network Security",
+      "page_start": 1302,
+      "page_end": 1304,
+      "domain": 4,
+      "sections": [
+        {
+          "number": "4.1",
+          "title": "Apply secure design principles in network",
+          "page": 1302
+        },
+        {
+          "number": "4.1.1",
+          "title": "Open System Interconnection (OSI) and",
+          "page": 1302
+        },
+        {
+          "number": "4.1.2",
+          "title": "Internet Protocol (IP) version 4 and 6 (IPv6)",
+          "page": 1302
+        },
+        {
+          "number": "4.1.3",
+          "title": "Secure protocols (e.g., Internet Protocol Security",
+          "page": 1302
+        },
+        {
+          "number": "4.1.4",
+          "title": "Implications of multilayer protocols",
+          "page": 1302
+        },
+        {
+          "number": "4.1.5",
+          "title": "Converged protocols (e.g., Internet Small",
+          "page": 1302
+        },
+        {
+          "number": "4.1.6",
+          "title": "Transport architecture (e.g., topology,",
+          "page": 1302
+        },
+        {
+          "number": "4.1.8",
+          "title": "Traffic flows (e.g., north-south, east-west)",
+          "page": 1302
+        },
+        {
+          "number": "4.1.9",
+          "title": "Physical segmentation (e.g., in-band, out-of-",
+          "page": 1303
+        },
+        {
+          "number": "4.1.10",
+          "title": "Logical segmentation (e.g., virtual local area",
+          "page": 1303
+        },
+        {
+          "number": "4.1.11",
+          "title": "Micro-segmentation (e.g., network",
+          "page": 1303
+        },
+        {
+          "number": "4.1.12",
+          "title": "Edge networks (e.g., ingress/egress, peering)",
+          "page": 1303
+        },
+        {
+          "number": "4.1.13",
+          "title": "Wireless networks (e.g., Bluetooth, Wi-Fi,",
+          "page": 1303
+        },
+        {
+          "number": "4.1.14",
+          "title": "Cellular/mobile networks (e.g., 4G, 5G)",
+          "page": 1303
+        },
+        {
+          "number": "4.1.15",
+          "title": "Content distribution networks (CDN)",
+          "page": 1303
+        },
+        {
+          "number": "4.1.16",
+          "title": "Software defined networks (SDN) (e.g.,",
+          "page": 1303
+        },
+        {
+          "number": "4.1.17",
+          "title": "Virtual Private Cloud (VPC)",
+          "page": 1303
+        },
+        {
+          "number": "4.2",
+          "title": "Secure network components",
+          "page": 1303
+        },
+        {
+          "number": "4.2.1",
+          "title": "Operation of infrastructure (e.g., redundant",
+          "page": 1303
+        },
+        {
+          "number": "4.2.2",
+          "title": "Transmission media (e.g., physical security of",
+          "page": 1303
+        },
+        {
+          "number": "4.2.3",
+          "title": "Network Access Control (NAC) systems (e.g.,",
+          "page": 1304
+        },
+        {
+          "number": "4.2.4",
+          "title": "Endpoint security (e.g., host-based)",
+          "page": 1304
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0 Security Operations",
+      "page_start": 1304,
+      "page_end": 1524,
+      "domain": 4,
+      "sections": [
+        {
+          "number": "7.7",
+          "title": "Operate and maintain detection and preventative",
+          "page": 1304
+        },
+        {
+          "number": "7.7.1",
+          "title": "Firewalls (e.g., next generation, web",
+          "page": 1304
+        },
+        {
+          "number": "255.255.0",
+          "title": "0, a CIDR notation is added to the IP address after a",
+          "page": 1360
+        },
+        {
+          "number": "802.11",
+          "title": "is the IEEE standard for wireless network",
+          "page": 1390
+        },
+        {
+          "number": "802.11",
+          "title": "Wi-Fi 0 2 Mbps 2.4 GHz",
+          "page": 1391
+        },
+        {
+          "number": "7.250",
+          "title": "GHz;",
+          "page": 1392
+        },
+        {
+          "number": "802.11",
+          "title": "standard. WEP uses a predefined shared Rivest Cipher 4",
+          "page": 1400
+        },
+        {
+          "number": "11.10",
+          "title": "illustrates both types. The primary reason a bus is rarely",
+          "page": 1490
+        },
+        {
+          "number": "802.11",
+          "title": "wireless networking is an example of a network that",
+          "page": 1504
+        },
+        {
+          "number": "802.11",
+          "title": "networking. Know about RFID, NFC, satellite, narrow-",
+          "page": 1510
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "4",
+      "title": "0: Communication and Network Security",
+      "page_start": 1524,
+      "page_end": 1670,
+      "domain": 4,
+      "sections": [
+        {
+          "number": "4.1",
+          "title": "Apply secure design principles in network",
+          "page": 1524
+        },
+        {
+          "number": "4.1.7",
+          "title": "Performance metrics (e.g., bandwidth, latency,",
+          "page": 1524
+        },
+        {
+          "number": "4.1.18",
+          "title": "Monitoring and management (e.g., network",
+          "page": 1524
+        },
+        {
+          "number": "4.3",
+          "title": "Implement secure communication channels",
+          "page": 1524
+        },
+        {
+          "number": "4.3.1",
+          "title": "Voice, video, and collaboration (e.g.,",
+          "page": 1524
+        },
+        {
+          "number": "4.3.2",
+          "title": "Remote access (e.g., network administrative",
+          "page": 1524
+        },
+        {
+          "number": "4.3.3",
+          "title": "Data communications (e.g., backhaul networks,",
+          "page": 1524
+        },
+        {
+          "number": "4.3.4",
+          "title": "Third-party connectivity (e.g., telecom",
+          "page": 1524
+        },
+        {
+          "number": "10.0.0.0",
+          "title": "10.255.255.255 (a full Class A range)",
+          "page": 1622
+        },
+        {
+          "number": "172.16.0.0",
+          "title": "172.31.255.255 (16 Class B ranges)",
+          "page": 1622
+        },
+        {
+          "number": "192.168.0.0",
+          "title": "192.168.255.255 (256 Class C ranges)",
+          "page": 1622
+        },
+        {
+          "number": "192.168.5",
+          "title": "x, and you won't have the conflict. This seems",
+          "page": 1623
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "5",
+      "title": "0: Identity and Access Management (IAM)",
+      "page_start": 1670,
+      "page_end": 1741,
+      "domain": 5,
+      "sections": [
+        {
+          "number": "5.1",
+          "title": "Control physical and logical access to assets",
+          "page": 1670
+        },
+        {
+          "number": "5.1.1",
+          "title": "Information",
+          "page": 1670
+        },
+        {
+          "number": "5.1.2",
+          "title": "Systems",
+          "page": 1670
+        },
+        {
+          "number": "5.1.3",
+          "title": "Devices",
+          "page": 1670
+        },
+        {
+          "number": "5.1.4",
+          "title": "Facilities",
+          "page": 1670
+        },
+        {
+          "number": "5.1.5",
+          "title": "Applications",
+          "page": 1670
+        },
+        {
+          "number": "5.1.6",
+          "title": "Services",
+          "page": 1670
+        },
+        {
+          "number": "5.2",
+          "title": "Design identification and authentication strategy",
+          "page": 1670
+        },
+        {
+          "number": "5.2.1",
+          "title": "Groups and Roles",
+          "page": 1670
+        },
+        {
+          "number": "5.2.2",
+          "title": "Authentication, Authorization and Accounting",
+          "page": 1670
+        },
+        {
+          "number": "5.2.3",
+          "title": "Session management",
+          "page": 1670
+        },
+        {
+          "number": "5.2.4",
+          "title": "Registration, proofing, and establishment of",
+          "page": 1670
+        },
+        {
+          "number": "5.2.5",
+          "title": "Federated Identity Management (FIM)",
+          "page": 1670
+        },
+        {
+          "number": "5.2.6",
+          "title": "Credential management systems (e.g., Password",
+          "page": 1670
+        },
+        {
+          "number": "5.2.7",
+          "title": "Single Sign On (SSO)",
+          "page": 1670
+        },
+        {
+          "number": "5.2.8",
+          "title": "Just-In-Time",
+          "page": 1671
+        },
+        {
+          "number": "5.3",
+          "title": "Federated identity with a third-party service",
+          "page": 1671
+        },
+        {
+          "number": "5.3.1",
+          "title": "On-premise",
+          "page": 1671
+        },
+        {
+          "number": "5.3.2",
+          "title": "Cloud",
+          "page": 1671
+        },
+        {
+          "number": "5.3.3",
+          "title": "Hybrid",
+          "page": 1671
+        },
+        {
+          "number": "5.5",
+          "title": "Manage the identity and access provisioning",
+          "page": 1671
+        },
+        {
+          "number": "5.5.1",
+          "title": "Account access review (e.g., user, system,",
+          "page": 1671
+        },
+        {
+          "number": "5.5.2",
+          "title": "Provisioning and deprovisioning (e.g., on/off",
+          "page": 1671
+        },
+        {
+          "number": "5.5.3",
+          "title": "Role definition and transition (e.g., people",
+          "page": 1671
+        },
+        {
+          "number": "5.5.5",
+          "title": "Service accounts management",
+          "page": 1671
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "2",
+      "title": "covers onboarding, transfers, and",
+      "page_start": 1741,
+      "page_end": 1763,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 1763,
+      "page_end": 1763,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.7",
+          "title": "Understand methods of cryptanalytic attacks",
+          "page": 1763
+        },
+        {
+          "number": "3.7.11",
+          "title": "Pass the hash",
+          "page": 1763
+        },
+        {
+          "number": "3.7.12",
+          "title": "Kerberos exploitation",
+          "page": 1763
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "5",
+      "title": "0: Identity and Access Management (IAM)",
+      "page_start": 1763,
+      "page_end": 1764,
+      "domain": 5,
+      "sections": [
+        {
+          "number": "5.4",
+          "title": "Implement and manage authorization mechanisms",
+          "page": 1763
+        },
+        {
+          "number": "5.4.1",
+          "title": "Role-based access control (RBAC)",
+          "page": 1763
+        },
+        {
+          "number": "5.4.2",
+          "title": "Rule based access control",
+          "page": 1763
+        },
+        {
+          "number": "5.4.3",
+          "title": "Mandatory access control (MAC)",
+          "page": 1763
+        },
+        {
+          "number": "5.4.4",
+          "title": "Discretionary access control (DAC)",
+          "page": 1763
+        },
+        {
+          "number": "5.4.5",
+          "title": "Attribute-based access control (ABAC)",
+          "page": 1763
+        },
+        {
+          "number": "5.4.6",
+          "title": "Risk based access control",
+          "page": 1763
+        },
+        {
+          "number": "5.4.7",
+          "title": "Access policy enforcement (e.g., policy decision",
+          "page": 1763
+        },
+        {
+          "number": "5.5",
+          "title": "Manage the identity and access provisioning",
+          "page": 1763
+        },
+        {
+          "number": "5.5.4",
+          "title": "Privilege escalation (e.g., use of sudo, auditing",
+          "page": 1763
+        },
+        {
+          "number": "5.6",
+          "title": "Implement authentication systems",
+          "page": 1763
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "focused heavily on identification and",
+      "page_start": 1764,
+      "page_end": 1794,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "discusses federated identity management (FIM) and",
+      "page_start": 1794,
+      "page_end": 1820,
+      "domain": 5,
+      "sections": [
+        {
+          "number": "2.0",
+          "title": "as a standard in 2005 and has maintained it since then.",
+          "page": 1796
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "covers most of the topics in objective",
+      "page_start": 1820,
+      "page_end": 1823,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "discussed service accounts within the context of",
+      "page_start": 1823,
+      "page_end": 1841,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "discusses single sign-on (SSO) capabilities in depth.",
+      "page_start": 1841,
+      "page_end": 1872,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "6",
+      "title": "0: Security Assessment and Testing",
+      "page_start": 1872,
+      "page_end": 1873,
+      "domain": 6,
+      "sections": [
+        {
+          "number": "6.1",
+          "title": "Design and validate assessment, test, and audit",
+          "page": 1872
+        },
+        {
+          "number": "6.1.1",
+          "title": "Internal (e.g., within organization control)",
+          "page": 1872
+        },
+        {
+          "number": "6.1.2",
+          "title": "External (e.g., outside organization control)",
+          "page": 1872
+        },
+        {
+          "number": "6.1.3",
+          "title": "Third-party (e.g., outside of enterprise control)",
+          "page": 1872
+        },
+        {
+          "number": "6.1.4",
+          "title": "Location (e.g., on-premise, cloud, hybrid)",
+          "page": 1872
+        },
+        {
+          "number": "6.2",
+          "title": "Conduct security controls testing",
+          "page": 1872
+        },
+        {
+          "number": "6.2.1",
+          "title": "Vulnerability assessment",
+          "page": 1872
+        },
+        {
+          "number": "6.2.2",
+          "title": "Penetration testing (e.g., red, blue, and/or",
+          "page": 1872
+        },
+        {
+          "number": "6.2.3",
+          "title": "Log reviews",
+          "page": 1872
+        },
+        {
+          "number": "6.2.4",
+          "title": "Synthetic transactions/benchmarks",
+          "page": 1872
+        },
+        {
+          "number": "6.2.5",
+          "title": "Code review and testing",
+          "page": 1872
+        },
+        {
+          "number": "6.2.6",
+          "title": "Misuse case testing",
+          "page": 1872
+        },
+        {
+          "number": "6.2.7",
+          "title": "Coverage analysis",
+          "page": 1872
+        },
+        {
+          "number": "6.2.8",
+          "title": "Interface testing (e.g., user interface, network",
+          "page": 1872
+        },
+        {
+          "number": "6.2.9",
+          "title": "Breach attack simulations",
+          "page": 1872
+        },
+        {
+          "number": "6.2.10",
+          "title": "Compliance checks",
+          "page": 1872
+        },
+        {
+          "number": "6.3",
+          "title": "Collect security process data (e.g., technical and",
+          "page": 1873
+        },
+        {
+          "number": "6.3.1",
+          "title": "Account management",
+          "page": 1873
+        },
+        {
+          "number": "6.3.2",
+          "title": "Management review and approval",
+          "page": 1873
+        },
+        {
+          "number": "6.3.3",
+          "title": "Key performance and risk indicators",
+          "page": 1873
+        },
+        {
+          "number": "6.3.4",
+          "title": "Backup verification data",
+          "page": 1873
+        },
+        {
+          "number": "6.3.5",
+          "title": "Training and awareness",
+          "page": 1873
+        },
+        {
+          "number": "6.3.6",
+          "title": "Disaster recovery (DR) and Business Continuity",
+          "page": 1873
+        },
+        {
+          "number": "6.4",
+          "title": "Analyze test output and generate report",
+          "page": 1873
+        },
+        {
+          "number": "6.4.1",
+          "title": "Remediation",
+          "page": 1873
+        },
+        {
+          "number": "6.4.2",
+          "title": "Exception handling",
+          "page": 1873
+        },
+        {
+          "number": "6.4.3",
+          "title": "Ethical disclosure",
+          "page": 1873
+        },
+        {
+          "number": "6.5",
+          "title": "Conduct or facilitate security audits",
+          "page": 1873
+        },
+        {
+          "number": "6.5.1",
+          "title": "Internal (e.g., within organization control)",
+          "page": 1873
+        },
+        {
+          "number": "6.5.2",
+          "title": "External (e.g., outside organization control)",
+          "page": 1873
+        },
+        {
+          "number": "6.5.3",
+          "title": "Third-party (e.g., outside enterprise control)",
+          "page": 1873
+        },
+        {
+          "number": "6.5.4",
+          "title": "Location (e.g., on-premise, cloud, hybrid)",
+          "page": 1873
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "0: Software Development Security",
+      "page_start": 1873,
+      "page_end": 1964,
+      "domain": 6,
+      "sections": [
+        {
+          "number": "8.2",
+          "title": "Identify and apply security controls in software",
+          "page": 1873
+        },
+        {
+          "number": "8.2.9",
+          "title": "Application security testing (e.g., static",
+          "page": 1873
+        },
+        {
+          "number": "192.168.1",
+          "title": "0/24 network, including all addresses in the range",
+          "page": 1902
+        },
+        {
+          "number": "192.168.1.1",
+          "title": "192.168.1.254.",
+          "page": 1902
+        },
+        {
+          "number": "15.5",
+          "title": "This is an example of a hybrid tool that can perform",
+          "page": 1911
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "2",
+      "title": "0: Asset Security",
+      "page_start": 1964,
+      "page_end": 1964,
+      "domain": 2,
+      "sections": [
+        {
+          "number": "2.3",
+          "title": "Provision information and assets securely",
+          "page": 1964
+        },
+        {
+          "number": "2.3.1",
+          "title": "Information and asset ownership",
+          "page": 1964
+        },
+        {
+          "number": "2.3.2",
+          "title": "Asset inventory (e.g., tangible, intangible)",
+          "page": 1964
+        },
+        {
+          "number": "2.3.3",
+          "title": "Asset management",
+          "page": 1964
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "Security Architecture and Engineering",
+      "page_start": 1964,
+      "page_end": 1964,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.1",
+          "title": "Research, implement and manage engineering",
+          "page": 1964
+        },
+        {
+          "number": "3.1.2",
+          "title": "Least privilege",
+          "page": 1964
+        },
+        {
+          "number": "3.1.6",
+          "title": "Segregation of Duties (SoD)",
+          "page": 1964
+        },
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the vulnerabilities of security",
+          "page": 1964
+        },
+        {
+          "number": "3.5.6",
+          "title": "Cloud-based systems (e.g., Software as a Service",
+          "page": 1964
+        },
+        {
+          "number": "3.5.11",
+          "title": "Serverless",
+          "page": 1964
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "Security Operations",
+      "page_start": 1964,
+      "page_end": 1965,
+      "domain": 7,
+      "sections": [
+        {
+          "number": "7.3",
+          "title": "Perform configuration management (CM) (e.g.,",
+          "page": 1964
+        },
+        {
+          "number": "7.4",
+          "title": "Apply foundational security operations concepts",
+          "page": 1964
+        },
+        {
+          "number": "7.4.1",
+          "title": "Need-to-know/least privilege",
+          "page": 1964
+        },
+        {
+          "number": "7.4.2",
+          "title": "Segregation of Duties (SoD) and responsibilities",
+          "page": 1965
+        },
+        {
+          "number": "7.4.3",
+          "title": "Privileged account management",
+          "page": 1965
+        },
+        {
+          "number": "7.4.4",
+          "title": "Job rotation",
+          "page": 1965
+        },
+        {
+          "number": "7.4.5",
+          "title": "Service-level agreements (SLA)",
+          "page": 1965
+        },
+        {
+          "number": "7.5",
+          "title": "Apply resource protection",
+          "page": 1965
+        },
+        {
+          "number": "7.5.1",
+          "title": "Media management",
+          "page": 1965
+        },
+        {
+          "number": "7.5.2",
+          "title": "Media protection techniques",
+          "page": 1965
+        },
+        {
+          "number": "7.5.3",
+          "title": "Data at rest/data in transit",
+          "page": 1965
+        },
+        {
+          "number": "7.8",
+          "title": "Implement and support patch and vulnerability",
+          "page": 1965
+        },
+        {
+          "number": "7.9",
+          "title": "Understand and participate in change management",
+          "page": 1965
+        },
+        {
+          "number": "7.15",
+          "title": "Address personnel safety and security concerns",
+          "page": 1965
+        },
+        {
+          "number": "7.15.1",
+          "title": "Travel",
+          "page": 1965
+        },
+        {
+          "number": "7.15.2",
+          "title": "Security training and awareness (e.g., insider",
+          "page": 1965
+        },
+        {
+          "number": "7.15.3",
+          "title": "Emergency management",
+          "page": 1965
+        },
+        {
+          "number": "7.15.4",
+          "title": "Duress",
+          "page": 1965
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "Software Development Security",
+      "page_start": 1965,
+      "page_end": 1977,
+      "domain": 8,
+      "sections": [
+        {
+          "number": "8.4",
+          "title": "Assess security impact of acquired software",
+          "page": 1965
+        },
+        {
+          "number": "8.4.4",
+          "title": "Managed services (e.g., enterprise applications)",
+          "page": 1965
+        },
+        {
+          "number": "8.4.5",
+          "title": "Cloud services (e.g., Software as a Service",
+          "page": 1965
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "14",
+      "title": "discussed some common Kerberos",
+      "page_start": 1977,
+      "page_end": 2003,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "5",
+      "title": "discusses some of the security challenges with solid-",
+      "page_start": 2003,
+      "page_end": 2011,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "9",
+      "title": "covers virtualization concepts.",
+      "page_start": 2011,
+      "page_end": 2056,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0: Security Operations",
+      "page_start": 2056,
+      "page_end": 2077,
+      "domain": 7,
+      "sections": [
+        {
+          "number": "7.2",
+          "title": "Conduct logging and monitoring activities",
+          "page": 2056
+        },
+        {
+          "number": "7.2.1",
+          "title": "Intrusion detection and prevention system",
+          "page": 2056
+        },
+        {
+          "number": "7.2.2",
+          "title": "Security information and event management",
+          "page": 2056
+        },
+        {
+          "number": "7.2.3",
+          "title": "Continuous monitoring and tuning",
+          "page": 2056
+        },
+        {
+          "number": "7.2.4",
+          "title": "Egress monitoring",
+          "page": 2056
+        },
+        {
+          "number": "7.2.5",
+          "title": "Log management",
+          "page": 2056
+        },
+        {
+          "number": "7.2.6",
+          "title": "Threat intelligence (e.g., threat feeds, threat",
+          "page": 2056
+        },
+        {
+          "number": "7.6",
+          "title": "Conduct incident management",
+          "page": 2056
+        },
+        {
+          "number": "7.6.1",
+          "title": "Detection",
+          "page": 2056
+        },
+        {
+          "number": "7.6.2",
+          "title": "Response",
+          "page": 2056
+        },
+        {
+          "number": "7.6.3",
+          "title": "Mitigation",
+          "page": 2056
+        },
+        {
+          "number": "7.6.4",
+          "title": "Reporting",
+          "page": 2056
+        },
+        {
+          "number": "7.6.5",
+          "title": "Recovery",
+          "page": 2056
+        },
+        {
+          "number": "7.6.6",
+          "title": "Remediation",
+          "page": 2056
+        },
+        {
+          "number": "7.6.7",
+          "title": "Lessons learned",
+          "page": 2056
+        },
+        {
+          "number": "7.7",
+          "title": "Operate and maintain detection and preventative",
+          "page": 2056
+        },
+        {
+          "number": "7.7.2",
+          "title": "Intrusion detection systems (IDS) and intrusion",
+          "page": 2057
+        },
+        {
+          "number": "7.7.3",
+          "title": "Whitelisting/blacklisting",
+          "page": 2057
+        },
+        {
+          "number": "7.7.4",
+          "title": "Third-party provided security services",
+          "page": 2057
+        },
+        {
+          "number": "7.7.5",
+          "title": "Sandboxing",
+          "page": 2057
+        },
+        {
+          "number": "7.7.6",
+          "title": "Honeypots/honeynets",
+          "page": 2057
+        },
+        {
+          "number": "7.7.7",
+          "title": "Anti-malware",
+          "page": 2057
+        },
+        {
+          "number": "7.7.8",
+          "title": "Machine learning and artificial intelligence (AI)",
+          "page": 2057
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "refers to preventative measures. For simplicity, we",
+      "page_start": 2077,
+      "page_end": 2089,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "11",
+      "title": "discussed the TCP three-way",
+      "page_start": 2089,
+      "page_end": 2107,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "21",
+      "title": "covers user and entity behavior",
+      "page_start": 2107,
+      "page_end": 2130,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "2",
+      "title": "covers social engineering tactics, including phishing,",
+      "page_start": 2130,
+      "page_end": 2134,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "11",
+      "title": "discussed firewalls in greater depth, but a few things",
+      "page_start": 2134,
+      "page_end": 2166,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "7",
+      "title": "covers steganography and",
+      "page_start": 2166,
+      "page_end": 2178,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "15",
+      "title": "covers vulnerability scans and",
+      "page_start": 2178,
+      "page_end": 2199,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "domain",
+      "number": "6",
+      "title": "0: Security Assessment and Testing",
+      "page_start": 2199,
+      "page_end": 2199,
+      "domain": 6,
+      "sections": [
+        {
+          "number": "6.3",
+          "title": "Collect security process data (e.g., technical and",
+          "page": 2199
+        },
+        {
+          "number": "6.3.5",
+          "title": "Training and awareness",
+          "page": 2199
+        },
+        {
+          "number": "6.3.6",
+          "title": "Disaster recovery (DR) and Business Continuity",
+          "page": 2199
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0: Security Operations",
+      "page_start": 2199,
+      "page_end": 2312,
+      "domain": 7,
+      "sections": [
+        {
+          "number": "7.10",
+          "title": "Implement recovery strategies",
+          "page": 2199
+        },
+        {
+          "number": "7.10.1",
+          "title": "Backup storage strategies (e.g., cloud storage,",
+          "page": 2199
+        },
+        {
+          "number": "7.10.2",
+          "title": "Recovery site strategies (e.g., cold versus hot,",
+          "page": 2199
+        },
+        {
+          "number": "7.10.3",
+          "title": "Multiple processing sites",
+          "page": 2199
+        },
+        {
+          "number": "7.10.4",
+          "title": "System resilience, high availability (HA),",
+          "page": 2199
+        },
+        {
+          "number": "7.11",
+          "title": "Implement disaster recovery (DR) processes",
+          "page": 2199
+        },
+        {
+          "number": "7.11.1",
+          "title": "Response",
+          "page": 2199
+        },
+        {
+          "number": "7.11.2",
+          "title": "Personnel",
+          "page": 2199
+        },
+        {
+          "number": "7.11.3",
+          "title": "Communications (i.e., methods)",
+          "page": 2199
+        },
+        {
+          "number": "7.11.4",
+          "title": "Assessment",
+          "page": 2199
+        },
+        {
+          "number": "7.11.5",
+          "title": "Restoration",
+          "page": 2199
+        },
+        {
+          "number": "7.11.6",
+          "title": "Training and awareness",
+          "page": 2200
+        },
+        {
+          "number": "7.11.7",
+          "title": "Lessons learned",
+          "page": 2200
+        },
+        {
+          "number": "7.12",
+          "title": "Test disaster recovery plan (DRP)",
+          "page": 2200
+        },
+        {
+          "number": "7.12.1",
+          "title": "Read-through/tabletop",
+          "page": 2200
+        },
+        {
+          "number": "7.12.2",
+          "title": "Walkthrough",
+          "page": 2200
+        },
+        {
+          "number": "7.12.3",
+          "title": "Simulation",
+          "page": 2200
+        },
+        {
+          "number": "7.12.4",
+          "title": "Parallel",
+          "page": 2200
+        },
+        {
+          "number": "7.12.5",
+          "title": "Full interruption",
+          "page": 2200
+        },
+        {
+          "number": "7.12.6",
+          "title": "Communications (e.g., stakeholders, test status,",
+          "page": 2200
+        },
+        {
+          "number": "99.9",
+          "title": "percent of the time (or \u201cthree nines\u201d of availability). This",
+          "page": 2232
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "1",
+      "title": "0: Security and Risk Management",
+      "page_start": 2312,
+      "page_end": 2312,
+      "domain": 1,
+      "sections": [
+        {
+          "number": "1.1",
+          "title": "Understand, adhere to, and promote professional",
+          "page": 2312
+        },
+        {
+          "number": "1.1.1",
+          "title": "ISC2 Code of Professional Ethics",
+          "page": 2312
+        },
+        {
+          "number": "1.1.2",
+          "title": "Organizational code of ethics",
+          "page": 2312
+        },
+        {
+          "number": "1.5",
+          "title": "Understand requirements for investigation types",
+          "page": 2312
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0: Security Operations",
+      "page_start": 2312,
+      "page_end": 2389,
+      "domain": 7,
+      "sections": [
+        {
+          "number": "7.1",
+          "title": "Understand and comply with investigations",
+          "page": 2312
+        },
+        {
+          "number": "7.1.1",
+          "title": "Evidence collection and handling",
+          "page": 2312
+        },
+        {
+          "number": "7.1.2",
+          "title": "Reporting and documentation",
+          "page": 2312
+        },
+        {
+          "number": "7.1.3",
+          "title": "Investigative techniques",
+          "page": 2312
+        },
+        {
+          "number": "7.1.4",
+          "title": "Digital forensics tools, tactics, and procedures",
+          "page": 2312
+        },
+        {
+          "number": "7.1.5",
+          "title": "Artifacts (e.g., data, computer, network, mobile",
+          "page": 2312
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 2389,
+      "page_end": 2389,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.5",
+          "title": "Assess and mitigate the vulnerabilities of security",
+          "page": 2389
+        },
+        {
+          "number": "3.5.3",
+          "title": "Database systems",
+          "page": 2389
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "0: Software Development Security",
+      "page_start": 2389,
+      "page_end": 2514,
+      "domain": 8,
+      "sections": [
+        {
+          "number": "8.1",
+          "title": "Understand and integrate security in the Software",
+          "page": 2389
+        },
+        {
+          "number": "8.1.1",
+          "title": "Development methodologies (e.g., Agile,",
+          "page": 2389
+        },
+        {
+          "number": "8.1.2",
+          "title": "Maturity models (e.g., Capability Maturity",
+          "page": 2389
+        },
+        {
+          "number": "8.1.3",
+          "title": "Operation and maintenance",
+          "page": 2389
+        },
+        {
+          "number": "8.1.4",
+          "title": "Change management",
+          "page": 2389
+        },
+        {
+          "number": "8.1.5",
+          "title": "Integrated Product Team",
+          "page": 2389
+        },
+        {
+          "number": "8.2",
+          "title": "Identify and apply security controls in software",
+          "page": 2389
+        },
+        {
+          "number": "8.2.1",
+          "title": "Programming languages",
+          "page": 2389
+        },
+        {
+          "number": "8.2.2",
+          "title": "Libraries",
+          "page": 2389
+        },
+        {
+          "number": "8.2.3",
+          "title": "Tool sets",
+          "page": 2389
+        },
+        {
+          "number": "8.2.4",
+          "title": "Integrated Development Environment",
+          "page": 2390
+        },
+        {
+          "number": "8.2.5",
+          "title": "Runtime",
+          "page": 2390
+        },
+        {
+          "number": "8.2.6",
+          "title": "Continuous Integration and Continuous",
+          "page": 2390
+        },
+        {
+          "number": "8.2.7",
+          "title": "Software Configuration Management (CM)",
+          "page": 2390
+        },
+        {
+          "number": "8.2.8",
+          "title": "Code repositories",
+          "page": 2390
+        },
+        {
+          "number": "8.3",
+          "title": "Assess the effectiveness of software security",
+          "page": 2390
+        },
+        {
+          "number": "8.3.1",
+          "title": "Auditing and logging of changes",
+          "page": 2390
+        },
+        {
+          "number": "8.4",
+          "title": "Assess security impact of acquired software",
+          "page": 2390
+        },
+        {
+          "number": "8.4.1",
+          "title": "Commercial-off-the-shelf (COTS)",
+          "page": 2390
+        },
+        {
+          "number": "8.4.2",
+          "title": "Open source",
+          "page": 2390
+        },
+        {
+          "number": "8.4.3",
+          "title": "Third-party",
+          "page": 2390
+        },
+        {
+          "number": "8.5",
+          "title": "Define and apply secure coding guidelines and",
+          "page": 2390
+        },
+        {
+          "number": "8.5.2",
+          "title": "Security of application programming interfaces",
+          "page": 2390
+        },
+        {
+          "number": "8.5.3",
+          "title": "Secure coding practices",
+          "page": 2390
+        },
+        {
+          "number": "8.5.4",
+          "title": "Software-defined security",
+          "page": 2390
+        },
+        {
+          "number": "20.11",
+          "title": "illustrates the relationship between ODBC and a backend",
+          "page": 2491
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "3",
+      "title": "0: Security Architecture and Engineering",
+      "page_start": 2514,
+      "page_end": 2514,
+      "domain": 3,
+      "sections": [
+        {
+          "number": "3.7",
+          "title": "Understand methods of cryptanalytic attacks",
+          "page": 2514
+        },
+        {
+          "number": "3.7.13",
+          "title": "Ransomware",
+          "page": 2514
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "7",
+      "title": "0: Security Operations",
+      "page_start": 2514,
+      "page_end": 2514,
+      "domain": 7,
+      "sections": [
+        {
+          "number": "7.2",
+          "title": "Conduct logging and monitoring activities",
+          "page": 2514
+        },
+        {
+          "number": "7.2.7",
+          "title": "User and Entity Behavior Analytics (UEBA)",
+          "page": 2514
+        },
+        {
+          "number": "7.7",
+          "title": "Operate and maintain detection and preventative",
+          "page": 2514
+        },
+        {
+          "number": "7.7.7",
+          "title": "Anti-malware",
+          "page": 2514
+        }
+      ]
+    },
+    {
+      "kind": "domain",
+      "number": "8",
+      "title": "0: Software Development Security",
+      "page_start": 2514,
+      "page_end": 2632,
+      "domain": 8,
+      "sections": [
+        {
+          "number": "8.2",
+          "title": "Identify and apply security controls in software",
+          "page": 2514
+        },
+        {
+          "number": "8.3",
+          "title": "Assess the effectiveness of software security",
+          "page": 2514
+        },
+        {
+          "number": "8.3.2",
+          "title": "Risk analysis and mitigation",
+          "page": 2514
+        },
+        {
+          "number": "8.5",
+          "title": "Define and apply secure coding guidelines and",
+          "page": 2514
+        },
+        {
+          "number": "8.5.1",
+          "title": "Security weaknesses and vulnerabilities at the",
+          "page": 2514
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "1",
+      "title": "Security Governance Through",
+      "page_start": 2632,
+      "page_end": 2641,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "2",
+      "title": "Personnel Security and Risk",
+      "page_start": 2641,
+      "page_end": 2653,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "3",
+      "title": "Business Continuity Planning",
+      "page_start": 2653,
+      "page_end": 2658,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "4",
+      "title": "Laws, Regulations, and",
+      "page_start": 2658,
+      "page_end": 2664,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "5",
+      "title": "Protecting Security of Assets",
+      "page_start": 2664,
+      "page_end": 2671,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "6",
+      "title": "Cryptography and Symmetric",
+      "page_start": 2671,
+      "page_end": 2676,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "7",
+      "title": "PKI and Cryptographic",
+      "page_start": 2676,
+      "page_end": 2681,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "8",
+      "title": "Principles of Security Models,",
+      "page_start": 2681,
+      "page_end": 2689,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "9",
+      "title": "Security Vulnerabilities,",
+      "page_start": 2689,
+      "page_end": 2702,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "10",
+      "title": "Physical Security",
+      "page_start": 2702,
+      "page_end": 2711,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "11",
+      "title": "Secure Network Architecture",
+      "page_start": 2711,
+      "page_end": 2722,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "12",
+      "title": "Secure Communications and",
+      "page_start": 2722,
+      "page_end": 2730,
+      "domain": 4,
+      "sections": [
+        {
+          "number": "10.255.255",
+          "title": "255, 172.16.0.0\u2013172.31.255.255, and 192.168.0.0\u2013",
+          "page": 2725
+        },
+        {
+          "number": "192.168.255.255",
+          "title": "Therefore, 10.0.0.18, 172.31.8.204, and",
+          "page": 2725
+        },
+        {
+          "number": "192.168.6.43",
+          "title": "are private IPv4 addresses. The 169.254.x.x",
+          "page": 2725
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "Managing Identity and",
+      "page_start": 2730,
+      "page_end": 2737,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "14",
+      "title": "Controlling and Monitoring",
+      "page_start": 2737,
+      "page_end": 2743,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "15",
+      "title": "Security Assessment and",
+      "page_start": 2743,
+      "page_end": 2747,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "16",
+      "title": "Managing Security Operations",
+      "page_start": 2747,
+      "page_end": 2754,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "17",
+      "title": "Preventing and Responding to",
+      "page_start": 2754,
+      "page_end": 2760,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "18",
+      "title": "Disaster Recovery Planning",
+      "page_start": 2760,
+      "page_end": 2766,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "19",
+      "title": "Investigations and Ethics",
+      "page_start": 2766,
+      "page_end": 2771,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "20",
+      "title": "Software Development",
+      "page_start": 2771,
+      "page_end": 2777,
+      "domain": 8,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "21",
+      "title": "Malicious Code and",
+      "page_start": 2777,
+      "page_end": 2784,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "1",
+      "title": "Security Governance Through",
+      "page_start": 2784,
+      "page_end": 2786,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "2",
+      "title": "Personnel Security and Risk",
+      "page_start": 2786,
+      "page_end": 2789,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "3",
+      "title": "Business Continuity Planning",
+      "page_start": 2789,
+      "page_end": 2790,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "4",
+      "title": "Laws, Regulations, and",
+      "page_start": 2790,
+      "page_end": 2792,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "5",
+      "title": "Protecting Security of Assets",
+      "page_start": 2792,
+      "page_end": 2794,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "6",
+      "title": "Cryptography and Symmetric",
+      "page_start": 2794,
+      "page_end": 2796,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "7",
+      "title": "PKI and Cryptographic",
+      "page_start": 2796,
+      "page_end": 2797,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "8",
+      "title": "Principles of Security Models,",
+      "page_start": 2797,
+      "page_end": 2799,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "9",
+      "title": "Security Vulnerabilities,",
+      "page_start": 2799,
+      "page_end": 2802,
+      "domain": 2,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "10",
+      "title": "Physical Security",
+      "page_start": 2802,
+      "page_end": 2805,
+      "domain": 3,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "11",
+      "title": "Secure Network Architecture",
+      "page_start": 2805,
+      "page_end": 2808,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "12",
+      "title": "Secure Communications and",
+      "page_start": 2808,
+      "page_end": 2812,
+      "domain": 4,
+      "sections": [
+        {
+          "number": "10.0.0.0",
+          "title": "10.255.255.255 (a full Class A range); 172.16.0.0\u2013",
+          "page": 2810
+        },
+        {
+          "number": "172.31.255.255",
+          "title": "(16 Class B ranges); and 192.168.0.0\u2013",
+          "page": 2810
+        },
+        {
+          "number": "192.168.255.255",
+          "title": "(256 Class C ranges). APIPA assigns each",
+          "page": 2810
+        },
+        {
+          "number": "169.254.0.1",
+          "title": "to 169.254.255.254 along with the default Class B",
+          "page": 2810
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": "13",
+      "title": "Managing Identity and",
+      "page_start": 2812,
+      "page_end": 2814,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "14",
+      "title": "Controlling and Monitoring",
+      "page_start": 2814,
+      "page_end": 2816,
+      "domain": 5,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "15",
+      "title": "Security Assessment and",
+      "page_start": 2816,
+      "page_end": 2819,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "16",
+      "title": "Managing Security Operations",
+      "page_start": 2819,
+      "page_end": 2821,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "17",
+      "title": "Preventing and Responding to",
+      "page_start": 2821,
+      "page_end": 2823,
+      "domain": 7,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "18",
+      "title": "Disaster Recovery Planning",
+      "page_start": 2823,
+      "page_end": 2825,
+      "domain": 6,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "19",
+      "title": "Investigations and Ethics",
+      "page_start": 2825,
+      "page_end": 2826,
+      "domain": 1,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "20",
+      "title": "Software Development",
+      "page_start": 2826,
+      "page_end": 2827,
+      "domain": 4,
+      "sections": []
+    },
+    {
+      "kind": "chapter",
+      "number": "21",
+      "title": "Malicious Code and",
+      "page_start": 2827,
+      "page_end": 2959,
+      "domain": 5,
+      "sections": [
+        {
+          "number": "802.11",
+          "title": "standards, 527",
+          "page": 2829
+        },
+        {
+          "number": "802.11",
+          "title": "amendments, 527",
+          "page": 2898
+        },
+        {
+          "number": "802.11",
+          "title": "amendments, 527",
+          "page": 2953
+        }
+      ]
+    }
+  ],
+  "per_domain_chapter_count": {
+    "1": 24,
+    "2": 8,
+    "3": 29,
+    "4": 18,
+    "5": 14,
+    "6": 9,
+    "7": 11,
+    "8": 5
+  },
+  "unmapped": []
+}

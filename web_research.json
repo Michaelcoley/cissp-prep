@@ -1,0 +1,1860 @@
+{
+  "captured": "2026-04-26",
+  "method": "main-thread WebSearch + WebFetch (subagent web tools were denied)",
+  "domains": {
+    "1": {
+      "name": "Security and Risk Management",
+      "weight_pct": 16,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/domain-1-security-and-risk-management/",
+          "title": "DestCert: Unraveling CISSP Domain 1 \u2014 Security and Risk Management",
+          "captured": "2026-04-26",
+          "summary": "Domain 1 (16%) covers governance, risk, compliance, BCP/DRP, threat modeling, professional ethics.",
+          "extract": ""
+        },
+        {
+          "url": "https://lognpacific.com/free-certification-practice-tests/free-cissp-practice-questions/cissp-domain-1-security-and-risk-management-domain-1-cissp-exam/",
+          "title": "LognPacific: Free CISSP Domain 1 Practice Questions",
+          "captured": "2026-04-26",
+          "summary": "Free practice question bank focused on Domain 1 risk and governance topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/87472460/official-isc-cissp-domain-1-security-and-risk-management-flash-cards/",
+          "title": "Quizlet: Official ISC2 CISSP Domain 1 flashcards",
+          "captured": "2026-04-26",
+          "summary": "Crowd-sourced flashcards aligned to the official Sybex study guide chapters.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/quiz/Cybersecurity-risk-management-CISSP-practice-exam",
+          "title": "TechTarget: CISSP Domain 1 quiz \u2014 Security and risk management",
+          "captured": "2026-04-26",
+          "summary": "Practice quiz with multi-choice questions on inherent vs residual risk, governance frameworks.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/domain-1-security-and-risk-management/",
+          "title": "CISSPrep: Domain 1 \u2014 Security and Risk Management",
+          "captured": "2026-04-26",
+          "summary": "Free study notes covering CIA, governance, codes of ethics, BCP, risk frameworks.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/715975934/cissp-official-practice-questions-security-and-risk-management-domain-1-flash-cards/",
+          "title": "Quizlet: CISSP Official Practice Questions Domain 1",
+          "captured": "2026-04-26",
+          "summary": "Practice question deck aligned to the Sybex official practice tests.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/529593082/cissp-practice-testschapter-1security-risk-management-domain-1-flash-cards/",
+          "title": "Quizlet: CISSP Practice Tests Chapter 1 \u2014 Security & Risk Management",
+          "captured": "2026-04-26",
+          "summary": "Chapter-1 practice questions; tests due care vs due diligence and policy hierarchy.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.easylearn.ing/course/cissp-domain-1-practice-questions",
+          "title": "EasyLearn: Ace the CISSP Exam \u2014 Domain 1 practice questions",
+          "captured": "2026-04-26",
+          "summary": "Curated practice questions for Domain 1 with explanations.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.gulftalent.com/online/courses/cissp-domain-1-security-risk-management-practice-questions-32019",
+          "title": "GulfTalent: CISSP Domain 1 practice questions course",
+          "captured": "2026-04-26",
+          "summary": "Online course with manager-mindset Domain 1 questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/domain-1-quizzes-2024/",
+          "title": "CISSPrep: Domain 1 Quizzes 2024",
+          "captured": "2026-04-26",
+          "summary": "Updated 2024 quiz set aligned to the new exam outline.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2021/10/03/cissp-practice-questions-20211002/",
+          "title": "Wentz Wu: CISSP Practice Questions 20211002",
+          "captured": "2026-04-26",
+          "summary": "Sample exam questions with detailed manager-mindset explanations.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examtopics.com/discussions/isc/view/81332-exam-cissp-topic-1-question-327-discussion/",
+          "title": "ExamTopics: Exam CISSP topic 1 question 327 discussion",
+          "captured": "2026-04-26",
+          "summary": "Community discussion of an ALE/SLE quantitative risk question.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2019/10/20/cissp-practice-questions-20191021/",
+          "title": "Wentz Wu: CISSP Practice Questions 20191021",
+          "captured": "2026-04-26",
+          "summary": "Older Wentz Wu set; covers ARO/ALE calculation mechanics.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2020/04/05/cissp-practice-questions-20200406/",
+          "title": "Wentz Wu: CISSP Practice Questions 20200406",
+          "captured": "2026-04-26",
+          "summary": "Includes several BIA/MTD/RTO scenario questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examtopics.com/exams/isc/cissp/view/",
+          "title": "ExamTopics: CISSP Exam \u2014 Free Q&As",
+          "captured": "2026-04-26",
+          "summary": "Large community-maintained CISSP question bank with discussion.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2020/04/05/common-bia-terminologies/",
+          "title": "Wentz Wu: Common BIA Terminologies",
+          "captured": "2026-04-26",
+          "summary": "Cheat sheet defining MTD, RTO, RPO, WRT, MTBF with examples.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2022/01/26/cissp-practice-questions-20220126/",
+          "title": "Wentz Wu: CISSP Practice Questions 20220126",
+          "captured": "2026-04-26",
+          "summary": "Practice set mixing governance, risk, and threat-modeling questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/threat-modeling-methodologies/",
+          "title": "DestCert: Threat Modeling Methodologies \u2014 STRIDE, PASTA, DREAD",
+          "captured": "2026-04-26",
+          "summary": "Comparison of major threat-modeling methodologies for CISSP candidates.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.softwaresecured.com/post/comparison-of-stride-dread-pasta",
+          "title": "SoftwareSecured: Comparison of STRIDE, DREAD & PASTA",
+          "captured": "2026-04-26",
+          "summary": "Side-by-side comparison of three threat-modeling techniques.",
+          "extract": ""
+        },
+        {
+          "url": "https://medium.com/step-by-step-cissp-ccsp/cissp-study-notes-threat-modeling-56bccfbab210",
+          "title": "Medium / Step by Step CISSP: Threat Modeling notes",
+          "captured": "2026-04-26",
+          "summary": "Note set summarising STRIDE/PASTA/DREAD/VAST approaches.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisspcybertraining.com/blog/cct-149",
+          "title": "CISSP Cyber Training: CCT 149 \u2014 Threat Modeling & STRIDE questions",
+          "captured": "2026-04-26",
+          "summary": "Podcast/blog with sample STRIDE questions and answer rationale.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.threatonthewire.com/cissp-threat-modeling-stride-pasta-managers-role/",
+          "title": "ThreatOnTheWire: Threat Modeling for Security Leaders",
+          "captured": "2026-04-26",
+          "summary": "Manager-perspective explanation of when to choose STRIDE vs PASTA.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-1-security",
+          "title": "BalancedSec: Understanding CISSP Domain 1",
+          "captured": "2026-04-26",
+          "summary": "Blog series with detailed Domain 1 review.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VoiHRBaV8Xk",
+          "title": "YouTube: CISSP Threat Modeling \u2014 STRIDE, DREAD, PASTA, VAST",
+          "captured": "2026-04-26",
+          "summary": "Video walkthrough of all four threat models.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/30/r1/final",
+          "title": "NIST SP 800-30 Rev 1: Guide for Conducting Risk Assessments",
+          "captured": "2026-04-26",
+          "summary": "Authoritative NIST risk assessment process referenced by CISSP CBK.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final",
+          "title": "NIST SP 800-37 Rev 2: Risk Management Framework (RMF)",
+          "captured": "2026-04-26",
+          "summary": "Six-step RMF; Categorize \u2192 Select \u2192 Implement \u2192 Assess \u2192 Authorize \u2192 Monitor.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.nist.gov/cyberframework",
+          "title": "NIST Cybersecurity Framework (CSF) 2.0",
+          "captured": "2026-04-26",
+          "summary": "Govern, Identify, Protect, Detect, Respond, Recover functions.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.iso.org/standard/27001",
+          "title": "ISO/IEC 27001 \u2014 Information security management",
+          "captured": "2026-04-26",
+          "summary": "Establishes ISMS requirements; PDCA cycle and Annex A controls.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.isc2.org/Ethics",
+          "title": "ISC2 Code of Ethics",
+          "captured": "2026-04-26",
+          "summary": "Four canons every CISSP must order from highest to lowest priority.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.isc2.org/-/media/Project/ISC2/Main/Media/documents/exam-outlines/CISSP-Exam-Outline-April-2024-English.pdf",
+          "title": "ISC2: CISSP Detailed Content Outline (April 2024)",
+          "captured": "2026-04-26",
+          "summary": "Authoritative outline; D1 = 16% (was 15%), D8 = 10% (was 11%).",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/cissp-exam-refresh-2024-what-you-need-to-know/",
+          "title": "DestCert: CISSP 2024 Update \u2014 Exam Format & Syllabus Changes",
+          "captured": "2026-04-26",
+          "summary": "Summary of D1 weight increase and D8 decrease in April 2024.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.isc2.org/Insights/2023/11/Changes-to-CISSP-Exam-Weighting",
+          "title": "ISC2 Insights: Changes to the CISSP Exam Weighting",
+          "captured": "2026-04-26",
+          "summary": "Official explanation of the 2024 weight changes.",
+          "extract": ""
+        }
+      ]
+    },
+    "2": {
+      "name": "Asset Security",
+      "weight_pct": 10,
+      "sources": [
+        {
+          "url": "https://www.techtarget.com/searchsecurity/quiz/CISSP-Domain-2-quiz-Data-security-control-asset-protection",
+          "title": "TechTarget: CISSP Domain 2 quiz",
+          "captured": "2026-04-26",
+          "summary": "Practice quiz on data security controls and asset protection.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/domain-2-asset-security/",
+          "title": "DestCert: Asset Security in CISSP Domain 2",
+          "captured": "2026-04-26",
+          "summary": "Domain 2 essentials; 10% weighting; data ownership and lifecycle focus.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-2-asset",
+          "title": "BalancedSec: Understanding CISSP Domain 2 \u2014 Asset Security",
+          "captured": "2026-04-26",
+          "summary": "Blog explaining classification, ownership, retention, sanitisation.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/217188025/cissp-practice-tests-chapter-2-asset-security-domain-2-flash-cards/",
+          "title": "Quizlet: CISSP Practice Tests Chapter 2 \u2014 Asset Security",
+          "captured": "2026-04-26",
+          "summary": "Flashcard deck of practice questions for Domain 2.",
+          "extract": ""
+        },
+        {
+          "url": "https://resources.infosecinstitute.com/certification/cissp-domain-2-asset-security-need-know-exam/",
+          "title": "Infosec Institute: CISSP Domain 2 \u2014 Asset Security",
+          "captured": "2026-04-26",
+          "summary": "Topic guide on classification, retention, DLP, sanitisation.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/1019457792/cissp-domain-2-asset-security-flash-cards/",
+          "title": "Quizlet: CISSP Domain 2 Asset Security flashcards",
+          "captured": "2026-04-26",
+          "summary": "Updated 2024-aligned card deck for Asset Security.",
+          "extract": ""
+        },
+        {
+          "url": "https://certifiedcissp.com/domain-2-asset-security/",
+          "title": "CertifiedCISSP: Domain 2 Asset Security",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 2 study notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.threatonthewire.com/cissp-domain-2-ownership-information-assets/",
+          "title": "ThreatOnTheWire: Ownership of Information and Assets",
+          "captured": "2026-04-26",
+          "summary": "Owner is a senior business leader; custodian implements at owner direction.",
+          "extract": ""
+        },
+        {
+          "url": "https://infosectests.com/cissp-study-references/domain-2-asset-security/",
+          "title": "InfosecTests: Domain 2 Asset Security references",
+          "captured": "2026-04-26",
+          "summary": "Study references and quizzes for Domain 2.",
+          "extract": ""
+        },
+        {
+          "url": "https://jefferywmoore.github.io/CISSP-Study-Resources/CISSP-Domain-2-2024+Objectives.html",
+          "title": "Jeffery W Moore: CISSP-Study-Resources \u2014 Domain 2 Objectives 2024",
+          "captured": "2026-04-26",
+          "summary": "Open-source study notes mapped to 2024 outline.",
+          "extract": ""
+        },
+        {
+          "url": "https://inventivehq.com/blog/nist-800-88-media-sanitization-complete-guide",
+          "title": "InventiveHQ: NIST 800-88 \u2014 Clear, Purge, Destroy Methods Explained",
+          "captured": "2026-04-26",
+          "summary": "NIST 800-88 sanitisation methods overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r1/final",
+          "title": "NIST SP 800-88 Rev 1: Guidelines for Media Sanitization",
+          "captured": "2026-04-26",
+          "summary": "Authoritative NIST sanitisation guidance: Clear/Purge/Destroy.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.accountablehq.com/post/hard-drive-sanitization-how-to-securely-erase-data-nist-800-88-guide",
+          "title": "AccountableHQ: Hard Drive Sanitization \u2014 NIST 800-88 Guide",
+          "captured": "2026-04-26",
+          "summary": "Plain-language explanation of NIST 800-88 sanitisation choices.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/88/r2/final",
+          "title": "NIST SP 800-88 Rev 2",
+          "captured": "2026-04-26",
+          "summary": "Latest NIST sanitisation revision; introduces additional crypto-erase guidance.",
+          "extract": ""
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-88r1.pdf",
+          "title": "NIST 800-88r1 PDF (NVLPubs)",
+          "captured": "2026-04-26",
+          "summary": "Official PDF of NIST 800-88 Rev 1.",
+          "extract": ""
+        },
+        {
+          "url": "https://jetico.com/blog/nist-sp-800-88-guidelines-media-sanitization-explained/",
+          "title": "Jetico: NIST SP 800-88 Guidelines for Media Sanitization Explained",
+          "captured": "2026-04-26",
+          "summary": "Vendor explainer covering sanitisation methods and compliance.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.goworkwize.com/blog/what-is-nist-800-88-guide",
+          "title": "Workwize: What is NIST 800-88? Guide to Media Sanitization",
+          "captured": "2026-04-26",
+          "summary": "Practical NIST 800-88 guide for IT operations teams.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.pearsonitcertification.com/articles/article.aspx?p=3128866&seqNum=20",
+          "title": "Pearson IT Certification: Data Remanence and Decommissioning",
+          "captured": "2026-04-26",
+          "summary": "Asset Security article on residual data and end-of-life destruction.",
+          "extract": ""
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-88r2.pdf",
+          "title": "NIST SP 800-88r2 PDF",
+          "captured": "2026-04-26",
+          "summary": "Authoritative PDF of NIST 800-88 Rev 2.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/scoping-tailoring-security-controls-for-businesses/",
+          "title": "DestCert: Scoping & Tailoring Security Controls",
+          "captured": "2026-04-26",
+          "summary": "Scoping excludes irrelevant controls; tailoring modifies remaining ones.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.learnsecuritymanagement.com/cissp-insight-scoping-vs-tailoring",
+          "title": "LearnSecurityManagement: Scoping vs Tailoring",
+          "captured": "2026-04-26",
+          "summary": "CISSP-focused comparison of scoping versus tailoring.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.pearsonitcertification.com/articles/article.aspx?p=3167978&seqNum=7",
+          "title": "Pearson IT Certification: Data Security Controls",
+          "captured": "2026-04-26",
+          "summary": "Asset Security article on technical and admin data controls.",
+          "extract": ""
+        },
+        {
+          "url": "https://community.isc2.org/t5/Tech-Talk/NIST-SP-800-53-REV-5-Final-Published/td-p/39493",
+          "title": "ISC2 Community: NIST SP 800-53 Rev 5 Final Published",
+          "captured": "2026-04-26",
+          "summary": "Member discussion of the impact of NIST 800-53 Rev 5.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.scribd.com/document/755480430/Cissp-Mind-Map-100-Practice-Questions-Combo",
+          "title": "Scribd: CISSP Mind Map + 100 Practice Questions Combo",
+          "captured": "2026-04-26",
+          "summary": "Mind-map style review aid combined with practice questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-53ar1.pdf",
+          "title": "NIST SP 800-53A Rev 1",
+          "captured": "2026-04-26",
+          "summary": "Guide for Assessing Security Controls \u2014 referenced by CISSP CBK.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2022/02/08/cissp-practice-questions-20220208/",
+          "title": "Wentz Wu: CISSP Practice Questions 20220208",
+          "captured": "2026-04-26",
+          "summary": "Includes Asset Security scoping/tailoring questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2020/06/19/cissp-practice-questions-20200620/",
+          "title": "Wentz Wu: CISSP Practice Questions 20200620",
+          "captured": "2026-04-26",
+          "summary": "Older set with data ownership scenarios.",
+          "extract": ""
+        },
+        {
+          "url": "https://community.isc2.org/t5/Tech-Talk/Help-with-the-NIST-800-53-controls-list/td-p/5893",
+          "title": "ISC2 Community: Help with the NIST 800-53 controls list",
+          "captured": "2026-04-26",
+          "summary": "Member thread mapping NIST controls to CISSP topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.dhs.gov/sites/default/files/publications/4300A-Handbook-Attachment-M-Tailoring-NIST-800-53-Security-Controls.pdf",
+          "title": "DHS 4300A Attachment M: Tailoring NIST 800-53",
+          "captured": "2026-04-26",
+          "summary": "Government tailoring example referenced in Domain 2 study guides.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/60/v1/r1/final",
+          "title": "NIST SP 800-60 Vol I Rev 1: Mapping Information Types to Security Categories",
+          "captured": "2026-04-26",
+          "summary": "FIPS-199 categorisation guidance for asset classification.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/fips/199/final",
+          "title": "FIPS PUB 199: Standards for Security Categorization",
+          "captured": "2026-04-26",
+          "summary": "Low/Moderate/High impact categorisation for federal information.",
+          "extract": ""
+        },
+        {
+          "url": "https://gdpr-info.eu/",
+          "title": "GDPR Info: General Data Protection Regulation full text",
+          "captured": "2026-04-26",
+          "summary": "Useful for Domain 2 privacy and data subject rights questions.",
+          "extract": ""
+        }
+      ]
+    },
+    "3": {
+      "name": "Security Architecture and Engineering",
+      "weight_pct": 13,
+      "sources": [
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-3-security",
+          "title": "BalancedSec: Understanding CISSP Domain 3 \u2014 Part 1",
+          "captured": "2026-04-26",
+          "summary": "Domain 3 study notes on architecture and security models.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/393367250/cissp-domain-3-security-architecture-and-engineering-flash-cards/",
+          "title": "Quizlet: CISSP Domain 3 Security Architecture flashcards",
+          "captured": "2026-04-26",
+          "summary": "Flashcards on Bell-LaPadula, Biba, Clark-Wilson, Brewer-Nash, etc.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2025/09/cissp-domain-3-practice-test-100-best-questions-that-actually-matter.html",
+          "title": "InfoTechSite: CISSP Domain 3 Practice Test \u2014 100 questions",
+          "captured": "2026-04-26",
+          "summary": "100-question practice set focused on Domain 3 hard topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/domain-3-security-architecture-and-engineering/",
+          "title": "DestCert: CISSP Domain 3 \u2014 Comprehensive Security Architecture Guide",
+          "captured": "2026-04-26",
+          "summary": "Domain 3 (13%) covering security models, crypto, secure design.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cybernous.com/domain-summaries/cissp-domain-3-security-architecture-and-engineering",
+          "title": "Cybernous: CISSP Domain 3 \u2014 Full Study Summary",
+          "captured": "2026-04-26",
+          "summary": "Long-form Domain 3 review by Manoj Sharma.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosectrain.com/blog/domain-3-security-architecture-and-engineering",
+          "title": "InfosecTrain: Domain 3 \u2014 Security Architecture and Engineering",
+          "captured": "2026-04-26",
+          "summary": "Topic-by-topic Domain 3 walkthrough.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/quiz/Security-Engineering-CISSP-Domain-3-practice-quiz",
+          "title": "TechTarget: CISSP Domain 3 quiz",
+          "captured": "2026-04-26",
+          "summary": "Practice quiz covering security models and cryptographic primitives.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/security-access-control-models/",
+          "title": "CISSPrep: Security Models & Engineering",
+          "captured": "2026-04-26",
+          "summary": "Comparison of MAC/DAC models and reference monitor concepts.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisspcybertraining.com/blog/indian-cctv-and-cissp-practice-test-domain-3",
+          "title": "CISSP Cyber Training: Domain 3 practice test",
+          "captured": "2026-04-26",
+          "summary": "Practice questions tied to physical security and access models.",
+          "extract": ""
+        },
+        {
+          "url": "https://siit.co/blog/cissp-security-models-bell-lapadula-biba-and-clark-wilson-in-exams/51331",
+          "title": "SIIT: CISSP Security Models in Exams",
+          "captured": "2026-04-26",
+          "summary": "Exam-style scenarios mapping models to security goals.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.threatonthewire.com/cissp-domain-3-securing-hardware-platform/",
+          "title": "ThreatOnTheWire: Securing the Hardware Platform \u2014 CISSP Domain 3",
+          "captured": "2026-04-26",
+          "summary": "TPM, HSM, secure boot, side-channel issues.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examtopics.com/discussions/isc/view/81799-exam-cissp-topic-1-question-98-discussion/",
+          "title": "ExamTopics: CISSP topic 1 question 98 discussion",
+          "captured": "2026-04-26",
+          "summary": "Community discussion of a hardware/security-architecture question.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examcollection.com/blog/cissp-exam-prep-deep-dive-into-covert-channel-analysis/",
+          "title": "ExamCollection: Deep Dive into Covert Channel Analysis",
+          "captured": "2026-04-26",
+          "summary": "Storage vs timing covert channels and detection strategies.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cybrary.it/blog/covert-channel-analysis",
+          "title": "Cybrary: CISSP Study Guide \u2014 Covert Channel Analysis",
+          "captured": "2026-04-26",
+          "summary": "Differentiates covert from overt channels for CISSP candidates.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.wolfssl.com/difference-hsm-tpm-secure-enclave-secure-element-hardware-root-trust/",
+          "title": "wolfSSL: Difference between HSM, TPM, Secure Enclave, Secure Element",
+          "captured": "2026-04-26",
+          "summary": "Compares different hardware roots of trust.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.hsmpress.ca/cissp/3-4-understand-security-capabilities-of-information-systems-e-g-memory-protection-trusted-platform-module-tpm-encryption-decryption/",
+          "title": "HSM Press: CISSP 3.4 \u2014 Memory protection, TPM, encryption",
+          "captured": "2026-04-26",
+          "summary": "Subdomain reference for capabilities of information systems.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2020/09/28/cissp-practice-questions-20200929/",
+          "title": "Wentz Wu: CISSP Practice Questions 20200929",
+          "captured": "2026-04-26",
+          "summary": "Domain 3 questions including hardware and crypto.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.usenix.org/system/files/sec20-moghimi-tpm.pdf",
+          "title": "USENIX: TPM-Fail \u2014 TPM meets Timing and Lattice Attacks",
+          "captured": "2026-04-26",
+          "summary": "Academic paper on TPM side-channel vulnerabilities.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/types-of-ciphers/",
+          "title": "DestCert: Types of Ciphers \u2014 ECB, CBC, OFB & More",
+          "captured": "2026-04-26",
+          "summary": "Block-cipher modes of operation explained for CISSP.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examcollection.com/blog/cryptography-and-encryption-a-cissp-study-companion/",
+          "title": "ExamCollection: Cryptography and Encryption \u2014 CISSP Companion",
+          "captured": "2026-04-26",
+          "summary": "Crypto study companion: symmetric, asymmetric, hashing, PKI.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/cryptography-mindmap-cissp-domain-3/",
+          "title": "DestCert: Cryptography MindMap \u2014 CISSP Domain 3",
+          "captured": "2026-04-26",
+          "summary": "Visual mind map of crypto for Domain 3.",
+          "extract": ""
+        },
+        {
+          "url": "https://itknowledgebases.com/block-cipher-modes-of-operation-explained-ecb-vs-cbc-vs-ctr-vs-gcm-cissp-guide/",
+          "title": "ITKnowledgeBases: Block Cipher Modes Explained \u2014 CISSP Guide",
+          "captured": "2026-04-26",
+          "summary": "ECB vs CBC vs CTR vs GCM with CISSP context.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-3-security-ace",
+          "title": "BalancedSec: Understanding CISSP Domain 3 \u2014 Part 2",
+          "captured": "2026-04-26",
+          "summary": "Continuation focused on cryptography and PKI.",
+          "extract": ""
+        },
+        {
+          "url": "https://thomasrayner.ca/cissp-study-notes-ch6/",
+          "title": "Thomas Rayner: CISSP Study Notes Chapter 6 \u2014 Cryptography",
+          "captured": "2026-04-26",
+          "summary": "Chapter 6 cryptography study notes from Sybex.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.threatonthewire.com/cissp-domain-3-cryptography-essentials/",
+          "title": "ThreatOnTheWire: Cryptography Essentials for Security Architects",
+          "captured": "2026-04-26",
+          "summary": "Manager-perspective cryptography review.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.haikel-fazzani.eu.org/blog/post/aes-encryption-modes-gcm-cbc-ctr",
+          "title": "Haikel Fazzani: Understanding AES Encryption Modes",
+          "captured": "2026-04-26",
+          "summary": "Practical AES mode explanation.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/feature/CISSP-cryptography-training-Components-protocols-and-authentication",
+          "title": "TechTarget: CISSP cryptography training",
+          "captured": "2026-04-26",
+          "summary": "Cryptography training feature covering components and protocols.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.slideshare.net/KarthikeyanDhayalan1/cissp-chapter-3-cryptography",
+          "title": "SlideShare: CISSP Chapter 3 Cryptography",
+          "captured": "2026-04-26",
+          "summary": "Slide deck summarising Chapter 3 cryptography content.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/57/pt1/r5/final",
+          "title": "NIST SP 800-57 Part 1 Rev 5: Recommendation for Key Management",
+          "captured": "2026-04-26",
+          "summary": "Authoritative NIST key-management guidance.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/fips/140/3/final",
+          "title": "FIPS 140-3: Security Requirements for Cryptographic Modules",
+          "captured": "2026-04-26",
+          "summary": "Standard for cryptographic module validation.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.commoncriteriaportal.org/cc/",
+          "title": "Common Criteria Portal",
+          "captured": "2026-04-26",
+          "summary": "Common Criteria EAL evaluation levels (EAL1-EAL7) authoritative source.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+          "title": "NIST SP 800-53 Rev 5: Security and Privacy Controls",
+          "captured": "2026-04-26",
+          "summary": "Catalog of security and privacy controls referenced across all domains.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/vulnerabilities-in-systems-mindmap-cissp-domain-3/",
+          "title": "DestCert: Vulnerabilities in Systems MindMap \u2014 Domain 3",
+          "captured": "2026-04-26",
+          "summary": "MindMap for system vulnerabilities (race conditions, covert channels).",
+          "extract": ""
+        }
+      ]
+    },
+    "4": {
+      "name": "Communication and Network Security",
+      "weight_pct": 13,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/cissp-domain-4-communication-and-network-security/",
+          "title": "DestCert: CISSP Domain 4 \u2014 Guide to Communication and Network Security",
+          "captured": "2026-04-26",
+          "summary": "Domain 4 (13%) walkthrough: OSI/TCP-IP, secure protocols, wireless.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2025/10/take-this-cissp-domain-4-practice-test.html",
+          "title": "InfoTechSite: CISSP Domain 4 Practice Test \u2014 100 questions",
+          "captured": "2026-04-26",
+          "summary": "Practice test focused on Domain 4 networking topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/domain-4-concepts-and-terms/",
+          "title": "CISSPrep: Domain 4 Concepts and Terms",
+          "captured": "2026-04-26",
+          "summary": "Glossary of Domain 4 networking terms for the exam.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-4-communication",
+          "title": "BalancedSec: Understanding CISSP Domain 4 \u2014 Part 1",
+          "captured": "2026-04-26",
+          "summary": "Domain 4 study notes part 1.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.udemy.com/course/cissp-domain-4-communication-and-network-security/",
+          "title": "Udemy: CISSP Domain 4 \u2014 Communication and Network Security",
+          "captured": "2026-04-26",
+          "summary": "Paid course with 200+ scenario-based questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://resources.infosecinstitute.com/certification/communications-and-network-security/",
+          "title": "Infosec Institute: CISSP Domain 4 \u2014 Communications and Network Security",
+          "captured": "2026-04-26",
+          "summary": "Topic guide for Domain 4.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-4-communication-7ae",
+          "title": "BalancedSec: Understanding CISSP Domain 4 \u2014 Part 2",
+          "captured": "2026-04-26",
+          "summary": "Domain 4 study notes part 2.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/217188092/cissp-practice-tests-chapter-4-communication-and-network-security-domain-4-flash-cards/",
+          "title": "Quizlet: CISSP Practice Tests Chapter 4 \u2014 Communication and Network Security",
+          "captured": "2026-04-26",
+          "summary": "Flashcards aligned to chapter 4 of the official practice tests.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/quiz/CISSP-Domain-4-Test-your-expertise-of-network-security-basics",
+          "title": "TechTarget: CISSP Domain 4 quiz \u2014 Network security basics",
+          "captured": "2026-04-26",
+          "summary": "Quiz on OSI, VPNs, firewalls, network attacks.",
+          "extract": ""
+        },
+        {
+          "url": "https://jefferywmoore.github.io/CISSP-Study-Resources/CISSP-Domain-4-2024+Objectives.html",
+          "title": "Jeffery W Moore: CISSP-Study-Resources \u2014 Domain 4 Objectives 2024",
+          "captured": "2026-04-26",
+          "summary": "Open-source 2024-aligned Domain 4 objectives.",
+          "extract": ""
+        },
+        {
+          "url": "https://smallstep.com/blog/eaptls-certificate-wifi/",
+          "title": "SmallStep: Certificate Based Wi-Fi Authentication with RADIUS and EAP-TLS",
+          "captured": "2026-04-26",
+          "summary": "Practical EAP-TLS with RADIUS deployment guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchnetworking/feature/Choosing-the-right-flavor-of-8021X",
+          "title": "TechTarget: Overview of 802.1X authentication methods and EAP",
+          "captured": "2026-04-26",
+          "summary": "Compares EAP-TLS, PEAP, EAP-TTLS, EAP-FAST for 802.1X.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/213543-configure-eap-tls-flow-with-ise.html",
+          "title": "Cisco: Understand and Configure EAP-TLS with AireOS WLC and ISE",
+          "captured": "2026-04-26",
+          "summary": "Cisco-specific EAP-TLS reference design.",
+          "extract": ""
+        },
+        {
+          "url": "https://securew2.com/blog/802-1x-eap-tls-authentication-flow-explained",
+          "title": "SecureW2: 802.1X EAP-TLS Authentication Flow",
+          "captured": "2026-04-26",
+          "summary": "Step-by-step EAP-TLS handshake explanation.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.ironwifi.com/blogs/best-eap-methods-wifi/",
+          "title": "IronWiFi: Best EAP Methods for Wi-Fi \u2014 EAP-TLS vs PEAP vs EAP-TTLS",
+          "captured": "2026-04-26",
+          "summary": "Comparison of dominant EAP methods in WPA2/3 Enterprise.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cloudi-fi.com/blog/wpa2-enterprise-802-1x",
+          "title": "Cloudi-Fi: WPA2/3-Enterprise \u2014 Secure Wi-Fi with 802.1X authentication",
+          "captured": "2026-04-26",
+          "summary": "Enterprise wireless security explainer.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2021/08/15/cissp-practice-questions-20210815/",
+          "title": "Wentz Wu: CISSP Practice Questions 20210815",
+          "captured": "2026-04-26",
+          "summary": "Includes zero-trust and microsegmentation questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisspcybertraining.com/blog/uk-manufacture-attacks-cissp-practice-test",
+          "title": "CISSP Cyber Training: UK Manufacture Attacks practice test",
+          "captured": "2026-04-26",
+          "summary": "Network attack-pattern practice questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.iptel.com.au/blog/cisco-sd-access-micro-segmentation-explained",
+          "title": "iptel: Cisco SD-Access Micro Segmentation Explained",
+          "captured": "2026-04-26",
+          "summary": "Vendor-agnostic microsegmentation concepts.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/software-defined-networking-sdn/",
+          "title": "DestCert: Software-Defined Networking (SDN) for Scalable Security",
+          "captured": "2026-04-26",
+          "summary": "SDN concepts every CISSP needs.",
+          "extract": ""
+        },
+        {
+          "url": "https://ipwithease.com/microsegmentation-vs-zero-trust/",
+          "title": "IPwithEase: Microsegmentation vs Zero Trust",
+          "captured": "2026-04-26",
+          "summary": "Differentiates microsegmentation from full zero-trust architecture.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.networkworld.com/article/966394/zero-trust-networking-ztn-don-t-trust-anything.html",
+          "title": "NetworkWorld: Zero Trust Networking \u2014 don't trust anything",
+          "captured": "2026-04-26",
+          "summary": "Mainstream introduction to zero-trust networking.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisco.com/c/en/us/td/docs/dcn/whitepapers/securing-datacenters-with-microsegmentation-and-vxlan-gpo.html",
+          "title": "Cisco: Securing Data Centers with Microsegmentation using VXLAN GPO",
+          "captured": "2026-04-26",
+          "summary": "Vendor whitepaper on VXLAN microsegmentation.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.wwt.com/article/cisco-zero-trust-a-holistic-approach",
+          "title": "WWT: Cisco Zero Trust \u2014 A Holistic Approach",
+          "captured": "2026-04-26",
+          "summary": "Holistic zero-trust architecture overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://duo.com/learn/zero-trust-segmentation",
+          "title": "Cisco Duo: Zero Trust Segmentation Guide for Security Leaders",
+          "captured": "2026-04-26",
+          "summary": "Manager-level zero-trust segmentation guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://datatracker.ietf.org/doc/html/rfc8446",
+          "title": "RFC 8446: TLS 1.3",
+          "captured": "2026-04-26",
+          "summary": "Authoritative TLS 1.3 specification.",
+          "extract": ""
+        },
+        {
+          "url": "https://datatracker.ietf.org/doc/html/rfc4301",
+          "title": "RFC 4301: Security Architecture for the Internet Protocol (IPsec)",
+          "captured": "2026-04-26",
+          "summary": "IPsec architecture document.",
+          "extract": ""
+        },
+        {
+          "url": "https://datatracker.ietf.org/doc/html/rfc7296",
+          "title": "RFC 7296: Internet Key Exchange Protocol Version 2 (IKEv2)",
+          "captured": "2026-04-26",
+          "summary": "IKEv2 specification used in modern IPsec deployments.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/207/final",
+          "title": "NIST SP 800-207: Zero Trust Architecture",
+          "captured": "2026-04-26",
+          "summary": "NIST authoritative zero-trust reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/www-project-top-ten/",
+          "title": "OWASP Top Ten Project",
+          "captured": "2026-04-26",
+          "summary": "OWASP Top 10 web app risks (referenced for application-layer attacks).",
+          "extract": ""
+        },
+        {
+          "url": "https://www.ietf.org/rfc/rfc4303.txt",
+          "title": "RFC 4303: IP Encapsulating Security Payload (ESP)",
+          "captured": "2026-04-26",
+          "summary": "ESP for IPsec confidentiality + integrity.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.ietf.org/rfc/rfc4302.txt",
+          "title": "RFC 4302: IP Authentication Header (AH)",
+          "captured": "2026-04-26",
+          "summary": "AH integrity-only IPsec mode.",
+          "extract": ""
+        }
+      ]
+    },
+    "5": {
+      "name": "Identity and Access Management",
+      "weight_pct": 13,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/cissp-domain-5-identity-and-access-management-iam/",
+          "title": "DestCert: CISSP Domain 5 \u2014 Identity & Access Management",
+          "captured": "2026-04-26",
+          "summary": "Domain 5 (13%) coverage of IAM lifecycle, federation, MFA.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.readynez.com/en/blog/understanding-cissp-domain-5-identity-and-access-management/",
+          "title": "Readynez: Understanding CISSP Domain 5 \u2014 IAM Explained",
+          "captured": "2026-04-26",
+          "summary": "Domain 5 study guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2025/10/cissp-domain-5-practice-test-100-questions-to-boost-your-confidence.html",
+          "title": "InfoTechSite: CISSP Domain 5 Practice Test \u2014 100 questions",
+          "captured": "2026-04-26",
+          "summary": "100-question practice test focused on Domain 5.",
+          "extract": ""
+        },
+        {
+          "url": "https://isc2tc.org/wp-content/uploads/2016/05/CISSPStudyGroup_Domain_5_IdM_2016.pdf",
+          "title": "ISC2 Twin Cities Chapter: CISSP Study Group \u2014 Domain 5 IdM (2016)",
+          "captured": "2026-04-26",
+          "summary": "Local-chapter study deck on identity management.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisspcybertraining.com/blog/cissp-rapid-review-domain-5",
+          "title": "CISSP Cyber Training: Rapid Review \u2014 Domain 5",
+          "captured": "2026-04-26",
+          "summary": "Rapid-review podcast/blog on Domain 5 high-yield topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://cromwell-intl.com/cybersecurity/isc2-cissp/domain-5-identity-access-management.html",
+          "title": "Cromwell-Intl: CISSP Domain 5 \u2014 Identity & Access Management",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 5 study guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://resources.infosecinstitute.com/certification/identity-and-access-management/",
+          "title": "Infosec Institute: CISSP Domain 5 \u2014 Identity and Access Management",
+          "captured": "2026-04-26",
+          "summary": "IAM concept overview for CISSP.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.pearsonitcertification.com/articles/article.aspx?p=2738310",
+          "title": "Pearson IT Certification: IAM Practice Questions",
+          "captured": "2026-04-26",
+          "summary": "Practice questions article from Pearson.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosecinstitute.com/resources/cissp/identity-and-access-management/",
+          "title": "Infosec Institute (alt): IAM CISSP Domain 5",
+          "captured": "2026-04-26",
+          "summary": "Domain 5 reference page.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cybernous.com/domain-summaries/cissp-domain-5-summary-mastering-identity-access-management-iam",
+          "title": "Cybernous: CISSP Domain 5 Summary \u2014 Mastering IAM",
+          "captured": "2026-04-26",
+          "summary": "Domain 5 long-form summary by Manoj Sharma.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/federation-and-saml/",
+          "title": "CISSPrep: Federation and SAML",
+          "captured": "2026-04-26",
+          "summary": "Federation/SAML primer with example assertion exchanges.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/federated-identity-management/",
+          "title": "DestCert: Federated Identity Management \u2014 Extensive CISSP Guide",
+          "captured": "2026-04-26",
+          "summary": "FIM concepts (IdP, SP, RP) for the CISSP exam.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/saml-vs-sso/",
+          "title": "DestCert: SAML vs SSO \u2014 Key Differences in Single Sign-On",
+          "captured": "2026-04-26",
+          "summary": "Distinguishes SAML (a protocol) from SSO (a UX pattern).",
+          "extract": ""
+        },
+        {
+          "url": "https://info-savvy.com/cissp-federated-identity-management-bk1d5t2st6/",
+          "title": "Info-Savvy: CISSP Federated Identity Management",
+          "captured": "2026-04-26",
+          "summary": "FIM topic in Domain 5 with examples.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.fortinet.com/resources/cyberglossary/saml-vs-oauth",
+          "title": "Fortinet: What is SAML vs OAuth?",
+          "captured": "2026-04-26",
+          "summary": "Vendor explainer comparing SAML and OAuth.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.securityjourney.com/post/analysis-of-common-federated-identity-protocols-openid-connect-vs-oauth-2.0-vs-saml-2.0",
+          "title": "SecurityJourney: OpenID Connect vs OAuth 2.0 vs SAML 2.0",
+          "captured": "2026-04-26",
+          "summary": "Side-by-side analysis of three common federation protocols.",
+          "extract": ""
+        },
+        {
+          "url": "https://commandline.ninja/saml-oauth-oidc/",
+          "title": "Commandline Ninja: SSO \u2014 SAML vs OAuth vs OIDC",
+          "captured": "2026-04-26",
+          "summary": "Plain-language SSO protocol comparison.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2021/01/06/cissp-practice-questions-20210107/",
+          "title": "Wentz Wu: CISSP Practice Questions 20210107",
+          "captured": "2026-04-26",
+          "summary": "Federation and Kerberos question set.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examcollection.com/blog/comprehensive-guide-to-single-sign-on-sso-for-cissp/",
+          "title": "ExamCollection: Comprehensive Guide to SSO for CISSP",
+          "captured": "2026-04-26",
+          "summary": "Long-form SSO study guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://fedtechmagazine.com/article/2020/01/federated-identity-management-saml-vs-oauth-perfcon",
+          "title": "FedTech: Federated Identity Management \u2014 SAML vs OAuth",
+          "captured": "2026-04-26",
+          "summary": "Government IT perspective on federation choice.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/access-control-systems-multifactor-authentication-and-biometrics/",
+          "title": "CISSPrep: Access Control Systems, MFA & Biometrics",
+          "captured": "2026-04-26",
+          "summary": "MFA factors and biometric performance metrics for CISSP.",
+          "extract": ""
+        },
+        {
+          "url": "https://medium.com/the-effective-cissp/multi-factor-authentication-mfa-c30808f81a57",
+          "title": "Medium / The Effective CISSP: Multi-Factor Authentication (Wentz Wu)",
+          "captured": "2026-04-26",
+          "summary": "MFA explanation by Wentz Wu.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.isc2.org/Insights/2023/10/Cybersecurity-Awareness-Month-Multifactor-Authentication",
+          "title": "ISC2 Insights: MFA \u2014 Enhancing Digital Security",
+          "captured": "2026-04-26",
+          "summary": "Official ISC2 perspective on MFA.",
+          "extract": ""
+        },
+        {
+          "url": "https://community.isc2.org/t5/Tech-Talk/Is-this-really-MFA/td-p/20087",
+          "title": "ISC2 Community: Is this really MFA?",
+          "captured": "2026-04-26",
+          "summary": "Member discussion of MFA edge cases.",
+          "extract": ""
+        },
+        {
+          "url": "https://thorteaches.com/glossary/just-in-time-jit-access/",
+          "title": "ThorTeaches: Just-in-Time (JIT) access glossary",
+          "captured": "2026-04-26",
+          "summary": "Glossary entry for JIT access from Thor Pedersen.",
+          "extract": ""
+        },
+        {
+          "url": "https://delinea.com/what-is/just-in-time-access",
+          "title": "Delinea: What is Just-in-Time (JIT) Access?",
+          "captured": "2026-04-26",
+          "summary": "Vendor explainer of JIT privilege management.",
+          "extract": ""
+        },
+        {
+          "url": "https://hoop.dev/blog/unlocking-the-power-of-just-in-time-provisioning-for-mfa-a-technology-managers-guide/",
+          "title": "hoop.dev: JIT Provisioning for MFA \u2014 A Technology Manager's Guide",
+          "captured": "2026-04-26",
+          "summary": "Manager-level JIT + MFA integration guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://hoop.dev/blog/unlocking-security-just-in-time-provisioning-with-multi-factor-authentication",
+          "title": "hoop.dev: Just-in-Time Provisioning with MFA",
+          "captured": "2026-04-26",
+          "summary": "Practical implementation patterns for JIT + MFA.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cyberark.com/what-is/just-in-time-access/",
+          "title": "CyberArk: What is Just-In-Time Access?",
+          "captured": "2026-04-26",
+          "summary": "Vendor reference on JIT access for privileged accounts.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/63/3/final",
+          "title": "NIST SP 800-63-3: Digital Identity Guidelines",
+          "captured": "2026-04-26",
+          "summary": "Authoritative AAL/IAL/FAL identity assurance levels.",
+          "extract": ""
+        },
+        {
+          "url": "https://datatracker.ietf.org/doc/html/rfc6749",
+          "title": "RFC 6749: The OAuth 2.0 Authorization Framework",
+          "captured": "2026-04-26",
+          "summary": "OAuth 2.0 base specification.",
+          "extract": ""
+        },
+        {
+          "url": "https://openid.net/developers/specs/",
+          "title": "OpenID Connect: Core Specifications",
+          "captured": "2026-04-26",
+          "summary": "OIDC core specifications and ID token format.",
+          "extract": ""
+        },
+        {
+          "url": "https://datatracker.ietf.org/doc/html/rfc4120",
+          "title": "RFC 4120: The Kerberos Network Authentication Service (V5)",
+          "captured": "2026-04-26",
+          "summary": "Kerberos V5 authoritative reference.",
+          "extract": ""
+        }
+      ]
+    },
+    "6": {
+      "name": "Security Assessment and Testing",
+      "weight_pct": 12,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/cissp-domain-6-security-assessment-and-testing/",
+          "title": "DestCert: CISSP Domain 6 \u2014 Security Assessment & Testing",
+          "captured": "2026-04-26",
+          "summary": "Domain 6 (12%) covering test strategies, audits, KPIs.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-6-security",
+          "title": "BalancedSec: Understanding CISSP Domain 6 \u2014 Part 1",
+          "captured": "2026-04-26",
+          "summary": "Domain 6 study notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://certifiedcissp.com/domain-6-security-assessment/",
+          "title": "CertifiedCISSP: Domain 6 \u2014 Security Assessment and Testing",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 6 notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://medium.com/@sharma1997pushpak/cissp-domain-6-security-assessment-and-testing-26fb61230c43",
+          "title": "Medium / Pushpak Sharma: CISSP Domain 6",
+          "captured": "2026-04-26",
+          "summary": "Personal study writeup of Domain 6.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/217188152/cissp-practice-tests-chapter-6-security-assessment-and-testing-domain-6-flash-cards/",
+          "title": "Quizlet: CISSP Practice Tests Chapter 6",
+          "captured": "2026-04-26",
+          "summary": "Flashcards aligned to chapter 6 of the official practice tests.",
+          "extract": ""
+        },
+        {
+          "url": "https://flashgenius.net/blog-article/cissp-practice-questions-security-assessment-and-testing-1749432273613",
+          "title": "FlashGenius: Free CISSP Practice Questions Domain 6 (2025)",
+          "captured": "2026-04-26",
+          "summary": "Updated 2025 Domain 6 free practice questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2025/11/cissp-domain-6-practice-test-the-best-way-to-enhance-your-skills.html",
+          "title": "InfoTechSite: CISSP Domain 6 Practice Test",
+          "captured": "2026-04-26",
+          "summary": "Sample Domain 6 practice questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/domain-6-security-assessment-and-testing/",
+          "title": "CISSPrep: Domain 6 \u2014 Security Assessment and Testing",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 6 study notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/819400399/cissp-domain-6-security-assessment-and-testing-flash-cards/",
+          "title": "Quizlet: CISSP Domain 6 Security Assessment flashcards",
+          "captured": "2026-04-26",
+          "summary": "Updated card deck for Domain 6.",
+          "extract": ""
+        },
+        {
+          "url": "https://cybermind.in/cissp/cissp-domain-6-security-assessment-and-testing/",
+          "title": "CyberMind: CISSP Domain 6 \u2014 Free Quizzes",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 6 quiz set.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosectrain.com/blog/black-box-vs-white-box-vs-grey-box-penetration-testing",
+          "title": "InfosecTrain: Black Box vs White Box vs Grey Box Penetration Testing",
+          "captured": "2026-04-26",
+          "summary": "Comparison of pen-test box approaches.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.tracesecurity.com/blog/articles/what-is-black-box-white-box-and-gray-box-testing/",
+          "title": "TraceSecurity: What is Black/White/Gray Box Testing?",
+          "captured": "2026-04-26",
+          "summary": "Explainer of testing box types.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosecinstitute.com/resources/penetration-testing/what-are-black-box-grey-box-and-white-box-penetration-testing/",
+          "title": "Infosec Institute: Black/Grey/White Box Pen Testing",
+          "captured": "2026-04-26",
+          "summary": "Pen-test box types overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.eccouncil.org/cybersecurity-exchange/penetration-testing/black-box-gray-box-and-white-box-penetration-testing-importance-and-uses/",
+          "title": "EC-Council: Black, Gray, and White-Box Penetration Testing",
+          "captured": "2026-04-26",
+          "summary": "Pen-test box overview from EC-Council.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.pentesting.org/cissp-study-guide/",
+          "title": "PenTesting.org: CISSP Study Guide",
+          "captured": "2026-04-26",
+          "summary": "Pen-testing-focused CISSP study guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cbtnuggets.com/blog/technology/networking/what-is-black-vs-gray-vs-white-box-testing",
+          "title": "CBT Nuggets: What is Pen Testing? Black/Grey/White box.",
+          "captured": "2026-04-26",
+          "summary": "Plain-language pen-testing primer.",
+          "extract": ""
+        },
+        {
+          "url": "https://deepstrike.io/blog/black-box-vs-white-box-testing",
+          "title": "DeepStrike: Black Box vs White Box Penetration Testing \u2014 2026 Guide",
+          "captured": "2026-04-26",
+          "summary": "Updated pen-test types reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://bsg.tech/blog/black-box-vs-white-box-vs-grey-box-penetration-testing/",
+          "title": "BSG: Black/White/Grey Box Pentest",
+          "captured": "2026-04-26",
+          "summary": "Pen-test box explainer.",
+          "extract": ""
+        },
+        {
+          "url": "https://cybersecurity.bureauveritas.com/services/information-technology/pentesting-services/pentesting-methods/black-gray-crystal-pentesting-boxes",
+          "title": "Bureau Veritas: Pentest Boxes \u2014 Black, Grey, Crystal, White",
+          "captured": "2026-04-26",
+          "summary": "Adds 'crystal box' (full transparency) to typology.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cobalt.io/blog/black-gray-and-white-box-pentests",
+          "title": "Cobalt: Decoding the Differences \u2014 Black, Gray, and White-Box Pentests",
+          "captured": "2026-04-26",
+          "summary": "Practical pen-test type comparison.",
+          "extract": ""
+        },
+        {
+          "url": "https://socreports.com/white-papers/educational/isae-3402-type-2-reports",
+          "title": "SOCReports: ISAE 3402 Type 2 Reports \u2014 SOC 2 Audits",
+          "captured": "2026-04-26",
+          "summary": "Distinguishes ISAE 3402 from SOC 2.",
+          "extract": ""
+        },
+        {
+          "url": "https://brandcompliance.com/en/docs/soc-2-or-isae-3402/",
+          "title": "BrandCompliance: SOC 2 or ISAE 3402?",
+          "captured": "2026-04-26",
+          "summary": "Decision guidance for picking the right audit standard.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.networking4all.com/en/support/faq/what-is-isae-3402",
+          "title": "Networking4all: What is ISAE 3402?",
+          "captured": "2026-04-26",
+          "summary": "ISAE 3402 FAQ.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.zluri.com/blog/isae-3402-vs-soc-2",
+          "title": "Zluri: ISAE 3402 vs SOC 2",
+          "captured": "2026-04-26",
+          "summary": "Comparison of audit frameworks.",
+          "extract": ""
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/ISAE_3402",
+          "title": "Wikipedia: ISAE 3402",
+          "captured": "2026-04-26",
+          "summary": "Encyclopedia overview of ISAE 3402.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cgcompliance.com/services/audits-and-assessment/isae-3402",
+          "title": "CG Compliance: ISAE 3402 Readiness Assessment Audit",
+          "captured": "2026-04-26",
+          "summary": "Audit firm description of ISAE 3402.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.certicus.com/isae-3402",
+          "title": "Certicus: ISAE 3402 / SOC 1",
+          "captured": "2026-04-26",
+          "summary": "ISAE 3402 audit firm overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://securance.com/news/isae-3402-soc-1-type-i-vs-type-ii",
+          "title": "Securance: ISAE 3402 / SOC 1 Type I vs Type II",
+          "captured": "2026-04-26",
+          "summary": "Type I vs Type II audit distinction.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.crowe.com/id/insights/a-guide-to-iso-27001-isae-3000-3402-and-soc",
+          "title": "Crowe: Guide to ISO 27001, ISAE 3000/3402, and SOC",
+          "captured": "2026-04-26",
+          "summary": "Maps ISO 27001 against ISAE/SOC frameworks.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.futura.international/corporate-it-digital-and-cybersecurity-audit-governance-services/soc-1-audit-isae-3402-and-ssae-18-and-soc-2-audit-isae-3000-tsp-100-trust-principles-criteria/",
+          "title": "Futura: SOC 1/ISAE 3402/SSAE 18 + SOC 2/ISAE 3000",
+          "captured": "2026-04-26",
+          "summary": "Map of audit standards globally.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/115/final",
+          "title": "NIST SP 800-115: Technical Guide to Information Security Testing and Assessment",
+          "captured": "2026-04-26",
+          "summary": "Authoritative NIST reference for security testing methodology.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/www-project-web-security-testing-guide/",
+          "title": "OWASP Web Security Testing Guide (WSTG)",
+          "captured": "2026-04-26",
+          "summary": "OWASP authoritative web testing guide.",
+          "extract": ""
+        }
+      ]
+    },
+    "7": {
+      "name": "Security Operations",
+      "weight_pct": 13,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/cissp-domain-7-security-operations/",
+          "title": "DestCert: Insights into CISSP Domain 7 \u2014 Security Operations",
+          "captured": "2026-04-26",
+          "summary": "Domain 7 (13%) IR, forensics, BCP/DRP.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2026/02/cissp-domain-7-practice-test.html",
+          "title": "InfoTechSite: CISSP Domain 7 Practice Test",
+          "captured": "2026-04-26",
+          "summary": "Domain 7 practice question set.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.crusec.com/single-post/2019/07/08/crusec-s-2019-cissp-study-guide-domain-7-security-operations",
+          "title": "CruSec: 2019 CISSP Study Guide \u2014 Domain 7",
+          "captured": "2026-04-26",
+          "summary": "Domain 7 long-form study guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2020/05/13/cissp-practice-questions-20200514/",
+          "title": "Wentz Wu: CISSP Practice Questions 20200514",
+          "captured": "2026-04-26",
+          "summary": "Operations and IR question set.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/cissp-domain-7-security-operations-part-1-understand-soundararajan",
+          "title": "LinkedIn (Soundararajan): CISSP Domain 7 \u2014 Investigations",
+          "captured": "2026-04-26",
+          "summary": "LinkedIn article on investigations and forensics.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/218032748/cissp-domain-7-security-operations-investigations-flash-cards/",
+          "title": "Quizlet: CISSP Domain 7 Security Operations \u2014 Investigations",
+          "captured": "2026-04-26",
+          "summary": "Investigations flashcards.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.coursera.org/learn/cissp-domain-7-security-operations",
+          "title": "Coursera: CISSP Domain 7 Security Operations",
+          "captured": "2026-04-26",
+          "summary": "Coursera course on Domain 7.",
+          "extract": ""
+        },
+        {
+          "url": "https://cdn.comparitech.com/wp-content/uploads/2020/01/CISSP-Cheat-Sheet-Domain-7.pdf",
+          "title": "Comparitech: CISSP Cheat Sheet Domain 7",
+          "captured": "2026-04-26",
+          "summary": "Compact cheat sheet for Domain 7.",
+          "extract": ""
+        },
+        {
+          "url": "https://intrinsecsecurity.com/blog/training-certifications/20-questions-cissp-edition/",
+          "title": "Intrinsec Security: 20 Questions \u2014 CISSP Edition",
+          "captured": "2026-04-26",
+          "summary": "Sample CISSP questions including Domain 7 topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/74996233/cissp-test-questions-domain-7-security-operations-flash-cards/",
+          "title": "Quizlet: CISSP Test Questions Domain 7",
+          "captured": "2026-04-26",
+          "summary": "Domain 7 flashcards.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.klogixsecurity.com/blog/navigating-incident-response-a-deep-dive-into-nist-800-61-containment-eradication-and-recovery",
+          "title": "K Logix: Navigating IR \u2014 NIST 800-61 Containment, Eradication, Recovery",
+          "captured": "2026-04-26",
+          "summary": "Deep dive into NIST 800-61 IR phases.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/files/pubs/sp/800/61/r2/final/docs/draft-sp800-61rev2.pdf",
+          "title": "NIST SP 800-61 Rev 2 (PDF)",
+          "captured": "2026-04-26",
+          "summary": "Authoritative IR lifecycle reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+          "title": "NIST SP 800-61 Rev 2 (NVLPubs PDF)",
+          "captured": "2026-04-26",
+          "summary": "Same NIST 800-61r2 published copy.",
+          "extract": ""
+        },
+        {
+          "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+          "title": "NIST SP 800-61 Rev 3 PDF",
+          "captured": "2026-04-26",
+          "summary": "Updated IR guidance with continuous improvement focus.",
+          "extract": ""
+        },
+        {
+          "url": "https://armorpoint.com/2024/05/08/a-step-by-step-guide-to-incident-response-practical-guidance-from-nist-sp-800-61/",
+          "title": "ArmorPoint: Step-by-Step Guide to IR \u2014 NIST SP 800-61",
+          "captured": "2026-04-26",
+          "summary": "Practical IR walkthrough.",
+          "extract": ""
+        },
+        {
+          "url": "https://flashgenius.net/guides/incident-response-for-cissp-2026-nist-800-61-phases-evidence-handling-amp-chain-of-custody-interactive-study-guide",
+          "title": "FlashGenius: IR for CISSP 2026 \u2014 NIST 800-61 + chain of custody",
+          "captured": "2026-04-26",
+          "summary": "Interactive 2026 study guide for IR.",
+          "extract": ""
+        },
+        {
+          "url": "https://tandem.app/blog/updated-nist-incident-response-guidance-sp-800-61-rev-3",
+          "title": "Tandem: Updated NIST IR Guidance \u2014 SP 800-61 Rev 3",
+          "captured": "2026-04-26",
+          "summary": "Summary of changes in 800-61 Rev 3.",
+          "extract": ""
+        },
+        {
+          "url": "https://medium.com/@bhavin200/nist-incident-response-800-61-a-comprehensive-guide-to-the-four-phase-lifecycle-for-identifying-3c79b9b0a993",
+          "title": "Medium / Bhavin: NIST IR 800-61 \u2014 Comprehensive Guide",
+          "captured": "2026-04-26",
+          "summary": "Four-phase IR lifecycle walkthrough.",
+          "extract": ""
+        },
+        {
+          "url": "https://medium.com/@divyesh.vaishanv/nist-sp-800-61-incident-response-life-cycle-explained-b7b63372cd3c",
+          "title": "Medium / Divyesh: NIST SP 800-61 IR Life Cycle Explained",
+          "captured": "2026-04-26",
+          "summary": "IR lifecycle explainer.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.rapid7.com/blog/post/2017/01/11/introduction-to-incident-response-life-cycle-of-nist-sp-800-61/",
+          "title": "Rapid7: Introduction to IR Life Cycle of NIST SP 800-61",
+          "captured": "2026-04-26",
+          "summary": "Vendor IR lifecycle introduction.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/data-backup/",
+          "title": "CISSPrep: Data Backup",
+          "captured": "2026-04-26",
+          "summary": "Backup types (full, incremental, differential) and 3-2-1 rule.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.pearsonitcertification.com/articles/article.aspx?p=1329710&seqNum=3",
+          "title": "Pearson: CISSP Exam Cram \u2014 BC/DR Planning",
+          "captured": "2026-04-26",
+          "summary": "BCP/DRP exam-cram article.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cybrary.it/blog/disaster-recovery-hot-cold-warm-sites",
+          "title": "Cybrary: CISSP \u2014 Hot, Cold, and Warm Sites",
+          "captured": "2026-04-26",
+          "summary": "Recovery site types comparison.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosecinstitute.com/resources/retired/cissp-domain-business-continuity-and-disaster-recovery/",
+          "title": "Infosec Institute: CISSP Domain \u2014 BC/DR",
+          "captured": "2026-04-26",
+          "summary": "BC/DR review article.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examcollection.com/blog/mastering-disaster-recovery-for-cissp-hot-cold-and-warm-site-strategies/",
+          "title": "ExamCollection: Mastering DR for CISSP",
+          "captured": "2026-04-26",
+          "summary": "DR site strategy discussion.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/recovery-strategies-mindmap-cissp-domain-7/",
+          "title": "DestCert: Recovery Strategies Mindmap \u2014 Domain 7",
+          "captured": "2026-04-26",
+          "summary": "Recovery strategies mind map.",
+          "extract": ""
+        },
+        {
+          "url": "https://quizlet.com/469536675/cissp-7-backupsredundancy-flash-cards/",
+          "title": "Quizlet: CISSP 7 \u2014 Backups & Redundancy",
+          "captured": "2026-04-26",
+          "summary": "Backup/redundancy flashcards.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.examguides.com/Networkplus/network-plus-15.htm",
+          "title": "ExamGuides: Disaster Recovery Concepts",
+          "captured": "2026-04-26",
+          "summary": "DR concepts (cross-cert) used by some CISSP candidates.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.omnisecu.com/ccna-security/types-of-backup-sites.php",
+          "title": "OmniSecu: Types of Backup Sites",
+          "captured": "2026-04-26",
+          "summary": "Hot/warm/cold/mobile site types.",
+          "extract": ""
+        },
+        {
+          "url": "https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/4/html/introduction_to_system_administration/s2-disaster-recovery-sites",
+          "title": "Red Hat Docs: Backup Sites \u2014 Cold, Warm, Hot",
+          "captured": "2026-04-26",
+          "summary": "Vendor doc on DR site types.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/34/r1/final",
+          "title": "NIST SP 800-34 Rev 1: Contingency Planning Guide",
+          "captured": "2026-04-26",
+          "summary": "Authoritative NIST CP/BC/DR guide.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.cisa.gov/sites/default/files/publications/Critical_Infrastructure_Operations_Center_Best_Practices_FINAL_v1_508.pdf",
+          "title": "CISA: Operations Center Best Practices",
+          "captured": "2026-04-26",
+          "summary": "Government SOC best-practice reference.",
+          "extract": ""
+        }
+      ]
+    },
+    "8": {
+      "name": "Software Development Security",
+      "weight_pct": 10,
+      "sources": [
+        {
+          "url": "https://destcert.com/resources/cissp-domain-8-software-development-security/",
+          "title": "DestCert: CISSP Domain 8 \u2014 Software Development Security Guide 2025",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 (10%) walkthrough.",
+          "extract": ""
+        },
+        {
+          "url": "https://siteforinfotech.com/2026/02/cissp-domain-8-practice-test.html",
+          "title": "InfoTechSite: CISSP Domain 8 Practice Test",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 practice questions.",
+          "extract": ""
+        },
+        {
+          "url": "https://trainingcamp.com/webinars/cissp-software-security-owasp-secure-sdlc-devsecops/",
+          "title": "TrainingCamp: CISSP Software Security \u2014 OWASP, Secure SDLC, DevSecOps",
+          "captured": "2026-04-26",
+          "summary": "Webinar on Domain 8 topics.",
+          "extract": ""
+        },
+        {
+          "url": "https://lognpacific.com/free-certification-practice-tests/free-cissp-practice-questions/cissp-domain-8-software-development-security-domain-8-cissp-exam/",
+          "title": "LognPacific: Free CISSP Domain 8 Practice Questions",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 free practice question set.",
+          "extract": ""
+        },
+        {
+          "url": "https://blog.balancedsec.com/p/understanding-cissp-domain-8-software",
+          "title": "BalancedSec: Understanding CISSP Domain 8 \u2014 Part 1",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 study notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://mappedarch.medium.com/cissp-domain-8-software-development-security-2ca041c0c03a",
+          "title": "Medium (Nityananda): CISSP Domain 8",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 explained for exam and real-world application.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.threatonthewire.com/cissp-domain-8-secure-coding-foundations/",
+          "title": "ThreatOnTheWire: Secure Coding Foundations for Managers",
+          "captured": "2026-04-26",
+          "summary": "Manager-level secure coding overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissprep.net/domain-8-software-development-security/",
+          "title": "CISSPrep: Domain 8 \u2014 Software Development Security",
+          "captured": "2026-04-26",
+          "summary": "Free Domain 8 study notes.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.coursera.org/learn/cissp-domain-8-software-dev-security",
+          "title": "Coursera: CISSP Domain 8 \u2014 Software development security",
+          "captured": "2026-04-26",
+          "summary": "Coursera course on Domain 8.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.techtarget.com/searchsecurity/quiz/Domain-8-Security-in-software-development-lifecycle-quiz",
+          "title": "TechTarget: Domain 8 \u2014 Security in SDLC quiz",
+          "captured": "2026-04-26",
+          "summary": "SDLC security quiz.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/Top10/A11_2021-Next_Steps/",
+          "title": "OWASP Top 10:2021 \u2014 Next Steps",
+          "captured": "2026-04-26",
+          "summary": "OWASP Top 10 next-steps reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://cqr.company/web-vulnerabilities/time-of-check-to-time-of-use-tocttou-race-conditions/",
+          "title": "CQR: TOCTTOU Race Conditions",
+          "captured": "2026-04-26",
+          "summary": "Practical TOCTOU vulnerability explainer.",
+          "extract": ""
+        },
+        {
+          "url": "https://destcert.com/resources/vulnerabilities-in-systems-mindmap-cissp-domain-3/",
+          "title": "DestCert: Vulnerabilities in Systems MindMap (cross-domain)",
+          "captured": "2026-04-26",
+          "summary": "Mind-map covering injection, race conditions, buffer overflow.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Uta6M9PMXZo",
+          "title": "YouTube: Exploit TOCTOU Race Condition Vulnerabilities",
+          "captured": "2026-04-26",
+          "summary": "Hands-on TOCTOU exploitation walkthrough.",
+          "extract": ""
+        },
+        {
+          "url": "https://ahmed-tarek.gitbook.io/security-notes/owsap-top-10-2025/a06-insecure-design/race-conditions",
+          "title": "Ahmed Tarek (GitBook): Race Conditions \u2014 OWASP Top 10 2025",
+          "captured": "2026-04-26",
+          "summary": "OWASP A06 Insecure Design race-condition examples.",
+          "extract": ""
+        },
+        {
+          "url": "https://cwe.mitre.org/data/definitions/367.html",
+          "title": "CWE-367: Time-of-check Time-of-use (TOCTOU)",
+          "captured": "2026-04-26",
+          "summary": "MITRE CWE entry for TOCTOU.",
+          "extract": ""
+        },
+        {
+          "url": "https://resources.infosecinstitute.com/topic/race-condition-toctou-vulnerability-lab/",
+          "title": "Infosec Institute: Race condition (TOCTOU) vulnerability lab",
+          "captured": "2026-04-26",
+          "summary": "Hands-on TOCTOU lab.",
+          "extract": ""
+        },
+        {
+          "url": "https://book.jorianwoltjer.com/binary-exploitation/race-conditions",
+          "title": "Practical CTF: Race Conditions",
+          "captured": "2026-04-26",
+          "summary": "CTF-oriented race condition writeup.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/www-community/vulnerabilities/Buffer_Overflow",
+          "title": "OWASP: Buffer Overflow",
+          "captured": "2026-04-26",
+          "summary": "OWASP authoritative buffer overflow reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://cqr.company/web-vulnerabilities/race-condition-vulnerability/",
+          "title": "CQR: Race condition vulnerability",
+          "captured": "2026-04-26",
+          "summary": "Practical race condition explainer.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.aikido.dev/learn/compliance/compliance-frameworks/nist-ssdf",
+          "title": "Aikido: NIST SSDF (SP 800-218) Secure Software Development Explained",
+          "captured": "2026-04-26",
+          "summary": "SSDF practices integrated into Agile, CI/CD, DevOps.",
+          "extract": ""
+        },
+        {
+          "url": "https://cissp.jpmck.com/domains/8/",
+          "title": "Jim's CISSP Notes: Domain 8 \u2014 Software Development Security",
+          "captured": "2026-04-26",
+          "summary": "Notes on Domain 8 from Jim McKenna.",
+          "extract": ""
+        },
+        {
+          "url": "https://info-savvy.com/cissp-maturity-models-bk1d8t1st2p2/",
+          "title": "Info-Savvy: CISSP Maturity Models",
+          "captured": "2026-04-26",
+          "summary": "CMM, SAMM, BSIMM comparison.",
+          "extract": ""
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/smr.2711",
+          "title": "Wiley: Evolution of secure development lifecycles & maturity models",
+          "captured": "2026-04-26",
+          "summary": "Academic review of SDL/SAMM/BSIMM evolution.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.practical-devsecops.com/devsecops-maturity-model-dsomm/",
+          "title": "Practical DevSecOps: DevSecOps Maturity Model (DSOMM)",
+          "captured": "2026-04-26",
+          "summary": "DSOMM framework for DevSecOps maturity.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.infosecinstitute.com/resources/application-security/software-maturity-models-for-appsec-initiatives/",
+          "title": "Infosec Institute: Software maturity models for AppSec",
+          "captured": "2026-04-26",
+          "summary": "AppSec maturity model overview.",
+          "extract": ""
+        },
+        {
+          "url": "https://wentzwu.com/2021/10/22/cissp-practice-questions-20211022/",
+          "title": "Wentz Wu: CISSP Practice Questions 20211022",
+          "captured": "2026-04-26",
+          "summary": "Domain 8 question set.",
+          "extract": ""
+        },
+        {
+          "url": "https://www.practical-devsecops.com/wp-content/uploads/2024/06/eBook-Integrating-Security-into-CI_CD-Pipelines-through-DevSecOps-Approach-1.pdf",
+          "title": "Practical DevSecOps: Integrating Security into CI/CD Pipelines",
+          "captured": "2026-04-26",
+          "summary": "Free eBook on DevSecOps CI/CD integration.",
+          "extract": ""
+        },
+        {
+          "url": "https://github.com/OWASP/DevSecOpsGuideline",
+          "title": "GitHub: OWASP DevSecOps Guideline",
+          "captured": "2026-04-26",
+          "summary": "OWASP-maintained DevSecOps reference.",
+          "extract": ""
+        },
+        {
+          "url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+          "title": "NIST SP 800-218: Secure Software Development Framework (SSDF)",
+          "captured": "2026-04-26",
+          "summary": "Authoritative SSDF reference for Domain 8.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/www-project-application-security-verification-standard/",
+          "title": "OWASP: Application Security Verification Standard (ASVS)",
+          "captured": "2026-04-26",
+          "summary": "ASVS verification levels for app security.",
+          "extract": ""
+        },
+        {
+          "url": "https://owasp.org/www-project-samm/",
+          "title": "OWASP: Software Assurance Maturity Model (SAMM)",
+          "captured": "2026-04-26",
+          "summary": "SAMM authoritative project page.",
+          "extract": ""
+        }
+      ]
+    }
+  }
+}

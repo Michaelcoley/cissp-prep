@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "F1-001",
+    "domain": 1,
+    "term": "CIA Triad",
+    "back": "Confidentiality, Integrity, Availability \u2014 the three core security objectives.",
+    "source": "guide",
+    "guide_pages": [
+      150,
+      152
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-002",
+    "domain": 1,
+    "term": "DAD Triad",
+    "back": "Disclosure, Alteration, Destruction \u2014 the negative inverse of CIA used to frame threats.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-003",
+    "domain": 1,
+    "term": "Parkerian Hexad",
+    "back": "Confidentiality, Possession/Control, Integrity, Authenticity, Availability, Utility \u2014 six-attribute model expanding on CIA.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-004",
+    "domain": 1,
+    "term": "Due Care",
+    "back": "Taking the actions a reasonable person would take to protect the organisation (the 'doing').",
+    "source": "guide",
+    "guide_pages": [
+      180,
+      184
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-005",
+    "domain": 1,
+    "term": "Due Diligence",
+    "back": "Ongoing investigation, validation, and verification that controls remain appropriate (the 'homework').",
+    "source": "guide",
+    "guide_pages": [
+      180,
+      184
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-006",
+    "domain": 1,
+    "term": "ALE Formula",
+    "back": "ALE = SLE \u00d7 ARO. Single Loss Expectancy times Annualised Rate of Occurrence.",
+    "source": "guide",
+    "guide_pages": [
+      300,
+      305
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-007",
+    "domain": 1,
+    "term": "SLE Formula",
+    "back": "SLE = AV \u00d7 EF. Asset Value times Exposure Factor (the percentage of loss).",
+    "source": "guide",
+    "guide_pages": [
+      300,
+      305
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-008",
+    "domain": 1,
+    "term": "Risk Treatment Options",
+    "back": "Mitigate, Avoid, Transfer (share), Accept \u2014 the four risk responses.",
+    "source": "guide",
+    "guide_pages": [
+      310,
+      314
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-009",
+    "domain": 1,
+    "term": "Inherent vs Residual Risk",
+    "back": "Inherent = risk before controls. Residual = risk remaining after controls. Secondary = risk introduced by a control.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-010",
+    "domain": 1,
+    "term": "STRIDE",
+    "back": "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege \u2014 Microsoft's threat-categorisation model.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://destcert.com/resources/threat-modeling-methodologies/",
+    "tags": []
+  },
+  {
+    "id": "F1-011",
+    "domain": 1,
+    "term": "DREAD",
+    "back": "Damage, Reproducibility, Exploitability, Affected users, Discoverability \u2014 threat-severity scoring (often paired with STRIDE).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.softwaresecured.com/post/comparison-of-stride-dread-pasta",
+    "tags": []
+  },
+  {
+    "id": "F1-012",
+    "domain": 1,
+    "term": "PASTA",
+    "back": "Process for Attack Simulation and Threat Analysis \u2014 a 7-stage, risk-centric, attacker-focused threat-modeling methodology.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://destcert.com/resources/threat-modeling-methodologies/",
+    "tags": []
+  },
+  {
+    "id": "F1-013",
+    "domain": 1,
+    "term": "VAST",
+    "back": "Visual, Agile, Simple Threat \u2014 produces both an application threat model and an operational threat model.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-014",
+    "domain": 1,
+    "term": "ISC2 Code of Ethics \u2014 Canon Ordering",
+    "back": "(1) Protect society, common good, public trust, infrastructure; (2) Act honourably; (3) Provide diligent service; (4) Advance the profession.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.isc2.org/Ethics",
+    "tags": []
+  },
+  {
+    "id": "F1-015",
+    "domain": 1,
+    "term": "BIA Time Metrics",
+    "back": "MTD = max tolerable downtime; RTO = recovery time objective; RPO = recovery point objective; WRT = work recovery time. RTO + WRT \u2264 MTD.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://wentzwu.com/2020/04/05/common-bia-terminologies/",
+    "tags": []
+  },
+  {
+    "id": "F1-016",
+    "domain": 1,
+    "term": "GDPR Roles",
+    "back": "Controller (decides purpose/means), Processor (acts on instructions), DPO (compliance/oversight), Data Subject (the individual).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-017",
+    "domain": 1,
+    "term": "GDPR Fines (Higher Tier)",
+    "back": "Up to \u20ac20 million or 4% of global annual turnover (whichever is higher) for serious violations of the regulation.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-018",
+    "domain": 1,
+    "term": "NIST CSF 2.0 Functions",
+    "back": "Govern, Identify, Protect, Detect, Respond, Recover (Govern was added in 2.0).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.nist.gov/cyberframework",
+    "tags": []
+  },
+  {
+    "id": "F1-019",
+    "domain": 1,
+    "term": "NIST RMF Steps",
+    "back": "Categorise \u2192 Select \u2192 Implement \u2192 Assess \u2192 Authorise \u2192 Monitor (NIST SP 800-37).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/37/r2/final",
+    "tags": []
+  },
+  {
+    "id": "F1-020",
+    "domain": 1,
+    "term": "PCI-DSS",
+    "back": "Payment Card Industry Data Security Standard \u2014 contractual (not statutory) framework protecting cardholder data; v4.0 mandatory March 31, 2025.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-021",
+    "domain": 1,
+    "term": "SOX",
+    "back": "Sarbanes-Oxley Act (2002) \u2014 internal controls over financial reporting for US public companies; CEO/CFO attestations.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-022",
+    "domain": 1,
+    "term": "ISO 27001 vs 27002",
+    "back": "27001 = ISMS requirements (auditable); 27002 = control catalog/guidance.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.iso.org/standard/27001",
+    "tags": []
+  },
+  {
+    "id": "F1-023",
+    "domain": 1,
+    "term": "Three Lines Model (IIA)",
+    "back": "1st: operational management; 2nd: risk/compliance; 3rd: internal audit reporting to the board.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-024",
+    "domain": 1,
+    "term": "Mandatory Vacation",
+    "back": "Force absence so a substitute can detect ongoing fraud or unsafe practices that depend on continuous control by one person.",
+    "source": "guide",
+    "guide_pages": [
+      290,
+      293
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-025",
+    "domain": 1,
+    "term": "Separation of Duties (SoD)",
+    "back": "Split sensitive workflows so no single person can complete them; requires collusion to commit fraud.",
+    "source": "guide",
+    "guide_pages": [
+      290,
+      295
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-026",
+    "domain": 1,
+    "term": "Recovery Sites \u2014 RTO Order",
+    "back": "Hot (minutes/hours) \u2192 Warm (~12 hours) \u2192 Cold (days) \u2192 Mobile (variable) \u2192 Reciprocal (variable).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-027",
+    "domain": 1,
+    "term": "DR Test Types \u2014 Disruption Order",
+    "back": "Tabletop \u2192 Walkthrough \u2192 Simulation \u2192 Parallel \u2192 Full Interruption (least \u2192 most disruptive).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-028",
+    "domain": 1,
+    "term": "Risk Register Entry",
+    "back": "A documented risk = (threat \u00d7 vulnerability \u00d7 impact) with likelihood, owner, treatment, status.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-029",
+    "domain": 1,
+    "term": "Quantitative vs Qualitative Risk",
+    "back": "Quantitative uses numbers (ALE, SLE, ARO) for cost-benefit; qualitative uses ratings (high/med/low) and captures intangibles.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F1-030",
+    "domain": 1,
+    "term": "Documentation Hierarchy",
+    "back": "Policy (mandatory intent) \u2192 Standard (mandatory specifics) \u2192 Procedure (steps) \u2192 Guideline (recommendations).",
+    "source": "guide",
+    "guide_pages": [
+      183,
+      188
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-001",
+    "domain": 2,
+    "term": "Data Owner",
+    "back": "Senior business leader accountable for classification and decisions about data use, protection, and destruction.",
+    "source": "guide",
+    "guide_pages": [
+      600,
+      605
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-002",
+    "domain": 2,
+    "term": "Data Custodian",
+    "back": "Operational role implementing controls per owner's direction (backups, restores, ACL maintenance).",
+    "source": "guide",
+    "guide_pages": [
+      605,
+      608
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-003",
+    "domain": 2,
+    "term": "Data Steward",
+    "back": "SME-style role responsible for data quality, metadata, and definitions across an organisation.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-004",
+    "domain": 2,
+    "term": "Data Processor (GDPR)",
+    "back": "An entity that processes personal data on behalf of the controller, per controller instructions.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://gdpr-info.eu/",
+    "tags": []
+  },
+  {
+    "id": "F2-005",
+    "domain": 2,
+    "term": "Data States",
+    "back": "At rest, In transit, In use \u2014 each requires distinct protections (encryption, TLS, confidential computing).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-006",
+    "domain": 2,
+    "term": "NIST 800-88 Sanitisation",
+    "back": "Clear (overwrite, in-house), Purge (degauss/crypto-erase, leaves control), Destroy (shred/incinerate, highest impact).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/88/r1/final",
+    "tags": []
+  },
+  {
+    "id": "F2-007",
+    "domain": 2,
+    "term": "Cryptographic Erase",
+    "back": "Destroy/replace the media-encryption key on self-encrypting drives \u2014 instantly invalidates ciphertext WITHOUT touching every block.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://inventivehq.com/blog/nist-800-88-media-sanitization-complete-guide",
+    "tags": []
+  },
+  {
+    "id": "F2-008",
+    "domain": 2,
+    "term": "Degaussing",
+    "back": "Strong magnetic field that randomises magnetic domains \u2014 works on HDDs and tapes only (not SSDs).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-009",
+    "domain": 2,
+    "term": "Scoping vs Tailoring",
+    "back": "Scoping REMOVES irrelevant controls. Tailoring MODIFIES remaining controls (parameters, compensating).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://destcert.com/resources/scoping-tailoring-security-controls-for-businesses/",
+    "tags": []
+  },
+  {
+    "id": "F2-010",
+    "domain": 2,
+    "term": "FIPS 199 Categorisation",
+    "back": "Low / Moderate / High impact based on confidentiality, integrity, and availability \u2014 high-water mark per dimension.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/fips/199/final",
+    "tags": []
+  },
+  {
+    "id": "F2-011",
+    "domain": 2,
+    "term": "Tokenisation vs Encryption",
+    "back": "Tokenisation = substitute surrogate values, reversibility via vault. Encryption = mathematically reversible with key.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-012",
+    "domain": 2,
+    "term": "Anonymisation vs Pseudonymisation (GDPR)",
+    "back": "Anonymisation = irreversible, removes from GDPR scope. Pseudonymisation = reversible with separately stored key, still personal data.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://gdpr-info.eu/",
+    "tags": []
+  },
+  {
+    "id": "F2-013",
+    "domain": 2,
+    "term": "Data Lifecycle",
+    "back": "Create \u2192 Store \u2192 Use \u2192 Share \u2192 Archive \u2192 Destroy.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-014",
+    "domain": 2,
+    "term": "DLP",
+    "back": "Data Loss Prevention: detect/block sensitive data leaving authorised locations (network, endpoint, storage, email).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-015",
+    "domain": 2,
+    "term": "Government Classification Levels",
+    "back": "Confidential (damage), Secret (serious damage), Top Secret (exceptionally grave damage); FOUO is a control marking.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-016",
+    "domain": 2,
+    "term": "Commercial Classification (Common)",
+    "back": "Public \u2192 Internal/Sensitive \u2192 Confidential \u2192 Restricted (4 tiers is generally optimal).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-017",
+    "domain": 2,
+    "term": "PII vs PHI",
+    "back": "PII = personally identifiable information (broad). PHI = HIPAA-defined protected health information (subset, healthcare context).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F2-018",
+    "domain": 2,
+    "term": "GDPR Article 17",
+    "back": "Right to erasure ('right to be forgotten') \u2014 controllers must delete personal data on request unless an exemption applies.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://gdpr-info.eu/",
+    "tags": []
+  },
+  {
+    "id": "F2-019",
+    "domain": 2,
+    "term": "GDPR Article 6 Lawful Bases",
+    "back": "Consent, Contract, Legal obligation, Vital interest, Public task, Legitimate interest. One of these must be cited for any processing.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://gdpr-info.eu/",
+    "tags": []
+  },
+  {
+    "id": "F2-020",
+    "domain": 2,
+    "term": "EOL vs EOS",
+    "back": "End-of-Life: vendor stops selling. End-of-Support: vendor stops patching \u2014 major security risk.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-001",
+    "domain": 3,
+    "term": "Bell-LaPadula",
+    "back": "Confidentiality model: NO READ UP, NO WRITE DOWN. Lattice-based, supports trusted subjects.",
+    "source": "guide",
+    "guide_pages": [
+      745,
+      752
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-002",
+    "domain": 3,
+    "term": "Biba",
+    "back": "Integrity model: NO READ DOWN, NO WRITE UP. Inverse of Bell-LaPadula.",
+    "source": "guide",
+    "guide_pages": [
+      753,
+      758
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-003",
+    "domain": 3,
+    "term": "Clark-Wilson",
+    "back": "Integrity via well-formed transactions: subjects \u2192 TPs (transformation procedures) \u2192 CDIs/UDIs (constrained/unconstrained data items); IVPs verify integrity.",
+    "source": "guide",
+    "guide_pages": [
+      755,
+      760
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-004",
+    "domain": 3,
+    "term": "Brewer-Nash (Chinese Wall)",
+    "back": "Dynamic conflict-of-interest model \u2014 restricts access based on prior access history.",
+    "source": "guide",
+    "guide_pages": [
+      760,
+      763
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-005",
+    "domain": 3,
+    "term": "Take-Grant",
+    "back": "Models how rights can propagate between subjects via 'take' and 'grant' operations.",
+    "source": "guide",
+    "guide_pages": [
+      761,
+      764
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-006",
+    "domain": 3,
+    "term": "Graham-Denning",
+    "back": "Eight rules for creating/deleting subjects, objects, and rights in a protection system.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-007",
+    "domain": 3,
+    "term": "Reference Monitor",
+    "back": "Always invoked, tamper-proof, small enough to be analysed/tested. Implemented by the security kernel.",
+    "source": "guide",
+    "guide_pages": [
+      796,
+      800
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-008",
+    "domain": 3,
+    "term": "TCB",
+    "back": "Trusted Computing Base \u2014 hardware/software/firmware whose correctness is essential to security policy enforcement.",
+    "source": "guide",
+    "guide_pages": [
+      795,
+      800
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-009",
+    "domain": 3,
+    "term": "Common Criteria EAL",
+    "back": "Evaluation Assurance Level (EAL1 functionally tested \u2192 EAL7 formally verified). Measures evaluation rigor, NOT inherent security.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.commoncriteriaportal.org/cc/",
+    "tags": []
+  },
+  {
+    "id": "F3-010",
+    "domain": 3,
+    "term": "FIPS 140-3",
+    "back": "Federal validation standard for cryptographic modules; four levels; references ISO/IEC 19790:2012.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/fips/140/3/final",
+    "tags": []
+  },
+  {
+    "id": "F3-011",
+    "domain": 3,
+    "term": "AES Modes",
+    "back": "ECB (insecure-deterministic), CBC (chaining, no integrity), CTR (stream-like), GCM (AEAD: confidentiality + integrity).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://destcert.com/resources/types-of-ciphers/",
+    "tags": []
+  },
+  {
+    "id": "F3-012",
+    "domain": 3,
+    "term": "Symmetric vs Asymmetric Cryptography",
+    "back": "Symmetric: shared key (fast, key distribution problem). Asymmetric: keypair (slower, solves distribution; identity binding via PKI).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-013",
+    "domain": 3,
+    "term": "Hash Properties",
+    "back": "One-way (irreversible), collision-resistant, fixed-length output, deterministic. Examples: SHA-256, SHA-3.",
+    "source": "guide",
+    "guide_pages": [
+      862,
+      866
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-014",
+    "domain": 3,
+    "term": "Digital Signature",
+    "back": "Hash + private-key encryption. Provides integrity + authenticity + non-repudiation. MACs lack non-repudiation.",
+    "source": "guide",
+    "guide_pages": [
+      870,
+      875
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-015",
+    "domain": 3,
+    "term": "PKI Components",
+    "back": "CA (issues), RA (registers), CRL/OCSP (revokes), repository (stores). Hierarchical or web-of-trust.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-016",
+    "domain": 3,
+    "term": "TPM",
+    "back": "Trusted Platform Module \u2014 chip on the motherboard providing root of trust for measurement, sealed storage, attestation.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.wolfssl.com/difference-hsm-tpm-secure-enclave-secure-element-hardware-root-trust/",
+    "tags": []
+  },
+  {
+    "id": "F3-017",
+    "domain": 3,
+    "term": "HSM",
+    "back": "Hardware Security Module \u2014 tamper-resistant appliance for high-volume key generation, storage, and crypto operations.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-018",
+    "domain": 3,
+    "term": "Side-Channel Attack",
+    "back": "Recover secrets from observable physical phenomena (power, EM, timing, acoustic) during processing.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.usenix.org/system/files/sec20-moghimi-tpm.pdf",
+    "tags": []
+  },
+  {
+    "id": "F3-019",
+    "domain": 3,
+    "term": "Covert Channel \u2014 Storage vs Timing",
+    "back": "Storage: signal via shared resource state. Timing: signal via varying access timings. Both are unintentional disclosure paths.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.examcollection.com/blog/cissp-exam-prep-deep-dive-into-covert-channel-analysis/",
+    "tags": []
+  },
+  {
+    "id": "F3-020",
+    "domain": 3,
+    "term": "Fire Classes",
+    "back": "A: ordinary combustibles (water). B: flammable liquids/gas. C: electrical (no water!). D: combustible metals. K: cooking oils.",
+    "source": "guide",
+    "guide_pages": [
+      920,
+      924
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-021",
+    "domain": 3,
+    "term": "CPTED",
+    "back": "Crime Prevention Through Environmental Design: natural surveillance, natural access control, territorial reinforcement.",
+    "source": "guide",
+    "guide_pages": [
+      915,
+      920
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-022",
+    "domain": 3,
+    "term": "Saltzer-Schroeder Principles (subset)",
+    "back": "Least privilege, fail-safe defaults, complete mediation, open design, separation of privilege, least common mechanism, psychological acceptability, economy of mechanism.",
+    "source": "guide",
+    "guide_pages": [
+      778,
+      783
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-023",
+    "domain": 3,
+    "term": "ASLR + DEP",
+    "back": "ASLR = randomise memory layout; DEP/NX = mark data pages non-executable. Combined OS hardening against memory-corruption exploits.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-024",
+    "domain": 3,
+    "term": "Post-Quantum Crypto (NIST 2024)",
+    "back": "FIPS 203 ML-KEM (Kyber), 204 ML-DSA (Dilithium), 205 SLH-DSA (SPHINCS+) \u2014 first post-quantum standards.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F3-025",
+    "domain": 3,
+    "term": "PFS",
+    "back": "Perfect Forward Secrecy: compromise of long-term key cannot decrypt PAST sessions. Achieved via ephemeral key exchange (DHE/ECDHE).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-001",
+    "domain": 4,
+    "term": "OSI Model (Layers 1-7)",
+    "back": "Physical, Data Link, Network, Transport, Session, Presentation, Application. Mnemonic: 'Please Do Not Throw Sausage Pizza Away'.",
+    "source": "guide",
+    "guide_pages": [
+      1090,
+      1095
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-002",
+    "domain": 4,
+    "term": "TCP/IP Model",
+    "back": "Link, Internet, Transport, Application \u2014 collapsed alternative to OSI used in practice.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-003",
+    "domain": 4,
+    "term": "TLS 1.3",
+    "back": "Mandates forward secrecy, removes RSA key transport, AEAD ciphers only, faster handshake (1-RTT, 0-RTT optional).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://datatracker.ietf.org/doc/html/rfc8446",
+    "tags": []
+  },
+  {
+    "id": "F4-004",
+    "domain": 4,
+    "term": "IPsec AH vs ESP",
+    "back": "AH: integrity over IP header + payload (no confidentiality, BREAKS through NAT). ESP: payload confidentiality + integrity (NAT-T uses UDP/4500).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://datatracker.ietf.org/doc/html/rfc4301",
+    "tags": []
+  },
+  {
+    "id": "F4-005",
+    "domain": 4,
+    "term": "IPsec Modes",
+    "back": "Transport: protect payload, original IP header visible (host-to-host). Tunnel: encapsulate full packet (gateway-to-gateway).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-006",
+    "domain": 4,
+    "term": "DNSSEC",
+    "back": "DNS Security Extensions \u2014 cryptographic origin authentication and integrity for DNS responses (NOT confidentiality).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-007",
+    "domain": 4,
+    "term": "DoH vs DoT",
+    "back": "DoH: DNS over HTTPS (port 443; blends with web traffic; harder for enterprise inspection). DoT: DNS over TLS (port 853; visible to enterprise).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-008",
+    "domain": 4,
+    "term": "WPA3-Personal vs WPA2-PSK",
+    "back": "WPA3 uses SAE (Dragonfly) handshake, defeating offline dictionary attacks against captured handshakes; provides forward secrecy per session.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.ironwifi.com/blogs/best-eap-methods-wifi/",
+    "tags": []
+  },
+  {
+    "id": "F4-009",
+    "domain": 4,
+    "term": "EAP Methods",
+    "back": "EAP-TLS (mutual cert), PEAP (server cert + tunnel), EAP-TTLS (server cert + flexible inner), EAP-FAST (PAC). EAP-MD5 obsolete.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://www.techtarget.com/searchnetworking/feature/Choosing-the-right-flavor-of-8021X",
+    "tags": []
+  },
+  {
+    "id": "F4-010",
+    "domain": 4,
+    "term": "Stateful vs NGFW",
+    "back": "Stateful tracks connections. NGFW adds application identification, integrated IPS, threat intelligence.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-011",
+    "domain": 4,
+    "term": "WAF",
+    "back": "Web Application Firewall \u2014 L7-specific, rules for SQLi/XSS/etc; OWASP Core Rule Set is common.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-012",
+    "domain": 4,
+    "term": "Zero Trust",
+    "back": "Assume the network is hostile; verify identity, device posture, context per request; least-privilege access per resource (NIST SP 800-207).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/207/final",
+    "tags": []
+  },
+  {
+    "id": "F4-013",
+    "domain": 4,
+    "term": "Microsegmentation",
+    "back": "Fine-grained workload-to-workload policy controls limiting east-west lateral movement after compromise.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-014",
+    "domain": 4,
+    "term": "SDN",
+    "back": "Software-Defined Networking \u2014 decouples control plane from data plane; centralised programmatic control; controller is a SPOF.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-015",
+    "domain": 4,
+    "term": "VXLAN",
+    "back": "Virtual Extensible LAN \u2014 extends L2 over L3 underlay using UDP encapsulation; does NOT provide encryption by default.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-016",
+    "domain": 4,
+    "term": "Common Network Attacks",
+    "back": "ARP spoofing (L2), DNS poisoning, MAC flooding, Smurf (ICMP amplification), Fraggle (UDP), Teardrop (overlapping fragments), Ping of Death.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-017",
+    "domain": 4,
+    "term": "DMZ / Screened Subnet",
+    "back": "Isolated network segment for internet-facing services, separated from internal network by firewall(s).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-018",
+    "domain": 4,
+    "term": "VPN Types",
+    "back": "Site-to-site (IPsec, gateway-to-gateway), Remote-access (IPsec or SSL/TLS clientless), modern: WireGuard.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-019",
+    "domain": 4,
+    "term": "Email Anti-Spoofing Trio",
+    "back": "SPF (authorised IPs), DKIM (signed headers), DMARC (alignment + policy + reporting). All three together.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-020",
+    "domain": 4,
+    "term": "S/MIME vs SPF/DKIM/DMARC",
+    "back": "S/MIME = end-to-end content encryption + signature. SPF/DKIM/DMARC = envelope-level anti-spoofing.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-021",
+    "domain": 4,
+    "term": "IDS vs IPS",
+    "back": "IDS: detect + alert (passive). IPS: detect + actively block (inline). Performance and false-positive risk are higher for IPS.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-022",
+    "domain": 4,
+    "term": "DDoS Categories",
+    "back": "Volumetric (saturate bandwidth), Protocol (SYN flood), Application-layer (Slowloris, HTTP flood), Reflective amplification (DNS/NTP/memcached).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-023",
+    "domain": 4,
+    "term": "ZTNA",
+    "back": "Zero Trust Network Access \u2014 broker per-application access by identity/context without exposing broad network ranges.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F4-024",
+    "domain": 4,
+    "term": "NTP Importance",
+    "back": "Time sync is critical for log correlation, Kerberos ticket validity, certificate validation, and forensic timelines.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-001",
+    "domain": 5,
+    "term": "IAAA",
+    "back": "Identification, Authentication, Authorisation, Accounting (auditing) \u2014 the four-step access control flow.",
+    "source": "guide",
+    "guide_pages": [
+      1685,
+      1690
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-002",
+    "domain": 5,
+    "term": "MFA Factors",
+    "back": "Something you know (password), Something you have (token), Something you are (biometric), sometimes Somewhere you are (location).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-003",
+    "domain": 5,
+    "term": "DAC",
+    "back": "Discretionary Access Control \u2014 owner grants access at their discretion (file-system ACLs).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-004",
+    "domain": 5,
+    "term": "MAC",
+    "back": "Mandatory Access Control \u2014 system enforces clearance + label policy; appropriate for classified environments.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-005",
+    "domain": 5,
+    "term": "RBAC",
+    "back": "Role-Based Access Control \u2014 permissions tied to roles; users inherit permissions through role membership.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-006",
+    "domain": 5,
+    "term": "ABAC",
+    "back": "Attribute-Based Access Control \u2014 decisions based on user, resource, action, environment attributes (e.g., XACML, AWS IAM, Azure Conditional Access).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-007",
+    "domain": 5,
+    "term": "Rule-Based Access Control",
+    "back": "System-wide rules apply uniformly regardless of identity (e.g., firewall ACLs).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-008",
+    "domain": 5,
+    "term": "Kerberos Components",
+    "back": "AS (authentication server), TGS (ticket-granting server), KDC (encompassing AS+TGS), TGT, service ticket, principal.",
+    "source": "guide",
+    "guide_pages": [
+      1780,
+      1786
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-009",
+    "domain": 5,
+    "term": "Kerberos Time Sync",
+    "back": "Tickets time-bound; clock skew tolerance ~5 minutes default. NTP is operationally critical.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-010",
+    "domain": 5,
+    "term": "Kerberos Attacks",
+    "back": "Kerberoasting (offline-crack service-ticket ciphertext), Pass-the-Hash (NTLM), Golden Ticket (forge TGTs from KRBTGT), Silver Ticket (forge service tickets).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-011",
+    "domain": 5,
+    "term": "SAML",
+    "back": "XML-based federation. IdP authenticates and issues an assertion (authentication, attribute, authorisation) to the SP.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-012",
+    "domain": 5,
+    "term": "OAuth 2.0",
+    "back": "Delegated AUTHORISATION framework \u2014 issues access tokens to third-party apps. NOT authentication on its own.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://datatracker.ietf.org/doc/html/rfc6749",
+    "tags": []
+  },
+  {
+    "id": "F5-013",
+    "domain": 5,
+    "term": "OpenID Connect (OIDC)",
+    "back": "Authentication layer on top of OAuth 2.0; ID token is a JWT carrying identity claims.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-014",
+    "domain": 5,
+    "term": "JWT",
+    "back": "JSON Web Token \u2014 compact, URL-safe, signed (JWS) and optionally encrypted (JWE) token format.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-015",
+    "domain": 5,
+    "term": "RADIUS vs TACACS+",
+    "back": "RADIUS: UDP, password-only encryption, AuthN+AuthZ combined. TACACS+: TCP, full payload encryption, separated AAA, supports per-command auth.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-016",
+    "domain": 5,
+    "term": "FIDO2 / WebAuthn",
+    "back": "Hardware-backed cryptographic authenticator providing AAL3 verifier-impersonation resistance per NIST 800-63B.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/63/3/final",
+    "tags": []
+  },
+  {
+    "id": "F5-017",
+    "domain": 5,
+    "term": "NIST 800-63B Password Guidance",
+    "back": "No mandatory composition rules, no routine forced expiration, \u22658 chars, check against breached-password corpus, support up to 64 chars.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/63/3/final",
+    "tags": []
+  },
+  {
+    "id": "F5-018",
+    "domain": 5,
+    "term": "JIT Access",
+    "back": "Just-In-Time access \u2014 grant privileges only when needed, time-limited; eliminates standing privilege.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://thorteaches.com/glossary/just-in-time-jit-access/",
+    "tags": []
+  },
+  {
+    "id": "F5-019",
+    "domain": 5,
+    "term": "PAM",
+    "back": "Privileged Access Management \u2014 vault credentials, broker sessions with recording, MFA, automatic rotation.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-020",
+    "domain": 5,
+    "term": "Biometric Errors",
+    "back": "FAR (false acceptance \u2014 security failure), FRR (false rejection \u2014 usability failure). CER/EER = crossover where they meet (lower is better).",
+    "source": "guide",
+    "guide_pages": [
+      1700,
+      1706
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-021",
+    "domain": 5,
+    "term": "SCIM",
+    "back": "System for Cross-domain Identity Management \u2014 standard for provisioning users between IdP and SaaS providers.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-022",
+    "domain": 5,
+    "term": "Privilege Creep",
+    "back": "Accumulating rights as roles change without removing old permissions; mitigated by access reviews and HR-driven deprovisioning.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-023",
+    "domain": 5,
+    "term": "TOTP / HOTP",
+    "back": "Time-based / HMAC-based OTP \u2014 RFC 6238 / RFC 4226. Authenticator app generates, verifier checks locally.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F5-024",
+    "domain": 5,
+    "term": "AAL Levels (NIST 800-63B)",
+    "back": "AAL1 (single-factor), AAL2 (two-factor with replay resistance), AAL3 (hardware crypto, verifier-impersonation resistant \u2014 FIDO2).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/63/3/final",
+    "tags": []
+  },
+  {
+    "id": "F6-001",
+    "domain": 6,
+    "term": "SAST",
+    "back": "Static Application Security Testing \u2014 analyse source/bytecode without execution. White-box. Finds patterns like SQLi, hardcoded secrets.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-002",
+    "domain": 6,
+    "term": "DAST",
+    "back": "Dynamic Application Security Testing \u2014 exercise running app from outside. Black-box. Finds runtime-manifest issues.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-003",
+    "domain": 6,
+    "term": "IAST",
+    "back": "Interactive AST \u2014 agent inside running app combines source visibility with runtime context.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-004",
+    "domain": 6,
+    "term": "Fuzzing",
+    "back": "Send malformed/unexpected inputs to surface input-handling defects (crashes, memory errors, parser bugs).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-005",
+    "domain": 6,
+    "term": "NIST 800-115 Pen Test Phases",
+    "back": "Planning, Discovery, Attack, Reporting (4 phases). PTES defines 7.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/115/final",
+    "tags": []
+  },
+  {
+    "id": "F6-006",
+    "domain": 6,
+    "term": "Pen Test Box Types",
+    "back": "Black (no info \u2014 external attacker), Gray (partial info \u2014 insider), White (full info \u2014 insider with everything).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-007",
+    "domain": 6,
+    "term": "SOC Reports",
+    "back": "SOC 1: financial-reporting controls (ISAE 3402 equivalent). SOC 2: Trust Services Criteria. SOC 3: SOC 2 public summary.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-008",
+    "domain": 6,
+    "term": "SOC 2 Type I vs Type II",
+    "back": "Type I: design at point-in-time. Type II: design + operating effectiveness over period (typically 6-12 months). Type II preferred by relying parties.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-009",
+    "domain": 6,
+    "term": "Vulnerability Scan vs Pen Test",
+    "back": "Scans identify potential weaknesses (breadth). Pen tests exploit them to demonstrate impact (depth).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-010",
+    "domain": 6,
+    "term": "Authenticated vs Unauthenticated Scan",
+    "back": "Authenticated logs in to reveal host-level patches/configs. Unauthenticated sees only externally exposed surfaces.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-011",
+    "domain": 6,
+    "term": "KPI vs KRI",
+    "back": "KPI: performance metric (mean time to patch). KRI: risk-exposure metric (count of overdue critical vulnerabilities).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-012",
+    "domain": 6,
+    "term": "SIEM",
+    "back": "Security Information and Event Management \u2014 correlate cross-source events to detect attacks; produces alerts.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-013",
+    "domain": 6,
+    "term": "SOAR",
+    "back": "Security Orchestration, Automation, Response \u2014 playbook automation across tools (containment, enrichment, ticketing).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-014",
+    "domain": 6,
+    "term": "Red / Blue / Purple Team",
+    "back": "Red: offensive. Blue: defensive. Purple: collaborative \u2014 share red techniques to improve blue detection/response.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-015",
+    "domain": 6,
+    "term": "CVSS",
+    "back": "Common Vulnerability Scoring System \u2014 0-10 severity (Base, Temporal, Environmental). Current v4.0.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-016",
+    "domain": 6,
+    "term": "MITRE ATT&CK",
+    "back": "Knowledge base of adversary tactics (TA), techniques (T), and procedures used in real attacks; standard for detection engineering.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-017",
+    "domain": 6,
+    "term": "BAS",
+    "back": "Breach and Attack Simulation \u2014 automated execution of attacker techniques to validate detection/prevention controls continuously.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-018",
+    "domain": 6,
+    "term": "Synthetic Transaction",
+    "back": "Scripted requests simulating user actions to monitor availability and correctness.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-019",
+    "domain": 6,
+    "term": "Code Review",
+    "back": "Manual peer review excels at logic/business-rule defects automated SAST misses; combine both.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F6-020",
+    "domain": 6,
+    "term": "Pen Test Authorisation",
+    "back": "Signed authorisation letter + rules of engagement before starting \u2014 without it, the test is unauthorised intrusion.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-001",
+    "domain": 7,
+    "term": "NIST 800-61 IR Phases (Rev 2)",
+    "back": "Preparation \u2192 Detection & Analysis \u2192 Containment, Eradication & Recovery \u2192 Post-Incident Activity.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf",
+    "tags": []
+  },
+  {
+    "id": "F7-002",
+    "domain": 7,
+    "term": "Order of Volatility (RFC 3227)",
+    "back": "CPU registers/cache \u2192 System memory \u2192 Network state \u2192 Disk \u2192 Remote logs \u2192 Backup tapes (most \u2192 least volatile).",
+    "source": "guide",
+    "guide_pages": [
+      2210,
+      2215
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-003",
+    "domain": 7,
+    "term": "Chain of Custody",
+    "back": "Documented record of evidence from collection through court \u2014 every transfer, location, access logged. Required for admissibility.",
+    "source": "guide",
+    "guide_pages": [
+      2215,
+      2220
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-004",
+    "domain": 7,
+    "term": "Evidence Types",
+    "back": "Best (original/primary), Secondary (copies), Hearsay (out-of-court statement), Demonstrative (charts/models), Circumstantial.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-005",
+    "domain": 7,
+    "term": "RAID 0",
+    "back": "Stripe across drives \u2014 performance boost, NO redundancy.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-006",
+    "domain": 7,
+    "term": "RAID 1",
+    "back": "Mirror \u2014 identical copies on two drives, survives one failure, 50% storage efficiency.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-007",
+    "domain": 7,
+    "term": "RAID 5",
+    "back": "Stripe with distributed parity \u2014 survives one failure, write penalty.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-008",
+    "domain": 7,
+    "term": "RAID 6",
+    "back": "Stripe with dual parity \u2014 survives TWO simultaneous failures.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-009",
+    "domain": 7,
+    "term": "RAID 10 (1+0)",
+    "back": "Mirror then stripe \u2014 fast and resilient; survives multiple failures if not in same mirror pair.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-010",
+    "domain": 7,
+    "term": "Hot Site",
+    "back": "Fully equipped, near-real-time data, ready in minutes/hours; highest cost, lowest RTO.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-011",
+    "domain": 7,
+    "term": "Warm Site",
+    "back": "Hardware ready, stale data, ~12-hour activation. Mid cost / mid RTO.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-012",
+    "domain": 7,
+    "term": "Cold Site",
+    "back": "Space and utilities only; equipment + data must be brought in. Cheapest, longest RTO.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-013",
+    "domain": 7,
+    "term": "Mobile Site",
+    "back": "Trailer with equipment driven to needed location.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-014",
+    "domain": 7,
+    "term": "Reciprocal Agreement",
+    "back": "Mutual aid pact between organisations \u2014 cheap but problematic (capacity, regional disasters, confidentiality).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-015",
+    "domain": 7,
+    "term": "Backup Types",
+    "back": "Full (everything), Differential (since last full \u2014 slower backup, faster restore), Incremental (since last backup \u2014 faster backup, slower restore).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-016",
+    "domain": 7,
+    "term": "3-2-1 Backup Rule",
+    "back": "3 copies, on 2 different media types, with 1 offsite. Modern variants add immutability (3-2-1-1-0).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-017",
+    "domain": 7,
+    "term": "MTBF vs MTTR",
+    "back": "MTBF: Mean Time Between Failures \u2014 reliability. MTTR: Mean Time To Repair \u2014 recoverability. Lower MTTR is better.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-018",
+    "domain": 7,
+    "term": "Change Advisory Board (CAB)",
+    "back": "Body that authorises changes balancing risk, business impact, security. Emergency CAB (eCAB) handles urgent changes.",
+    "source": "guide",
+    "guide_pages": [
+      2270,
+      2275
+    ],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-019",
+    "domain": 7,
+    "term": "EDR vs Antivirus",
+    "back": "EDR provides continuous endpoint telemetry, behavioural detection, response (isolate/kill/retrieve), and forensic data \u2014 beyond static AV.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-020",
+    "domain": 7,
+    "term": "UEBA",
+    "back": "User & Entity Behaviour Analytics \u2014 baselines normal behaviour, alerts on deviations (impossible travel, unusual data access).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-021",
+    "domain": 7,
+    "term": "Honeypot",
+    "back": "Decoy system to attract, detect, and study attackers. Honeynet = whole network of decoys.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-022",
+    "domain": 7,
+    "term": "Standards of Proof",
+    "back": "Civil: preponderance (>50%). Criminal: beyond reasonable doubt. Administrative: clear and convincing. Warrants: probable cause.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-023",
+    "domain": 7,
+    "term": "Need-to-Know",
+    "back": "Restrict access by job-justified need, even when general clearance/role allows broader access.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F7-024",
+    "domain": 7,
+    "term": "Clipping Level",
+    "back": "Threshold below which monitoring suppresses alerts to reduce noise (e.g., ignore <5 failed logins).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-001",
+    "domain": 8,
+    "term": "Waterfall",
+    "back": "Linear SDLC \u2014 requirements \u2192 design \u2192 implementation \u2192 testing \u2192 deployment. No phase backtracking.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-002",
+    "domain": 8,
+    "term": "Agile",
+    "back": "Iterative SDLC \u2014 short cycles, customer feedback, working software each iteration (Scrum, Kanban, XP).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-003",
+    "domain": 8,
+    "term": "Spiral",
+    "back": "Risk-driven iterative SDLC \u2014 each cycle includes risk assessment.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-004",
+    "domain": 8,
+    "term": "DevSecOps",
+    "back": "Security embedded continuously across CI/CD with automation (SAST, DAST, SCA, IaC scan, secrets detection).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-005",
+    "domain": 8,
+    "term": "CMMI",
+    "back": "Capability Maturity Model Integration \u2014 five process maturity levels: Initial \u2192 Managed \u2192 Defined \u2192 Quantitatively Managed \u2192 Optimising.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-006",
+    "domain": 8,
+    "term": "OWASP SAMM",
+    "back": "Prescriptive software-security maturity framework: Governance, Design, Implementation, Verification, Operations \u00d7 four levels.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://owasp.org/www-project-samm/",
+    "tags": []
+  },
+  {
+    "id": "F8-007",
+    "domain": 8,
+    "term": "BSIMM",
+    "back": "Descriptive maturity model based on observed activities at member organisations (not prescriptive).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-008",
+    "domain": 8,
+    "term": "OWASP Top 10:2021 (selected)",
+    "back": "A01 Broken Access Control, A02 Cryptographic Failures, A03 Injection, A04 Insecure Design, A06 Vulnerable Components, A10 SSRF.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-009",
+    "domain": 8,
+    "term": "TOCTOU",
+    "back": "Time-of-Check to Time-of-Use race condition \u2014 state changes between authorisation check and use (CWE-367).",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://cqr.company/web-vulnerabilities/time-of-check-to-time-of-use-tocttou-race-conditions/",
+    "tags": []
+  },
+  {
+    "id": "F8-010",
+    "domain": 8,
+    "term": "Buffer Overflow Defenses",
+    "back": "Memory-safe languages (Rust, Go); bounds checking; ASLR + DEP/NX; stack canaries; safer APIs (snprintf vs strcpy).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-011",
+    "domain": 8,
+    "term": "SQL Injection Defense",
+    "back": "Parameterised queries / prepared statements treat input as data, not code \u2014 structurally prevents injection.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-012",
+    "domain": 8,
+    "term": "XSS Defense",
+    "back": "Context-aware output encoding (HTML body vs attribute vs JS) plus a strict Content Security Policy.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-013",
+    "domain": 8,
+    "term": "CSRF Defense",
+    "back": "Anti-CSRF tokens (synchroniser pattern) + SameSite cookies (Lax/Strict).",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-014",
+    "domain": 8,
+    "term": "SSRF Defense",
+    "back": "Allow-list destinations, block private/metadata endpoints (169.254.169.254), use a controlled egress proxy.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-015",
+    "domain": 8,
+    "term": "ACID",
+    "back": "Database transaction properties: Atomicity, Consistency, Isolation, Durability.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-016",
+    "domain": 8,
+    "term": "Inference Attack",
+    "back": "Combine individually authorised queries to deduce unauthorised information.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-017",
+    "domain": 8,
+    "term": "Aggregation",
+    "back": "Combining individually low-classification data into a higher-classification whole.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-018",
+    "domain": 8,
+    "term": "Polyinstantiation",
+    "back": "Multiple records with the same primary key at different security levels \u2014 defends against inference via existence.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-019",
+    "domain": 8,
+    "term": "SBOM",
+    "back": "Software Bill of Materials \u2014 structured component inventory (SPDX or CycloneDX). Required by US EO 14028.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-020",
+    "domain": 8,
+    "term": "SCA",
+    "back": "Software Composition Analysis \u2014 scan dependencies for known CVEs and licence issues.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-021",
+    "domain": 8,
+    "term": "NIST SSDF (SP 800-218)",
+    "back": "Secure Software Development Framework: Prepare the Org, Protect the Software, Produce Well-Secured Software, Respond to Vulnerabilities.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://csrc.nist.gov/pubs/sp/800/218/final",
+    "tags": []
+  },
+  {
+    "id": "F8-022",
+    "domain": 8,
+    "term": "OWASP ASVS",
+    "back": "Application Security Verification Standard \u2014 three verification levels (1-3) of security requirements.",
+    "source": "web",
+    "guide_pages": [],
+    "web_url": "https://owasp.org/www-project-application-security-verification-standard/",
+    "tags": []
+  },
+  {
+    "id": "F8-023",
+    "domain": 8,
+    "term": "Privacy by Design",
+    "back": "Embed privacy from inception \u2014 minimisation, purpose limitation, default-private, transparency. Codified in GDPR Article 25.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  },
+  {
+    "id": "F8-024",
+    "domain": 8,
+    "term": "API Authentication",
+    "back": "Service-to-service: OAuth 2.0 client_credentials with short-lived tokens, or mTLS for workload identity.",
+    "source": "canonical",
+    "guide_pages": [],
+    "web_url": "",
+    "tags": []
+  }
+]

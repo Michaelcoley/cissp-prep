@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Source PDF (copyrighted study guide — not redistributable)
+guide.pdf
+guide_raw.txt
+
+# Build logs
+*.log
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Backup copies
+*\ copy.*
+*~
+
+# Subagent intermediate artefacts (orphaned during build)
+web_research_d[0-9].json
+build_d[0-9].py
