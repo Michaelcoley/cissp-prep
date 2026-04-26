@@ -36,6 +36,185 @@ def chapter_for_pages(pages):
 for q in QUESTIONS:
     q["chapter"] = chapter_for_pages(q.get("guide_pages"))
 
+
+# High-leverage comparison tables (cross-domain reference for Read view)
+TABLES = [
+    {
+        "id": "raid_levels",
+        "name": "RAID levels — performance vs redundancy",
+        "domain": 7,
+        "headers": ["Level", "Min disks", "Fault tolerance", "Storage efficiency", "When to choose"],
+        "rows": [
+            ["RAID 0", "2", "None (any drive lost = data lost)", "100%", "High-performance scratch / cache only"],
+            ["RAID 1", "2", "1 drive (mirror)", "50%", "OS boot, small critical volumes"],
+            ["RAID 5", "3", "1 drive", "(N-1)/N", "General file servers (legacy — write penalty)"],
+            ["RAID 6", "4", "2 drives", "(N-2)/N", "Large archives, high resilience"],
+            ["RAID 10 (1+0)", "4", "1 per mirror pair", "50%", "Databases, latency-sensitive workloads"],
+            ["RAID 01 (0+1)", "4", "1 drive total", "50%", "Rare — RAID 10 is preferred"],
+        ],
+        "tip": "RAID is for AVAILABILITY, not BACKUP. A delete still propagates. Always pair with backups."
+    },
+    {
+        "id": "recovery_sites",
+        "name": "Recovery site types — RTO vs cost",
+        "domain": 7,
+        "headers": ["Type", "RTO", "Data freshness", "Cost", "When to choose"],
+        "rows": [
+            ["Hot",         "Minutes – hours", "Real-time replication",  "$$$$", "Tier-0, regulated, ~zero downtime"],
+            ["Warm",        "12 – 24 hours",   "Daily/hourly sync",      "$$$",  "Critical but tolerant of brief outage"],
+            ["Cold",        "Days – weeks",    "Manual restore",         "$",    "Non-critical, budget-constrained"],
+            ["Cloud",       "Variable (provisionable)", "Configurable", "$ – $$$", "Modern default; pay-as-you-recover"],
+            ["Mobile",      "Hours – days",    "Manual",                 "$$",   "Field operations, regional disaster"],
+            ["Reciprocal",  "Variable",        "Manual",                 "$",    "Avoid — same-disaster failure mode"],
+        ],
+        "tip": "Pick the cheapest site whose RTO meets your BIA. Hot sites are luxury for critical-only systems."
+    },
+    {
+        "id": "osi_tcp",
+        "name": "OSI vs TCP/IP — layer mapping",
+        "domain": 4,
+        "headers": ["OSI #", "OSI layer", "TCP/IP layer", "Example protocols / units"],
+        "rows": [
+            ["7", "Application",  "Application", "HTTP, FTP, SMTP, DNS — data"],
+            ["6", "Presentation", "Application", "TLS encoding, JPEG, ASCII"],
+            ["5", "Session",      "Application", "TLS sessions, RPC, NetBIOS"],
+            ["4", "Transport",    "Transport",   "TCP, UDP — segments / datagrams"],
+            ["3", "Network",      "Internet",    "IP, ICMP, IPsec — packets"],
+            ["2", "Data Link",    "Link",        "Ethernet, ARP, MAC, PPP — frames"],
+            ["1", "Physical",     "Link",        "Cables, hubs, electrical signaling — bits"],
+        ],
+        "tip": "Mnemonic: 'Please Do Not Throw Sausage Pizza Away' (L1→L7). TLS = L5 per ISC2."
+    },
+    {
+        "id": "evidence_types",
+        "name": "Evidence types — admissibility ranking",
+        "domain": 7,
+        "headers": ["Type", "Definition", "Admissibility"],
+        "rows": [
+            ["Best (primary)", "Original document or media (or its forensic image)", "Strongest"],
+            ["Secondary",      "Copies, transcripts, summaries", "Weaker — best only if original unavailable"],
+            ["Direct",         "Eyewitness testimony of the event itself", "Strong if witness credible"],
+            ["Circumstantial", "Inference from facts (e.g., login + timestamp pattern)", "Variable — needs corroboration"],
+            ["Demonstrative",  "Charts, models, simulations to explain", "Supporting only — not standalone"],
+            ["Corroborative",  "Reinforces existing evidence", "Adds weight to other evidence"],
+            ["Hearsay",        "Out-of-court statement to prove the matter asserted", "Generally INADMISSIBLE (with exceptions)"],
+        ],
+        "tip": "Logs are typically hearsay UNLESS they qualify as business records (Federal Rules of Evidence 803(6))."
+    },
+    {
+        "id": "fire_classes",
+        "name": "Fire classes — agent compatibility",
+        "domain": 3,
+        "headers": ["Class", "Fuel", "Acceptable agent", "Datacenter use"],
+        "rows": [
+            ["A", "Ordinary combustibles (wood, paper, cloth)", "Water, foam, dry chem", "Avoid water near electronics"],
+            ["B", "Flammable liquids/gases (oil, gasoline)",     "CO₂, dry chem, foam",   "CO₂ unsafe for occupied space"],
+            ["C", "Energized electrical equipment",              "Clean agent (FM-200, Novec 1230, Inergen)", "PRIMARY for datacenters"],
+            ["D", "Combustible metals (Mg, Na, Ti)",             "Specialized dry powder", "Rare in IT environments"],
+            ["K", "Cooking oils, fats",                          "Wet chemical (saponification)", "Kitchens only"],
+        ],
+        "tip": "Wet pipe = always charged (water in pipes). Dry pipe = water released on alarm. Pre-action = two-trigger to avoid accidental discharge — preferred for datacenters."
+    },
+    {
+        "id": "ipsec_modes",
+        "name": "IPsec — protocols × modes",
+        "domain": 4,
+        "headers": ["", "AH (Authentication Header)", "ESP (Encapsulating Security Payload)"],
+        "rows": [
+            ["Confidentiality",  "✗ (integrity-only)",                    "✓ (encrypts payload)"],
+            ["Integrity",        "✓ (whole packet incl. immutable IP hdr)", "✓ (payload + optionally header)"],
+            ["NAT-friendly",     "✗ (NAT mutates IP hdr → integrity break)", "✓ with NAT-T (UDP/4500)"],
+            ["Transport mode",   "Host-to-host, IP hdr in clear",         "Host-to-host, payload encrypted"],
+            ["Tunnel mode",      "Gateway-to-gateway, original IP wrapped", "Site-to-site VPN, full encapsulation"],
+            ["Protocol number",  "51",                                    "50"],
+        ],
+        "tip": "Modern site-to-site VPNs use ESP in tunnel mode with NAT-T. AH is rarely deployed."
+    },
+    {
+        "id": "backup_types",
+        "name": "Backup types — speed vs restore",
+        "domain": 7,
+        "headers": ["Type", "What's backed up", "Backup time", "Restore complexity", "Archive bit"],
+        "rows": [
+            ["Full",          "Everything",                              "Slowest", "Simplest (1 set)",                 "Cleared"],
+            ["Incremental",   "Changes since last backup of any type",   "Fastest", "Hardest (full + every incr in chain)", "Cleared"],
+            ["Differential",  "Changes since last FULL backup",          "Mid",     "Easy (full + most-recent diff)",  "Not cleared"],
+            ["Snapshot",      "Point-in-time copy (CoW)",                "Instant", "Easy (revert)",                   "n/a"],
+            ["Synthetic full","Server constructs full from prior incrementals", "Variable", "As easy as a full",       "Cleared"],
+        ],
+        "tip": "3-2-1 rule: 3 copies, 2 different media types, 1 offsite. Modern: 3-2-1-1-0 adds 1 immutable + 0 errors after verification."
+    },
+    {
+        "id": "access_models",
+        "name": "Access control models — DAC / MAC / RBAC / ABAC",
+        "domain": 5,
+        "headers": ["Model", "Decision authority", "Granularity", "Typical example"],
+        "rows": [
+            ["DAC", "Data owner (discretionary)",          "Per object", "Unix file permissions, Windows NTFS ACLs"],
+            ["MAC", "System policy (mandatory, labels)",   "Subject clearance vs object label", "Government Bell-LaPadula systems"],
+            ["RBAC","Role assignments",                    "Per role",   "Active Directory groups, AWS IAM roles"],
+            ["ABAC","Multi-attribute policy engine",       "Fine-grained (user × resource × env)", "AWS IAM policies, Azure Conditional Access, XACML"],
+            ["RuBAC","System-wide rules (often IF/THEN)",  "Identity-independent", "Firewall ACLs, time-of-day restrictions"],
+        ],
+        "tip": "Production systems usually layer RBAC (coarse) + ABAC (fine). MAC appears in classified environments."
+    },
+    {
+        "id": "control_grid",
+        "name": "Controls — type × function",
+        "domain": 1,
+        "headers": ["", "Preventive", "Detective", "Corrective"],
+        "rows": [
+            ["Administrative", "Policies, training, hiring/screening", "Audits, performance reviews", "Termination, retraining"],
+            ["Technical",      "Firewall, encryption, MFA",           "IDS, SIEM, log monitoring",  "Patching, IPS auto-block"],
+            ["Physical",       "Locks, fences, mantraps, bollards",   "CCTV, motion sensors, guards", "Fire suppression, repair"],
+        ],
+        "tip": "Also: Deterrent (warning signs, login banners), Compensating (substitute when primary infeasible), Recovery (BCP/DRP)."
+    },
+    {
+        "id": "kerberos_flow",
+        "name": "Kerberos — message flow",
+        "domain": 5,
+        "headers": ["Step", "Message", "From → To", "Contains"],
+        "rows": [
+            ["1", "AS-REQ", "Client → AS",  "Username, requested realm, timestamp"],
+            ["2", "AS-REP", "AS → Client",  "TGT (encrypted with KRBTGT secret) + session key (encrypted with user's hash)"],
+            ["3", "TGS-REQ","Client → TGS", "TGT + service principal name + authenticator (encrypted with session key)"],
+            ["4", "TGS-REP","TGS → Client", "Service ticket (encrypted with service's secret) + new session key"],
+            ["5", "AP-REQ", "Client → Service", "Service ticket + new authenticator"],
+            ["6", "AP-REP", "Service → Client", "Mutual auth confirmation (optional)"],
+        ],
+        "tip": "KDC = AS + TGS. Time sync within ~5 min required (NTP). Golden Ticket forges step 2 from KRBTGT hash."
+    },
+    {
+        "id": "biometric_errors",
+        "name": "Biometric error rates",
+        "domain": 5,
+        "headers": ["Term", "Meaning", "What you minimize for…"],
+        "rows": [
+            ["FAR / Type II",  "False acceptance — unauthorized user admitted", "HIGH security (worse failure mode)"],
+            ["FRR / Type I",   "False rejection — legitimate user denied",      "Usability / throughput"],
+            ["CER (EER)",      "Crossover error rate — point where FAR = FRR",  "Comparing systems (lower is better)"],
+        ],
+        "tip": "High-security: tune for low FAR even at the cost of higher FRR. Convenience apps: opposite trade."
+    },
+    {
+        "id": "bia_metrics",
+        "name": "BIA time metrics",
+        "domain": 1,
+        "headers": ["Metric", "Stands for", "Meaning", "Constraint"],
+        "rows": [
+            ["MTD", "Maximum Tolerable Downtime", "Outer bound — exceeding kills the business", "Driven by impact tolerance"],
+            ["RTO", "Recovery Time Objective",    "Target time to restore operations",          "RTO ≤ MTD"],
+            ["RPO", "Recovery Point Objective",   "Acceptable data-loss window (backwards)",     "Drives backup frequency"],
+            ["WRT", "Work Recovery Time",         "Time to validate / cleanse / resume after restore", "RTO + WRT ≤ MTD"],
+            ["MTBF","Mean Time Between Failures", "Reliability metric (hardware)",               "Higher is better"],
+            ["MTTR","Mean Time To Repair",        "Recoverability metric",                       "Lower is better"],
+        ],
+        "tip": "Mnemonic: 'MOMENT' is wrong — there's no single mnemonic. Just remember RTO+WRT ≤ MTD and RPO drives backup frequency."
+    },
+]
+
+
 # SHA-256("SecureGreatness!2026") computed once, stored as constant in HTML.
 # Computed via: hashlib.sha256(b"SecureGreatness!2026").hexdigest()
 import hashlib
@@ -84,7 +263,7 @@ button{cursor:pointer;border:1px solid var(--border2);background:var(--surface2)
   color:var(--text);padding:.55rem 1rem;border-radius:.4rem;
   transition:all 150ms ease}
 button:hover:not(:disabled){border-color:var(--accent);box-shadow:0 0 0 2px rgba(0,212,255,.18)}
-button:focus-visible{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px rgba(0,212,255,.35)}
+button:focus-visible{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,212,255,.55)}
 button:disabled{opacity:.5;cursor:not-allowed}
 button.primary{background:var(--accent);color:#001018;border-color:var(--accent);font-weight:600}
 button.primary:hover{background:#1ad9ff}
@@ -93,7 +272,7 @@ button.warn{background:var(--warn);color:#1a1100;border-color:var(--warn)}
 button.ghost{background:transparent;border-color:var(--border)}
 input,select,textarea{background:var(--surface);border:1px solid var(--border2);
   color:var(--text);padding:.5rem .75rem;border-radius:.35rem;width:100%}
-input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 2px rgba(0,212,255,.35)}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,212,255,.55)}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 .mono{font-family:var(--mono)}
@@ -157,7 +336,7 @@ nav.bottom button:hover{background:var(--surface2)}
 .choice{padding:.7rem .9rem;border:1px solid var(--border2);border-radius:.45rem;
   margin:.4rem 0;cursor:pointer;display:flex;gap:.7rem;align-items:flex-start;
   background:var(--surface2);transition:all 150ms ease;user-select:none}
-.choice:hover{border-color:var(--accent);background:#1d2735}
+@media (hover:hover){.choice:hover{border-color:var(--accent);background:#1d2735}}
 .choice.eliminated{opacity:.45;text-decoration:line-through}
 .choice .letter{flex:0 0 1.4rem;height:1.4rem;border-radius:50%;background:var(--surface);
   display:flex;align-items:center;justify-content:center;font-weight:700;
@@ -165,8 +344,10 @@ nav.bottom button:hover{background:var(--surface2)}
 .choice.selected{border-color:var(--accent);background:#0d2530}
 .choice.selected .letter{background:var(--accent);color:#001018}
 .choice.correct{border-color:var(--success);background:#0a2a22}
+.choice.correct .letter::after{content:" ✓";font-size:.8rem;margin-left:.1rem}
 .choice.correct .letter{background:var(--success);color:#001f15}
 .choice.incorrect{border-color:var(--danger);background:#2a0a12}
+.choice.incorrect .letter::after{content:" ✗";font-size:.8rem;margin-left:.1rem}
 .choice.incorrect .letter{background:var(--danger);color:#fff}
 .explanation{margin-top:.9rem;padding:.85rem 1rem;background:var(--surface2);
   border-left:3px solid var(--accent);border-radius:.4rem;font-size:.92rem;line-height:1.55}
@@ -204,7 +385,10 @@ nav.bottom button:hover{background:var(--surface2)}
 .toast{background:var(--surface);border:1px solid var(--accent);border-left-width:4px;
   padding:.7rem 1rem;border-radius:.45rem;color:var(--text);font-size:.92rem;
   box-shadow:0 6px 20px rgba(0,0,0,.4);animation:slidein .25s ease}
-@keyframes slidein{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@media (prefers-reduced-motion: no-preference){
+  @keyframes slidein{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+}
+@media (prefers-reduced-motion: reduce){.toast{animation:none}}
 
 /* Question navigator (exam) */
 .qnav{display:grid;grid-template-columns:repeat(auto-fill,minmax(2.4rem,1fr));gap:.3rem;margin-top:.6rem;max-height:230px;overflow:auto;padding:.3rem;background:var(--bg2);border-radius:.4rem;border:1px solid var(--border)}
@@ -238,7 +422,8 @@ nav.bottom button:hover{background:var(--surface2)}
 .timer{font-family:var(--mono);font-size:.95rem;padding:.3rem .6rem;border-radius:.35rem;background:var(--surface2);color:var(--accent);border:1px solid var(--border2)}
 .timer.warn{color:var(--warn);border-color:var(--warn)}
 .timer.danger{color:var(--danger);border-color:var(--danger);animation:pulse 1s infinite}
-@keyframes pulse{50%{opacity:.6}}
+@media (prefers-reduced-motion: no-preference){@keyframes pulse{50%{opacity:.6}}}
+@media (prefers-reduced-motion: reduce){.timer.danger{animation:none}}
 
 /* Search */
 .search-bar{display:flex;gap:.5rem;margin-bottom:.7rem}
@@ -292,6 +477,7 @@ const PW_HASH = window.__PW_HASH__;
 const QUESTIONS = window.__QUESTIONS__;
 const FLASHCARDS = window.__FLASHCARDS__;
 const TOPICS = window.__TOPICS__;
+const TABLES = window.__TABLES__;
 const DOMAINS = window.__DOMAINS__;
 const CHEAT = window.__CHEAT__;
 
@@ -358,9 +544,17 @@ function fmtTime(sec){
 // ============================================================================
 // TOASTS
 // ============================================================================
+let __lastToastMsg = '';
+let __lastToastT = 0;
 function toast(msg, type){
-  const t = el('div', {class:'toast'+(type?' '+type:'')}, msg);
+  // Suppress consecutive identical toasts within 1.5s
+  const now = Date.now();
+  if (msg === __lastToastMsg && (now - __lastToastT) < 1500) return;
+  __lastToastMsg = msg; __lastToastT = now;
+  const t = el('div', {class:'toast'+(type?' '+type:''), role:'status', 'aria-live':'polite'}, msg);
   $('#toasts').appendChild(t);
+  // Cap visible stack at 3
+  while ($('#toasts').children.length > 3) $('#toasts').firstChild.remove();
   setTimeout(()=>{t.style.opacity='0'; setTimeout(()=>t.remove(), 250);}, 2800);
 }
 
@@ -395,6 +589,21 @@ function tickStreak(){
   else state.streak.count = 1;
   state.streak.last = today;
   save(LS.streak, state.streak);
+}
+function checkStreakWarning(){
+  // If streak is alive, today not yet credited, and it's the user's last
+  // window of the day (after 6pm local), nudge them.
+  if (!state.streak.last || state.streak.count < 2) return;
+  const today = todayStr();
+  if (state.streak.last === today) return;  // already studied today
+  const yesterday = new Date(); yesterday.setDate(yesterday.getDate()-1);
+  if (state.streak.last !== yesterday.toISOString().slice(0,10)) return;  // already broken
+  const hour = new Date().getHours();
+  if (hour < 18) return;  // earlier in the day, no nudge
+  const sessionFlag = 'cissp.streak.warned.' + today;
+  if (sessionStorage.getItem(sessionFlag)) return;
+  sessionStorage.setItem(sessionFlag, '1');
+  toast('⏰ Quick review keeps your ' + state.streak.count + '-day streak alive.', 'warn');
 }
 
 // ============================================================================
@@ -445,7 +654,7 @@ function weakestSubdomains(n){
 // ============================================================================
 // VIEWS / NAVIGATION
 // ============================================================================
-const VIEWS = ['dashboard','read','practice','exam','flash','cheat','stats'];
+const VIEWS = ['dashboard','read','practice','exam','flash','stats'];
 function go(view){
   for (const v of VIEWS){
     $('#view-'+v).classList.toggle('active', v===view);
@@ -458,7 +667,6 @@ function go(view){
   if (view === 'exam') renderExam();
   if (view === 'read') renderRead();
   if (view === 'flash') renderFlash();
-  if (view === 'cheat') renderCheat();
   if (view === 'stats') renderStats();
   window.scrollTo(0,0);
 }
@@ -466,12 +674,97 @@ function go(view){
 // ============================================================================
 // DASHBOARD
 // ============================================================================
+// 8-week study plan — embedded constant, surfaced as a Dashboard card.
+const STUDY_PLAN = [
+  {week:1, focus:'Domains 1 + 2 (governance & assets)', read_chapters:[1,2,3,4,5], practice_target:25, exam:false},
+  {week:2, focus:'Domain 3 first half (crypto, models)', read_chapters:[6,7,8], practice_target:25, exam:false},
+  {week:3, focus:'Domain 3 second half + start D4', read_chapters:[9,10,11], practice_target:25, exam:false},
+  {week:4, focus:'Domain 4 finish + Domain 5', read_chapters:[12,13,14], practice_target:25, exam:false},
+  {week:5, focus:'Domain 6 + Domain 7 first half', read_chapters:[15,16,17], practice_target:25, exam:false},
+  {week:6, focus:'Domain 7 finish + Domain 8', read_chapters:[18,19,20,21], practice_target:25, exam:false},
+  {week:7, focus:'1st full mock exam + remediation on weakest 3 domains', read_chapters:[], practice_target:25, exam:true},
+  {week:8, focus:'2nd full mock exam + memorize cheat tables; light review', read_chapters:[], practice_target:15, exam:true},
+];
+function studyPlanWeek(){
+  // If user has set start_date in prefs, compute current week; else assume week 1.
+  if (!state.prefs.studyStart) return 1;
+  const start = new Date(state.prefs.studyStart);
+  const elapsedDays = Math.floor((Date.now() - start.getTime()) / 86400000);
+  const w = Math.min(8, Math.max(1, Math.floor(elapsedDays/7) + 1));
+  return w;
+}
+function buildStudyPlanCard(stats){
+  const w = studyPlanWeek();
+  const plan = STUDY_PLAN[w-1];
+  const card = el('div', {class:'card', style:'border-color:var(--accent2)'}, [
+    el('div', {class:'row spread'}, [
+      el('h3', {style:'margin:0'}, '🗓 Week ' + w + ' of 8 — ' + plan.focus),
+      el('span', {class:'muted', style:'font-size:.8rem'}, state.prefs.studyStart ? '' : 'Not started yet'),
+    ]),
+  ]);
+  if (!state.prefs.studyStart){
+    card.appendChild(el('p', {class:'muted', style:'font-size:.88rem;margin:.5rem 0'},
+      'Set your study start date and the plan will track which week you are in.'));
+    card.appendChild(el('div', {class:'row'}, [
+      el('button', {class:'primary', onclick:()=>{
+        state.prefs.studyStart = new Date().toISOString().slice(0,10);
+        save(LS.prefs, state.prefs); renderDashboard();
+      }}, 'Start week 1 today'),
+    ]));
+    return card;
+  }
+  // Today's recommended actions
+  const actions = el('ul', {style:'margin:.4rem 0 .4rem 1.2rem;padding:0'});
+  if (plan.read_chapters.length){
+    actions.appendChild(el('li', null, [
+      'Read chapters: ',
+      ...plan.read_chapters.flatMap(c => [
+        el('button', {class:'badge guide', style:'border:none;cursor:pointer;font:inherit',
+          onclick:()=>{__readTab='chapters'; __readFilter={domain:null,q:''}; go('read');
+            setTimeout(()=>{ const det = $$('#read-list details').find(d => d.textContent.includes('Ch ' + c + ' '));
+              if (det){det.open = true; det.scrollIntoView({behavior:'smooth', block:'start'});}}, 80);}},
+          'Ch ' + c),
+        ' '
+      ])
+    ]));
+  }
+  actions.appendChild(el('li', null, 'Practice: ' + plan.practice_target + ' questions/day'));
+  if (plan.exam){
+    actions.appendChild(el('li', null, [
+      el('strong', null, 'Take a full mock exam this week '),
+      el('button', {class:'badge guide', style:'border:none;cursor:pointer;font:inherit',
+        onclick:()=>go('exam')}, 'Start exam →'),
+    ]));
+  }
+  actions.appendChild(el('li', null, 'Flashcards: keep up with the daily SM-2 queue'));
+  card.appendChild(actions);
+  return card;
+}
+
 function renderDashboard(){
   const root = $('#view-dashboard'); root.innerHTML = '';
   const stats = overallStats();
   const acc = stats.seen ? Math.round(100*stats.correct/stats.seen) : 0;
   const dueCount = flashDueCount();
   root.appendChild(el('h2', null, 'Dashboard'));
+  // ZERO-STATE: first-time user welcome
+  if (stats.seen === 0){
+    root.appendChild(el('div', {class:'card', style:'border:2px solid var(--accent);background:linear-gradient(135deg,var(--surface) 0%,#0d2530 100%)'}, [
+      el('h3', {style:'color:var(--accent);font-size:1.2rem'}, '👋 Welcome — start here'),
+      el('p', null, 'This app combines 400 manager-mindset practice questions, 21 chapter summaries with ~310 exam essentials, SM-2 spaced-repetition flashcards, a 100-question mock exam, and reference tables — everything you need for the CISSP exam.'),
+      el('p', {class:'muted'}, 'An 8-week plan is shown below. For your first session, try this:'),
+      el('div', {class:'row', style:'gap:.5rem;margin-top:.4rem'}, [
+        el('button', {class:'primary', onclick:()=>go('read')}, '📖 Browse a chapter'),
+        el('button', {onclick:()=>{state.practice = null; go('practice');}}, '✎ Try 10 practice questions'),
+        el('button', {onclick:()=>go('flash')}, '⚡ Flip 5 flashcards'),
+      ]),
+      el('p', {class:'muted', style:'margin-top:.7rem;font-size:.85rem'},
+        'Recommended pace: 60–90 min/day · 1 full mock exam in week 7. Sync your progress in Stats → Cloud sync to study from any device.'),
+    ]));
+  }
+  // 8-WEEK STUDY PLAN — surfaced after first answer + always available
+  const planCard = buildStudyPlanCard(stats);
+  if (planCard) root.appendChild(planCard);
   // KPI row
   const kpis = el('div', {class:'row'}, [
     el('div', {class:'card grow'}, [
@@ -868,7 +1161,25 @@ function renderExam(){
     el('h2', {style:'margin:0'}, 'Exam'),
     el('div', {class:'row'}, [
       el('span', {class:'muted'}, 'Q ' + (ex.idx+1) + '/' + ex.questions.length),
-      el('span', {class:'timer ' + (remaining<300?'danger':remaining<900?'warn':'')}, fmtTime(remaining)),
+      el('span', {class:'timer ' + (remaining<300?'danger':remaining<900?'warn':''),
+        'aria-label':'Time remaining'}, fmtTime(remaining)),
+    ]),
+  ]));
+  // Progress bar — current position (cyan) overlaid on answered count (green)
+  const answeredCount = Object.keys(ex.picks).length;
+  const flaggedCount = Object.keys(ex.flagged).filter(k => ex.flagged[k]).length;
+  const posPct = (ex.idx + 1) / ex.questions.length * 100;
+  const ansPct = answeredCount / ex.questions.length * 100;
+  root.appendChild(el('div', {style:'margin:.4rem 0 .8rem'}, [
+    el('div', {style:'height:8px;background:var(--surface2);border-radius:4px;overflow:hidden;position:relative',
+      role:'progressbar', 'aria-valuemin':'0', 'aria-valuemax':'100', 'aria-valuenow':String(Math.round(ansPct)),
+      'aria-label':'Exam progress'}, [
+      el('div', {style:'position:absolute;top:0;left:0;height:100%;background:var(--success);width:'+ansPct+'%;transition:width 200ms'}),
+      el('div', {style:'position:absolute;top:0;left:0;height:100%;background:linear-gradient(90deg,transparent 0%,var(--accent) 100%);width:'+posPct+'%;mix-blend-mode:screen'}),
+    ]),
+    el('div', {class:'muted', style:'font-size:.75rem;margin-top:.25rem;display:flex;justify-content:space-between'}, [
+      el('span', null, Math.round(ansPct) + '% answered (' + answeredCount + '/' + ex.questions.length + ')'),
+      el('span', null, flaggedCount ? '★ ' + flaggedCount + ' flagged' : ''),
     ]),
   ]));
   // Question (no immediate feedback — we hide explanation)
@@ -1009,16 +1320,32 @@ function showExamResult(r){
 // READ MODE — chapter summaries + Exam Essentials, browseable per domain
 // ============================================================================
 let __readFilter = {domain: null, q: ''};
+let __readTab = 'chapters';  // 'chapters' | 'reference'
 function renderRead(){
   const root = $('#view-read'); root.innerHTML = '';
   root.appendChild(el('h2', null, 'Read'));
+  // Tab toggle
+  const tabs = el('div', {class:'row', style:'margin-bottom:.7rem;gap:.4rem'}, [
+    el('button', {class: __readTab==='chapters' ? 'primary' : 'ghost',
+      onclick:()=>{__readTab='chapters'; renderRead();}},
+      '📚 Chapters (' + TOPICS.length + ')'),
+    el('button', {class: __readTab==='reference' ? 'primary' : 'ghost',
+      onclick:()=>{__readTab='reference'; renderRead();}},
+      '⚡ Reference (' + TABLES.length + ' tables · ' + DOMAINS.length + ' cheat sheets)'),
+  ]);
+  root.appendChild(tabs);
+  if (__readTab === 'chapters') return renderReadChapters(root);
+  return renderReadReference(root);
+}
+function renderReadChapters(root){
   root.appendChild(el('div', {class:'muted', style:'margin-bottom:.5rem;font-size:.88rem'},
     TOPICS.length + ' chapters synthesised from the guide. Click a chapter to expand its summary and exam essentials.'));
-  // Filter controls
   const filterRow = el('div', {class:'search-bar'}, [
     el('input', {id:'read-q', placeholder:'Search summaries and exam essentials…', value:__readFilter.q,
+      'aria-label':'Search chapter summaries',
       oninput:e=>{__readFilter.q = e.target.value; rerenderReadList();}}),
-    el('select', {id:'read-d', onchange:e=>{__readFilter.domain = e.target.value || null; rerenderReadList();}}, [
+    el('select', {id:'read-d', 'aria-label':'Filter by domain',
+      onchange:e=>{__readFilter.domain = e.target.value || null; rerenderReadList();}}, [
       el('option', {value:''}, 'All domains'),
       ...DOMAINS.map(d => {
         const opt = el('option', {value:String(d.id)}, 'D' + d.id + ' ' + d.name);
@@ -1031,6 +1358,53 @@ function renderRead(){
   const list = el('div', {id:'read-list'});
   root.appendChild(list);
   rerenderReadList();
+}
+function renderReadReference(root){
+  root.appendChild(el('div', {class:'muted', style:'margin-bottom:.7rem;font-size:.88rem'},
+    'High-leverage comparison tables, plus per-domain cheat sheets with web sources. Memorise these for the final week.'));
+  // Comparison tables
+  root.appendChild(el('h3', {style:'color:var(--accent);margin-top:.4rem'}, '📊 Comparison tables'));
+  for (const t of TABLES){
+    const det = el('details', {class:'cheat'});
+    det.appendChild(el('summary', null, [
+      el('span', null, [el('span',{class:'mono badge'}, 'D'+t.domain), ' ', t.name]),
+      el('span', {class:'muted', style:'font-size:.8rem'}, t.rows.length + ' rows'),
+    ]));
+    const body = el('div', {class:'body'});
+    // Build the table
+    const tbl = el('table', {style:'width:100%;border-collapse:collapse;font-size:.88rem'});
+    const thead = el('thead', null, [
+      el('tr', null, t.headers.map(h => el('th',
+        {style:'text-align:left;padding:.4rem .5rem;border-bottom:2px solid var(--border2);color:var(--accent);font-weight:600'},
+        h))),
+    ]);
+    tbl.appendChild(thead);
+    const tbody = el('tbody');
+    for (const row of t.rows){
+      tbody.appendChild(el('tr', null, row.map(cell => el('td',
+        {style:'padding:.4rem .5rem;border-bottom:1px solid var(--border);vertical-align:top'},
+        String(cell)))));
+    }
+    tbl.appendChild(tbody);
+    body.appendChild(tbl);
+    if (t.tip){
+      body.appendChild(el('div', {style:'margin-top:.6rem;padding:.5rem .7rem;background:var(--surface2);border-left:3px solid var(--accent);border-radius:.3rem;font-size:.88rem'},
+        [el('strong', null, '💡 Tip: '), t.tip]));
+    }
+    det.appendChild(body);
+    root.appendChild(det);
+  }
+  // Per-domain cheat sheets (URL lists for further reading)
+  root.appendChild(el('h3', {style:'color:var(--accent);margin-top:1.5rem'}, '🔗 Per-domain cheat sheets'));
+  root.appendChild(el('div', {class:'search-bar'}, [
+    el('input', {id:'cheat-q', placeholder:'Search across cheat sheets…', oninput:filterCheat,
+      'aria-label':'Search cheat sheets'}),
+  ]));
+  const cont = el('div', {id:'cheat-container'});
+  for (const c of CHEAT){
+    cont.appendChild(buildCheatSheet(c));
+  }
+  root.appendChild(cont);
 }
 function rerenderReadList(){
   const list = $('#read-list'); if (!list) return;
@@ -1704,6 +2078,7 @@ function boot(){
   go('dashboard');
   document.addEventListener('keydown', onKey);
   bindSwipe();
+  checkStreakWarning();
 }
 
 // ============================================================================
@@ -1769,13 +2144,12 @@ def html_doc():
         "    </div>\n"
         "  </header>\n"
         "  <nav class=\"bottom\">\n"
-        "    <button data-view=\"dashboard\" class=\"active\"><span class=\"nico\">▦</span><span>Dashboard</span></button>\n"
-        "    <button data-view=\"read\"><span class=\"nico\">📖</span><span>Read</span></button>\n"
-        "    <button data-view=\"practice\"><span class=\"nico\">✎</span><span>Practice</span></button>\n"
-        "    <button data-view=\"exam\"><span class=\"nico\">⏱</span><span>Exam</span></button>\n"
-        "    <button data-view=\"flash\"><span class=\"nico\">⚡</span><span>Flashcards</span></button>\n"
-        "    <button data-view=\"cheat\"><span class=\"nico\">≡</span><span>Cheat sheets</span></button>\n"
-        "    <button data-view=\"stats\"><span class=\"nico\">∿</span><span>Stats</span></button>\n"
+        "    <button data-view=\"dashboard\" class=\"active\" aria-label=\"Dashboard\"><span class=\"nico\" aria-hidden=\"true\">▦</span><span>Dashboard</span></button>\n"
+        "    <button data-view=\"read\" aria-label=\"Read chapters and reference\"><span class=\"nico\" aria-hidden=\"true\">📖</span><span>Read</span></button>\n"
+        "    <button data-view=\"practice\" aria-label=\"Practice questions\"><span class=\"nico\" aria-hidden=\"true\">✎</span><span>Practice</span></button>\n"
+        "    <button data-view=\"exam\" aria-label=\"Full exam simulation\"><span class=\"nico\" aria-hidden=\"true\">⏱</span><span>Exam</span></button>\n"
+        "    <button data-view=\"flash\" aria-label=\"Flashcards\"><span class=\"nico\" aria-hidden=\"true\">⚡</span><span>Flashcards</span></button>\n"
+        "    <button data-view=\"stats\" aria-label=\"Stats and history\"><span class=\"nico\" aria-hidden=\"true\">∿</span><span>Stats</span></button>\n"
         "  </nav>\n"
         "  <main>\n"
         "    <div id=\"view-dashboard\" class=\"view active\"></div>\n"
@@ -1783,7 +2157,6 @@ def html_doc():
         "    <div id=\"view-exam\" class=\"view\"></div>\n"
         "    <div id=\"view-read\" class=\"view\"></div>\n"
         "    <div id=\"view-flash\" class=\"view\"></div>\n"
-        "    <div id=\"view-cheat\" class=\"view\"></div>\n"
         "    <div id=\"view-stats\" class=\"view\"></div>\n"
         "  </main>\n"
         "</div>\n"
@@ -1796,8 +2169,11 @@ def html_doc():
         f"window.__DOMAINS__ = {domains_js};\n"
         f"window.__CHEAT__ = {cheat_js};\n"
         f"window.__TOPICS__ = {json.dumps(TOPICS, separators=(',', ':'))};\n"
-        f"window.__QUESTIONS__ = {json.dumps(QUESTIONS, separators=(',', ':'))};\n"
-        f"window.__FLASHCARDS__ = {json.dumps(FLASHCARDS, separators=(',', ':'))};\n"
+        f"window.__TABLES__ = {json.dumps(TABLES, separators=(',', ':'))};\n"
+        # JSON.parse('...') is parsed faster than inline JS object literals for
+        # large payloads in modern V8/JSC engines. Wrap the two large arrays.
+        f"window.__QUESTIONS__ = JSON.parse({json.dumps(json.dumps(QUESTIONS, separators=(',', ':')))});\n"
+        f"window.__FLASHCARDS__ = JSON.parse({json.dumps(json.dumps(FLASHCARDS, separators=(',', ':')))});\n"
         "</script>\n"
         "<script>" + JS + "</script>\n"
         "</body>\n"

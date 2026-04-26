@@ -1049,7 +1049,7 @@
       "PCI-DSS"
     ],
     "correct": 1,
-    "explanation": "NIST CSF 2.0 (released 2024) added Govern as a sixth function; the original five were Identify, Protect, Detect, Respond, Recover. ISO 27001 uses ISMS clauses + Annex A controls. COBIT uses governance/management objectives. PCI-DSS uses 12 requirements.",
+    "explanation": "NIST CSF 2.0 (Feb 2024) defines six core functions: Govern (NEW in 2.0), Identify, Protect, Detect, Respond, Recover. CSF 1.1's five functions (IPDRR) were extended with Govern to formalise leadership/oversight responsibilities including supply chain risk management. ISO 27001 uses ISMS clauses + Annex A controls. COBIT uses governance/management objectives. PCI-DSS uses 12 requirements.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -1925,7 +1925,7 @@
       "MTD failed"
     ],
     "correct": 0,
-    "explanation": "RTO target = 4h actual = 5h \u2192 RTO breached. RPO target = 15 min, actual = 30 min \u2192 RPO breached. MTD = 8h, actual = 5h \u2192 MTD met. Both time- and data-objectives missed simultaneously.",
+    "explanation": "Pre-disaster targets: RTO 4h, RPO 15min, MTD 8h. Actual: recovery took 5h (0.5h longer than RTO target \u2014 RTO BREACHED), data restored is 30min stale (15min over RPO budget \u2014 RPO BREACHED), total downtime 5h is within the 8h MTD ceiling (MTD met). So both time- and data-objectives missed. Choice B (only RPO) misses the 1-hour RTO overrun. Choice C (only RTO) misses the 2x RPO miss. Choice D (MTD failed) is wrong \u2014 5h \u2264 8h MTD.",
     "source": "canonical",
     "guide_pages": [],
     "guide_section": "",
@@ -1988,7 +1988,7 @@
       "The risk associated with insurance underwriting"
     ],
     "correct": 1,
-    "explanation": "Inherent risk is the gross risk before controls. Residual risk is what remains after controls. Secondary risk is risk caused by a control. The fourth choice is unrelated terminology.",
+    "explanation": "Inherent risk = the gross risk before any controls are applied. Choice A describes RESIDUAL risk (what remains after controls). Choice C describes SECONDARY risk (introduced by a control itself). Choice D is unrelated to risk-management terminology. Mature risk programs track all three: inherent \u2192 residual after treatment \u2192 secondary from new controls.",
     "source": "guide",
     "guide_pages": [
       306,
@@ -5302,15 +5302,15 @@
     "domain": 4,
     "subdomain": "4.1 OSI Model",
     "difficulty": "easy",
-    "stem": "At which OSI layer does TLS operate?",
+    "stem": "At which OSI layer does TLS PRIMARILY operate?",
     "choices": [
       "Layer 4 (Transport)",
       "Layer 5 (Session)",
       "Layer 6 (Presentation)",
-      "Layer 7 (Application) \u2014 though commonly described as 'between L4 and L7'"
+      "Layer 7 (Application)"
     ],
-    "correct": 3,
-    "explanation": "TLS sits above TCP (L4) and below applications (L7); CISSP commonly classifies it at the session/presentation layers (L5/L6) or treats it as L7. Choice D is the best of the four. The exam tends to accept 'session/presentation' or 'application-level encryption' depending on framing.",
+    "correct": 1,
+    "explanation": "TLS operates at the Session layer (L5) per ISC2 and Sybex \u2014 it manages encrypted sessions ABOVE TCP at the Transport layer and BELOW applications. Some references place it at L6 (Presentation) due to its encoding role, and you may occasionally see it described as 'between L4 and L7', but the exam's canonical answer is Session. L4 is wrong because TLS depends on TCP \u2014 it does not replace the Transport layer. L6 is the second-most-defensible choice but loses to L5 on ISC2 conventions. L7 is wrong because applications consume TLS sessions; they don't provide them.",
     "source": "guide",
     "guide_pages": [
       1095,
@@ -8139,7 +8139,7 @@
       "Knowledge-based questions"
     ],
     "correct": 2,
-    "explanation": "AAL3 requires a hardware-based cryptographic authenticator with verifier-impersonation resistance \u2014 FIDO2/WebAuthn is the only widely deployed option that meets it. Choices A, B, D are AAL1 or AAL2 at best. Knowledge-based questions don't qualify.",
+    "explanation": "AAL3 requires hardware-backed cryptographic authenticators with verifier-impersonation resistance. FIDO2/WebAuthn is the modern consumer-grade answer; PIV/CAC smart cards have met AAL3 since the standard was first published and remain the dominant federal AAL3 authenticator. Choice A (single-factor password) is AAL1. Choice B (password + SMS OTP) is AAL2 at best \u2014 SMS is in fact RESTRICTED in 800-63B because of SS7 / SIM-swap risk. Choice D (knowledge-based questions) doesn't qualify at any AAL \u2014 800-63B explicitly discourages KBA.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -8170,7 +8170,7 @@
       "Access based on owner discretion"
     ],
     "correct": 1,
-    "explanation": "Rule-based access uses system-wide rules (e.g., a firewall ACL deny rule applies to all users). Distinct from RBAC, which is identity-and-role driven. The other choices describe different models.",
+    "explanation": "Rule-Based Access Control (RuBAC) applies system-wide rules (often IF-THEN) regardless of user identity \u2014 firewall ACLs, time-of-day restrictions, geo-fencing. Choice A describes a simple ACL but lacks the system-wide rule concept. Choice C is RBAC (Role-Based, identity-driven). Choice D is DAC (Discretionary, owner-driven). Note the subtle distinction: RuBAC is rule-based, RBAC is role-based \u2014 exam writers love this trap.",
     "source": "guide",
     "guide_pages": [
       1717,
@@ -8294,7 +8294,7 @@
       "Layer-2 broadcast domain"
     ],
     "correct": 1,
-    "explanation": "Kerberos uses time-bound tickets \u2014 clock skew beyond ~5 minutes (configurable) breaks authentication. Hence the importance of NTP. The other choices are unrelated to Kerberos requirements.",
+    "explanation": "Kerberos uses TIME-BOUND tickets \u2014 clock skew beyond ~5 minutes (default) breaks authentication, so NTP synchronisation across all participants is essential. Choice A is wrong \u2014 Kerberos is IP-version-agnostic. Choice C is unrelated (BGP is for inter-AS routing, not internal directory traffic). Choice D is wrong \u2014 domain controllers can be on different L2 segments as long as they can route to each other and reach the KDC.",
     "source": "guide",
     "guide_pages": [
       1788,
@@ -8671,7 +8671,7 @@
       "FIDO Alliance CTAP"
     ],
     "correct": 1,
-    "explanation": "OASIS standardised SAML 2.0 including the Web Browser SSO Profile (SP-initiated and IdP-initiated). RFC 6749 is OAuth 2.0; RFC 4120 is Kerberos; CTAP is the FIDO2 client-to-authenticator protocol.",
+    "explanation": "OASIS (not IETF) standardised SAML 2.0, including the Web Browser SSO Profile that defines both SP-Initiated and IdP-Initiated flows. Choice A (RFC 6749) is OAuth 2.0 \u2014 different protocol entirely. Choice C (RFC 4120) is Kerberos. Choice D (CTAP) is the FIDO2 Client-to-Authenticator Protocol. Memorise the source body: SAML = OASIS, OAuth/OIDC = IETF/OpenID, Kerberos = IETF, FIDO = FIDO Alliance.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -8801,7 +8801,7 @@
       "Attack / Exploitation"
     ],
     "correct": 2,
-    "explanation": "NIST 800-115 defines four phases: Planning, Discovery, Attack, Reporting. Compliance certification is NOT a pen-test phase. PTES (Penetration Testing Execution Standard) defines seven, broader phases. The exam can ask either; specify the framework.",
+    "explanation": "NIST 800-115 frames the methodology as Planning \u2192 Execution \u2192 Post-Execution at the high level, with Execution typically split into Discovery and Attack \u2014 yielding the 4-stage Planning, Discovery, Attack, Reporting model commonly cited on the exam. PTES uses 7 phases. Either way, 'Compliance certification' is never a phase of the methodology \u2014 that's an outcome of an audit, not a pen test. Planning, Discovery, and Attack/Exploitation are all real phases.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -8942,7 +8942,7 @@
       "SOC for cybersecurity"
     ],
     "correct": 0,
-    "explanation": "ISAE 3402 mirrors SOC 1 (financial reporting controls). SOC 2 maps to ISAE 3000. CISSP candidates should know ISAE 3402 \u2248 SOC 1 and ISAE 3000 \u2248 SOC 2.",
+    "explanation": "ISAE 3402 is the international assurance standard for service-organisation controls over financial reporting \u2014 directly equivalent to SOC 1. Choice B (SOC 2) maps to ISAE 3000 + the AICPA Trust Services Criteria. Choice C (SOC 3) is the public-summary version of SOC 2 \u2014 has no separate ISAE equivalent. Choice D (SOC for cybersecurity) is a separate AICPA program with no ISAE equivalent. Memorise: ISAE 3402 \u2248 SOC 1 (financial), ISAE 3000 \u2248 SOC 2 (operational/security).",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -9634,7 +9634,7 @@
       "Compress logs and delete originals"
     ],
     "correct": 1,
-    "explanation": "Real-time forwarding to a separate, hardened, write-once or hash-chained store survives host compromise. Local-only logs can be tampered. Email and compression-delete are not security strategies.",
+    "explanation": "Real-time forwarding to a centralised log store on a separately-administered system (with WORM/immutable storage or hash-chain integrity) survives even complete host compromise. Choice A keeps logs only on the host the attacker owns \u2014 they're trivially deletable. Choice C is unauditable and a privacy violation. Choice D destroys evidence. The exam pattern: separation of duties between log producer and log consumer beats every other answer.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -9789,7 +9789,7 @@
       "CCE"
     ],
     "correct": 1,
-    "explanation": "CVSS (Common Vulnerability Scoring System, currently v4.0) provides numeric severity (0-10) with base, temporal, environmental metrics. CVE = identifier; CWE = weakness taxonomy; CCE = configuration enumeration. CVSS is the prioritisation tool.",
+    "explanation": "CVSS (Common Vulnerability Scoring System) is the prioritisation standard. CVSS v4.0 (Nov 2023) introduces Threat metrics (Exploit Maturity), Environmental modifiers, and Supplemental metrics (Safety, Recovery). CVE = unique identifier (e.g., CVE-2024-1234). CWE = weakness taxonomy (e.g., CWE-89 SQL injection). CCE = configuration enumeration. Modern practice combines CVSS + CISA KEV (Known Exploited Vulnerabilities) catalogue.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -9973,7 +9973,7 @@
       "Audit logs only on the host"
     ],
     "correct": 1,
-    "explanation": "Separation of duties for log management \u2014 privileged users on the source system cannot administer the log destination. Choices A, C, D allow tampering. The exam often tests this principle.",
+    "explanation": "Separation-of-duties for log management means privileged users on the source system cannot administer the log destination \u2014 even if they compromise the host, they can't tamper with the forwarded logs. Choice A leaves the same admin in control of both \u2014 defeats SoD. Choice C ('trust') is a non-control. Choice D keeps logs on a system the privileged user controls. The pattern: production admins \u2260 logging admins, always.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -10004,7 +10004,7 @@
       "Performance benchmarking"
     ],
     "correct": 1,
-    "explanation": "Regression testing verifies that recent changes have not broken previously working features. Mature CI/CD pipelines run regression suites on every change. The other choices describe other test types.",
+    "explanation": "Regression testing re-runs existing test suites after a code change to ensure previously-working features still work. Choice A is wrong \u2014 testing ONLY new features misses the whole point of regression. Choice C (compliance auditing) is unrelated to testing methodology. Choice D (performance benchmarking) measures speed, not correctness. CI/CD pipelines run regression suites on every commit to catch regressions early.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -10426,7 +10426,7 @@
       "Boot the image and check the user interface"
     ],
     "correct": 1,
-    "explanation": "Hash comparison (commonly SHA-256; MD5 is acceptable for forensic verification despite being broken cryptographically because the use case is integrity, not adversarial collision resistance) provides cryptographic proof. Visual checks and boot tests miss subtle changes.",
+    "explanation": "Hash comparison provides cryptographic proof of identical content \u2014 current forensic standards (SWGDE, NIST IR 8387) require SHA-256 minimum, with dual-hash (SHA-256 + SHA-1) as a defensive practice in case one is later challenged. MD5 is no longer accepted in court because of publicized chosen-prefix collisions. Visual inspection (A) misses subtle changes \u2014 a single bit flip is invisible. File listing comparison (C) confirms names but not content. Booting the image (D) is destructive \u2014 it modifies registry hives and timestamps, breaking the chain of custody.",
     "source": "guide",
     "guide_pages": [
       2220,
@@ -10690,7 +10690,7 @@
       "Enable physical inspections"
     ],
     "correct": 1,
-    "explanation": "Maintenance windows aggregate authorised disruption, with stakeholder notification, rollback plans, and controlled risk. The other choices are unrelated to the security/availability rationale.",
+    "explanation": "A maintenance window is an authorised, communicated period during which changes that may impact availability or security may be applied \u2014 with stakeholder notification, change-management approval, and rollback plans. Choice A (vacation) is HR scheduling, not change management. Choice C (energy) is an operations concern. Choice D (physical inspection) is a facilities task. The exam consistently frames maintenance windows as change-management governance, not anything else.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -10945,7 +10945,7 @@
       "Vendor preference"
     ],
     "correct": 1,
-    "explanation": "Lower RTO requires more pre-positioned infrastructure (hot site = lowest RTO, highest cost). Cold site is cheap but has long RTO. The exam expects RTO/cost trade-off as the driver.",
+    "explanation": "Recovery site selection is fundamentally a cost vs RTO trade-off: lower RTO requires more pre-positioned infrastructure (hot site = lowest RTO, highest cost; cold site = cheapest, longest RTO). Choices A (aesthetics), C (colour), and D (vendor preference) are not relevant criteria. The BIA drives the RTO requirement; cost determines what your organisation can afford. The exam's right answer is always 'risk-based business decision'.",
     "source": "guide",
     "guide_pages": [
       2253,
@@ -11072,7 +11072,7 @@
       "Mandatory headphones"
     ],
     "correct": 1,
-    "explanation": "Physical/visual privacy controls reduce shoulder-surfing exposure. Trust alone is insufficient. Disabling login is impractical. Headphones are unrelated.",
+    "explanation": "Layered physical/visual privacy controls (privacy filters, screen-lock policies, workspace orientation away from windows/walkways, clean-desk rules) reduce shoulder-surfing exposure. Choice A ('trust') is a non-control. Choice C (disabling login) is impractical and breaks operations. Choice D (headphones) addresses audio leakage, not visual. The exam expects defence-in-depth even for low-tech threats.",
     "source": "guide",
     "guide_pages": [
       2238,
@@ -11206,7 +11206,7 @@
       "Probable cause"
     ],
     "correct": 1,
-    "explanation": "Civil cases use preponderance ('more likely than not', >50%). Criminal cases use beyond-reasonable-doubt. Some administrative cases use clear-and-convincing. Probable cause is for warrants/arrests.",
+    "explanation": "Civil litigation uses 'preponderance of evidence' (more likely than not, >50%). Choice A ('beyond a reasonable doubt') is the criminal standard \u2014 much higher bar. Choice C ('clear and convincing') sits between, used in some administrative or termination cases. Choice D ('probable cause') is the threshold for warrants/arrests, not litigation outcomes. Memorise the ladder: probable cause < preponderance < clear and convincing < beyond reasonable doubt.",
     "source": "guide",
     "guide_pages": [
       2230,
@@ -11240,7 +11240,7 @@
       "User confusion"
     ],
     "correct": 1,
-    "explanation": "Patches occasionally break things \u2014 testing in lower environments and staged rollouts mitigate that. Manager-mindset: balance patch speed (security) against testing rigor (stability) per risk.",
+    "explanation": "Patches can break functionality, introduce regressions, or interact badly with custom configurations \u2014 testing in lower environments and staged rollouts catch this before production impact. Choice A (compliance penalties) is downstream \u2014 outage from a bad patch is the PRIMARY risk. Choice C (cost) is operational, not security. Choice D (user confusion) is minor. Manager-mindset: balance patch speed (security) against testing rigor (stability) per asset risk class.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11335,7 +11335,7 @@
       "Local admin accounts on every system"
     ],
     "correct": 1,
-    "explanation": "PAM session brokering provides recording, MFA enforcement, and time bounds \u2014 a major detective + preventive control. The other choices represent classic anti-patterns.",
+    "explanation": "PAM session brokering provides credential vaulting, MFA enforcement, session recording, and time-bounded access \u2014 the core controls that turn privileged access from a trust assumption into a verifiable, auditable operation. Choice A grants unbounded standing access \u2014 exactly what PAM exists to prevent. Choices C (shared passwords) and D (local admins on every system) destroy attribution and rotation. PAM is the manager-mindset answer for any privileged-session question.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11400,7 +11400,7 @@
       "Outsource everything"
     ],
     "correct": 1,
-    "explanation": "Detections rot \u2014 environment changes, attacker tradecraft evolves. Continuous tuning + ATT&CK coverage analysis keeps them effective. Disabling noisy detections rather than tuning is dangerous.",
+    "explanation": "Detection rules rot \u2014 environments change, attacker tradecraft evolves, false-positive ratios drift. Continuous tuning informed by threat intel, false-positive feedback, and ATT&CK coverage gap analysis keeps detections effective. Choice A ('set and forget') guarantees decay. Choice C (disabling noisy alerts) silently leaves blind spots. Choice D (outsourcing) doesn't address the core problem of rule maintenance \u2014 it just moves who does it.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11464,7 +11464,7 @@
       "Conference t-shirts"
     ],
     "correct": 1,
-    "explanation": "Tailored threat intel + ATT&CK keeps detections current. Old whitepapers and general media lag attacker innovation. The exam favors current, sector-specific intelligence.",
+    "explanation": "Tailored, sector-specific threat intelligence mapped to MITRE ATT&CK delivers actionable indicators and TTPs that reflect today's adversaries. Choice A (5-year-old whitepapers) is multiple attacker generations stale. Choice C (general news media) reports incidents long after the IOCs matter. Choice D is a joke distractor. Pattern: when an exam asks for the 'best' source of threat intel, pick the one that's current and industry-relevant.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11527,7 +11527,7 @@
       "Disclose publicly first"
     ],
     "correct": 1,
-    "explanation": "Compensating controls limit exposure while waiting for patches. Manager-mindset: defense in depth means you can buy time. Disabling monitoring or premature disclosure are anti-patterns.",
+    "explanation": "Compensating controls (network segmentation, WAF rules, IPS signatures, virtual patching) limit exposure while a vendor patch is in development. Choice A ('wait') accumulates risk. Choice C (disabling monitoring) removes visibility right when an active exploit may strike. Choice D (public disclosure first) violates responsible-disclosure norms and may weaponise the vulnerability. Manager-mindset: defence-in-depth means a single missing patch isn't immediately catastrophic.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11558,7 +11558,7 @@
       "Ignore all alerts from the rule"
     ],
     "correct": 1,
-    "explanation": "Tuning preserves the detection while reducing noise. Disabling silently leaves a gap. Ignoring alerts is dangerous. The exam favors investigate-and-tune over disable.",
+    "explanation": "Excessive false positives are a SIGNAL \u2014 investigate the trigger context, narrow the rule to the patterns that matter, and tune thresholds. Choice A (disabling) silently leaves a detection gap. Choice C (raising volume) makes it worse. Choice D (ignoring) is alert-fatigue territory \u2014 eventually a real attack hides in the noise. The discipline is investigate-and-tune, never disable-and-forget.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11588,7 +11588,7 @@
       "Use a single shared decommissioning bin"
     ],
     "correct": 1,
-    "explanation": "Documented workflow with sanitisation, certificate of destruction, and sign-off is the audit-ready answer. The other choices are anti-patterns leading to data leakage.",
+    "explanation": "A documented decommissioning workflow with sanitisation per NIST 800-88, certificate of destruction, and dual sign-off is the audit-ready answer. Choice A ('trust technicians') is a non-control. Choice C (skipping sanitisation) is a textbook data-leakage event waiting to happen. Choice D (single shared bin) loses chain of custody. The pattern: any decommissioning question with a 'documented workflow + chain of custody' option will be the answer.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11716,7 +11716,7 @@
       "Disable user accounts"
     ],
     "correct": 1,
-    "explanation": "Separating daily work from privileged work, then JIT-elevating only when needed, minimises standing privilege. Shared roots and always-root configurations are anti-patterns.",
+    "explanation": "The cleanest least-privilege pattern for admins: standard accounts for daily work (email, browsing) + named admin accounts for specific systems + JIT elevation through PAM for the actual privileged operation. Choice A ('root by default') is the antithesis of least privilege. Choice C (shared root) destroys attribution. Choice D (disabling user accounts) is operationally absurd. Three-tier separation + JIT is the modern best practice.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -11747,7 +11747,7 @@
       "Code of Ethics"
     ],
     "correct": 1,
-    "explanation": "BIA enumerates critical processes and assigns RTO/RPO/MTD/WRT. The other documents serve different purposes. The exam consistently associates BIA with these time metrics.",
+    "explanation": "The Business Impact Analysis (BIA) is the canonical document that enumerates critical processes and assigns RTO, RPO, MTD, WRT to each. Choice A (vendor contract) may reference SLAs but doesn't establish internal RTO/RPO. Choice C (network diagram) is technical inventory. Choice D (Code of Ethics) is unrelated. Any exam question about RTO/RPO documentation has BIA as the answer \u2014 memorise this association.",
     "source": "guide",
     "guide_pages": [
       2275,
@@ -11806,7 +11806,7 @@
       "Print keys on paper"
     ],
     "correct": 1,
-    "explanation": "HSMs/platform key vaults (AWS KMS, Azure Key Vault, GCP KMS) protect keys with hardware-rooted security and policy controls. The other choices are catastrophic anti-patterns.",
+    "explanation": "HSMs and platform key vaults (AWS KMS, Azure Key Vault, GCP KMS) protect keys with hardware-rooted security and policy-controlled access \u2014 keys never leave the protected boundary. Choice A (keys in source) leaks them into git history, build artefacts, and developer machines. Choice C (email) is plaintext over a system designed to be archived. Choice D (paper) is a printed-out compromise \u2014 possibly fine for break-glass key shares with proper handling, but disastrous for runtime.",
     "source": "guide",
     "guide_pages": [
       2340,
@@ -11840,7 +11840,7 @@
       "Marketing brochures"
     ],
     "correct": 1,
-    "explanation": "Authoritative sources (vendor + CVE + CVSS + CISA KEV) provide signal needed to prioritise. Twitter is noisy/early-stage; helpdesk tickets and marketing don't reflect technical risk.",
+    "explanation": "Authoritative sources stack: vendor advisory (the truth) + CVE entry (the identifier) + CVSS scoring (severity context) + CISA KEV (known exploitation in the wild). Choice A (Twitter) is noisy and often wrong in the first 24h of a CVE. Choice C (helpdesk tickets) reflect symptoms, not vulnerability data. Choice D (marketing) is sales material. The modern triage workflow: confirm with vendor + CVE, prioritise by CVSS + KEV status.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12079,7 +12079,7 @@
       "ISO 27034"
     ],
     "correct": 0,
-    "explanation": "CMMI uses five maturity levels: Initial, Managed, Defined, Quantitatively Managed, Optimising. SAMM uses four levels per practice. BSIMM is descriptive. ISO 27034 is software security guidance.",
+    "explanation": "CMMI uses five maturity levels: Initial (1) \u2192 Managed (2) \u2192 Defined (3) \u2192 Quantitatively Managed (4) \u2192 Optimising (5). Choice B (OWASP SAMM) uses FOUR maturity levels per practice (0\u20133). Choice C (BSIMM) is descriptive (observed activities at member firms) \u2014 not a numeric maturity scale. Choice D (ISO 27034) is application security guidance, not a maturity model. The 1-through-5 ladder is uniquely CMMI.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12140,7 +12140,7 @@
       "A08: Software and Data Integrity Failures"
     ],
     "correct": 1,
-    "explanation": "A06 specifically addresses libraries with known vulnerabilities (e.g., Log4Shell). SCA (Software Composition Analysis) and dependency hygiene mitigate it. A05 is misconfiguration; A07 is authn; A08 is supply-chain integrity (CI/CD compromise, signed artefacts).",
+    "explanation": "OWASP Top 10:2021 categorised vulnerable libraries as A06: Vulnerable and Outdated Components \u2014 addressed by SCA tooling, SBOM hygiene, and dependency pinning. The 2025 release elevated Software Supply Chain Failures to a more comprehensive category. A05 Security Misconfiguration covers default creds, unnecessary features. A07 Identification and Authentication Failures covers session/auth flaws. A08 Software and Data Integrity Failures covers CI/CD compromise and unsigned updates.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12300,7 +12300,7 @@
       "Skip security on hot-fix branches"
     ],
     "correct": 1,
-    "explanation": "Shift-left automation in CI/CD catches issues at low cost; gating prevents merging known issues. The other choices either delay security or weaken it.",
+    "explanation": "Shift-left automation is the pattern: SAST + dependency scanning + secret scanning + IaC checks run as gates in the pipeline before code ships, catching issues at low cost. Choice A (manual review at the end) creates rubber-stamp behaviour and doesn't scale. Choice C (disabling failing tests) is a textbook anti-pattern. Choice D (skipping security on hot-fixes) is exactly when attackers exploit rushed code. Modern DevSecOps teaches: gate early, gate often, never skip.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12529,7 +12529,7 @@
       "A logging level"
     ],
     "correct": 1,
-    "explanation": "Rate limiting per identity/IP/key bounds abuse, brute force, and accidental misuse. Implemented in API gateways or app middleware. Choices A, C, D are unrelated.",
+    "explanation": "API rate limiting restricts the number of requests per identity/source per time window \u2014 defending against brute force, scraping, abuse, and accidental DoS. Choice A confuses 'rate' with 'tier' (subscription billing). Choice C ('encryption mode') is unrelated \u2014 that's TLS / cipher modes. Choice D ('logging level') is observability, not access control. Implement at the API gateway layer with per-key + per-IP + per-user buckets.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12591,7 +12591,7 @@
       "Architecture diagram"
     ],
     "correct": 1,
-    "explanation": "SBOM (SPDX or CycloneDX format) lists components, versions, licences, and supply-chain provenance \u2014 required by US Executive Order 14028. Choices A, C, D do not provide structured component lists.",
+    "explanation": "An SBOM (Software Bill of Materials, in SPDX or CycloneDX format) lists components, versions, licences, and provenance \u2014 required for US federal software per Executive Order 14028. Choice A ('MD5 manifest') is just an integrity checksum, not a structured component list. Choice C (EULA) is the licence agreement \u2014 not an inventory. Choice D (architecture diagram) is design-time, not a machine-readable component list.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12651,7 +12651,7 @@
       "Disable encryption"
     ],
     "correct": 1,
-    "explanation": "Native serialization (pickle, Java ObjectInputStream, .NET BinaryFormatter) on untrusted input enables RCE. JSON with strict schema validation is safer. Choices A, C are anti-patterns.",
+    "explanation": "Native serialization formats (Python pickle, Java ObjectInputStream, .NET BinaryFormatter) on untrusted input enable arbitrary code execution \u2014 mitigation is to avoid them entirely for untrusted data and use simple data formats (JSON, MessagePack) with strict schemas + integrity checks. Choice A explicitly recommends the dangerous primitives. Choice C ('trust input') is the underlying mistake. Choice D (disable encryption) is unrelated \u2014 encryption isn't the defense against deserialization RCE. CWE-502 captures this entire class.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12681,7 +12681,7 @@
       "Email secrets to all developers"
     ],
     "correct": 1,
-    "explanation": "Multilayer defenses (hooks, CI scanning, vault) plus rotation when leaks occur. Trust alone fails; password files and email are catastrophic.",
+    "explanation": "Layered defense: pre-commit hooks (catch before commit) + CI secret scanning (catch before merge) + a real secrets manager (no secrets in code) + git history rewrite + key rotation if a leak occurs. Choice A ('trust developers') is a non-control \u2014 humans forget. Choice C (password file in root) is the bug we're trying to prevent. Choice D (emailing secrets) creates archived plaintext and is catastrophic. The rotation step is what most people miss \u2014 once a secret is in git history, removing the file doesn't help; assume compromised and rotate.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12711,7 +12711,7 @@
       "Trust senior engineers' direct pushes"
     ],
     "correct": 1,
-    "explanation": "Defence in depth: signed commits + branch protection + review + CODEOWNERS = comprehensive. Direct pushes and trust without review violate SoD. The exam favours separation, not trust.",
+    "explanation": "Branch protection (required reviews, signed commits, CODEOWNERS approval, status checks) enforces that nothing reaches main without controlled review. Choice A (direct push) defeats the protection entirely. Choice C (disabling code review) removes the second pair of eyes that catches logic and security issues. Choice D (trusting senior engineers) violates separation of duties \u2014 even seniors should be reviewed. The exam pattern is always: separation + review + signed-artefact verification.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12741,7 +12741,7 @@
       "Choosing a programming language"
     ],
     "correct": 1,
-    "explanation": "DFDs with trust boundaries are the canonical artefact in STRIDE-style threat modeling \u2014 entry points, assets, trust transitions become visible. Choices A, C, D are unrelated to threat modeling.",
+    "explanation": "Decomposing the application into data-flow diagrams (DFDs) with explicit trust boundaries is the canonical step where entry points, data crossings, and trust transitions become visible \u2014 required input to STRIDE-style threat modeling. Choice A (database architecture) is downstream design, not threat modeling. Choice C (marketing) is unrelated. Choice D (language choice) is implementation, not architecture. Microsoft's SDL documents the DFD-with-trust-boundaries technique formally.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12772,7 +12772,7 @@
       "Disable scanning"
     ],
     "correct": 1,
-    "explanation": "Build-time scanning + minimal base + non-root + runtime policy = layered defense. Trust without verification is the typical anti-pattern. Root containers expand blast radius.",
+    "explanation": "Defence-in-depth for containers: scan images at build (catch CVEs), sign images (provenance), use minimal base images (smaller attack surface), run as non-root (limit blast radius), and apply runtime image policies (only-signed-images-from-our-registry). Choice A ('trust upstream') is the source of supply-chain attacks. Choice C (root containers) gives an attacker the host. Choice D (disabling scanning) abandons your earliest detection layer. Tools: Trivy, Grype, Cosign, OPA/Gatekeeper.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12803,7 +12803,7 @@
       "Disable DNS"
     ],
     "correct": 1,
-    "explanation": "SSRF is mitigated by explicit destination allow-listing, blocking metadata endpoints (169.254.169.254 in cloud), and routing egress through a controlled proxy. Choices A, C, D are anti-patterns.",
+    "explanation": "SSRF mitigation: explicit destination ALLOW-list (not deny-list), block private/loopback/link-local + cloud metadata endpoints (169.254.169.254 in AWS/GCP/Azure), and route all egress through a controlled proxy that enforces the allow-list. Choice A ('trust user URLs') is the SSRF root cause. Choice C ('open all egress') makes the vulnerability worse. Choice D (disabling DNS) breaks the application without preventing IP-literal SSRF. The metadata endpoint block is critical \u2014 that's how Capital One was breached in 2019.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12865,7 +12865,7 @@
       "A code review"
     ],
     "correct": 1,
-    "explanation": "Security gates (e.g., 'no critical SAST findings before merge', 'no high CVEs before deploy') enforce security criteria at phase transitions. Choices A, C, D are unrelated or partial.",
+    "explanation": "A security gate is a defined checkpoint where measurable security criteria must be met before the work progresses to the next phase \u2014 e.g., 'no critical SAST findings before merge', 'no high CVEs before deploy', 'threat model reviewed before architecture approval'. Choice A ('physical door') is a literal misreading. Choice C (QA test) is one input but not the gate concept itself. Choice D (code review) is also an input. Gates are about CRITERIA, not activities.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12926,7 +12926,7 @@
       "Allow unrestricted data sharing"
     ],
     "correct": 1,
-    "explanation": "Risk-based assessment + DPA + audit evidence + scoped access + offboarding plan is the standard manager-mindset answer. Other choices skip duty.",
+    "explanation": "SaaS vendor onboarding requires: risk-based assessment + Data Processing Agreement (GDPR Art. 28) + audit evidence (SOC 2 Type II preferably) + scoped permissions in their tenant + a documented offboarding/data-return plan. Choice A ('skip due diligence') is the failure pattern that makes headlines. Choice C ('trust marketing') overlooks that vendors sell themselves. Choice D ('unrestricted sharing') violates least privilege. Manager-mindset: vendor risk = your risk, full stop.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -12987,7 +12987,7 @@
       "Log nothing on failure"
     ],
     "correct": 1,
-    "explanation": "Fail-securely means errors don't leave the system in an insecure state \u2014 deny by default, suppress sensitive error info to clients, log securely. Crashing or continuing blindly are anti-patterns.",
+    "explanation": "Fail-securely (Saltzer & Schroeder principle) means errors leave the system in a SECURE state by default \u2014 deny access, withhold sensitive error data from clients, log internally so operators can investigate. Choice A (crash on any error) impacts availability and isn't actually secure if the crash leaves resources accessible. Choice C ('always continue') ignores the error \u2014 exactly how injection vulnerabilities compound. Choice D (no logging) destroys forensic capability. The shape: deny-by-default + minimal external info + complete internal audit trail.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -13078,7 +13078,7 @@
       "Allowing opt-out only"
     ],
     "correct": 1,
-    "explanation": "Privacy-by-design (Ann Cavoukian, GDPR Article 25) bakes privacy in from inception \u2014 data minimisation, default settings favour privacy, transparency. Choices A, C, D are afterthoughts.",
+    "explanation": "Privacy-by-design (Ann Cavoukian's 7 principles, codified in GDPR Article 25) embeds privacy from inception: data minimisation by default, purpose limitation, transparent consent, default-private settings. Choice A ('notice at the end') is privacy theatre. Choice C ('encrypt after launch') treats privacy as a bolt-on. Choice D ('opt-out only') violates GDPR's affirmative-consent requirement. The practical test: if you can remove the privacy controls without rewriting the architecture, you didn't actually do privacy-by-design.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -13108,7 +13108,7 @@
       "Encrypt the repo"
     ],
     "correct": 1,
-    "explanation": "Removing alone is insufficient because git history retains the secret \u2014 rotate, scan history, prevent recurrence. Choices A, C, D fall short.",
+    "explanation": "The full mitigation: (1) remove the secret from code, (2) ROTATE the credential immediately (assume compromised \u2014 git history retains it), (3) move to a secrets manager, (4) scan history for additional leaks, (5) add pre-commit/CI scanning to prevent recurrence. Choice A ('comment them out') leaves them in git history \u2014 useless. Choice C ('trust git access controls') ignores forks, mirrors, and any prior exposure. Choice D ('encrypt the repo') doesn't address the leak path \u2014 the secret is already plaintext in commit history.",
     "source": "web",
     "guide_pages": [],
     "guide_section": "",
@@ -13160,6 +13160,275 @@
     "tags": [
       "ssdf",
       "nist-800-218"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D1-065",
+    "domain": 1,
+    "subdomain": "1.5 Frameworks",
+    "difficulty": "medium",
+    "stem": "Which function was ADDED in NIST Cybersecurity Framework 2.0 (released February 2024) that did not exist in CSF 1.1?",
+    "choices": [
+      "Identify",
+      "Govern",
+      "Detect",
+      "Recover"
+    ],
+    "correct": 1,
+    "explanation": "CSF 2.0 elevated 'Govern' to a sixth core function (joining Identify, Protect, Detect, Respond, Recover from v1.1). Govern covers organizational risk management strategy, roles and responsibilities, supply chain risk, and oversight \u2014 formalising what was previously scattered across Identify and the Implementation Tiers. Identify, Detect, and Recover all existed in CSF 1.1 \u2014 they were not added.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "title": "NIST CSF 2.0",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "NIST CSF 2.0"
+    ],
+    "tags": [
+      "nist-csf-2",
+      "govern",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D1-066",
+    "domain": 1,
+    "subdomain": "1.5 Frameworks",
+    "difficulty": "medium",
+    "stem": "Under NIST CSF 2.0's Govern function, which is the BEST description of what an organisation must do?",
+    "choices": [
+      "Implement technical controls only",
+      "Establish, communicate, and monitor the cybersecurity risk management strategy, expectations, and policy \u2014 including supply chain oversight",
+      "Replace the CISO function with the CFO",
+      "Outsource all governance to third-party auditors"
+    ],
+    "correct": 1,
+    "explanation": "Govern in CSF 2.0 establishes WHO is accountable, the risk strategy, supply chain risk management, and the policies that drive everything else. It is fundamentally a leadership/oversight function. Choice A confuses Govern with Protect. Choice C is wrong \u2014 governance is broader than any single role and must be supported by board-level engagement. Choice D conflates audit (assurance) with governance (direction).",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework",
+        "title": "NIST CSF 2.0",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "NIST CSF 2.0 \u2014 Govern"
+    ],
+    "tags": [
+      "nist-csf-2",
+      "govern",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D7-053",
+    "domain": 7,
+    "subdomain": "7.1 IR Lifecycle",
+    "difficulty": "medium",
+    "stem": "NIST SP 800-61 Revision 3 (April 2025) reorganises incident response around what concept compared to Revision 2's four-phase lifecycle?",
+    "choices": [
+      "A single 'Eradicate-then-restore' phase",
+      "Continuous improvement woven through ongoing functions (Govern, Identify, Protect, Detect, Respond, Recover) \u2014 aligned to NIST CSF 2.0",
+      "Outsourcing all IR to MSSPs by default",
+      "A two-phase 'Detect / Respond' model only"
+    ],
+    "correct": 1,
+    "explanation": "800-61 r3 abandons the strictly-sequential Prep \u2192 Detect \u2192 Containment/Eradication/Recovery \u2192 Post-Incident model. Instead it aligns with CSF 2.0's six functions and emphasises continuous improvement throughout the lifecycle (not just at the end). The four-phase r2 model is still useful conceptually but no longer the framework's primary structure. Choice A invents a phase. Choice C is unrelated to the standard. Choice D oversimplifies.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf",
+        "title": "NIST SP 800-61 r3",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "NIST SP 800-61 r3"
+    ],
+    "tags": [
+      "nist-800-61-r3",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D8-041",
+    "domain": 8,
+    "subdomain": "8.4 OWASP Top 10",
+    "difficulty": "medium",
+    "stem": "Which is a NEW OWASP Top 10 category introduced in the 2025 release that was NOT in the 2021 release?",
+    "choices": [
+      "Broken Access Control",
+      "Software Supply Chain Failures (an explicit category, not just dependency risk)",
+      "Cross-Site Scripting (it was already #3 in 2021)",
+      "SQL Injection (split out of Injection)"
+    ],
+    "correct": 1,
+    "explanation": "OWASP Top 10:2025 elevates Software Supply Chain Failures to its own category (covering build pipeline compromise, malicious dependencies, signed-artefact verification, SBOM hygiene), reflecting the reality of attacks like SolarWinds, 3CX, and the npm package compromises. Broken Access Control was already #1 in 2021. XSS was folded into Injection in 2021. SQL Injection was never split out as its own category in 2025.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://owasp.org/www-project-top-ten/",
+        "title": "OWASP Top 10",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "OWASP Top 10:2025"
+    ],
+    "tags": [
+      "owasp-2025",
+      "supply-chain",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D1-067",
+    "domain": 1,
+    "subdomain": "1.3 Compliance",
+    "difficulty": "medium",
+    "stem": "PCI-DSS v4.0 (mandatory March 31, 2025) introduced which significant change from v3.2.1?",
+    "choices": [
+      "Removed the requirement for cardholder data encryption",
+      "Increased password minimum length to 12 characters and introduced 'targeted risk analysis' as an alternative to fixed compliance schedules",
+      "Eliminated the requirement for quarterly vulnerability scans",
+      "Made all organisations subject to Level 1 audits regardless of transaction volume"
+    ],
+    "correct": 1,
+    "explanation": "PCI-DSS v4.0 raised password minimums (from 7 to 12 characters for non-customer accounts) and introduced 'customised approach' / targeted risk analysis \u2014 letting organisations justify alternative control implementations against documented risk rather than meeting prescriptive timetables. Choices A, C, D are false: encryption is still required, scans are still mandatory, and merchant levels are unchanged.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://www.pcisecuritystandards.org/document_library/",
+        "title": "PCI-DSS v4.0",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "PCI-DSS v4.0.1"
+    ],
+    "tags": [
+      "pci-dss-v4",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D3-053",
+    "domain": 3,
+    "subdomain": "3.3 Cryptography",
+    "difficulty": "hard",
+    "stem": "NIST finalised three post-quantum cryptography standards in August 2024. Which standard is the recommended general-purpose KEY ENCAPSULATION mechanism (replacing RSA/ECDH for key exchange)?",
+    "choices": [
+      "FIPS 203 \u2014 ML-KEM (formerly Kyber)",
+      "FIPS 204 \u2014 ML-DSA (formerly Dilithium)",
+      "FIPS 205 \u2014 SLH-DSA (formerly SPHINCS+)",
+      "FIPS 197 \u2014 AES"
+    ],
+    "correct": 0,
+    "explanation": "FIPS 203 standardises ML-KEM (Module-Lattice-based KEM, previously Kyber) for post-quantum key encapsulation \u2014 directly replacing the role RSA and ECDH played in TLS handshakes and similar key-exchange contexts. FIPS 204 (ML-DSA / Dilithium) and FIPS 205 (SLH-DSA / SPHINCS+) are SIGNATURE schemes, not KEMs. FIPS 197 is AES (symmetric, not asymmetric, and not post-quantum-specific).",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://csrc.nist.gov/pubs/fips/140/3/final",
+        "title": "NIST PQC Standards",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "FIPS 203"
+    ],
+    "tags": [
+      "post-quantum",
+      "ml-kem",
+      "kyber",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D3-054",
+    "domain": 3,
+    "subdomain": "3.3 Cryptography",
+    "difficulty": "medium",
+    "stem": "An organisation begins migrating to post-quantum cryptography. Which migration approach is the BEST first step recommended by NIST?",
+    "choices": [
+      "Replace all classical algorithms with PQC immediately",
+      "Adopt a HYBRID approach (e.g., classical ECDH + ML-KEM in TLS) so security holds even if one half is later broken",
+      "Stop encrypting data until the standards are mature",
+      "Use only FIPS 205 SLH-DSA because it has the strongest security assumptions"
+    ],
+    "correct": 1,
+    "explanation": "Hybrid post-quantum schemes combine a classical algorithm with a PQC algorithm so the connection remains secure if EITHER algorithm is later weakened. NIST and IETF have endorsed hybrid TLS during the transition (e.g., draft-ietf-tls-hybrid-design). Choice A is risky \u2014 early implementations of new algorithms historically have bugs. Choice C abandons defence. Choice D is wrong: SLH-DSA is signature-only, not a KEM, and significantly slower than ML-DSA.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+        "title": "NIST PQC migration",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [],
+    "tags": [
+      "post-quantum",
+      "hybrid",
+      "currency-2026"
+    ],
+    "notes": ""
+  },
+  {
+    "id": "D5-053",
+    "domain": 5,
+    "subdomain": "5.7 NIST 800-63-4",
+    "difficulty": "medium",
+    "stem": "NIST SP 800-63-4 (Initial Public Draft, August 2024) explicitly addresses which authentication trend that 800-63-3 did not?",
+    "choices": [
+      "Biometric template aging",
+      "Synchronisable authenticators ('passkeys') and the trade-off between syncing across devices versus device-bound credentials",
+      "Knowledge-based authentication (KBA)",
+      "Single-factor SMS"
+    ],
+    "correct": 1,
+    "explanation": "800-63-4 directly addresses passkeys (syncable FIDO2 credentials) and explicitly differentiates 'syncable authenticators' from 'device-bound authenticators' \u2014 a concept that did not exist in 800-63-3. The trade-off is recoverability/UX (sync) vs cryptographic strength (device-bound is stronger). Biometric aging was always covered. KBA remains discouraged. SMS remains RESTRICTED.",
+    "source": "web",
+    "guide_pages": [],
+    "guide_section": "",
+    "web_sources": [
+      {
+        "url": "https://csrc.nist.gov/pubs/sp/800/63/4/2pd",
+        "title": "NIST SP 800-63-4",
+        "captured": "2026-04-26"
+      }
+    ],
+    "references": [
+      "NIST SP 800-63-4"
+    ],
+    "tags": [
+      "passkeys",
+      "nist-800-63-4",
+      "currency-2026"
     ],
     "notes": ""
   }
