@@ -212,6 +212,75 @@ TABLES = [
         ],
         "tip": "Mnemonic: 'MOMENT' is wrong — there's no single mnemonic. Just remember RTO+WRT ≤ MTD and RPO drives backup frequency."
     },
+    {
+        "id": "cloud_responsibility",
+        "name": "Cloud shared responsibility — who patches what",
+        "domain": 3,
+        "headers": ["Layer", "On-prem", "IaaS", "PaaS", "SaaS"],
+        "rows": [
+            ["Data classification + IAM", "You", "You",     "You",     "You"],
+            ["Application code",          "You", "You",     "You",     "Provider"],
+            ["Application config",        "You", "You",     "You",     "Shared"],
+            ["Runtime / middleware",      "You", "You",     "Provider", "Provider"],
+            ["Operating system",          "You", "You",     "Provider", "Provider"],
+            ["Hypervisor / virtualisation","You", "Provider","Provider", "Provider"],
+            ["Servers / hardware",        "You", "Provider","Provider", "Provider"],
+            ["Network / storage",         "You", "Provider","Provider", "Provider"],
+            ["Physical datacenter",       "You", "Provider","Provider", "Provider"],
+        ],
+        "tip": "You ALWAYS own data classification, identity, and access — even in SaaS. Provider always owns physical."
+    },
+    {
+        "id": "threat_actor_types",
+        "name": "Threat actor types — motivation × resource × sophistication",
+        "domain": 1,
+        "headers": ["Actor", "Motivation", "Resources", "Typical TTPs"],
+        "rows": [
+            ["Script kiddie",    "Bragging rights, curiosity",   "Minimal",       "Off-the-shelf tools (Metasploit modules), known CVEs"],
+            ["Hacktivist",       "Political / ideological",      "Variable",      "DDoS, defacement, leaks (Anonymous, LulzSec patterns)"],
+            ["Organised crime",  "Financial",                    "High",          "Ransomware, BEC, banking trojans, fraud (Conti, LockBit)"],
+            ["Nation-state / APT","Espionage, sabotage, IP theft","Very high",    "Custom malware, 0-days, long dwell time (APT29, Lazarus)"],
+            ["Insider — malicious","Revenge, financial",         "Privileged access","Data exfiltration, sabotage from within trusted boundary"],
+            ["Insider — accidental","None (negligence)",         "n/a",           "Misconfigured S3 buckets, lost laptops, phishing victims"],
+            ["Cyber-terrorist",  "Disruption, fear",             "Moderate-high", "Critical infrastructure attacks (ICS), high-impact targets"],
+            ["Competitor",       "Industrial espionage",         "High",          "Targeted intrusion via insiders or supply chain"],
+        ],
+        "tip": "The exam frames threats by motivation more than tool sophistication. Manager-mindset answer: assess threat-actor likelihood × impact in your sector."
+    },
+    {
+        "id": "modern_auth",
+        "name": "Modern authentication protocols compared",
+        "domain": 5,
+        "headers": ["Protocol", "Type", "Token", "Best for"],
+        "rows": [
+            ["SAML 2.0",       "Federation (XML)", "Assertion (XML)", "Enterprise B2B SSO, government, legacy apps"],
+            ["OAuth 2.0",      "Authorisation",    "Access token (opaque or JWT)", "API access delegation, third-party integrations"],
+            ["OIDC",           "Authentication on OAuth", "ID token (JWT)", "Modern web/mobile login, social sign-in"],
+            ["FIDO2 / WebAuthn","Phishing-resistant authn", "Public-key signature", "Strong MFA / passwordless (AAL3 capable)"],
+            ["Kerberos",       "Network authentication", "Ticket (encrypted)", "AD/Windows domain authentication"],
+            ["Passkeys",       "Synced FIDO2 credential", "Public-key signature", "Consumer passwordless (sync trade-off)"],
+            ["LDAP",           "Directory protocol", "n/a (binds with creds)", "Identity store / directory queries"],
+            ["RADIUS",         "Network AAA (UDP)", "n/a",            "Wi-Fi (802.1X), VPN concentrators, ISP dial-in"],
+            ["TACACS+",        "Network device AAA (TCP)", "n/a",     "Router/switch admin, per-command authorisation"],
+        ],
+        "tip": "OAuth ≠ authentication on its own. OIDC adds the auth layer. SAML is enterprise-historical; OIDC is modern-default."
+    },
+    {
+        "id": "incident_evidence_priorities",
+        "name": "Incident response — life-safety priority order",
+        "domain": 7,
+        "headers": ["Rank", "Priority", "Why"],
+        "rows": [
+            ["1", "Life safety",            "Always wins over assets and data — evacuate, shelter, call emergency services"],
+            ["2", "Stop ongoing damage",    "Containment to prevent further harm (isolate, block egress, take systems offline if needed)"],
+            ["3", "Preserve evidence",      "Forensic image, memory capture, log preservation BEFORE eradication"],
+            ["4", "Eradicate root cause",   "Remove malware, attacker access, vulnerable configs"],
+            ["5", "Restore operations",     "Recovery from clean state, verify integrity"],
+            ["6", "Lessons learned",        "Document, improve detections, update playbooks"],
+            ["7", "Communications",         "Internal comms throughout; external (customers, regulators) per legal requirements and IR plan"],
+        ],
+        "tip": "When in doubt: people > property > data. Asking 'what happens to humans?' before 'what happens to systems?' is a recurring CISSP exam pattern."
+    },
 ]
 
 

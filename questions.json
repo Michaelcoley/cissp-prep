@@ -207,10 +207,10 @@
     "difficulty": "hard",
     "stem": "A CISO documents that residual risk exceeds the organisation's risk appetite and recommends an additional control. The CFO refuses funding. What MUST the CISO do FIRST?",
     "choices": [
-      "Implement the control anyway, citing professional duty",
-      "Resign and report to ISC2 as a baseline configuration",
+      "Implement the control anyway, citing professional duty in most enterprise deployments",
+      "Resign and report to ISC2 as a baseline configuration when properly implemented",
       "Obtain formal written acceptance of the residual risk by an authorised business owner",
-      "Escalate immediately to external regulators"
+      "Escalate immediately to external regulators in most enterprise deployments"
     ],
     "correct": 2,
     "explanation": "When risk exceeds appetite and treatment is declined, the CISO's manager-level duty is to obtain formal written risk acceptance from a business owner with the authority to accept it. That documents the decision and shifts accountability appropriately. Implementing controls without authorisation oversteps; resignation skips proper escalation; external reporting is premature without an actual legal/regulatory violation.",
@@ -563,10 +563,10 @@
     "difficulty": "medium",
     "stem": "Why is mandatory vacation an effective security control?",
     "choices": [
-      "It increases morale for general production deployments",
+      "It increases morale for general production deployments under typical operating conditions",
       "It allows independent personnel to detect fraud or hidden errors during the absence",
-      "It reduces payroll costs",
-      "It satisfies labor laws"
+      "It reduces payroll costs in standard practice",
+      "It satisfies labor laws in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Mandatory vacation forces a substitute to perform the absent person's duties, which exposes ongoing fraud, embezzlement, or unsafe practices that depend on continual control by one individual. The other answers are tangential or incorrect \u2014 payroll is not reduced and labor laws are not the security driver.",
@@ -597,10 +597,10 @@
     "difficulty": "medium",
     "stem": "The PRIMARY reason to enforce separation of duties is to:",
     "choices": [
-      "Improve operational efficiency",
+      "Improve operational efficiency when properly implemented",
       "Ensure no single individual can complete a sensitive transaction unilaterally",
-      "Comply with HR policy in most operational contexts",
-      "Provide career development opportunities"
+      "Comply with HR policy in most operational contexts for the purposes of this question",
+      "Provide career development opportunities under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Separation of duties prevents fraud and error by requiring collusion among multiple people to complete sensitive workflows (e.g., requesting + approving payments). It is a manager-mindset preventive control. Efficiency, HR policy, and career development are not the primary security drivers and may even be hindered by SoD.",
@@ -1312,10 +1312,10 @@
     "difficulty": "hard",
     "stem": "Which statement BEST describes the relationship between qualitative and quantitative risk analysis?",
     "choices": [
-      "Qualitative is always preferred for executive presentations",
-      "Quantitative is always more accurate in most operational contexts",
+      "Qualitative is always preferred for executive presentations when properly implemented",
+      "Quantitative is always more accurate in most operational contexts in commonly cited frameworks",
       "Both have value; qualitative captures intangibles while quantitative supports cost-benefit calculation",
-      "They produce identical results when properly applied"
+      "They produce identical results when properly applied in commonly cited frameworks"
     ],
     "correct": 2,
     "explanation": "Quantitative analysis enables cost-benefit decisions through hard numbers; qualitative captures intangibles like reputation that resist monetisation. Mature programs use both. Choice A overstates qualitative; choice B ignores GIGO problems with bad inputs; choice D is false.",
@@ -1857,10 +1857,10 @@
     "difficulty": "medium",
     "stem": "Which document type provides the BEST evidence to an external auditor that the organisation routinely reviews and updates its policies?",
     "choices": [
-      "The current policy text alone",
+      "The current policy text alone given current best practices",
       "Documented review history with sign-offs and revision dates",
-      "Verbal confirmation from the CISO",
-      "Email archives"
+      "Verbal confirmation from the CISO given current best practices",
+      "Email archives in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Auditors require documentary evidence of governance discipline: dated review records, version history, and sign-offs. The current text alone shows what exists today, not how it is maintained. Verbal evidence and email archives are weak audit artefacts.",
@@ -2141,10 +2141,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of the relationship between security policy and security standards?",
     "choices": [
-      "Standards drive the policy across the relevant policy framework",
+      "Standards drive the policy across the relevant policy framework in most enterprise deployments",
       "Policy expresses high-level intent; standards specify mandatory technical or configuration requirements that implement the policy",
-      "They are interchangeable terms",
-      "Standards are optional; policies are mandatory"
+      "They are interchangeable terms when properly implemented",
+      "Standards are optional; policies are mandatory in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Policy \u2192 Standards \u2192 Procedures/Guidelines. Policy declares intent at the management level; standards translate intent into mandatory requirements (e.g., 'use AES-256 for data at rest'). Standards are also mandatory, not optional. Choice A reverses the hierarchy.",
@@ -2397,10 +2397,10 @@
     "difficulty": "medium",
     "stem": "Cryptographic erasure is MOST EFFECTIVE on which type of media?",
     "choices": [
-      "Magnetic tape",
-      "Optical media (CD/DVD)",
+      "Magnetic tape given current best practices",
+      "Optical media (CD/DVD) given current best practices",
       "Self-encrypting drive (SED) where data is stored ciphertext-only",
-      "Punched-card storage"
+      "Punched-card storage in standard practice"
     ],
     "correct": 2,
     "explanation": "Crypto-erase works by destroying or replacing the media-encryption key on hardware that already encrypts everything written (SEDs, modern SSDs, smartphones). Without the key, ciphertext is unrecoverable. Tape and optical media don't natively encrypt at the device level.",
@@ -2604,10 +2604,10 @@
     "difficulty": "medium",
     "stem": "Which factor SHOULD drive the choice of classification level for a given data asset?",
     "choices": [
-      "The volume of data in most operational contexts",
+      "The volume of data in most operational contexts given current best practices",
       "The impact to the organisation if confidentiality, integrity, or availability is compromised",
-      "The format of the data (paper vs digital)",
-      "The age of the data"
+      "The format of the data (paper vs digital) under typical operating conditions",
+      "The age of the data across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Classification reflects the harm caused by compromise \u2014 directly tied to FIPS 199 / 800-60 categorisation (Low/Moderate/High based on CIA impact). Volume, format, and age are operational considerations but do not drive classification level.",
@@ -2913,10 +2913,10 @@
     "difficulty": "easy",
     "stem": "A typical commercial classification scheme uses Public, Sensitive, Confidential, and Restricted (or similar). What is the PRIMARY benefit of fewer classification tiers?",
     "choices": [
-      "Less paperwork",
+      "Less paperwork given current best practices",
       "Easier user understanding and consistent application of controls",
-      "Lower licensing costs",
-      "Faster encryption"
+      "Lower licensing costs in commonly cited frameworks",
+      "Faster encryption under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Excessive tiers confuse users and lead to inconsistent classification decisions. Three to four levels is generally optimal \u2014 enough to differentiate, not so many that users default to a single label. The other choices are not the primary driver.",
@@ -3102,10 +3102,10 @@
     "difficulty": "hard",
     "stem": "An organisation needs to redeploy SSDs from a high-classification system to a low-classification system. The SSDs implement self-encryption. What is the BEST sanitisation choice?",
     "choices": [
-      "Single-pass overwrite",
+      "Single-pass overwrite across the relevant control set",
       "ATA Secure Erase + cryptographic erase per NIST 800-88",
       "Three-pass DoD 5220.22-M overwrite",
-      "Degaussing"
+      "Degaussing in standard practice"
     ],
     "correct": 1,
     "explanation": "For SEDs, NIST 800-88 specifies cryptographic erase (destroy/replace the MEK) often combined with the drive's ATA Secure Erase. Multi-pass overwrites are unreliable on SSDs due to wear levelling. Degaussing does not work on flash. The DoD 5220 standard was retired for modern drives.",
@@ -3303,10 +3303,10 @@
     "difficulty": "medium",
     "stem": "An organisation finds that one classification is causing 90% of documents to be marked 'Confidential'. What is the BEST corrective action?",
     "choices": [
-      "Eliminate that classification as a baseline configuration",
+      "Eliminate that classification as a baseline configuration under typical operating conditions",
       "Refine training and re-examine the labelling defaults; introduce mid-tier classifications if appropriate",
-      "Demote the entire data set to Public",
-      "Force the security team to re-classify everything"
+      "Demote the entire data set to Public given current best practices",
+      "Force the security team to re-classify everything in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Default-confidential is a common failure mode that erodes the value of classification. Improving training, adjusting defaults, and possibly adding intermediate tiers restores meaningful differentiation. Eliminating the tier or wholesale re-classification overcorrects.",
@@ -3365,10 +3365,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY purpose of media-marking and handling procedures?",
     "choices": [
-      "Tracking inventory location",
+      "Tracking inventory location in most enterprise deployments",
       "Ensuring users apply controls appropriate to the classification",
-      "Maintaining vendor warranties",
-      "Reducing storage costs"
+      "Maintaining vendor warranties in commonly cited frameworks",
+      "Reducing storage costs in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Markings tell users (and downstream automation) what controls apply \u2014 encryption, courier method, sanitisation requirement. Without consistent marking, classification cannot translate into action. Inventory and warranty are operational concerns.",
@@ -3837,10 +3837,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of a Hardware Security Module (HSM)?",
     "choices": [
-      "A cryptographic library installed on every server",
+      "A cryptographic library installed on every server across the relevant control set",
       "A tamper-resistant hardware appliance for key generation, storage, and crypto operations",
-      "A backup mechanism for shared secrets",
-      "A self-encrypting drive for general production deployments"
+      "A backup mechanism for shared secrets when properly implemented",
+      "A self-encrypting drive for general production deployments across the relevant control set"
     ],
     "correct": 1,
     "explanation": "An HSM is a dedicated, tamper-resistant device that performs key lifecycle and crypto operations without exposing keys outside its boundary. Many are FIPS 140-2/3 validated. Choices A and C are cryptographic concepts but not HSMs; choice D is a different hardware category (SED).",
@@ -3907,10 +3907,10 @@
     "difficulty": "hard",
     "stem": "An organisation must protect data confidentiality from a future quantum-capable adversary that may harvest ciphertext today and break it later. Which mitigation is MOST APPROPRIATE today?",
     "choices": [
-      "Migrate to RSA-4096 immediately",
+      "Migrate to RSA-4096 immediately given current best practices",
       "Adopt AES-256 for symmetric encryption and plan for hybrid post-quantum KEM (e.g., ML-KEM/Kyber) for asymmetric",
-      "Stop encrypting data because it will all be broken anyway",
-      "Switch to MD5 hashing"
+      "Stop encrypting data because it will all be broken anyway when properly implemented",
+      "Switch to MD5 hashing in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Symmetric AES-256 retains roughly 128-bit security against Grover's algorithm \u2014 sufficient for long-lived data. Asymmetric algorithms (RSA/ECC) fall to Shor's algorithm and need migration. NIST finalised ML-KEM (FIPS 203), ML-DSA (204), SLH-DSA (205) in 2024. RSA-4096 alone does not survive Shor; MD5 is broken. Hybrid (classical + PQ) is the recommended migration path.",
@@ -3945,10 +3945,10 @@
     "difficulty": "medium",
     "stem": "What does an EAL (Evaluation Assurance Level) rating in Common Criteria PRIMARILY express?",
     "choices": [
-      "The strength of cryptography in the product",
+      "The strength of cryptography in the product under typical operating conditions",
       "The rigor of the evaluation process applied to a Target of Evaluation against its Security Target",
-      "The product's market share",
-      "The cost of the product across the relevant policy framework"
+      "The product's market share when properly implemented",
+      "The cost of the product across the relevant policy framework across the relevant control set"
     ],
     "correct": 1,
     "explanation": "EAL describes evaluation rigor (EAL1 functionally tested \u2192 EAL7 formally verified design and tested). It does NOT mean the product is more secure in absolute terms \u2014 an EAL4 product can be more secure than an EAL6 product evaluated against weaker functionality. Cryptographic strength is a separate property captured in the Security Target.",
@@ -4116,10 +4116,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY benefit of CPTED (Crime Prevention Through Environmental Design)?",
     "choices": [
-      "Reducing security personnel headcount",
+      "Reducing security personnel headcount in commonly cited frameworks",
       "Designing the environment to reduce criminal opportunity through territoriality, surveillance, and access control",
-      "Eliminating the need for cameras",
-      "Lowering insurance premiums in most operational contexts"
+      "Eliminating the need for cameras across the relevant control set",
+      "Lowering insurance premiums in most operational contexts in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "CPTED uses environmental cues (sight lines, lighting, landscaping, signage, layout) to deter crime. Headcount, camera reduction, and insurance are tangential. The three CPTED strategies often tested are natural surveillance, natural access control, and territorial reinforcement.",
@@ -4150,10 +4150,10 @@
     "difficulty": "easy",
     "stem": "Which datacenter HVAC consideration is MOST critical for equipment longevity?",
     "choices": [
-      "Quiet operation",
+      "Quiet operation in commonly cited frameworks",
       "Maintained temperature and humidity within manufacturer specifications",
-      "Aesthetic colour scheme",
-      "Light intensity"
+      "Aesthetic colour scheme for the purposes of this question",
+      "Light intensity in standard practice"
     ],
     "correct": 1,
     "explanation": "Heat and humidity drift are the dominant electronic failure causes \u2014 datacenters target ~64-81\u00b0F (18-27\u00b0C) and 40-60% relative humidity per ASHRAE TC 9.9. Excess humidity \u2192 corrosion; low humidity \u2192 ESD. Aesthetics and lighting are not equipment factors.",
@@ -4283,10 +4283,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY purpose of key escrow?",
     "choices": [
-      "Allow the vendor to monitor traffic",
+      "Allow the vendor to monitor traffic under typical operating conditions",
       "Provide an authorised third party access to keys under defined conditions",
-      "Increase key length",
-      "Speed up key generation"
+      "Increase key length in commonly cited frameworks",
+      "Speed up key generation for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Key escrow stores keys with a trusted third party for retrieval under defined conditions. It is controversial because it weakens guarantee of sole possession but is sometimes required by regulation or operationally for ediscovery. The other choices misdescribe escrow.",
@@ -4318,10 +4318,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a Trusted Computing Base (TCB)?",
     "choices": [
-      "Defining the perimeter network",
+      "Defining the perimeter network in commonly cited frameworks",
       "The set of components within a system whose correct operation is essential to enforcing the security policy",
-      "Listing approved vendors across the relevant policy framework",
-      "Documenting cryptographic libraries"
+      "Listing approved vendors across the relevant policy framework given current best practices",
+      "Documenting cryptographic libraries given current best practices"
     ],
     "correct": 1,
     "explanation": "The TCB is the set of hardware, software, and firmware whose correctness is essential to enforcing the security policy. Reducing the TCB reduces attack surface \u2014 a key principle in formal models. The other choices are unrelated.",
@@ -4450,10 +4450,10 @@
     "difficulty": "medium",
     "stem": "Which protocol provides authenticated key exchange suitable for resisting man-in-the-middle attacks during ephemeral session establishment?",
     "choices": [
-      "Anonymous Diffie-Hellman",
+      "Anonymous Diffie-Hellman across the relevant control set",
       "Authenticated DHE / ECDHE with certificate-based identity",
-      "MD5 fingerprinting",
-      "Static RSA key transport"
+      "MD5 fingerprinting for the purposes of this question",
+      "Static RSA key transport for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Plain DH/ECDHE provides forward secrecy but is unauthenticated alone \u2014 it must be combined with certificate-based identity (TLS_ECDHE_*_*_GCM_*) to resist MITM. Anonymous DH is vulnerable. MD5 is broken. Static RSA key transport gives no PFS and is removed from TLS 1.3.",
@@ -4548,10 +4548,10 @@
     "difficulty": "medium",
     "stem": "What is the GREATEST security challenge introduced by IoT devices in an enterprise?",
     "choices": [
-      "High initial purchase cost",
+      "High initial purchase cost across the relevant control set",
       "Long lifespans, infrequent patching, weak default credentials, and lateral-movement potential",
-      "Excessive power consumption",
-      "Limited colour displays for general production deployments"
+      "Excessive power consumption in commonly cited frameworks",
+      "Limited colour displays for general production deployments in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "IoT devices typically combine outdated firmware, default creds, exposed management interfaces, and 5-10+ year lifespans \u2014 they become persistent footholds (Mirai-class botnets). Mitigations include segmentation, MFA where supported, vendor SBOM review, and lifecycle planning.",
@@ -4641,10 +4641,10 @@
     "difficulty": "medium",
     "stem": "What is 'process isolation' designed to ensure?",
     "choices": [
-      "Faster context switching as a baseline configuration",
+      "Faster context switching as a baseline configuration across the relevant control set",
       "Each process operates in its own protected memory space, unable to read or modify others",
-      "Identical priority scheduling",
-      "Equal CPU time per process"
+      "Identical priority scheduling across the relevant control set",
+      "Equal CPU time per process across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Process isolation prevents one process from interfering with another's memory or state \u2014 implemented via virtual memory, MMU enforcement, and OS access controls. Without it, a single bug or malware could cascade. Choices A, C, D are unrelated to isolation.",
@@ -5042,10 +5042,10 @@
     "difficulty": "medium",
     "stem": "Which control type does a 'guard' (in the cross-domain solution sense) primarily implement?",
     "choices": [
-      "Auditing",
+      "Auditing in standard practice",
       "Filtering of data traversing security domains based on inspection and policy",
-      "Encryption",
-      "Network address translation"
+      "Encryption across the relevant control set",
+      "Network address translation across the relevant control set"
     ],
     "correct": 1,
     "explanation": "A guard inspects content and metadata moving between security domains and either passes, sanitises, or blocks per policy (e.g., MILS systems, HSTS guards). Encryption is unrelated; NAT is layer-3 translation; auditing is observation, not enforcement.",
@@ -5076,10 +5076,10 @@
     "difficulty": "medium",
     "stem": "An organisation needs to encrypt a 1 GB file for a colleague. Which approach is BEST?",
     "choices": [
-      "Encrypt the file directly with the colleague's RSA-2048 public key",
+      "Encrypt the file directly with the colleague's RSA-2048 public key in commonly cited frameworks",
       "Generate a random AES-256 session key, encrypt the file with AES, then encrypt only the session key with the colleague's RSA public key",
-      "Use a shared password with PBKDF2",
-      "Sign the file"
+      "Use a shared password with PBKDF2 under typical operating conditions",
+      "Sign the file for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Hybrid encryption (symmetric for bulk + asymmetric for the key) is the pragmatic standard \u2014 RSA cannot encrypt large data efficiently. PBKDF2 + shared password requires out-of-band key sharing. Signing provides integrity, not confidentiality. TLS, S/MIME, PGP all use hybrid encryption.",
@@ -5142,9 +5142,9 @@
     "stem": "Which capability ensures a process cannot interfere with another's memory or device access?",
     "choices": [
       "Process isolation enforced by the operating system / hypervisor",
-      "Antivirus scanning",
-      "Logging",
-      "RAID storage"
+      "Antivirus scanning in standard practice",
+      "Logging under typical operating conditions",
+      "RAID storage given current best practices"
     ],
     "correct": 0,
     "explanation": "Process/memory isolation enforced by OS kernel and CPU MMU separation prevents cross-process interference. Antivirus catches known bad code. Logging is observation. RAID is storage redundancy. Isolation is the mechanism that prevents the interference, not the detective controls.",
@@ -5208,10 +5208,10 @@
     "difficulty": "medium",
     "stem": "In a SaaS deployment, which security responsibility is MOST clearly retained by the customer?",
     "choices": [
-      "Patching the underlying database",
+      "Patching the underlying database in commonly cited frameworks",
       "Identity and access management for the customer's users; data classification; data ingest decisions",
-      "Maintaining the data center physical security",
-      "Hypervisor patches"
+      "Maintaining the data center physical security for the purposes of this question",
+      "Hypervisor patches in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Even in SaaS, customers retain responsibility for who has access (IAM), what data goes in, and how it is classified. Provider handles infrastructure, platform, and most of the application. Knowing the SaaS responsibility line is high-yield for the exam.",
@@ -5239,10 +5239,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of 'salt' in password hashing?",
     "choices": [
-      "A pepper added to the database",
+      "A pepper added to the database across the relevant control set",
       "Random per-user data concatenated with the password before hashing to defeat precomputed rainbow tables",
-      "An encryption key",
-      "A second factor across the relevant policy framework"
+      "An encryption key when properly implemented",
+      "A second factor across the relevant policy framework in standard practice"
     ],
     "correct": 1,
     "explanation": "Salt is unique per-credential random data, stored in the clear with the hash, that prevents precomputed rainbow-table reuse and ensures identical passwords have different hashes. 'Pepper' is a distinct per-system secret. The other choices misdescribe salt.",
@@ -5617,10 +5617,10 @@
     "difficulty": "medium",
     "stem": "A Next-Generation Firewall (NGFW) DIFFERS from a stateful firewall PRIMARILY by:",
     "choices": [
-      "Operating only at layer 7 as a baseline configuration",
+      "Operating only at layer 7 as a baseline configuration for the purposes of this question",
       "Adding application identification, IPS capability, and often integrated threat intelligence",
-      "Eliminating the need for VPNs",
-      "Using only signature-based detection"
+      "Eliminating the need for VPNs under typical operating conditions",
+      "Using only signature-based detection across the relevant control set"
     ],
     "correct": 1,
     "explanation": "NGFWs add application awareness (decoding L7 protocols), integrated IPS, and threat-intel-driven blocking \u2014 beyond simple stateful tracking. They still operate across multiple layers. They don't eliminate VPNs. Behavioral and anomaly-based detection are increasingly common alongside signatures.",
@@ -5690,10 +5690,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of zero trust networking?",
     "choices": [
-      "Place all internal users in a trusted zone behind the perimeter",
+      "Place all internal users in a trusted zone behind the perimeter in most enterprise deployments",
       "Assume the network is hostile and require continuous authentication, authorisation, and least-privilege access on a per-resource basis",
-      "Eliminate authentication for internal traffic across the relevant policy framework",
-      "Trust users for 24 hours after authentication"
+      "Eliminate authentication for internal traffic across the relevant policy framework when properly implemented",
+      "Trust users for 24 hours after authentication when properly implemented"
     ],
     "correct": 1,
     "explanation": "Zero trust treats every request as untrusted and requires verification of identity, device posture, context, and authorisation per resource. The classic perimeter-trust model (choice A) is what zero trust replaces. Continuous validation is core; long-lived sessions violate the model.",
@@ -5730,10 +5730,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY benefit of microsegmentation?",
     "choices": [
-      "Increased network throughput",
+      "Increased network throughput given current best practices",
       "Limiting east-west lateral movement after an initial compromise",
-      "Reducing the number of switches",
-      "Eliminating VLANs"
+      "Reducing the number of switches in most enterprise deployments",
+      "Eliminating VLANs under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Microsegmentation enforces fine-grained workload-to-workload policy, choking lateral movement after a breach. Throughput and physical hardware are not improved. VLANs may still be used as substrates. Microsegmentation is a key enabler of zero-trust architectures.",
@@ -5768,8 +5768,8 @@
     "choices": [
       "Hardware-only forwarding",
       "Decoupling the control plane from the data plane",
-      "Mandatory IPv6",
-      "Read-only management"
+      "Mandatory IPv6 when properly implemented",
+      "Read-only management in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "SDN's defining characteristic is decoupling the CONTROL plane (decision-making intelligence) from the DATA plane (forwarding hardware), with centralised programmatic control. Choice A (hardware-only) is the OPPOSITE of SDN. Choice C (mandatory IPv6) is unrelated. Choice D (read-only) \u2014 SDN is about programmatic control, the polar opposite of read-only. The exam: SDN = control/data separation + centralised control + open APIs (e.g., OpenFlow).",
@@ -5929,10 +5929,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a DMZ (demilitarised zone) in network architecture?",
     "choices": [
-      "Compress backup traffic",
+      "Compress backup traffic in most enterprise deployments",
       "Provide an isolated network segment for systems that must be reachable from the internet, separating them from the internal network",
-      "Replace VLANs",
-      "Encrypt all internal traffic"
+      "Replace VLANs in most enterprise deployments",
+      "Encrypt all internal traffic for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "A DMZ segregates internet-facing services so a compromise does not directly expose the internal network. The other choices are unrelated to DMZ purpose. Modern equivalents include screened subnets, public subnets in cloud, or service-mesh ingress zones.",
@@ -5996,10 +5996,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY purpose of NAC (Network Access Control)?",
     "choices": [
-      "Speed up device boot times",
+      "Speed up device boot times in standard practice",
       "Verify endpoint identity and posture before allowing network access; remediate non-compliant devices",
-      "Replace 802.1X",
-      "Provide DHCP services"
+      "Replace 802.1X in commonly cited frameworks",
+      "Provide DHCP services under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "NAC enforces identity + posture (patches, AV, configuration) before granting access \u2014 and may quarantine non-compliant devices. It often uses 802.1X as the access-control mechanism rather than replacing it. DHCP is unrelated to access control.",
@@ -6027,10 +6027,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY confidentiality risk in unencrypted VoIP?",
     "choices": [
-      "High latency",
+      "High latency when properly implemented",
       "Traffic is captured by anyone on the path and conversation can be reconstructed",
-      "Battery drain",
-      "Excessive CPU usage"
+      "Battery drain under typical operating conditions",
+      "Excessive CPU usage in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Unencrypted SIP/RTP can be captured and conversations reconstructed (Wireshark even has built-in reconstruction). SIPS (TLS-protected SIP) and SRTP (encrypted RTP) mitigate this. The other choices are operational, not security, concerns.",
@@ -6131,7 +6131,7 @@
     "choices": [
       "SPF (Sender Policy Framework)",
       "DKIM",
-      "DMARC",
+      "DMARC in standard practice",
       "S/MIME"
     ],
     "correct": 0,
@@ -6193,10 +6193,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY enterprise concern with DNS over HTTPS (DoH) deployed by end-user browsers?",
     "choices": [
-      "Higher latency",
+      "Higher latency in commonly cited frameworks",
       "Bypasses traditional enterprise DNS-based monitoring and policy enforcement",
-      "Lower compatibility",
-      "Increased cost"
+      "Lower compatibility in commonly cited frameworks",
+      "Increased cost given current best practices"
     ],
     "correct": 1,
     "explanation": "DoH on port 443 hides DNS queries from network-layer enterprise controls (DNS firewall, RPZ, sinkholing). DoT (port 853) is more visible but still encrypts. Many enterprises prefer DoT or proxy-controlled DoH endpoints. Latency/cost are minor.",
@@ -6224,10 +6224,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY security benefit of a CDN with DDoS scrubbing?",
     "choices": [
-      "Lower TLS overhead for general production deployments",
+      "Lower TLS overhead for general production deployments in standard practice",
       "Absorbing volumetric attacks across distributed POPs and serving cached content during incidents",
-      "Eliminating the need for application security",
-      "Static IP allocation"
+      "Eliminating the need for application security when properly implemented",
+      "Static IP allocation for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "CDNs deliver capacity and geographic distribution that absorb volumetric DDoS, and they continue serving cached content while origin recovers. They do not eliminate the need for app-layer security (WAF, secure coding). The other choices are unrelated benefits or false.",
@@ -6255,10 +6255,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY security benefit (incidental) of NAT/PAT?",
     "choices": [
-      "Stronger encryption",
+      "Stronger encryption when properly implemented",
       "Internal addresses are not directly routable from the internet, providing some obscurity",
-      "Faster routing",
-      "Lower TCP overhead"
+      "Faster routing given current best practices",
+      "Lower TCP overhead given current best practices"
     ],
     "correct": 1,
     "explanation": "NAT/PAT was designed for IPv4 address conservation; the security side effect is internal hosts are not directly addressable from outside (security through translation). It is NOT a real security control \u2014 it is an obscurity benefit. Layer-7 attacks still pass through NAT.",
@@ -6289,10 +6289,10 @@
     "difficulty": "medium",
     "stem": "TLS 1.3's 0-RTT mode improves performance by allowing data in the first flight, but introduces what risk?",
     "choices": [
-      "Man-in-the-middle bypass",
+      "Man-in-the-middle bypass across the relevant control set",
       "Replay of the 0-RTT data, since 0-RTT does not have full forward-secrecy / replay protection on its own",
-      "Higher CPU on the server",
-      "Loss of certificate validation"
+      "Higher CPU on the server under typical operating conditions",
+      "Loss of certificate validation in standard practice"
     ],
     "correct": 1,
     "explanation": "TLS 1.3 0-RTT (early data) lacks the full anti-replay protections of the standard handshake \u2014 servers should restrict 0-RTT to idempotent operations and use server-side anti-replay where critical. Certificate validation is unaffected. CPU may be reduced, not increased.",
@@ -6351,10 +6351,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY security concern when adopting SD-WAN over public internet links?",
     "choices": [
-      "Increased physical theft risk",
+      "Increased physical theft risk given current best practices",
       "Tunnels are typically point-to-point, traffic inside encrypted tunnels lacks per-flow inspection without a SASE/security overlay",
-      "Loss of routing protocols under typical compliance requirements",
-      "Inability to use multicast"
+      "Loss of routing protocols under typical compliance requirements when properly implemented",
+      "Inability to use multicast in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "SD-WAN tunnels (typically IPsec or VXLAN) provide point-to-point confidentiality but lack inline security inspection \u2014 without a paired security stack (SASE, secure web gateway, CASB), traffic inside the tunnel is opaque to enterprise security tools. Choice A (physical theft) is unrelated. Choice C (loss of routing) is wrong \u2014 SD-WAN provides routing. Choice D (no multicast) is technically wrong and irrelevant. The exam pattern: SD-WAN + SASE = secure modern WAN.",
@@ -6444,10 +6444,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY security concern with BGP between autonomous systems on the internet?",
     "choices": [
-      "High protocol overhead",
+      "High protocol overhead in most enterprise deployments",
       "BGP origin and path validation are not built-in; route hijacking and route leaks remain common",
-      "BGP requires IPv6",
-      "BGP is single-vendor"
+      "BGP requires IPv6 in most enterprise deployments",
+      "BGP is single-vendor in standard practice"
     ],
     "correct": 1,
     "explanation": "BGP trusts what peers announce; without RPKI (Resource Public Key Infrastructure) or BGPsec, attackers can hijack prefixes (e.g., 2008 YouTube/Pakistan, 2018 Amazon Route 53 incidents). RPKI deployment is improving but uneven. The other choices are false.",
@@ -6545,10 +6545,10 @@
     "difficulty": "medium",
     "stem": "Which control prevents data exfiltration via DNS tunneling MOST effectively?",
     "choices": [
-      "Block all DNS",
+      "Block all DNS when properly implemented",
       "Restrict outbound DNS to enterprise resolvers, monitor DNS payload sizes and entropy, and apply DNS RPZ/blocklists",
-      "Allow direct DNS to any resolver",
-      "Use only DoH for general production deployments"
+      "Allow direct DNS to any resolver across the relevant control set",
+      "Use only DoH for general production deployments in standard practice"
     ],
     "correct": 1,
     "explanation": "Forcing DNS through enterprise resolvers and applying analytics (large payloads, high entropy, suspicious TXT volumes) detects/blocks DNS tunneling. Blocking all DNS breaks the network. Direct DNS to any resolver is permissive. DoH alone hides DNS without analytics.",
@@ -6610,10 +6610,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY security benefit of mTLS (mutual TLS) between microservices?",
     "choices": [
-      "Faster API responses as a baseline configuration",
+      "Faster API responses as a baseline configuration in standard practice",
       "Both client and server authenticate cryptographically, providing strong workload identity",
-      "No need for any authorisation",
-      "Eliminates the need for service mesh"
+      "No need for any authorisation across the relevant control set",
+      "Eliminates the need for service mesh in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "mTLS provides cryptographic mutual authentication between services using certificates \u2014 strong workload identity. Authorisation is still required (mTLS proves who, policy decides what). Service meshes (Istio, Linkerd) often automate mTLS. Performance is not the primary benefit.",
@@ -6708,10 +6708,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST way to deliver web application access to remote users WITHOUT placing them on the corporate network?",
     "choices": [
-      "Open RDP through the firewall",
+      "Open RDP through the firewall under typical operating conditions",
       "Zero Trust Network Access (ZTNA) brokered access, identity- and context-aware, with no broad network reachability",
-      "Site-to-site VPN to user homes",
-      "MAC address ACLs for general production deployments"
+      "Site-to-site VPN to user homes for the purposes of this question",
+      "MAC address ACLs for general production deployments in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "ZTNA grants per-application access based on identity and context, never exposing broad network ranges (a major shift from VPN). Open RDP is dangerous. Site-to-site VPNs to homes are operationally infeasible. MAC ACLs cannot follow remote users.",
@@ -6776,10 +6776,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for credential theft via captured 802.1X EAP-TTLS inner authentication?",
     "choices": [
-      "Use weaker inner methods",
+      "Use weaker inner methods when properly implemented",
       "Enforce server-certificate validation on the supplicant; consider migrating to EAP-TLS",
-      "Disable certificate validation",
-      "Use shared secrets in most operational contexts"
+      "Disable certificate validation under typical operating conditions",
+      "Use shared secrets in most operational contexts for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Without strict server-cert validation, attackers can stand up rogue RADIUS servers and harvest inner credentials (MSCHAPv2). Enforcing server-cert validation (and migrating to EAP-TLS where feasible) closes this gap. The other choices are insecure.",
@@ -6943,10 +6943,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST control to prevent rogue access points on the corporate network?",
     "choices": [
-      "Trust users not to install them",
+      "Trust users not to install them given current best practices",
       "Wireless intrusion detection (WIDS) combined with 802.1X port security on wired ports",
-      "Disable Wi-Fi entirely as a baseline configuration",
-      "Use only the 5 GHz band"
+      "Disable Wi-Fi entirely as a baseline configuration when properly implemented",
+      "Use only the 5 GHz band in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "WIDS detects unauthorised radios; 802.1X port security prevents rogue APs from being plugged in successfully. Trust alone fails; full Wi-Fi disablement is impractical; band selection does not address rogue devices.",
@@ -7111,7 +7111,7 @@
       "Password complexity",
       "Privilege creep / orphaned accounts",
       "Brute-force attacks",
-      "Phishing"
+      "Phishing given current best practices"
     ],
     "correct": 1,
     "explanation": "When HR triggers provisioning/deprovisioning, role changes and terminations cascade automatically \u2014 preventing privilege creep (accumulating rights as roles change) and orphaned accounts (active accounts of departed users). Password and brute-force/phishing are addressed by other controls.",
@@ -7139,10 +7139,10 @@
     "difficulty": "medium",
     "stem": "How often should privileged access for high-risk systems be reviewed at MINIMUM?",
     "choices": [
-      "Annually",
-      "Semi-annually",
+      "Annually for the purposes of this question",
+      "Semi-annually under typical operating conditions",
       "Quarterly or more frequently with continuous monitoring",
-      "Every 5 years"
+      "Every 5 years in most enterprise deployments"
     ],
     "correct": 2,
     "explanation": "Privileged access reviews on critical systems should be at least quarterly, ideally continuous (e.g., automated drift detection). Annual is the floor for low-risk systems. Manager-mindset answers favor frequent reviews where stakes are high.",
@@ -7304,7 +7304,7 @@
     "difficulty": "medium",
     "stem": "Which is a known weakness of Kerberos that admins MUST mitigate?",
     "choices": [
-      "Lack of confidentiality",
+      "Lack of confidentiality across the relevant control set",
       "Reliance on a single Key Distribution Center (KDC)",
       "No support for service tickets",
       "Cannot enforce password policy"
@@ -7377,10 +7377,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of OAuth 2.0?",
     "choices": [
-      "A user authentication protocol",
+      "A user authentication protocol when properly implemented",
       "An authorisation framework that allows third-party apps to obtain limited access to a resource on behalf of the user",
-      "A digital signature standard when applied to standard enterprise environments",
-      "An XML-based federation protocol"
+      "A digital signature standard when applied to standard enterprise environments in most enterprise deployments",
+      "An XML-based federation protocol given current best practices"
     ],
     "correct": 1,
     "explanation": "OAuth 2.0 is delegated AUTHORISATION \u2014 it issues access tokens granting scoped resource access. It is NOT an authentication protocol on its own (a common exam trap). OpenID Connect adds an ID token (JWT) on top of OAuth 2.0 for authentication.",
@@ -7415,10 +7415,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of OpenID Connect (OIDC)?",
     "choices": [
-      "A replacement for OAuth 2.0",
+      "A replacement for OAuth 2.0 given current best practices",
       "An authentication layer built on top of OAuth 2.0 that adds an ID token (JWT) for user authentication",
-      "An XML-only protocol across the relevant policy framework",
-      "An on-prem-only protocol"
+      "An XML-only protocol across the relevant policy framework across the relevant control set",
+      "An on-prem-only protocol across the relevant control set"
     ],
     "correct": 1,
     "explanation": "OIDC adds an AUTHENTICATION layer on top of OAuth 2.0 \u2014 the ID token (a JWT) carries identity claims. Choice A is wrong \u2014 OIDC complements OAuth, never replaces it. Choice C is wrong \u2014 OIDC uses JSON tokens (JWTs), not XML. Choice D is wrong \u2014 OIDC works equally well in cloud, on-prem, and mobile. The exam: OAuth = authorisation (delegation); OIDC = authentication (identity) on top of OAuth.",
@@ -7617,10 +7617,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY purpose of a Privileged Access Management (PAM) solution?",
     "choices": [
-      "Manage end-user passwords as a baseline configuration",
+      "Manage end-user passwords as a baseline configuration under typical operating conditions",
       "Vault privileged credentials, broker sessions, record activity, and rotate secrets automatically",
-      "Replace the directory server",
-      "Generate audit reports for HR"
+      "Replace the directory server in most enterprise deployments",
+      "Generate audit reports for HR in standard practice"
     ],
     "correct": 1,
     "explanation": "PAM provides credential vaulting, session brokering with recording, and automatic rotation \u2014 the core controls for privileged accounts. End-user passwords are managed by IDPs / authenticators. Choices C and D misunderstand PAM scope.",
@@ -7652,10 +7652,10 @@
     "difficulty": "medium",
     "stem": "Which is a PRIMARY risk of single sign-on (SSO)?",
     "choices": [
-      "Slow login times in most operational contexts",
+      "Slow login times in most operational contexts in standard practice",
       "Compromise of the SSO credentials grants attackers access to all federated applications",
-      "Higher licensing cost only",
-      "Reduced user friction"
+      "Higher licensing cost only under typical operating conditions",
+      "Reduced user friction in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "SSO concentrates risk: one credential compromise pivots to many resources. Mitigations include MFA, conditional access, anomaly detection, short session lifetimes, and step-up authentication for sensitive actions. Friction reduction is a benefit, not a risk.",
@@ -7753,10 +7753,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for a SAML attack where attackers manipulate signed assertions due to XML signature wrapping flaws?",
     "choices": [
-      "Disable XML signatures",
+      "Disable XML signatures given current best practices",
       "Validate the signed element specifically AND verify the signature covers the asserting identity claims",
-      "Trust all incoming assertions",
-      "Use plain HTTP under typical compliance requirements"
+      "Trust all incoming assertions under typical operating conditions",
+      "Use plain HTTP under typical compliance requirements in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "XSW (XML Signature Wrapping) attacks exploit parsers that validate one element while consuming another. Mitigation: validate signed element identity explicitly; use modern libraries; restrict to expected elements. Disabling signatures or trusting blindly defeats security entirely.",
@@ -7815,9 +7815,9 @@
     "stem": "What is the CROSSOVER ERROR RATE (CER or EER) of a biometric system?",
     "choices": [
       "The point where false acceptance and false rejection rates are equal",
-      "The maximum FAR allowed by policy",
-      "The number of biometric templates stored",
-      "The accuracy of liveness detection"
+      "The maximum FAR allowed by policy in standard practice",
+      "The number of biometric templates stored when properly implemented",
+      "The accuracy of liveness detection when properly implemented"
     ],
     "correct": 0,
     "explanation": "CER/EER is the equal-error point \u2014 the lower it is, the more accurate the biometric. FAR (false acceptance) and FRR (false rejection) trade off; the CER is the operating point where they cross. The other choices are unrelated.",
@@ -7882,10 +7882,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST example of an attribute-based access control rule?",
     "choices": [
-      "Allow users in the 'Admin' role as a baseline configuration",
+      "Allow users in the 'Admin' role as a baseline configuration across the relevant control set",
       "Allow access only if user.dept = resource.dept AND time between 0800-1800 AND device is managed",
-      "Allow all internal users by default",
-      "Allow access if user has a password"
+      "Allow all internal users by default for the purposes of this question",
+      "Allow access if user has a password for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "ABAC combines multiple attributes \u2014 user, resource, environment \u2014 into the policy decision. Choice A is RBAC. Choice C is open/permissive. Choice D is bare authentication, not authorisation. ABAC is what XACML, AWS IAM policies, and Azure AD conditional access implement.",
@@ -8008,10 +8008,10 @@
     "difficulty": "medium",
     "stem": "Per NIST SP 800-63B, which account lockout configuration is recommended?",
     "choices": [
-      "Lock after 3 attempts for 24 hours",
+      "Lock after 3 attempts for 24 hours when properly implemented",
       "Lock after a small number of failed attempts with throttling, while supporting offline attack defenses",
-      "Never lock \u2014 let users retry forever",
-      "Permanent lock after 5 attempts"
+      "Never lock \u2014 let users retry forever across the relevant control set",
+      "Permanent lock after 5 attempts given current best practices"
     ],
     "correct": 1,
     "explanation": "NIST 800-63B recommends rate-limiting and lockouts that are not so aggressive they enable trivial DoS \u2014 combined with breach-password blocking and other defenses. Choice A is overly punitive; C provides no defense; D enables DoS through targeted lockouts.",
@@ -8071,10 +8071,10 @@
     "difficulty": "medium",
     "stem": "What is a JWT (JSON Web Token)?",
     "choices": [
-      "A binary key-exchange format",
+      "A binary key-exchange format in most enterprise deployments",
       "A compact, URL-safe, signed JSON token used for transmitting claims between parties",
-      "A backup format",
-      "A binary OIDC code"
+      "A backup format given current best practices",
+      "A binary OIDC code in standard practice"
     ],
     "correct": 1,
     "explanation": "JWT (RFC 7519) is the JSON-based token format used in OIDC and many OAuth 2.0 flows. Compact (base64url-encoded), URL-safe, signed (JWS) or encrypted (JWE). Choice A is wrong \u2014 JWTs are text, not binary. Choice C (backup format) is invented. Choice D \u2014 JWTs are not specifically OIDC and not binary. Common pitfalls: don't store secrets in JWT (it's decodable), validate the alg (beware 'none'), enforce expiry.",
@@ -8133,10 +8133,10 @@
     "difficulty": "medium",
     "stem": "Per NIST SP 800-63, which of the following BEST corresponds to AAL3 (highest authenticator assurance)?",
     "choices": [
-      "Single-factor password",
-      "Memorised secret + SMS OTP",
+      "Single-factor password in standard practice",
+      "Memorised secret + SMS OTP in commonly cited frameworks",
       "Hardware-based cryptographic authenticator providing verifier-impersonation resistance",
-      "Knowledge-based questions"
+      "Knowledge-based questions in commonly cited frameworks"
     ],
     "correct": 2,
     "explanation": "AAL3 requires hardware-backed cryptographic authenticators with verifier-impersonation resistance. FIDO2/WebAuthn is the modern consumer-grade answer; PIV/CAC smart cards have met AAL3 since the standard was first published and remain the dominant federal AAL3 authenticator. Choice A (single-factor password) is AAL1. Choice B (password + SMS OTP) is AAL2 at best \u2014 SMS is in fact RESTRICTED in 800-63B because of SS7 / SIM-swap risk. Choice D (knowledge-based questions) doesn't qualify at any AAL \u2014 800-63B explicitly discourages KBA.",
@@ -8164,10 +8164,10 @@
     "difficulty": "medium",
     "stem": "What is rule-based access control?",
     "choices": [
-      "A list of users with permissions",
+      "A list of users with permissions in standard practice",
       "Access decisions based on a set of system-wide rules, independent of identity",
-      "Access based on hierarchical roles",
-      "Access based on owner discretion"
+      "Access based on hierarchical roles in commonly cited frameworks",
+      "Access based on owner discretion in standard practice"
     ],
     "correct": 1,
     "explanation": "Rule-Based Access Control (RuBAC) applies system-wide rules (often IF-THEN) regardless of user identity \u2014 firewall ACLs, time-of-day restrictions, geo-fencing. Choice A describes a simple ACL but lacks the system-wide rule concept. Choice C is RBAC (Role-Based, identity-driven). Choice D is DAC (Discretionary, owner-driven). Note the subtle distinction: RuBAC is rule-based, RBAC is role-based \u2014 exam writers love this trap.",
@@ -8322,10 +8322,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY benefit of federation between two organisations?",
     "choices": [
-      "Shared infrastructure costs",
+      "Shared infrastructure costs across the relevant control set",
       "Users authenticate to their home organisation; the partner organisation trusts the assertion",
-      "Faster network connectivity",
-      "Eliminates the need for any access control"
+      "Faster network connectivity across the relevant control set",
+      "Eliminates the need for any access control when properly implemented"
     ],
     "correct": 1,
     "explanation": "Federation removes the need to provision separate accounts at each partner \u2014 users continue using their home credentials, with assertions exchanged between IdPs and SPs. Choice C and D are unrelated; choice A may be incidental but is not the primary benefit.",
@@ -8383,10 +8383,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for MFA push-bombing / fatigue attacks?",
     "choices": [
-      "Disable MFA",
+      "Disable MFA in standard practice",
       "Number-matching prompts and rate-limiting on push challenges",
-      "Permanent push acceptance",
-      "Use SMS exclusively"
+      "Permanent push acceptance given current best practices",
+      "Use SMS exclusively in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Number-matching (user types a number shown on the login screen into the authenticator) defeats blind acceptance during fatigue attacks. Rate-limiting suppresses storming. Disabling MFA, permanent acceptance, and SMS-only are weakening choices.",
@@ -8445,10 +8445,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY benefit of centralized authentication vs. each application managing its own user store?",
     "choices": [
-      "Cheaper licensing only",
+      "Cheaper licensing only in most enterprise deployments",
       "Consistent policy enforcement, single source of truth, simpler deprovisioning, and federated SSO",
-      "Lower availability",
-      "More privileged accounts"
+      "Lower availability across the relevant control set",
+      "More privileged accounts in standard practice"
     ],
     "correct": 1,
     "explanation": "Centralization (via IdP) means one policy, one source of truth, and one deprovisioning path \u2014 operationally and security-wise superior to per-app silos. Choice A is incidental; choice C is wrong (HA is critical); choice D is the opposite of intent.",
@@ -8570,10 +8570,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY purpose of an entity's metadata in SAML federation?",
     "choices": [
-      "Logging",
+      "Logging in standard practice",
       "Publishing endpoints, certificates, and supported bindings so the partner can validate and route messages",
-      "Providing user training",
-      "Defining business hours"
+      "Providing user training in standard practice",
+      "Defining business hours in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "SAML metadata (XML document) declares the entity's endpoints, signing/encryption certificates, name ID formats, and supported bindings \u2014 both IdP and SP exchange metadata to establish trust mechanically. Choice A (logging) is a runtime concern, not metadata. Choice C (user training) isn't a SAML artefact. Choice D (business hours) is operational. The exam: metadata = the federation 'business card' that enables protocol interoperation.",
@@ -8600,10 +8600,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST way to manage shared privileged accounts that genuinely cannot be eliminated (e.g., legacy database accounts)?",
     "choices": [
-      "Document them in a wiki as a baseline configuration",
+      "Document them in a wiki as a baseline configuration across the relevant control set",
       "Vault credentials in PAM, broker each session with individual user attribution and recording, rotate after each use",
-      "Allow team members to share via chat",
-      "Disable logging to avoid bloat"
+      "Allow team members to share via chat across the relevant control set",
+      "Disable logging to avoid bloat in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "PAM with check-out, session brokering, attribution, recording, and post-use rotation provides accountability where the underlying account cannot be made user-specific. Documentation alone provides no control; sharing in chat is dangerous; disabling logging removes audit trail.",
@@ -8667,7 +8667,7 @@
     "choices": [
       "RFC 6749",
       "OASIS SAML 2.0 Web Browser SSO Profile",
-      "RFC 4120",
+      "RFC 4120 when properly implemented",
       "FIDO Alliance CTAP"
     ],
     "correct": 1,
@@ -8900,10 +8900,10 @@
     "difficulty": "medium",
     "stem": "Which difference distinguishes a SOC 2 Type II from Type I report?",
     "choices": [
-      "Type II is shorter",
+      "Type II is shorter for the purposes of this question",
       "Type II evaluates operating effectiveness over a period; Type I is design effectiveness at a point in time",
-      "Type I covers more controls",
-      "Type II requires no testing"
+      "Type I covers more controls given current best practices",
+      "Type II requires no testing when properly implemented"
     ],
     "correct": 1,
     "explanation": "Type I = design effectiveness at a POINT IN TIME (snapshot). Type II = design + OPERATING effectiveness over a PERIOD (typically 6-12 months). Choice A (Type II is shorter) is wrong \u2014 Type II covers a longer testing window. Choice C (Type I covers more) is wrong \u2014 both have the same scope, Type II just adds time-based testing. Choice D is wrong \u2014 Type II requires EXTENSIVE testing across the period. Customers prefer Type II for its operating-effectiveness assurance.",
@@ -8971,10 +8971,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY difference between vulnerability scanning and penetration testing?",
     "choices": [
-      "Pen tests are cheaper",
+      "Pen tests are cheaper for the purposes of this question",
       "Pen tests attempt exploitation to demonstrate impact; vulnerability scans identify potential weaknesses without exploitation",
-      "Vulnerability scans require physical access",
-      "They are synonyms under typical compliance requirements"
+      "Vulnerability scans require physical access in standard practice",
+      "They are synonyms under typical compliance requirements under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Vulnerability scanning is breadth \u2014 produces a list of potential weaknesses (often noisy). Pen testing is depth \u2014 chains vulnerabilities to demonstrate real impact and verify exploitability. Both have a role in mature programs.",
@@ -9005,10 +9005,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of an authenticated vulnerability scan?",
     "choices": [
-      "Bypass firewalls",
+      "Bypass firewalls under typical operating conditions",
       "Reveal vulnerabilities visible only to logged-in users",
-      "Reduce scan time",
-      "Test password complexity"
+      "Reduce scan time in commonly cited frameworks",
+      "Test password complexity when properly implemented"
     ],
     "correct": 1,
     "explanation": "Authenticated (credentialed) scans log into hosts and assess installed packages, missing patches, and config drift \u2014 invisible to unauthenticated network scans. Unauthenticated scans see only externally exposed surfaces. Both have a role.",
@@ -9133,10 +9133,10 @@
     "difficulty": "medium",
     "stem": "Which type of code review is GENERALLY most effective at finding logic flaws and business-rule errors?",
     "choices": [
-      "Automated SAST only",
+      "Automated SAST only across the relevant control set",
       "Manual peer review by an experienced reviewer focused on logic and threat model",
-      "Compilation only",
-      "Linting"
+      "Compilation only under typical operating conditions",
+      "Linting in standard practice"
     ],
     "correct": 1,
     "explanation": "Manual peer review excels at logic and business-rule defects that automated tools miss (SAST sees patterns, not intent). The best programs combine SAST + manual review. Linting is style/syntax. Compilation catches structural errors only.",
@@ -9164,10 +9164,10 @@
     "difficulty": "medium",
     "stem": "Which document is THE MOST IMPORTANT to obtain BEFORE starting a penetration test?",
     "choices": [
-      "Vendor SOW only in most operational contexts",
+      "Vendor SOW only in most operational contexts given current best practices",
       "Authorisation letter and rules of engagement signed by an officer with authority to authorise the test",
-      "Vacation calendar of IT staff",
-      "Marketing approval"
+      "Vacation calendar of IT staff for the purposes of this question",
+      "Marketing approval in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Without a signed authorisation (the 'get out of jail free' letter), pen testing is just unauthorised intrusion. Rules of engagement scope the test (targets, hours, escalation). The other choices are operational and not essential authorisation.",
@@ -9226,10 +9226,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST first action when a critical vulnerability is identified in a production system?",
     "choices": [
-      "Issue a press release in most operational contexts",
+      "Issue a press release in most operational contexts given current best practices",
       "Apply compensating controls and the vendor patch through change management as fast as risk dictates, prioritised by exploit availability and exposure",
-      "Wait for the next quarterly maintenance window",
-      "Disable logging to avoid alerts"
+      "Wait for the next quarterly maintenance window when properly implemented",
+      "Disable logging to avoid alerts under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Manager-mindset: triage by risk (impact \u00d7 exposure \u00d7 exploit availability), apply compensating controls if patching takes time, push the patch through accelerated change management. Press releases are not first actions; waiting accumulates risk; disabling logging is anti-pattern.",
@@ -9288,10 +9288,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY benefit of using INDEPENDENT (third-party) auditors?",
     "choices": [
-      "Lower cost",
+      "Lower cost in standard practice",
       "Independence reduces conflict of interest and increases reliance for relying parties",
-      "Faster audits",
-      "Less paperwork"
+      "Faster audits given current best practices",
+      "Less paperwork when properly implemented"
     ],
     "correct": 1,
     "explanation": "Independence eliminates conflict of interest and increases the weight third parties (regulators, customers, boards) place on findings. Choice A (lower cost) \u2014 independent audits typically cost MORE, not less. Choice C (faster) \u2014 they're often slower due to scoping rigor. Choice D (less paperwork) \u2014 they require MORE evidence. Pattern: independence is about credibility and reliance, not efficiency.",
@@ -9352,10 +9352,10 @@
     "difficulty": "medium",
     "stem": "Which test-coverage metric is MOST useful for measuring the depth of an automated test suite?",
     "choices": [
-      "Lines of code",
+      "Lines of code in standard practice",
       "Statement, branch, and condition coverage",
-      "Compile time",
-      "File count"
+      "Compile time given current best practices",
+      "File count across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Coverage metrics (statement, branch, MC/DC for safety-critical) measure how thoroughly tests exercise the code. LOC, compile time, and file count are not coverage measurements. The exam favors statement/branch coverage as the standard answer.",
@@ -9443,10 +9443,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY value of a SIEM beyond raw log aggregation?",
     "choices": [
-      "Storage compression",
+      "Storage compression in commonly cited frameworks",
       "Correlation of events across sources to detect multi-stage attacks and produce alerts",
-      "Replacing endpoint protection",
-      "Replacing firewalls"
+      "Replacing endpoint protection given current best practices",
+      "Replacing firewalls for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "SIEM correlates across diverse sources to surface attack patterns invisible in any single log (e.g., login from country A, then sudden privilege grant, then data exfil to country B). Storage and replacement of EDR/firewalls are wrong.",
@@ -9567,10 +9567,10 @@
     "difficulty": "medium",
     "stem": "Which best describes 'purple team' activity?",
     "choices": [
-      "Defenders and attackers competing in isolation",
+      "Defenders and attackers competing in isolation across the relevant control set",
       "Collaborative engagement where red-team techniques are shared with blue team to improve detection and response",
-      "Annual compliance audit",
-      "Buying offensive tools across the relevant policy framework"
+      "Annual compliance audit when properly implemented",
+      "Buying offensive tools across the relevant policy framework in standard practice"
     ],
     "correct": 1,
     "explanation": "Purple teaming bridges red (offensive) and blue (defensive) teams to translate attacker techniques into detection and response improvements. Choice A describes traditional red/blue exercises. Audits and tooling are unrelated.",
@@ -9597,10 +9597,10 @@
     "difficulty": "medium",
     "stem": "Breach and Attack Simulation (BAS) tools provide which PRIMARY value?",
     "choices": [
-      "Random pen-tests by external firms",
+      "Random pen-tests by external firms in commonly cited frameworks",
       "Continuous, automated execution of attacker techniques to validate detection and prevention controls",
-      "Replace SOC analysts for general production deployments",
-      "Generate compliance reports automatically"
+      "Replace SOC analysts for general production deployments given current best practices",
+      "Generate compliance reports automatically in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "BAS (Breach and Attack Simulation) platforms automate execution of real attacker techniques against the production stack on a continuous basis \u2014 validating that detection and prevention controls actually fire. Choice A (random pen-tests) confuses BAS with traditional pen testing. Choice C (replace SOC) \u2014 BAS COMPLEMENTS the SOC, doesn't replace human analysts. Choice D (compliance reports) is incidental, not the primary value. Examples: SafeBreach, Cymulate, AttackIQ.",
@@ -9659,10 +9659,10 @@
     "difficulty": "medium",
     "stem": "Why is using PRODUCTION data in test environments a security and privacy concern?",
     "choices": [
-      "Test environments are usually faster",
+      "Test environments are usually faster in commonly cited frameworks",
       "Test environments often have weaker controls, increasing exposure of real PII; under GDPR, processing must have lawful basis",
-      "Production data is too small as a baseline configuration",
-      "Production data is encrypted"
+      "Production data is too small as a baseline configuration in commonly cited frameworks",
+      "Production data is encrypted under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Test environments commonly skip MFA, PAM, encryption, etc. \u2014 moving real production data there expands the breach surface. GDPR Article 5 (purpose limitation, minimisation) generally rules out using prod data for testing without de-identification. Synthesise or mask data instead.",
@@ -9691,9 +9691,9 @@
     "stem": "Which testing practice is MOST appropriate for verifying privacy controls?",
     "choices": [
       "Privacy Impact Assessment (PIA) and DPIA review with control sampling",
-      "Penetration test only",
-      "DAST scan only",
-      "User survey"
+      "Penetration test only for the purposes of this question",
+      "DAST scan only in standard practice",
+      "User survey when properly implemented"
     ],
     "correct": 0,
     "explanation": "PIAs/DPIAs evaluate processing activities against privacy principles, sampling controls (notice, consent, retention, access, etc.). Pen tests and DAST find technical vulnerabilities, not privacy compliance. Surveys gauge perception, not control effectiveness.",
@@ -9752,10 +9752,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST evidence to demonstrate that a control is OPERATING effectively?",
     "choices": [
-      "Policy documents alone",
+      "Policy documents alone across the relevant control set",
       "Sampled artefacts showing the control fired as designed over a period",
-      "Vendor brochure",
-      "Email confirmation"
+      "Vendor brochure given current best practices",
+      "Email confirmation given current best practices"
     ],
     "correct": 1,
     "explanation": "Auditors require evidence of operating effectiveness \u2014 sampled records over a period prove the control consistently performed. Policy alone shows design intent; vendor brochures and email confirmations are weak audit artefacts.",
@@ -9843,10 +9843,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST policy for retention of security audit logs?",
     "choices": [
-      "Delete weekly to save space",
+      "Delete weekly to save space across the relevant control set",
       "Retain per regulatory and business requirements, with legal-hold capability",
-      "Retain forever",
-      "Retain only if a breach occurred"
+      "Retain forever in commonly cited frameworks",
+      "Retain only if a breach occurred in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Retention policy reflects legal/regulatory requirements (e.g., HIPAA 6 years, PCI-DSS 1 year minimum) plus operational/forensic need. 'Forever' is unsustainable and may violate minimisation principles. Weekly deletion eliminates forensic capability.",
@@ -9903,10 +9903,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of forensic readiness?",
     "choices": [
-      "Hiring a forensic firm reactively",
+      "Hiring a forensic firm reactively in most enterprise deployments",
       "Pre-incident planning, log retention, evidence-handling procedures, and trained personnel ready to support investigations",
-      "Storing all data forever in most operational contexts",
-      "Disabling logging to avoid noise"
+      "Storing all data forever in most operational contexts in commonly cited frameworks",
+      "Disabling logging to avoid noise under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Forensic readiness is proactive \u2014 pre-arranged tooling, retention, chain-of-custody procedures, and trained staff so investigations can begin without scrambling. Reactive hiring is too late. Indefinite retention is unsustainable; disabled logging defeats forensics.",
@@ -9936,10 +9936,10 @@
     "difficulty": "medium",
     "stem": "Why is 100% code coverage a NECESSARY but NOT SUFFICIENT condition for software assurance?",
     "choices": [
-      "Coverage is irrelevant under typical compliance requirements",
+      "Coverage is irrelevant under typical compliance requirements in commonly cited frameworks",
       "100% coverage means every line ran but does not prove every CONDITION/path was tested or that assertions were correct",
-      "Coverage replaces threat modelling",
-      "Coverage measures defect density"
+      "Coverage replaces threat modelling given current best practices",
+      "Coverage measures defect density for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Coverage proves execution, not correctness \u2014 branches, edge cases, security assertions, and threat-model coverage matter beyond line coverage. Manager-mindset: combine coverage with mutation testing, threat-model alignment, and review.",
@@ -9998,10 +9998,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of regression testing?",
     "choices": [
-      "Testing new features only",
+      "Testing new features only in standard practice",
       "Re-running tests after a change to ensure existing functionality still works",
-      "Compliance auditing",
-      "Performance benchmarking"
+      "Compliance auditing across the relevant control set",
+      "Performance benchmarking when properly implemented"
     ],
     "correct": 1,
     "explanation": "Regression testing re-runs existing test suites after a code change to ensure previously-working features still work. Choice A is wrong \u2014 testing ONLY new features misses the whole point of regression. Choice C (compliance auditing) is unrelated to testing methodology. Choice D (performance benchmarking) measures speed, not correctness. CI/CD pipelines run regression suites on every commit to catch regressions early.",
@@ -10089,10 +10089,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of threat hunting?",
     "choices": [
-      "Reacting to alerts for general production deployments",
+      "Reacting to alerts for general production deployments across the relevant control set",
       "Proactive, hypothesis-driven search for adversaries that may have evaded existing detections",
-      "Annual penetration testing",
-      "Antivirus scanning"
+      "Annual penetration testing for the purposes of this question",
+      "Antivirus scanning given current best practices"
     ],
     "correct": 1,
     "explanation": "Threat hunting starts from hypotheses (often informed by ATT&CK or threat intel) and queries data for indicators that predefined detections missed. It complements alerting, not replaces it. The other choices describe different activities.",
@@ -10119,8 +10119,8 @@
     "difficulty": "medium",
     "stem": "Which technique evaluates the security of THIRD-PARTY software components used in an application?",
     "choices": [
-      "SAST",
-      "DAST",
+      "SAST given current best practices",
+      "DAST in standard practice",
       "SCA (Software Composition Analysis)",
       "Fuzzing"
     ],
@@ -10281,7 +10281,7 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of 'eradication' in the IR lifecycle?",
     "choices": [
-      "Restoring services",
+      "Restoring services when properly implemented",
       "Removing the cause so the threat cannot return",
       "Deleting all logs",
       "Notifying customers"
@@ -10420,9 +10420,9 @@
     "difficulty": "medium",
     "stem": "Which technique BEST verifies that a forensic image is byte-for-byte identical to the original media?",
     "choices": [
-      "Visual inspection",
+      "Visual inspection when properly implemented",
       "Cryptographic hashing of source and image; the digests must match",
-      "File listing comparison",
+      "File listing comparison given current best practices",
       "Boot the image and check the user interface"
     ],
     "correct": 1,
@@ -10684,10 +10684,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a maintenance window?",
     "choices": [
-      "Allow staff vacation in most operational contexts",
+      "Allow staff vacation in most operational contexts under typical operating conditions",
       "Provide an authorised, communicated period for changes that may impact availability or service",
-      "Reduce energy consumption",
-      "Enable physical inspections"
+      "Reduce energy consumption given current best practices",
+      "Enable physical inspections given current best practices"
     ],
     "correct": 1,
     "explanation": "A maintenance window is an authorised, communicated period during which changes that may impact availability or security may be applied \u2014 with stakeholder notification, change-management approval, and rollback plans. Choice A (vacation) is HR scheduling, not change management. Choice C (energy) is an operations concern. Choice D (physical inspection) is a facilities task. The exam consistently frames maintenance windows as change-management governance, not anything else.",
@@ -10749,10 +10749,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a baseline configuration?",
     "choices": [
-      "Save energy",
+      "Save energy across the relevant control set",
       "Define an approved, secure starting state for systems and detect drift over time",
-      "Track licence compliance only",
-      "Replace patch management"
+      "Track licence compliance only across the relevant control set",
+      "Replace patch management under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Baselines define the APPROVED, secure starting state for systems \u2014 configuration management tools (Ansible, Puppet, Chef, GPO) detect drift from baseline and remediate. Choice A (energy) is unrelated. Choice C (license compliance) is inventory. Choice D is wrong \u2014 baselines complement patch management, neither replaces the other. The exam: baselines + drift detection + remediation = configuration assurance.",
@@ -10780,10 +10780,10 @@
     "difficulty": "medium",
     "stem": "Which capability does SOAR ADD over SIEM?",
     "choices": [
-      "Logging",
+      "Logging given current best practices",
       "Orchestration and automated response playbooks across security tools",
-      "Vulnerability scanning",
-      "Endpoint protection"
+      "Vulnerability scanning given current best practices",
+      "Endpoint protection when properly implemented"
     ],
     "correct": 1,
     "explanation": "SOAR (Security Orchestration, Automation, and Response) extends SIEM with PLAYBOOKS that automatically execute response actions across tools \u2014 containment (isolate host), enrichment (look up IOC), ticket creation, user notifications. Choice A (logging) is the SIEM job. Choice C (vulnerability scanning) is a separate tool category. Choice D (endpoint protection) is EDR/AV. Pattern: SIEM correlates events; SOAR orchestrates response.",
@@ -10908,10 +10908,10 @@
     "difficulty": "medium",
     "stem": "Which control is MOST EFFECTIVE for detecting data exfiltration to attacker-controlled cloud storage?",
     "choices": [
-      "Allow all outbound traffic and trust users",
+      "Allow all outbound traffic and trust users when properly implemented",
       "DLP egress inspection plus outbound proxy with TLS interception or destination categorisation",
-      "Disable internet access entirely",
-      "Open all firewall ports"
+      "Disable internet access entirely in commonly cited frameworks",
+      "Open all firewall ports in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Outbound proxies with destination categorisation/blocking (and DLP content inspection where TLS is broken with policy) detect/block exfiltration. Trusting all egress and disabling internet are extremes. Opening all ports defeats the firewall.",
@@ -10973,10 +10973,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST cadence for routine vulnerability scanning of internet-facing assets?",
     "choices": [
-      "Annually",
+      "Annually in most enterprise deployments",
       "At least monthly, with continuous scanning preferred where feasible",
-      "Every 5 years",
-      "Only after a breach"
+      "Every 5 years under typical operating conditions",
+      "Only after a breach under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Internet-facing surfaces change constantly \u2014 monthly is the modern minimum, with continuous scanning increasingly common (PCI-DSS requires quarterly external + scans after any significant change). Choice A (annually) misses ~11 months of new exposure. Choice C (every 5 years) is essentially negligence. Choice D (only after a breach) is post-incident, not prevention. The exam pattern: external surfaces deserve more scanning frequency than internal ones.",
@@ -11066,10 +11066,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for shoulder-surfing in open-plan offices?",
     "choices": [
-      "Trust other employees",
+      "Trust other employees across the relevant control set",
       "Privacy filters on screens, screen-lock policies, and physical workspace orientation",
-      "Disable login altogether",
-      "Mandatory headphones"
+      "Disable login altogether in standard practice",
+      "Mandatory headphones when properly implemented"
     ],
     "correct": 1,
     "explanation": "Layered physical/visual privacy controls (privacy filters, screen-lock policies, workspace orientation away from windows/walkways, clean-desk rules) reduce shoulder-surfing exposure. Choice A ('trust') is a non-control. Choice C (disabling login) is impractical and breaks operations. Choice D (headphones) addresses audio leakage, not visual. The exam expects defence-in-depth even for low-tech threats.",
@@ -11099,10 +11099,10 @@
     "difficulty": "medium",
     "stem": "Who has the AUTHORITY to declare a disaster and trigger the DR plan?",
     "choices": [
-      "The first responder on the scene",
+      "The first responder on the scene in most enterprise deployments",
       "An executive or designated incident commander, per the documented BCP",
-      "Any IT staff member",
-      "External media"
+      "Any IT staff member in standard practice",
+      "External media in standard practice"
     ],
     "correct": 1,
     "explanation": "Disaster declaration follows a defined chain of authority documented in the BCP \u2014 typically an executive or BC manager. Ad-hoc declaration creates chaos. The exam consistently picks the documented authority.",
@@ -11166,10 +11166,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of an administrative investigation?",
     "choices": [
-      "Performed by law enforcement only",
+      "Performed by law enforcement only for the purposes of this question",
       "Internal investigation of policy violations or misconduct, governed by HR and legal",
-      "Public-disclosure investigation",
-      "Vendor audit"
+      "Public-disclosure investigation given current best practices",
+      "Vendor audit in standard practice"
     ],
     "correct": 1,
     "explanation": "Administrative investigations look at internal policy violations (acceptable use, harassment) \u2014 typically led by HR/legal/internal investigators. Civil and criminal investigations have different standards. Vendor audits are separate.",
@@ -11234,10 +11234,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY risk of installing patches in production WITHOUT testing?",
     "choices": [
-      "Compliance penalties",
+      "Compliance penalties for the purposes of this question",
       "Patches may break functionality or introduce regressions, causing outages",
-      "Higher costs",
-      "User confusion"
+      "Higher costs in standard practice",
+      "User confusion for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Patches can break functionality, introduce regressions, or interact badly with custom configurations \u2014 testing in lower environments and staged rollouts catch this before production impact. Choice A (compliance penalties) is downstream \u2014 outage from a bad patch is the PRIMARY risk. Choice C (cost) is operational, not security. Choice D (user confusion) is minor. Manager-mindset: balance patch speed (security) against testing rigor (stability) per asset risk class.",
@@ -11363,7 +11363,7 @@
       "IT operations",
       "Senior management / executive leadership",
       "BCP coordinator",
-      "External vendor"
+      "External vendor when properly implemented"
     ],
     "correct": 1,
     "explanation": "Like other governance functions, BCP accountability rests with senior leadership. The BCP coordinator is responsible for execution. IT and vendors are participants. Manager-mindset: accountability rests with the highest authority.",
@@ -11394,10 +11394,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST way to ensure detections remain effective as the threat landscape evolves?",
     "choices": [
-      "Set them up once and forget",
+      "Set them up once and forget in most enterprise deployments",
       "Continuously tune detections based on threat intel, false-positive feedback, and ATT&CK coverage gaps",
-      "Disable detections that produce alerts",
-      "Outsource everything"
+      "Disable detections that produce alerts when properly implemented",
+      "Outsource everything when properly implemented"
     ],
     "correct": 1,
     "explanation": "Detection rules rot \u2014 environments change, attacker tradecraft evolves, false-positive ratios drift. Continuous tuning informed by threat intel, false-positive feedback, and ATT&CK coverage gap analysis keeps detections effective. Choice A ('set and forget') guarantees decay. Choice C (disabling noisy alerts) silently leaves blind spots. Choice D (outsourcing) doesn't address the core problem of rule maintenance \u2014 it just moves who does it.",
@@ -11424,10 +11424,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST control for protecting data in transit BETWEEN data centers across a public internet path?",
     "choices": [
-      "MD5 over plain TCP",
+      "MD5 over plain TCP in standard practice",
       "IPsec site-to-site VPN with strong AEAD ciphers",
-      "FTP",
-      "Telnet"
+      "FTP across the relevant control set",
+      "Telnet for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Site-to-site IPsec with AEAD (e.g., AES-GCM) provides confidentiality, integrity, and authentication. MD5 + TCP, FTP, and Telnet are insecure. Modern alternatives include WireGuard and TLS-based mesh tunnels.",
@@ -11458,10 +11458,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST single source of the most-recent attacker tradecraft?",
     "choices": [
-      "Vendor whitepapers from 5 years ago",
+      "Vendor whitepapers from 5 years ago in standard practice",
       "Threat intelligence feeds curated for the organisation's sector and ATT&CK mapping",
-      "General news media for general production deployments",
-      "Conference t-shirts"
+      "General news media for general production deployments in standard practice",
+      "Conference t-shirts when properly implemented"
     ],
     "correct": 1,
     "explanation": "Tailored, sector-specific threat intelligence mapped to MITRE ATT&CK delivers actionable indicators and TTPs that reflect today's adversaries. Choice A (5-year-old whitepapers) is multiple attacker generations stale. Choice C (general news media) reports incidents long after the IOCs matter. Choice D is a joke distractor. Pattern: when an exam asks for the 'best' source of threat intel, pick the one that's current and industry-relevant.",
@@ -11488,10 +11488,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of a 'cloud DR' strategy?",
     "choices": [
-      "Storing backups on a personal cloud account",
+      "Storing backups on a personal cloud account given current best practices",
       "Provisioning DR capacity in a cloud provider with automated failover and data replication",
-      "Hoping the cloud never fails",
-      "Burning data to DVDs for general production deployments"
+      "Hoping the cloud never fails in commonly cited frameworks",
+      "Burning data to DVDs for general production deployments given current best practices"
     ],
     "correct": 1,
     "explanation": "Cloud DR uses elastic provider capacity (warm or cold replica) with replication, automated failover, and pay-as-you-go economics. The other choices are not strategies. Multi-region cloud architectures are a modern cloud-DR pattern.",
@@ -11521,10 +11521,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for a zero-day vulnerability with no available patch?",
     "choices": [
-      "Wait for the patch",
+      "Wait for the patch across the relevant control set",
       "Apply compensating controls until vendor patch is available",
-      "Disable monitoring",
-      "Disclose publicly first"
+      "Disable monitoring in commonly cited frameworks",
+      "Disclose publicly first for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Compensating controls (network segmentation, WAF rules, IPS signatures, virtual patching) limit exposure while a vendor patch is in development. Choice A ('wait') accumulates risk. Choice C (disabling monitoring) removes visibility right when an active exploit may strike. Choice D (public disclosure first) violates responsible-disclosure norms and may weaponise the vulnerability. Manager-mindset: defence-in-depth means a single missing patch isn't immediately catastrophic.",
@@ -11552,10 +11552,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST first step when a SIEM rule generates excessive false positives?",
     "choices": [
-      "Disable the rule in most operational contexts",
+      "Disable the rule in most operational contexts in most enterprise deployments",
       "Investigate the trigger context, narrow the rule to specific patterns, and tune thresholds",
-      "Increase the alert volume",
-      "Ignore all alerts from the rule"
+      "Increase the alert volume in most enterprise deployments",
+      "Ignore all alerts from the rule in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Excessive false positives are a SIGNAL \u2014 investigate the trigger context, narrow the rule to the patterns that matter, and tune thresholds. Choice A (disabling) silently leaves a detection gap. Choice C (raising volume) makes it worse. Choice D (ignoring) is alert-fatigue territory \u2014 eventually a real attack hides in the noise. The discipline is investigate-and-tune, never disable-and-forget.",
@@ -11582,10 +11582,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for the risk of assets being decommissioned WITHOUT proper sanitisation?",
     "choices": [
-      "Trust each technician's discretion across the relevant policy framework",
+      "Trust each technician's discretion across the relevant policy framework in standard practice",
       "Tracked decommissioning workflow with sanitisation per NIST 800-88, certificate of destruction, and sign-off",
-      "Skip sanitisation for old hardware",
-      "Use a single shared decommissioning bin"
+      "Skip sanitisation for old hardware given current best practices",
+      "Use a single shared decommissioning bin given current best practices"
     ],
     "correct": 1,
     "explanation": "A documented decommissioning workflow with sanitisation per NIST 800-88, certificate of destruction, and dual sign-off is the audit-ready answer. Choice A ('trust technicians') is a non-control. Choice C (skipping sanitisation) is a textbook data-leakage event waiting to happen. Choice D (single shared bin) loses chain of custody. The pattern: any decommissioning question with a 'documented workflow + chain of custody' option will be the answer.",
@@ -11612,10 +11612,10 @@
     "difficulty": "medium",
     "stem": "Which BCP plan element addresses keeping personnel safe and accounted for during a disaster?",
     "choices": [
-      "IT recovery plan",
+      "IT recovery plan in standard practice",
       "Crisis management / occupant emergency plan",
       "Vendor management plan",
-      "Audit plan"
+      "Audit plan given current best practices"
     ],
     "correct": 1,
     "explanation": "Crisis management/occupant emergency plans cover life safety \u2014 evacuation, headcount, sheltering. IT recovery is separate. Life safety always comes BEFORE technology recovery (a recurring exam theme).",
@@ -11646,10 +11646,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST principle for protecting against the insider-threat scenario of a single admin shutting down logging then exfiltrating data?",
     "choices": [
-      "Trust admins fully",
+      "Trust admins fully across the relevant control set",
       "Separation of duties and dual-control for sensitive operations",
-      "Allow admins to disable logging",
-      "Audit only annually"
+      "Allow admins to disable logging in most enterprise deployments",
+      "Audit only annually when properly implemented"
     ],
     "correct": 1,
     "explanation": "Dual-control / SoD prevents single-point compromise. The other choices either explicitly enable or normalise the risk. Manager-mindset: design controls so single rogue actors cannot complete the kill chain alone.",
@@ -11710,10 +11710,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST way to enforce the principle of least privilege for system administrators?",
     "choices": [
-      "Give admins root by default",
+      "Give admins root by default under typical operating conditions",
       "Standard accounts for daily work + named admin accounts for specific tasks + JIT elevation for privileged actions",
-      "Shared root password in most operational contexts",
-      "Disable user accounts"
+      "Shared root password in most operational contexts under typical operating conditions",
+      "Disable user accounts in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "The cleanest least-privilege pattern for admins: standard accounts for daily work (email, browsing) + named admin accounts for specific systems + JIT elevation through PAM for the actual privileged operation. Choice A ('root by default') is the antithesis of least privilege. Choice C (shared root) destroys attribution. Choice D (disabling user accounts) is operationally absurd. Three-tier separation + JIT is the modern best practice.",
@@ -11770,10 +11770,10 @@
     "difficulty": "medium",
     "stem": "Which capability does EDR provide beyond traditional antivirus?",
     "choices": [
-      "Static signature scanning only",
+      "Static signature scanning only under typical operating conditions",
       "Continuous endpoint telemetry, behavioural detection, response actions, and forensic data",
-      "Email scanning only",
-      "Web filtering only"
+      "Email scanning only under typical operating conditions",
+      "Web filtering only in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "EDR provides telemetry + detection + response + forensic capabilities \u2014 far beyond signature AV. Many EDR products also support threat hunting via stored telemetry. Choices A, C, D describe other tool categories.",
@@ -11800,10 +11800,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST control for protecting cryptographic keys at runtime?",
     "choices": [
-      "Store keys in source code",
+      "Store keys in source code given current best practices",
       "Use a hardware security module (HSM) or platform key vault with strict access policy",
-      "Email keys to administrators",
-      "Print keys on paper as a baseline configuration"
+      "Email keys to administrators in commonly cited frameworks",
+      "Print keys on paper as a baseline configuration across the relevant control set"
     ],
     "correct": 1,
     "explanation": "HSMs and platform key vaults (AWS KMS, Azure Key Vault, GCP KMS) protect keys with hardware-rooted security and policy-controlled access \u2014 keys never leave the protected boundary. Choice A (keys in source) leaks them into git history, build artefacts, and developer machines. Choice C (email) is plaintext over a system designed to be archived. Choice D (paper) is a printed-out compromise \u2014 possibly fine for break-glass key shares with proper handling, but disastrous for runtime.",
@@ -11834,10 +11834,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST first source for understanding the criticality of a newly disclosed vulnerability?",
     "choices": [
-      "Twitter speculation",
+      "Twitter speculation in standard practice",
       "Vendor advisory + CVE entry + CVSS scoring + KEV status",
       "Internal helpdesk tickets only",
-      "Marketing brochures"
+      "Marketing brochures in standard practice"
     ],
     "correct": 1,
     "explanation": "Authoritative sources stack: vendor advisory (the truth) + CVE entry (the identifier) + CVSS scoring (severity context) + CISA KEV (known exploitation in the wild). Choice A (Twitter) is noisy and often wrong in the first 24h of a CVE. Choice C (helpdesk tickets) reflect symptoms, not vulnerability data. Choice D (marketing) is sales material. The modern triage workflow: confirm with vendor + CVE, prioritise by CVSS + KEV status.",
@@ -11865,10 +11865,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of 'need to know' in operational security?",
     "choices": [
-      "Anyone who asks should be told as a baseline configuration",
+      "Anyone who asks should be told as a baseline configuration in most enterprise deployments",
       "Access to information should be limited to those whose duties require it, even when general clearance allows broader access",
-      "Need to know is a synonym for least privilege",
-      "Need to know applies only to government"
+      "Need to know is a synonym for least privilege for the purposes of this question",
+      "Need to know applies only to government when properly implemented"
     ],
     "correct": 1,
     "explanation": "Need-to-know restricts access by job-required justification \u2014 narrower than clearance/role. Least privilege is related but broader (covering rights, not just information access). Need-to-know is widely applied in commercial contexts (M&A, HR, legal).",
@@ -12001,10 +12001,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of OWASP SAMM?",
     "choices": [
-      "A penetration testing tool",
+      "A penetration testing tool in most enterprise deployments",
       "A prescriptive software-security maturity framework with five business functions and four maturity levels",
-      "A web app firewall",
-      "A coding language when applied to standard enterprise environments"
+      "A web app firewall in commonly cited frameworks",
+      "A coding language when applied to standard enterprise environments under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "OWASP SAMM (Software Assurance Maturity Model) helps organisations measure and improve software security posture across Governance, Design, Implementation, Verification, and Operations. The other choices describe different artefacts entirely.",
@@ -12165,10 +12165,10 @@
     "difficulty": "medium",
     "stem": "What is a TOCTOU (Time-of-Check to Time-of-Use) vulnerability?",
     "choices": [
-      "A timing-channel attack",
+      "A timing-channel attack given current best practices",
       "A race condition where a resource is checked then used, but its state can change between check and use",
-      "A type-confusion bug",
-      "A buffer overflow in most operational contexts"
+      "A type-confusion bug under typical operating conditions",
+      "A buffer overflow in most operational contexts in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "TOCTOU exploits a window between an authorisation/state check and the operation. Example: check file ownership, then open file \u2014 attacker swaps the path with a symlink in between. Mitigation: atomic operations, file descriptors instead of paths. CWE-367 captures this.",
@@ -12201,10 +12201,10 @@
     "difficulty": "medium",
     "stem": "Which is the MOST EFFECTIVE primary defence against buffer overflows in modern code?",
     "choices": [
-      "Hope developers are careful",
+      "Hope developers are careful when properly implemented",
       "Use memory-safe languages; for C/C++ use safe APIs, bounds checking, and OS mitigations (ASLR, DEP, stack canaries)",
-      "Disable error messages",
-      "Increase stack size"
+      "Disable error messages given current best practices",
+      "Increase stack size given current best practices"
     ],
     "correct": 1,
     "explanation": "Memory-safe languages eliminate whole classes of overflow. For unavoidable C/C++, defensive APIs (snprintf instead of strcpy), bounds checks, and OS mitigations layer defenses. Hoping is not a control. Disabling error messages hides issues. Larger stacks don't fix overflows.",
@@ -12232,10 +12232,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST defence against XSS (cross-site scripting)?",
     "choices": [
-      "Strip 'script' as a substring",
+      "Strip 'script' as a substring under typical operating conditions",
       "Output encoding contextual to the destination plus a strict Content Security Policy",
-      "Disable JavaScript on all clients",
-      "Hope users never see the input"
+      "Disable JavaScript on all clients in commonly cited frameworks",
+      "Hope users never see the input in standard practice"
     ],
     "correct": 1,
     "explanation": "Context-aware output encoding (HTML body vs attribute vs JS context) is the canonical fix. CSP provides defense in depth. Substring stripping is bypassable. Disabling JS breaks apps. Manager-mindset: prevent at output, not just at input.",
@@ -12330,10 +12330,10 @@
     "difficulty": "medium",
     "stem": "Which is the PRIMARY security benefit of Infrastructure-as-Code (IaC)?",
     "choices": [
-      "Faster developers",
+      "Faster developers for the purposes of this question",
       "Repeatable, reviewable, scannable definitions of infrastructure that enable policy-as-code and drift detection",
-      "Eliminates the need for IAM",
-      "Removes the need for backups"
+      "Eliminates the need for IAM given current best practices",
+      "Removes the need for backups in standard practice"
     ],
     "correct": 1,
     "explanation": "IaC (Terraform, CloudFormation, ARM, Bicep, Pulumi) makes infrastructure auditable, reviewable, and scannable (Checkov, tfsec, KICS). Choices C, D are wrong. Drift detection is a major operational benefit.",
@@ -12360,10 +12360,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for software supply-chain attacks (e.g., compromised dependency packages)?",
     "choices": [
-      "Trust all packages from public registries",
+      "Trust all packages from public registries when properly implemented",
       "SCA, SBOM, provenance verification, pinning to known-good versions, and private registry mirrors",
-      "Disable package managers",
-      "Use only one library"
+      "Disable package managers for the purposes of this question",
+      "Use only one library when properly implemented"
     ],
     "correct": 1,
     "explanation": "Layered defence: SCA (find known-CVE deps), SBOM (machine-readable inventory), provenance verification (sigstore/SLSA), pinning to known-good versions, and private registry mirrors. Choice A (trust public registries) is exactly how SolarWinds and 3CX-style attacks succeed. Choice C (disable package managers) is operationally impossible. Choice D (one library) doesn't address the supply chain. SLSA framework (Supply-chain Levels for Software Artifacts) formalises this.",
@@ -12391,10 +12391,10 @@
     "difficulty": "medium",
     "stem": "Which OWASP project provides verifiable security requirements for web applications?",
     "choices": [
-      "OWASP Top 10",
+      "OWASP Top 10 in standard practice",
       "OWASP ASVS (Application Security Verification Standard)",
-      "OWASP ZAP",
-      "OWASP Cheat Sheet Series"
+      "OWASP ZAP when properly implemented",
+      "OWASP Cheat Sheet Series given current best practices"
     ],
     "correct": 1,
     "explanation": "OWASP ASVS provides three verification levels (1-3) of security requirements for web apps. Top 10 is awareness. ZAP is a DAST tool. Cheat sheets are reference docs. ASVS is the standard for assurance-driven secure development.",
@@ -12422,10 +12422,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of an INFERENCE attack on a database?",
     "choices": [
-      "A SQL injection",
+      "A SQL injection in commonly cited frameworks",
       "Combining individually authorised queries to deduce information that the user is not authorised to see directly",
-      "A brute-force attack",
-      "A SYN flood for general production deployments"
+      "A brute-force attack in most enterprise deployments",
+      "A SYN flood for general production deployments across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Inference attacks combine individually-AUTHORISED queries to deduce information the user is NOT authorised to see directly \u2014 e.g., averaging salaries by department to infer an individual's pay. Choice A (SQL injection) attacks query construction, not query result composition. Choice C (brute force) tries credentials. Choice D (SYN flood) is a network DoS. Mitigations for inference: query restriction, polyinstantiation, differential privacy, statistical noise.",
@@ -12523,10 +12523,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of API rate limiting?",
     "choices": [
-      "A licensing tier",
+      "A licensing tier for the purposes of this question",
       "Restricting the number of requests per identity/source per time window to defend against abuse and DoS",
-      "An encryption mode",
-      "A logging level under typical compliance requirements"
+      "An encryption mode in commonly cited frameworks",
+      "A logging level under typical compliance requirements when properly implemented"
     ],
     "correct": 1,
     "explanation": "API rate limiting restricts the number of requests per identity/source per time window \u2014 defending against brute force, scraping, abuse, and accidental DoS. Choice A confuses 'rate' with 'tier' (subscription billing). Choice C ('encryption mode') is unrelated \u2014 that's TLS / cipher modes. Choice D ('logging level') is observability, not access control. Implement at the API gateway layer with per-key + per-IP + per-user buckets.",
@@ -12587,7 +12587,7 @@
     "choices": [
       "MD5 manifest",
       "SBOM (Software Bill of Materials)",
-      "EULA",
+      "EULA when properly implemented",
       "Architecture diagram"
     ],
     "correct": 1,
@@ -12615,10 +12615,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for OS command injection in code that builds shell commands from user input?",
     "choices": [
-      "Concatenate input carefully",
+      "Concatenate input carefully given current best practices",
       "Avoid shells entirely; use parameterised APIs and strict allow-lists for any required pass-through",
-      "Trust user input from authenticated sessions",
-      "Hash input first"
+      "Trust user input from authenticated sessions in standard practice",
+      "Hash input first in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Avoid shells entirely \u2014 use parameterised APIs (e.g., subprocess with argv list, NOT shell=True) so input cannot break out of arguments into command syntax. If shell is unavoidable, strict allow-lists on input. Choice A (concatenate carefully) is the bug \u2014 careful concatenation still fails. Choice C (trust authenticated input) confuses authentication with authorisation. Choice D (hash input first) destroys legitimate input. CWE-78 captures OS command injection.",
@@ -12645,10 +12645,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST defence against insecure deserialization (CWE-502)?",
     "choices": [
-      "Use plain pickle / Java native serialization",
+      "Use plain pickle / Java native serialization in commonly cited frameworks",
       "Avoid native serialization for untrusted data; prefer simple data formats (JSON), strict schemas, and integrity checks",
-      "Trust serialised input from clients",
-      "Disable encryption"
+      "Trust serialised input from clients in most enterprise deployments",
+      "Disable encryption given current best practices"
     ],
     "correct": 1,
     "explanation": "Native serialization formats (Python pickle, Java ObjectInputStream, .NET BinaryFormatter) on untrusted input enable arbitrary code execution \u2014 mitigation is to avoid them entirely for untrusted data and use simple data formats (JSON, MessagePack) with strict schemas + integrity checks. Choice A explicitly recommends the dangerous primitives. Choice C ('trust input') is the underlying mistake. Choice D (disable encryption) is unrelated \u2014 encryption isn't the defense against deserialization RCE. CWE-502 captures this entire class.",
@@ -12675,10 +12675,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for accidental commit of secrets to source repositories?",
     "choices": [
-      "Trust developers to remember in most operational contexts",
+      "Trust developers to remember in most operational contexts across the relevant control set",
       "Pre-commit hooks + CI secret scanning + a secrets manager + git history rewrite/rotation if leaks occur",
-      "Use a single password file in the root",
-      "Email secrets to all developers"
+      "Use a single password file in the root across the relevant control set",
+      "Email secrets to all developers in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "Layered defense: pre-commit hooks (catch before commit) + CI secret scanning (catch before merge) + a real secrets manager (no secrets in code) + git history rewrite + key rotation if a leak occurs. Choice A ('trust developers') is a non-control \u2014 humans forget. Choice C (password file in root) is the bug we're trying to prevent. Choice D (emailing secrets) creates archived plaintext and is catastrophic. The rotation step is what most people miss \u2014 once a secret is in git history, removing the file doesn't help; assume compromised and rotate.",
@@ -12705,10 +12705,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for malicious or accidental commits to protected branches?",
     "choices": [
-      "Allow direct push to main",
+      "Allow direct push to main across the relevant control set",
       "Require signed commits, branch protection rules, code review, and CODEOWNERS approval",
-      "Disable code review for general production deployments",
-      "Trust senior engineers' direct pushes"
+      "Disable code review for general production deployments across the relevant control set",
+      "Trust senior engineers' direct pushes in standard practice"
     ],
     "correct": 1,
     "explanation": "Branch protection (required reviews, signed commits, CODEOWNERS approval, status checks) enforces that nothing reaches main without controlled review. Choice A (direct push) defeats the protection entirely. Choice C (disabling code review) removes the second pair of eyes that catches logic and security issues. Choice D (trusting senior engineers) violates separation of duties \u2014 even seniors should be reviewed. The exam pattern is always: separation + review + signed-artefact verification.",
@@ -12766,10 +12766,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for vulnerable container images?",
     "choices": [
-      "Trust upstream images",
+      "Trust upstream images for the purposes of this question",
       "Scan images at build, sign images, use minimal base images, run as non-root, and apply runtime image policies",
-      "Run all containers as root",
-      "Disable scanning"
+      "Run all containers as root under typical operating conditions",
+      "Disable scanning when properly implemented"
     ],
     "correct": 1,
     "explanation": "Defence-in-depth for containers: scan images at build (catch CVEs), sign images (provenance), use minimal base images (smaller attack surface), run as non-root (limit blast radius), and apply runtime image policies (only-signed-images-from-our-registry). Choice A ('trust upstream') is the source of supply-chain attacks. Choice C (root containers) gives an attacker the host. Choice D (disabling scanning) abandons your earliest detection layer. Tools: Trivy, Grype, Cosign, OPA/Gatekeeper.",
@@ -12797,10 +12797,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for SSRF (Server-Side Request Forgery, OWASP A10:2021)?",
     "choices": [
-      "Trust user-supplied URLs",
+      "Trust user-supplied URLs across the relevant control set",
       "Use allow-lists of permitted destinations, deny RFC 1918/private/metadata endpoints, and use a dedicated egress proxy",
-      "Open all egress",
-      "Disable DNS"
+      "Open all egress under typical operating conditions",
+      "Disable DNS across the relevant control set"
     ],
     "correct": 1,
     "explanation": "SSRF mitigation: explicit destination ALLOW-list (not deny-list), block private/loopback/link-local + cloud metadata endpoints (169.254.169.254 in AWS/GCP/Azure), and route all egress through a controlled proxy that enforces the allow-list. Choice A ('trust user URLs') is the SSRF root cause. Choice C ('open all egress') makes the vulnerability worse. Choice D (disabling DNS) breaks the application without preventing IP-literal SSRF. The metadata endpoint block is critical \u2014 that's how Capital One was breached in 2019.",
@@ -12828,10 +12828,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST policy for handling a critical CVE in a third-party library used across many services?",
     "choices": [
-      "Wait until the next quarterly upgrade window",
+      "Wait until the next quarterly upgrade window in commonly cited frameworks",
       "Inventory affected services via SBOM, prioritise by exposure, patch through accelerated change management, and verify",
-      "Disable logging to hide alerts as a baseline configuration",
-      "Replace the library with an in-house version overnight"
+      "Disable logging to hide alerts as a baseline configuration under typical operating conditions",
+      "Replace the library with an in-house version overnight when properly implemented"
     ],
     "correct": 1,
     "explanation": "SBOM-driven inventory + risk-based prioritisation (which services use the vulnerable lib, what's their exposure) + accelerated change management + verification is the manager-mindset answer. Choice A (quarterly window) accumulates risk. Choice C (disable logging) is anti-pattern. Choice D (overnight rewrite) introduces fresh untested code under pressure. The Log4Shell response in 2021 was the textbook example of this workflow.",
@@ -12859,10 +12859,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of a 'security gate' in the SDLC?",
     "choices": [
-      "A physical door",
+      "A physical door given current best practices",
       "A defined checkpoint where security criteria must be met before progressing to the next phase",
-      "A QA test as a baseline configuration",
-      "A code review"
+      "A QA test as a baseline configuration in most enterprise deployments",
+      "A code review in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "A security gate is a defined checkpoint where measurable security criteria must be met before the work progresses to the next phase \u2014 e.g., 'no critical SAST findings before merge', 'no high CVEs before deploy', 'threat model reviewed before architecture approval'. Choice A ('physical door') is a literal misreading. Choice C (QA test) is one input but not the gate concept itself. Choice D (code review) is also an input. Gates are about CRITERIA, not activities.",
@@ -12889,10 +12889,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for the risk of overly permissive cloud IAM policies?",
     "choices": [
-      "Grant '*' permissions for convenience",
+      "Grant '*' permissions for convenience in most enterprise deployments",
       "Apply least privilege, use scoped roles, automated drift detection, and JIT elevation",
-      "Disable IAM logging",
-      "Share root keys"
+      "Disable IAM logging in most enterprise deployments",
+      "Share root keys in standard practice"
     ],
     "correct": 1,
     "explanation": "Cloud IAM least privilege requires: scoped roles (no '*' permissions), automated drift detection (IAM Access Analyzer, AWS Config rules), and JIT elevation via PAM for privileged operations. Choice A (grant '*' for convenience) is the #1 cloud misconfiguration per CSA. Choice C (disable IAM logging) destroys forensic capability. Choice D (share root keys) violates every IAM principle. Pattern: least privilege + drift + JIT = modern cloud IAM.",
@@ -12920,10 +12920,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation when integrating a third-party SaaS that processes customer data?",
     "choices": [
-      "Skip due diligence",
+      "Skip due diligence under typical operating conditions",
       "Vendor risk assessment, DPA, evidence of SOC 2 Type II, scoped permissions, and offboarding plan",
-      "Trust the vendor's marketing",
-      "Allow unrestricted data sharing"
+      "Trust the vendor's marketing when properly implemented",
+      "Allow unrestricted data sharing in standard practice"
     ],
     "correct": 1,
     "explanation": "SaaS vendor onboarding requires: risk-based assessment + Data Processing Agreement (GDPR Art. 28) + audit evidence (SOC 2 Type II preferably) + scoped permissions in their tenant + a documented offboarding/data-return plan. Choice A ('skip due diligence') is the failure pattern that makes headlines. Choice C ('trust marketing') overlooks that vendors sell themselves. Choice D ('unrestricted sharing') violates least privilege. Manager-mindset: vendor risk = your risk, full stop.",
@@ -12951,10 +12951,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of input validation as a defensive coding practice?",
     "choices": [
-      "Improve UX",
+      "Improve UX across the relevant control set",
       "Reject inputs that violate expected format, length, type, and range",
-      "Speed up the database",
-      "Replace all encoding"
+      "Speed up the database across the relevant control set",
+      "Replace all encoding across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Input validation enforces format/length/type/range; combine with output encoding contextually for full defence in depth. Choices A, C, D are wrong. 'Validate input, encode output' is the canonical pairing.",
@@ -13011,10 +13011,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST control for protecting CI/CD pipeline secrets and tokens?",
     "choices": [
-      "Hardcode in YAML under typical compliance requirements",
+      "Hardcode in YAML under typical compliance requirements in standard practice",
       "Use a secrets manager / OIDC federation with short-lived tokens; restrict repo permissions and audit usage",
-      "Email secrets to developers",
-      "Print to build logs"
+      "Email secrets to developers across the relevant control set",
+      "Print to build logs for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Modern CI/CD uses OIDC federation (GitHub Actions to AWS/GCP/Azure) for short-lived tokens, and secrets managers for credentials. Hardcoding and printing leak secrets. The exam favours short-lived, vaulted credentials.",
@@ -13041,10 +13041,10 @@
     "difficulty": "medium",
     "stem": "Which is a UNIQUE security concern with GraphQL APIs that REST APIs DON'T typically face directly?",
     "choices": [
-      "TLS",
+      "TLS across the relevant control set",
       "Query complexity / depth attacks where attackers can craft expensive queries",
-      "JSON parsing",
-      "DNS lookups"
+      "JSON parsing in most enterprise deployments",
+      "DNS lookups in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "GraphQL's flexibility lets clients request deeply nested or expensive queries (denial of service via complexity). Mitigations: query depth limits, complexity scoring, persisted queries. REST exposes fixed endpoints with bounded shapes.",
@@ -13072,10 +13072,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of 'privacy by design'?",
     "choices": [
-      "Adding a privacy notice at the end",
+      "Adding a privacy notice at the end in most enterprise deployments",
       "Embedding privacy considerations into the system from the design phase",
-      "Encrypting only after launch",
-      "Allowing opt-out only"
+      "Encrypting only after launch in commonly cited frameworks",
+      "Allowing opt-out only across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Privacy-by-design (Ann Cavoukian's 7 principles, codified in GDPR Article 25) embeds privacy from inception: data minimisation by default, purpose limitation, transparent consent, default-private settings. Choice A ('notice at the end') is privacy theatre. Choice C ('encrypt after launch') treats privacy as a bolt-on. Choice D ('opt-out only') violates GDPR's affirmative-consent requirement. The practical test: if you can remove the privacy controls without rewriting the architecture, you didn't actually do privacy-by-design.",
@@ -13102,10 +13102,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for hardcoded credentials in source code?",
     "choices": [
-      "Comment them out across the relevant policy framework",
+      "Comment them out across the relevant policy framework in standard practice",
       "Remove from code, rotate the credential, store in a secrets manager, scan repos for further leaks, and add pre-commit/CI scanning",
-      "Trust git access controls",
-      "Encrypt the repo"
+      "Trust git access controls when properly implemented",
+      "Encrypt the repo for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "The full mitigation: (1) remove the secret from code, (2) ROTATE the credential immediately (assume compromised \u2014 git history retains it), (3) move to a secrets manager, (4) scan history for additional leaks, (5) add pre-commit/CI scanning to prevent recurrence. Choice A ('comment them out') leaves them in git history \u2014 useless. Choice C ('trust git access controls') ignores forks, mirrors, and any prior exposure. Choice D ('encrypt the repo') doesn't address the leak path \u2014 the secret is already plaintext in commit history.",
@@ -13204,10 +13204,10 @@
     "difficulty": "medium",
     "stem": "Under NIST CSF 2.0's Govern function, which is the BEST description of what an organisation must do?",
     "choices": [
-      "Implement technical controls only",
+      "Implement technical controls only under typical operating conditions",
       "Establish, communicate, and monitor the cybersecurity risk management strategy, expectations, and policy",
-      "Replace the CISO function with the CFO",
-      "Outsource all governance to third-party auditors"
+      "Replace the CISO function with the CFO under typical operating conditions",
+      "Outsource all governance to third-party auditors given current best practices"
     ],
     "correct": 1,
     "explanation": "Govern in CSF 2.0 establishes WHO is accountable, the risk strategy, supply chain risk management, and the policies that drive everything else. It is fundamentally a leadership/oversight function. Choice A confuses Govern with Protect. Choice C is wrong \u2014 governance is broader than any single role and must be supported by board-level engagement. Choice D conflates audit (assurance) with governance (direction).",
@@ -13238,10 +13238,10 @@
     "difficulty": "medium",
     "stem": "NIST SP 800-61 Revision 3 (April 2025) reorganises incident response around what concept compared to Revision 2's four-phase lifecycle?",
     "choices": [
-      "A single 'Eradicate-then-restore' phase",
+      "A single 'Eradicate-then-restore' phase across the relevant control set",
       "Continuous improvement woven through ongoing functions \u2014 aligned to NIST CSF 2.0",
-      "Outsourcing all IR to MSSPs by default",
-      "A two-phase 'Detect / Respond' model only"
+      "Outsourcing all IR to MSSPs by default given current best practices",
+      "A two-phase 'Detect / Respond' model only in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "800-61 r3 abandons the strictly-sequential Prep \u2192 Detect \u2192 Containment/Eradication/Recovery \u2192 Post-Incident model. Instead it aligns with CSF 2.0's six functions and emphasises continuous improvement throughout the lifecycle (not just at the end). The four-phase r2 model is still useful conceptually but no longer the framework's primary structure. Choice A invents a phase. Choice C is unrelated to the standard. Choice D oversimplifies.",
@@ -13405,10 +13405,10 @@
     "difficulty": "medium",
     "stem": "NIST SP 800-63-4 (Initial Public Draft, August 2024) explicitly addresses which authentication trend that 800-63-3 did not?",
     "choices": [
-      "Biometric template aging",
+      "Biometric template aging for the purposes of this question",
       "Synchronisable authenticators and the trade-off between syncing across devices versus device-bound credentials",
-      "Knowledge-based authentication (KBA)",
-      "Single-factor SMS"
+      "Knowledge-based authentication (KBA) across the relevant control set",
+      "Single-factor SMS under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "800-63-4 directly addresses passkeys (syncable FIDO2 credentials) and explicitly differentiates 'syncable authenticators' from 'device-bound authenticators' \u2014 a concept that did not exist in 800-63-3. The trade-off is recoverability/UX (sync) vs cryptographic strength (device-bound is stronger). Biometric aging was always covered. KBA remains discouraged. SMS remains RESTRICTED.",
@@ -13491,10 +13491,10 @@
     "difficulty": "medium",
     "stem": "Which screening practice is the BEST defence against insider threat from new hires in highly-privileged roles?",
     "choices": [
-      "Reference checks only",
+      "Reference checks only in standard practice",
       "Layered screening: identity verification, criminal history, credit check, drug screen, professional reference verification, and adverse-media check",
-      "Trust the resume",
-      "Check social media only"
+      "Trust the resume for the purposes of this question",
+      "Check social media only in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Layered screening reduces the chance of hiring someone with adverse history that materially elevates insider-threat risk. Choice A (references alone) is easily gamed (friends-as-references). Choice C (trust the resume) is no screening at all. Choice D (social media alone) misses formal records. Higher-trust roles warrant deeper screening per a documented standard.",
@@ -13517,10 +13517,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a Non-Disclosure Agreement (NDA) signed at hire?",
     "choices": [
-      "To intimidate the employee as a baseline configuration",
+      "To intimidate the employee as a baseline configuration under typical operating conditions",
       "To establish a legally enforceable obligation to protect confidential information, with named consequences for breach",
-      "To replace need-to-know access controls",
-      "To allow unrestricted information sharing within the organisation"
+      "To replace need-to-know access controls when properly implemented",
+      "To allow unrestricted information sharing within the organisation given current best practices"
     ],
     "correct": 1,
     "explanation": "An NDA creates a legally enforceable confidentiality obligation with consequences (termination, civil liability) \u2014 necessary alongside technical controls because controls fail. Choice A is not a security purpose. Choice C is wrong \u2014 NDAs supplement, never replace, technical access controls. Choice D contradicts the NDA's purpose. The exam pattern: legal contracts complement technical controls; neither stands alone.",
@@ -13594,10 +13594,10 @@
     "difficulty": "medium",
     "stem": "Which clause should be REQUIRED in a vendor contract handling regulated data, regardless of vendor reputation?",
     "choices": [
-      "A clause prohibiting the vendor from using your name in marketing",
+      "A clause prohibiting the vendor from using your name in marketing across the relevant control set",
       "Right-to-audit, breach notification timeline, data residency, return/destruction at termination, and subcontractor disclosure requirements",
-      "A flat-fee billing structure",
-      "A non-compete clause under typical compliance requirements"
+      "A flat-fee billing structure given current best practices",
+      "A non-compete clause under typical compliance requirements across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Right-to-audit + breach notification + data residency + offboarding + subcontractor disclosure are the load-bearing security clauses for any regulated-data vendor. Choice A (marketing) is reputational, not security. Choice C (billing) is commercial. Choice D (non-compete) addresses competition, not data protection. GDPR Art. 28 codifies most of these requirements for processors.",
@@ -13619,10 +13619,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a Software Bill of Materials (SBOM) in supply chain risk management?",
     "choices": [
-      "Marketing differentiation",
+      "Marketing differentiation when properly implemented",
       "Provide a structured, machine-readable inventory of components and dependencies so vulnerability impact can be quickly assessed",
-      "Replace SCA tooling under typical compliance requirements",
-      "Generate license revenue"
+      "Replace SCA tooling under typical compliance requirements in most enterprise deployments",
+      "Generate license revenue in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "SBOM (SPDX or CycloneDX format) lets you answer 'are we affected by CVE-X?' in minutes, not days \u2014 critical when 0-days like Log4Shell or XZ Utils break. US Executive Order 14028 mandates SBOMs for federal software. Choice A is unrelated. Choice C is wrong \u2014 SBOMs feed SCA, they don't replace it. Choice D is wrong \u2014 SBOMs are governance artefacts.",
@@ -13670,10 +13670,10 @@
     "difficulty": "hard",
     "stem": "A critical open-source library used in your product has been found to contain a maintainer-introduced backdoor (e.g., the XZ Utils incident pattern). Which response set is BEST?",
     "choices": [
-      "Continue using the library and hope for the best",
+      "Continue using the library and hope for the best under typical operating conditions",
       "Pin to a known-good version, audit your dependency graph for exposure, monitor advisories, and contribute to or sponsor critical upstreams to reduce future risk",
-      "Re-implement everything in-house immediately under typical compliance requirements",
-      "Switch to a paid commercial fork without analysis"
+      "Re-implement everything in-house immediately under typical compliance requirements for the purposes of this question",
+      "Switch to a paid commercial fork without analysis when properly implemented"
     ],
     "correct": 1,
     "explanation": "Defensive hygiene: version pinning + dependency-graph audit + advisory monitoring + ecosystem investment is the realistic answer. Choice A ignores the threat. Choice C is impractical and introduces fresh untested code. Choice D substitutes one trust assumption for another. The exam pattern: layered controls + community engagement, not all-or-nothing reactions.",
@@ -13696,10 +13696,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST mitigation for legacy ICS/SCADA devices that cannot be patched without operational disruption?",
     "choices": [
-      "Expose them to the internet with a strong password",
+      "Expose them to the internet with a strong password in standard practice",
       "Network segmentation, passive monitoring with OT-aware IDS, and protocol-aware firewalls between IT and OT",
-      "Disable all logging to reduce noise",
-      "Replace immediately with consumer IoT"
+      "Disable all logging to reduce noise under typical operating conditions",
+      "Replace immediately with consumer IoT across the relevant control set"
     ],
     "correct": 1,
     "explanation": "OT environments require the Purdue Enterprise Reference Architecture: rigid segmentation between business IT (level 4-5) and process control (level 0-3), passive monitoring (Dragos/Claroty/Nozomi style), and protocol-aware firewalls. Choice A is the recipe for industrial sabotage. Choice C destroys forensic capability. Choice D introduces consumer-grade vulnerabilities into critical operations.",
@@ -13722,10 +13722,10 @@
     "difficulty": "medium",
     "stem": "What is the GREATEST risk from an unmanaged IoT device on a flat corporate network?",
     "choices": [
-      "Battery drain on the IoT device",
+      "Battery drain on the IoT device under typical operating conditions",
       "Lateral movement: a compromised IoT device becomes a foothold to pivot into high-value systems on the same broadcast domain",
-      "Excessive electricity consumption",
-      "Aesthetic clutter"
+      "Excessive electricity consumption in standard practice",
+      "Aesthetic clutter given current best practices"
     ],
     "correct": 1,
     "explanation": "IoT devices typically run outdated firmware with default credentials and exposed management \u2014 the Mirai botnet pattern. Once compromised, they pivot east-west on flat networks (lateral movement) into high-value targets. Mitigation: dedicated IoT VLAN, restrictive ACLs, outbound-only allow-lists. Choices A, C, D are operational concerns, not security risks.",
@@ -13799,10 +13799,10 @@
     "difficulty": "medium",
     "stem": "Which is the BIGGEST long-term risk of consumer IoT devices in enterprise environments?",
     "choices": [
-      "High purchase cost in most operational contexts",
+      "High purchase cost in most operational contexts when properly implemented",
       "Vendor end-of-life (EOL) leaves devices unpatched with known CVEs, but they remain on the network for years",
-      "Excessive feature richness",
-      "Bandwidth saturation"
+      "Excessive feature richness in standard practice",
+      "Bandwidth saturation in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Consumer IoT vendors abandon devices after 2-5 years; enterprises run them for 7-10. The orphan-device pattern produces accumulating known-CVE risk on the network. Mitigation: lifecycle policies that mandate replacement at EOL or quarantine into segmented networks. Choices A, C, D are not the dominant risk pattern.",
@@ -13901,10 +13901,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST description of 'Policy as Code' in modern authorization?",
     "choices": [
-      "Hardcoding access rules into the application",
+      "Hardcoding access rules into the application under typical operating conditions",
       "Authoring authorization policies in a declarative, version-controlled language that's evaluated by an external decision engine",
-      "Storing policies as plaintext files",
-      "Asking each user for permission individually"
+      "Storing policies as plaintext files in standard practice",
+      "Asking each user for permission individually under typical operating conditions"
     ],
     "correct": 1,
     "explanation": "Policy-as-Code (OPA/Rego, AWS Cedar, Styra) treats policy as a first-class artefact \u2014 version controlled, code reviewed, tested, deployed independently of applications. Choice A is the anti-pattern PaC fixes. Choice C is half-right (text format) but misses the key point: declarative + external evaluation + governance. Choice D is impossible to scale. Modern microservices pattern.",
@@ -13927,10 +13927,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY security advantage of capability-based access control over an ACL approach?",
     "choices": [
-      "Capabilities are easier to remember",
+      "Capabilities are easier to remember across the relevant control set",
       "Capabilities couple permission to the holder; possessing the capability is sufficient",
-      "Capabilities are required by law",
-      "Capabilities are faster to type"
+      "Capabilities are required by law for the purposes of this question",
+      "Capabilities are faster to type across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Capabilities (unforgeable tokens conferring rights) eliminate ambient authority and the confused deputy problem (where a privileged process is tricked into using its rights on behalf of an attacker). ACLs check identity at the resource \u2014 vulnerable to deputy confusion. Modern: OAuth tokens are capability-style. Choices A, C, D are not security advantages.",
@@ -13952,10 +13952,10 @@
     "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a duress code/PIN in physical or logical access systems?",
     "choices": [
-      "A faster login shortcut",
+      "A faster login shortcut across the relevant control set",
       "Allow the user to silently signal coercion while appearing to comply, triggering covert alarms",
-      "A backup admin password",
-      "A vendor support code"
+      "A backup admin password in most enterprise deployments",
+      "A vendor support code in most enterprise deployments"
     ],
     "correct": 1,
     "explanation": "A duress code looks like a normal credential but covertly alerts security/police while granting controlled access \u2014 used in bank vaults, datacenter mantraps, alarm panels. Choice A misframes the purpose. Choice C is generic admin access (a different concept). Choice D is unrelated. The user's life takes precedence over assets \u2014 duress codes save lives without escalating the situation.",
@@ -14002,10 +14002,10 @@
     "difficulty": "medium",
     "stem": "An after-hours security guard discovers a flooded server room with rising water near energised equipment. What is the FIRST action?",
     "choices": [
-      "Begin moving servers to dry ground in most operational contexts",
+      "Begin moving servers to dry ground in most operational contexts in commonly cited frameworks",
       "Cut power to the affected area, then evacuate non-essential personnel and call emergency services",
-      "Take photos for the insurance claim",
-      "Restore data from backup immediately"
+      "Take photos for the insurance claim in most enterprise deployments",
+      "Restore data from backup immediately for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Energised equipment + water = electrocution risk. Cut power (life safety) BEFORE attempting any equipment recovery. Choice A risks the guard's life. Choice C and D are post-event activities. CISSP physical-security questions consistently rank: protect life \u2192 prevent injury \u2192 minimise property damage \u2192 preserve evidence \u2192 restore operations.",
@@ -14027,10 +14027,10 @@
     "difficulty": "medium",
     "stem": "What is the BEST process for evaluating security of an acquired commercial software package before deployment?",
     "choices": [
-      "Trust the vendor's marketing claims for general production deployments",
+      "Trust the vendor's marketing claims for general production deployments in most enterprise deployments",
       "Vendor security questionnaire + SOC 2 Type II review + threat modeling against your environment + integration testing in an isolated environment",
-      "Deploy directly to production and monitor",
-      "Skip evaluation if the software is widely used"
+      "Deploy directly to production and monitor under typical operating conditions",
+      "Skip evaluation if the software is widely used for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "Layered evaluation: questionnaire (process), SOC 2 (controls), threat model (your context), isolated test (real behavior). Choice A is no evaluation. Choice C bypasses controls and risks production impact. Choice D ('widely used') is exactly how Log4Shell, MOVEit, and SolarWinds spread. The exam pattern: third-party software is your risk, regardless of who built it.",
@@ -14052,10 +14052,10 @@
     "difficulty": "medium",
     "stem": "Which security responsibility ALWAYS remains with the customer in a SaaS arrangement?",
     "choices": [
-      "Patching the underlying database",
+      "Patching the underlying database when properly implemented",
       "Identity and access management for customer users + data classification + data ingest decisions + offboarding the data",
-      "Maintaining the data center",
-      "Hypervisor configuration"
+      "Maintaining the data center in standard practice",
+      "Hypervisor configuration for the purposes of this question"
     ],
     "correct": 1,
     "explanation": "In SaaS, customers retain: who has access (IAM), what data goes in (classification), and how to exit (offboarding/data return). The provider handles infrastructure, platform, and most of the application. Choices A, C, D are provider responsibilities in SaaS. Knowing the responsibility split per service model (IaaS/PaaS/SaaS) is high-yield exam content.",
@@ -14077,10 +14077,10 @@
     "difficulty": "medium",
     "stem": "Which is the BEST approach for evaluating an open-source library before adoption?",
     "choices": [
-      "GitHub stars only",
+      "GitHub stars only in most enterprise deployments",
       "Activity, security history (CVEs, response time), community size, license compatibility, dependency footprint, and SBOM availability",
-      "Whether it has a logo",
-      "Use any library that compiles"
+      "Whether it has a logo given current best practices",
+      "Use any library that compiles across the relevant control set"
     ],
     "correct": 1,
     "explanation": "Open-source evaluation is multi-dimensional: maintainer activity, security responsiveness, community, license, dependency footprint, SBOM. Choice A (stars) is trivially gameable. Choice C (logo) is irrelevant. Choice D (just compiles) is the supply-chain attack pathway. The XZ Utils backdoor passed all the trivial checks \u2014 only deep evaluation catches deliberate compromise.",
@@ -14102,10 +14102,10 @@
     "difficulty": "medium",
     "stem": "What is the BEST control for limiting blast radius if a SaaS vendor's API is compromised and starts requesting your customer data?",
     "choices": [
-      "Trust the SaaS provider entirely",
+      "Trust the SaaS provider entirely when properly implemented",
       "Scope OAuth tokens and API keys to least-privilege resources, rotate regularly, and monitor data egress with anomaly detection",
-      "Disable all integrations for general production deployments",
-      "Use a single shared admin token across all integrations"
+      "Disable all integrations for general production deployments in standard practice",
+      "Use a single shared admin token across all integrations in commonly cited frameworks"
     ],
     "correct": 1,
     "explanation": "Least-privilege scoped tokens + rotation + egress monitoring limits damage when (not if) a vendor is compromised. Choice A is no control. Choice C overcorrects and breaks operations. Choice D is the worst possible pattern \u2014 one compromised token = total exposure. The Snowflake/Twilio incidents in 2024 illustrate this perfectly: vendor compromise + over-scoped tokens = enterprise customer data leaks.",
@@ -14128,10 +14128,10 @@
     "difficulty": "medium",
     "stem": "An acquired enterprise application requires running with local admin privileges. What is the BEST mitigation?",
     "choices": [
-      "Just give it admin and move on",
+      "Just give it admin and move on in commonly cited frameworks",
       "Application allowlisting + dedicated service account + privilege segmentation + close monitoring of the account's behaviour",
-      "Disable the application entirely",
-      "Run all workstations with admin privileges"
+      "Disable the application entirely across the relevant control set",
+      "Run all workstations with admin privileges when properly implemented"
     ],
     "correct": 1,
     "explanation": "When an app demands privilege, isolate the impact: dedicated service account (not user accounts), allowlisting (only this binary can execute), privilege segmentation (only the necessary component runs elevated), behaviour monitoring (alert on deviation). Choice A grants enterprise admin. Choice C overrides business need. Choice D inverts least privilege. Manager-mindset: when you can't fix the app, contain it.",
