@@ -45,7 +45,7 @@
     "id": "D1-002",
     "domain": 1,
     "subdomain": "1.2 Security Concepts",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which property of the CIA triad is MOST directly violated when an attacker performs an SQL injection that modifies records in a customer database without authorisation?",
     "choices": [
       "Confidentiality",
@@ -79,7 +79,7 @@
     "id": "D1-003",
     "domain": 1,
     "subdomain": "1.4 Risk Management",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation experiences a fire roughly once every 25 years. Each fire causes approximately $2,000,000 in losses to a $10,000,000 facility. What is the annualised loss expectancy (ALE)?",
     "choices": [
       "$80,000",
@@ -121,7 +121,7 @@
     "id": "D1-004",
     "domain": 1,
     "subdomain": "1.4 Risk Management",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "A risk register lists a $500,000 SLE event with an ARO of 0.2. Management is considering a $30,000-per-year control that would cut the ARO in half. What is the BEST justification for purchasing the control?",
     "choices": [
       "The control eliminates the risk entirely",
@@ -458,7 +458,7 @@
     "id": "D1-013",
     "domain": 1,
     "subdomain": "1.10 BCP",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the PRIMARY purpose of a Business Impact Analysis (BIA)?",
     "choices": [
       "Identify the cost of all possible threats",
@@ -491,7 +491,7 @@
     "id": "D1-014",
     "domain": 1,
     "subdomain": "1.4 Risk Treatment",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Insuring against a risk is an example of which risk treatment?",
     "choices": [
       "Mitigation",
@@ -560,7 +560,7 @@
     "id": "D1-016",
     "domain": 1,
     "subdomain": "1.6 Personnel Security",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Why is mandatory vacation an effective security control?",
     "choices": [
       "It increases morale for general production deployments under typical operating conditions",
@@ -777,7 +777,7 @@
     "id": "D1-022",
     "domain": 1,
     "subdomain": "1.6 Awareness",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the BEST way to ensure that security policies actually change user behaviour?",
     "choices": [
       "Publishing policies on the intranet",
@@ -940,7 +940,7 @@
     "id": "D1-027",
     "domain": 1,
     "subdomain": "1.10 BCP",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which is the FIRST step a BCP coordinator should take when starting a new BCP program?",
     "choices": [
       "Conduct the BIA for general production deployments",
@@ -1005,7 +1005,7 @@
     "id": "D1-029",
     "domain": 1,
     "subdomain": "1.4 Quantitative",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation calculates that a $200,000 asset will lose 25% of its value if a flood occurs, and floods occur with an annual probability of 0.05. What is the SLE?",
     "choices": [
       "$2,500",
@@ -1073,7 +1073,7 @@
     "id": "D1-031",
     "domain": 1,
     "subdomain": "1.7 Threat Modeling",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "DREAD scores threats on five attributes. Which set of attributes is correct?",
     "choices": [
       "Damage, Reproducibility, Exploitability, Affected users, Discoverability",
@@ -1112,7 +1112,7 @@
     "id": "D1-032",
     "domain": 1,
     "subdomain": "1.7 Threat Modeling",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which threat modeling methodology focuses on creating a separate application threat model and an operational threat model that work together?",
     "choices": [
       "STRIDE",
@@ -1177,7 +1177,7 @@
     "id": "D1-034",
     "domain": 1,
     "subdomain": "1.10 BCP",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "Which BIA output is calculated as the sum of an asset's RTO plus the time required to restore data and resume normal operations?",
     "choices": [
       "MTD",
@@ -1278,7 +1278,7 @@
     "id": "D1-037",
     "domain": 1,
     "subdomain": "1.4 Risk",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation discovers a vulnerability with a high impact but no known exploit and no compensating controls. The cost of remediation is low. The BEST course of action is to:",
     "choices": [
       "Accept the risk",
@@ -1309,7 +1309,7 @@
     "id": "D1-038",
     "domain": 1,
     "subdomain": "1.4 Risk",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which statement BEST describes the relationship between qualitative and quantitative risk analysis?",
     "choices": [
       "Qualitative is always preferred for executive presentations when properly implemented",
@@ -1503,7 +1503,7 @@
     "id": "D1-044",
     "domain": 1,
     "subdomain": "1.5 ISMS",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "ISO/IEC 27001 establishes the requirements for what?",
     "choices": [
       "A baseline catalog of security controls",
@@ -1534,7 +1534,7 @@
     "id": "D1-045",
     "domain": 1,
     "subdomain": "1.10 BCP",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which test type involves shifting production operations to the DR site for a defined period?",
     "choices": [
       "Tabletop",
@@ -1596,7 +1596,7 @@
     "id": "D1-047",
     "domain": 1,
     "subdomain": "1.4 Risk",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "Which control type fires AFTER an incident to restore operations?",
     "choices": [
       "Preventive",
@@ -2104,7 +2104,7 @@
     "id": "D1-063",
     "domain": 1,
     "subdomain": "1.5 Governance",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which document is MOST appropriate for codifying the security expectations the organisation has of its employees?",
     "choices": [
       "Procedure",
@@ -2244,7 +2244,7 @@
     "id": "D2-003",
     "domain": 2,
     "subdomain": "2.3 Data States",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which protection mechanism is MOST appropriate for data in transit across an untrusted network?",
     "choices": [
       "Full-disk encryption",
@@ -2358,7 +2358,7 @@
     "id": "D2-006",
     "domain": 2,
     "subdomain": "2.5 Sanitisation",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the ONLY NIST 800-88 sanitisation outcome guaranteed to render data unrecoverable by any state-of-the-art forensic technique on traditional magnetic media?",
     "choices": [
       "Clear (overwrite)",
@@ -2642,7 +2642,7 @@
     "id": "D2-014",
     "domain": 2,
     "subdomain": "2.6 Privacy",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the difference between PII and PHI?",
     "choices": [
       "PII includes health data; PHI does not",
@@ -2876,7 +2876,7 @@
     "id": "D2-021",
     "domain": 2,
     "subdomain": "2.1 Government Classification",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which government classification level represents data whose unauthorised disclosure could cause exceptionally grave damage to national security?",
     "choices": [
       "Confidential",
@@ -2910,7 +2910,7 @@
     "id": "D2-022",
     "domain": 2,
     "subdomain": "2.1 Commercial Classification",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A typical commercial classification scheme uses Public, Sensitive, Confidential, and Restricted (or similar). What is the PRIMARY benefit of fewer classification tiers?",
     "choices": [
       "Less paperwork given current best practices",
@@ -3099,7 +3099,7 @@
     "id": "D2-028",
     "domain": 2,
     "subdomain": "2.5 Sanitisation",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "An organisation needs to redeploy SSDs from a high-classification system to a low-classification system. The SSDs implement self-encryption. What is the BEST sanitisation choice?",
     "choices": [
       "Single-pass overwrite across the relevant control set",
@@ -3135,7 +3135,7 @@
     "id": "D2-029",
     "domain": 2,
     "subdomain": "2.4 Standards",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which NIST publication defines the catalog of security and privacy controls used as the baseline for federal information systems?",
     "choices": [
       "NIST SP 800-37",
@@ -3300,7 +3300,7 @@
     "id": "D2-034",
     "domain": 2,
     "subdomain": "2.1 Classification",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation finds that one classification is causing 90% of documents to be marked 'Confidential'. What is the BEST corrective action?",
     "choices": [
       "Eliminate that classification as a baseline configuration under typical operating conditions",
@@ -3331,7 +3331,7 @@
     "id": "D2-035",
     "domain": 2,
     "subdomain": "2.6 Privacy",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is a data 'subject access request' (SAR / DSAR)?",
     "choices": [
       "A query about server uptime across the relevant policy framework",
@@ -3396,7 +3396,7 @@
     "id": "D2-037",
     "domain": 2,
     "subdomain": "2.4 Baselines",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is a security baseline?",
     "choices": [
       "The minimum acceptable security posture for a class of systems",
@@ -3560,7 +3560,7 @@
     "id": "D3-002",
     "domain": 3,
     "subdomain": "3.2 Security Models",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which security model preserves integrity using 'no read down, no write up'?",
     "choices": [
       "Bell-LaPadula",
@@ -4079,7 +4079,7 @@
     "id": "D3-017",
     "domain": 3,
     "subdomain": "3.6 Physical Security",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which fire suppression class is APPROPRIATE for an electrical equipment fire?",
     "choices": [
       "Class A (water)",
@@ -4147,7 +4147,7 @@
     "id": "D3-019",
     "domain": 3,
     "subdomain": "3.6 Physical Security",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which datacenter HVAC consideration is MOST critical for equipment longevity?",
     "choices": [
       "Quiet operation in commonly cited frameworks",
@@ -4349,7 +4349,7 @@
     "id": "D3-025",
     "domain": 3,
     "subdomain": "3.4 Reference Monitor",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which is NOT a property of a reference monitor?",
     "choices": [
       "Always invoked",
@@ -4638,7 +4638,7 @@
     "id": "D3-034",
     "domain": 3,
     "subdomain": "3.5 Capabilities",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is 'process isolation' designed to ensure?",
     "choices": [
       "Faster context switching as a baseline configuration across the relevant control set",
@@ -4776,7 +4776,7 @@
     "id": "D3-038",
     "domain": 3,
     "subdomain": "3.3 Crypto",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which property is required of a hash function for use in digital signatures?",
     "choices": [
       "Reversibility",
@@ -4971,7 +4971,7 @@
     "id": "D3-044",
     "domain": 3,
     "subdomain": "3.4 Models",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which model uses subjects, objects, and a security label lattice with read/write rules but ALLOWS for limited 'trusted subjects' to violate the *-property as needed for system administration?",
     "choices": [
       "Bell-LaPadula",
@@ -5763,7 +5763,7 @@
     "id": "D4-015",
     "domain": 4,
     "subdomain": "4.5 SDN",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is a CORE characteristic of Software-Defined Networking (SDN)?",
     "choices": [
       "Hardware-only forwarding",
@@ -5895,7 +5895,7 @@
     "id": "D4-019",
     "domain": 4,
     "subdomain": "4.6 Network Attacks",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which mitigation for SYN-flood DoS is BUILT INTO the TCP stack?",
     "choices": [
       "TCP RST flood",
@@ -7039,7 +7039,7 @@
     "id": "D5-002",
     "domain": 5,
     "subdomain": "5.2 Authentication Factors",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A hardware security key (e.g., FIDO2 token) represents which authentication factor?",
     "choices": [
       "Something you know",
@@ -7075,7 +7075,7 @@
     "id": "D5-003",
     "domain": 5,
     "subdomain": "5.2 MFA",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which is NOT considered TRUE multi-factor authentication?",
     "choices": [
       "Password + hardware token",
@@ -7301,7 +7301,7 @@
     "id": "D5-010",
     "domain": 5,
     "subdomain": "5.5 Kerberos",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which is a known weakness of Kerberos that admins MUST mitigate?",
     "choices": [
       "Lack of confidentiality across the relevant control set",
@@ -7683,7 +7683,7 @@
     "id": "D5-021",
     "domain": 5,
     "subdomain": "5.6 Federation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "In a SAML federation, which entity is the IdP (Identity Provider)?",
     "choices": [
       "The application the user wants to access",
@@ -7811,7 +7811,7 @@
     "id": "D5-025",
     "domain": 5,
     "subdomain": "5.2 Biometrics",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the CROSSOVER ERROR RATE (CER or EER) of a biometric system?",
     "choices": [
       "The point where false acceptance and false rejection rates are equal",
@@ -8005,7 +8005,7 @@
     "id": "D5-031",
     "domain": 5,
     "subdomain": "5.7 Account Lockout",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Per NIST SP 800-63B, which account lockout configuration is recommended?",
     "choices": [
       "Lock after 3 attempts for 24 hours when properly implemented",
@@ -8068,7 +8068,7 @@
     "id": "D5-033",
     "domain": 5,
     "subdomain": "5.6 Federation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is a JWT (JSON Web Token)?",
     "choices": [
       "A binary key-exchange format in most enterprise deployments",
@@ -8161,7 +8161,7 @@
     "id": "D5-036",
     "domain": 5,
     "subdomain": "5.4 Models",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is rule-based access control?",
     "choices": [
       "A list of users with permissions in standard practice",
@@ -8285,7 +8285,7 @@
     "id": "D5-040",
     "domain": 5,
     "subdomain": "5.5 Kerberos",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which is REQUIRED for Kerberos to function correctly in a network?",
     "choices": [
       "IPv6 only",
@@ -8628,7 +8628,7 @@
     "id": "D5-051",
     "domain": 5,
     "subdomain": "5.5 Kerberos",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which is REQUIRED to validate a Kerberos service ticket?",
     "choices": [
       "The client's password",
@@ -8662,7 +8662,7 @@
     "id": "D5-052",
     "domain": 5,
     "subdomain": "5.6 Federation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which standard defines the SAML SP-Initiated Single Sign-On flow?",
     "choices": [
       "RFC 6749",
@@ -8693,7 +8693,7 @@
     "id": "D6-001",
     "domain": 6,
     "subdomain": "6.1 Test Strategies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which testing technique inspects SOURCE CODE for security flaws WITHOUT running the application?",
     "choices": [
       "DAST",
@@ -8727,7 +8727,7 @@
     "id": "D6-002",
     "domain": 6,
     "subdomain": "6.1 Test Strategies",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which testing technique exercises a RUNNING application from the outside, sending HTTP requests and observing responses?",
     "choices": [
       "SAST",
@@ -8792,7 +8792,7 @@
     "id": "D6-004",
     "domain": 6,
     "subdomain": "6.2 Pen Test",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Per NIST SP 800-115, which is NOT a phase of penetration testing?",
     "choices": [
       "Planning",
@@ -8897,7 +8897,7 @@
     "id": "D6-007",
     "domain": 6,
     "subdomain": "6.3 Audits",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which difference distinguishes a SOC 2 Type II from Type I report?",
     "choices": [
       "Type II is shorter for the purposes of this question",
@@ -8933,7 +8933,7 @@
     "id": "D6-008",
     "domain": 6,
     "subdomain": "6.3 Audits",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "ISAE 3402 is the international equivalent of which SOC report?",
     "choices": [
       "SOC 1",
@@ -9564,7 +9564,7 @@
     "id": "D6-028",
     "domain": 6,
     "subdomain": "6.4 Red/Blue",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which best describes 'purple team' activity?",
     "choices": [
       "Defenders and attackers competing in isolation across the relevant control set",
@@ -10209,7 +10209,7 @@
     "id": "D7-001",
     "domain": 7,
     "subdomain": "7.1 IR Lifecycle",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Per NIST SP 800-61 Rev 2, what is the FIRST phase of incident response?",
     "choices": [
       "Containment",
@@ -10247,7 +10247,7 @@
     "id": "D7-002",
     "domain": 7,
     "subdomain": "7.1 IR Lifecycle",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "During an active ransomware incident, which IR action takes PRIORITY?",
     "choices": [
       "Lessons-learned writeup",
@@ -10484,7 +10484,7 @@
     "id": "D7-009",
     "domain": 7,
     "subdomain": "7.3 BCP/DRP",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "Which RAID level provides REDUNDANCY without the write penalty of parity calculation by writing to two disks simultaneously?",
     "choices": [
       "RAID 0",
@@ -10518,7 +10518,7 @@
     "id": "D7-010",
     "domain": 7,
     "subdomain": "7.3 BCP/DRP",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which RAID level can survive the loss of TWO drives simultaneously?",
     "choices": [
       "RAID 1",
@@ -10551,7 +10551,7 @@
     "id": "D7-011",
     "domain": 7,
     "subdomain": "7.3 Backup Sites",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which alternate processing site type contains hardware ready to use, with current data restored, and is the FASTEST to bring online?",
     "choices": [
       "Cold site",
@@ -10651,7 +10651,7 @@
     "id": "D7-014",
     "domain": 7,
     "subdomain": "7.3 Backup Strategy",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which backup strategy is recommended by CISA / industry as the '3-2-1 rule'?",
     "choices": [
       "3 copies, 2 different media types, 1 offsite",
@@ -10777,7 +10777,7 @@
     "id": "D7-018",
     "domain": 7,
     "subdomain": "7.5 SIEM/SOAR",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which capability does SOAR ADD over SIEM?",
     "choices": [
       "Logging given current best practices",
@@ -10838,7 +10838,7 @@
     "id": "D7-020",
     "domain": 7,
     "subdomain": "7.6 BCP",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which BCP plan focuses specifically on the technology recovery aspects?",
     "choices": [
       "BCP",
@@ -11096,7 +11096,7 @@
     "id": "D7-028",
     "domain": 7,
     "subdomain": "7.6 BCP",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Who has the AUTHORITY to declare a disaster and trigger the DR plan?",
     "choices": [
       "The first responder on the scene in most enterprise deployments",
@@ -11197,7 +11197,7 @@
     "id": "D7-031",
     "domain": 7,
     "subdomain": "7.4 Investigations",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which evidence standard typically applies to CIVIL litigation?",
     "choices": [
       "Beyond a reasonable doubt",
@@ -11357,7 +11357,7 @@
     "id": "D7-036",
     "domain": 7,
     "subdomain": "7.6 BCP Roles",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Who is ULTIMATELY accountable for the BCP program in an organisation?",
     "choices": [
       "IT operations",
@@ -11738,7 +11738,7 @@
     "id": "D7-048",
     "domain": 7,
     "subdomain": "7.6 RTO/RPO",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which document should establish RTO and RPO for each business process?",
     "choices": [
       "Vendor contract",
@@ -11767,7 +11767,7 @@
     "id": "D7-049",
     "domain": 7,
     "subdomain": "7.5 IR Tools",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which capability does EDR provide beyond traditional antivirus?",
     "choices": [
       "Static signature scanning only under typical operating conditions",
@@ -11895,7 +11895,7 @@
     "id": "D8-001",
     "domain": 8,
     "subdomain": "8.1 SDLC",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which SDLC model proceeds linearly through phases (requirements \u2192 design \u2192 implementation \u2192 testing \u2192 deployment) without revisiting earlier phases?",
     "choices": [
       "Agile",
@@ -11929,7 +11929,7 @@
     "id": "D8-002",
     "domain": 8,
     "subdomain": "8.1 SDLC",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which SDLC approach delivers working software in short iterative cycles with continuous customer feedback?",
     "choices": [
       "Waterfall",
@@ -12070,7 +12070,7 @@
     "id": "D8-006",
     "domain": 8,
     "subdomain": "8.2 Maturity Models",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which model assesses PROCESS maturity from Initial (1) through Optimising (5)?",
     "choices": [
       "CMMI",
@@ -12100,7 +12100,7 @@
     "id": "D8-007",
     "domain": 8,
     "subdomain": "8.4 OWASP Top 10",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Which OWASP Top 10:2021 category covers the FAILURE to enforce restrictions on what authenticated users can do (e.g., URL tampering to access another user's data)?",
     "choices": [
       "A01: Broken Access Control",
@@ -12162,7 +12162,7 @@
     "id": "D8-009",
     "domain": 8,
     "subdomain": "8.5 Secure Coding",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is a TOCTOU (Time-of-Check to Time-of-Use) vulnerability?",
     "choices": [
       "A timing-channel attack given current best practices",
@@ -12582,7 +12582,7 @@
     "id": "D8-022",
     "domain": 8,
     "subdomain": "8.6 Supply Chain",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which artifact LISTS the components and dependencies in a software product?",
     "choices": [
       "MD5 manifest",
@@ -13335,7 +13335,7 @@
     "id": "D3-053",
     "domain": 3,
     "subdomain": "3.3 Cryptography",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "NIST finalised three post-quantum cryptography standards in August 2024. Which standard is the recommended general-purpose KEY ENCAPSULATION mechanism (replacing RSA/ECDH for key exchange)?",
     "choices": [
       "FIPS 203 \u2014 ML-KEM (formerly Kyber)",
@@ -13370,7 +13370,7 @@
     "id": "D3-054",
     "domain": 3,
     "subdomain": "3.3 Cryptography",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation begins migrating to post-quantum cryptography. Which migration approach is the BEST first step recommended by NIST?",
     "choices": [
       "Replace all classical algorithms with PQC immediately",
@@ -13641,7 +13641,7 @@
     "id": "D1-076",
     "domain": 1,
     "subdomain": "1.11 Supply Chain Risk Management",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation discovers their primary cloud provider was compromised at the infrastructure level. Which BCP element directly addresses this scenario?",
     "choices": [
       "Single-cloud lock-in for cost efficiency",
@@ -13745,7 +13745,7 @@
     "id": "D4-055",
     "domain": 4,
     "subdomain": "4.6 IoT",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "An organisation deploys 10,000 industrial IoT sensors. Which key management approach is BEST?",
     "choices": [
       "Hardcode a single shared key into all devices",
@@ -13771,7 +13771,7 @@
     "id": "D4-056",
     "domain": 4,
     "subdomain": "4.6 ICS Protocols",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Why is Modbus TCP particularly risky in modern ICS environments?",
     "choices": [
       "It's too fast for industrial use",
@@ -13974,7 +13974,7 @@
     "id": "D7-055",
     "domain": 7,
     "subdomain": "7.16 Personnel Safety",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "During an active workplace violence incident, what should always take PRIORITY?",
     "choices": [
       "Protect the data center when applied to standard enterprise environments",
