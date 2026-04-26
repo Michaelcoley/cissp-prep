@@ -429,9 +429,18 @@ nav.bottom button:hover{background:var(--surface2)}
 .filters label{display:block;color:var(--muted);font-size:.75rem;margin-bottom:.2rem;text-transform:uppercase;letter-spacing:.04em}
 .dlist{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.3rem}
 .dlist label{display:inline-flex;align-items:center;gap:.25rem;background:var(--surface2);
-  padding:.2rem .55rem;border-radius:.3rem;cursor:pointer;font-size:.85rem;color:var(--text);text-transform:none;letter-spacing:0}
+  padding:.55rem .8rem;border-radius:.3rem;cursor:pointer;font-size:.9rem;color:var(--text);text-transform:none;letter-spacing:0;
+  min-width:44px;min-height:44px;justify-content:center}
 .dlist label.checked{background:#0a3a4a;border:1px solid var(--accent2);color:var(--accent)}
 .dlist input[type=checkbox]{display:none}
+
+/* Larger, more tappable native checkboxes — for Practice filter checkboxes,
+   Stats settings, etc. (all checkboxes outside the .dlist domain pills). */
+input[type=checkbox]:not(.dlist input){width:22px;height:22px;cursor:pointer;
+  accent-color:var(--accent);vertical-align:middle;margin:.2rem .4rem .2rem 0;
+  flex-shrink:0}
+/* Make the checkbox-label rows themselves easier to tap on mobile. */
+label{cursor:pointer;min-height:36px;display:inline-flex;align-items:center;gap:.5rem}
 
 /* Charts */
 .radar{width:100%;max-width:360px;margin:.5rem auto;display:block}
