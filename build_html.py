@@ -1090,6 +1090,7 @@ function rerenderReadList(){
         kickPracticeSessionForChapter(t.chapter_number, t.domain);
       }}, '✎ Practice questions on this chapter'),
     ]));
+    det.appendChild(body);
     list.appendChild(det);
   }
 }
